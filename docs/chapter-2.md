@@ -372,13 +372,13 @@ A partir del análisis de entrevistas y la recolección de información sobre la
 La construcción de los *User Persona* permite al equipo de desarrollo comprender mejor sus motivaciones, frustraciones y hábitos, lo que resulta esencial para diseñar funcionalidades adecuadas y experiencias de usuario efectivas.  
 
 **1) Segmento 1: Estudiantes Universitarios en Espacios Cerrados**  
-Para los estudiantes se elaboró el User Persona **El Aprendiz Concentrado**. Se consideraron factores como su edad, rutina académica, tiempo prolongado en habitaciones cerradas y la necesidad de mantener concentración durante largas jornadas de estudio. Sus principales frustraciones giran en torno a la somnolencia y la fatiga ambiental, además de la molestia de tener que interrumpir sus actividades para ajustar manualmente la ventilación. Asimismo, se tomó en cuenta su disposición hacia soluciones simples, económicas y open source, que les permitan confiar en la tecnología sin barreras de complejidad.  
+Para los estudiantes se elaboró el User Persona **Maria Elena Lopez**. Se consideraron factores como su edad, rutina académica, tiempo prolongado en habitaciones cerradas y la necesidad de mantener concentración durante largas jornadas de estudio. Sus principales frustraciones giran en torno a la somnolencia y la fatiga ambiental, además de la molestia de tener que interrumpir sus actividades para ajustar manualmente la ventilación. Asimismo, se tomó en cuenta su disposición hacia soluciones simples, económicas y open source, que les permitan confiar en la tecnología sin barreras de complejidad.  
 
 //
 <br>  
 
 **2) Segmento 2: Profesionales en Modalidad Home Office**  
-Para los profesionales se elaboró el User Persona **El Teletrabajador Precavido**. Se consideraron aspectos como su edad, ocupación y su rol en la gestión de espacios de trabajo domésticos. Sus principales motivaciones están orientadas a mantener productividad y confort ambiental durante la jornada laboral, mientras que sus frustraciones se relacionan con la pérdida de concentración por manipular constantemente ventiladores o ventanas y la desconfianza hacia dispositivos smart que envían datos a nubes externas. Su perfil refleja una predisposición positiva hacia soluciones digitales open source, siempre que estas sean transparentes, confiables y fáciles de integrar en su rutina diaria.  
+Para los profesionales se elaboró el User Persona **Luis Estefano Ruiz**. Se consideraron aspectos como su edad, ocupación y su rol en la gestión de espacios de trabajo domésticos. Sus principales motivaciones están orientadas a mantener productividad y confort ambiental durante la jornada laboral, mientras que sus frustraciones se relacionan con la pérdida de concentración por manipular constantemente ventiladores o ventanas y la desconfianza hacia dispositivos smart que envían datos a nubes externas. Su perfil refleja una predisposición positiva hacia soluciones digitales open source, siempre que estas sean transparentes, confiables y fáciles de integrar en su rutina diaria.  
 
 //
 
