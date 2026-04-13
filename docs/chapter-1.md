@@ -22,7 +22,9 @@ La introducción desempeña un papel fundamental en la estructuración y compren
 ### 1.2.1. Antecedentes y problemática
 **Antecedentes:**
 
-Históricamente, la ventilación en espacios residenciales pequeños se ha limitado al uso de ventanas o ventiladores mecánicos de control manual, lo que resulta insuficiente para garantizar una adecuada calidad del aire. Con el auge del teletrabajo y la educación a distancia, las personas pasan hasta el 90 % de su tiempo en interiores, aumentando la exposición a contaminantes y a la acumulación de dióxido de carbono (CO₂). La Organización Mundial de la Salud advierte que en habitaciones cerradas de menos de 10 m² los niveles de CO₂ pueden duplicarse en menos de una hora, afectando directamente la capacidad cognitiva y el rendimiento académico o laboral (World Health Organization, 2006). Asimismo, el Instituto Nacional de Seguridad y Salud en el Trabajo subraya que la ventilación insuficiente es un factor de riesgo crítico en la exposición prolongada a contaminantes interiores (INSST, 2003).
+Históricamente, la ventilación en espacios residenciales pequeños se ha limitado al uso de ventanas o ventiladores mecánicos de control manual, lo que resulta insuficiente para garantizar una adecuada calidad del aire. Con el auge del teletrabajo y la educación a distancia, las personas pasan hasta el 90 % de su tiempo en interiores, aumentando la exposición a contaminantes y a la acumulación de dióxido de carbono (CO₂). 
+
+La Organización Mundial de la Salud advierte que en habitaciones cerradas de menos de 10 m² los niveles de CO₂ pueden duplicarse en menos de una hora, afectando directamente la capacidad cognitiva y el rendimiento académico o laboral (World Health Organization, 2006). Asimismo, el Instituto Nacional de Seguridad y Salud en el Trabajo subraya que la ventilación insuficiente es un factor de riesgo crítico en la exposición prolongada a contaminantes interiores (INSST, 2003).
 
 **Problemática:**
 
@@ -30,11 +32,11 @@ El problema central radica en la degradación invisible del entorno interior. El
 
 Las soluciones actuales presentan limitaciones:
 
-Manuales: requieren que el usuario interrumpa su flujo de trabajo.
+      Manuales: requieren que el usuario interrumpa su flujo de trabajo.
 
-Costosas: los sistemas de aire acondicionado centralizado no son accesibles para todos.
+      Costosas: los sistemas de aire acondicionado centralizado no son accesibles para todos.
 
-Privadas: muchas aplicaciones de IoT comerciales no son transparentes con los datos del usuario.
+      Privadas: muchas aplicaciones de IoT comerciales no son transparentes con los datos del usuario.
 
 **Analisis 5W + 2H:**
 
@@ -132,7 +134,10 @@ Para abordar estos desafíos, surge la necesidad de desarrollar una plataforma O
 
 
 - Logs Históricos: Almacenamiento de datos para que el usuario pueda ver el comportamiento de su ambiente durante la última semana o mes.
+
+  
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
 **Hipótesis 1:** 
 
 Automatización y Rendimiento CognitivoCreemos que la implementación de un sistema de activación automática basado en sensores de $CO_2$ para estudiantes y trabajadores remotos resultará en una reducción significativa de la fatiga mental. Sabremos que hemos tenido éxito cuando los reportes de autoevaluación de los usuarios durante las pruebas de validación muestren una mejora del 20% en sus niveles de concentración y energía tras una jornada de 4 horas.
@@ -151,8 +156,10 @@ Transparencia y Modelo Open SourceCreemos que proveer una documentación complet
 **Hipótesis 4:** 
 
 Eficiencia de Control y Latencia del SistemaCreemos que el uso de una arquitectura basada en microservicios para gestionar la comunicación entre el hardware y la web garantizará una respuesta inmediata del ventilador ante condiciones críticas. Sabremos que hemos tenido éxito cuando el tiempo transcurrido entre la detección de un nivel de $CO_2$ superior a las 800 ppm y la activación física del actuador sea menor a 5 segundos.
+
 #### 1.2.2.4. Lean UX Canvas
 ![CanvasOS.png](../assets/img/chapter-1/CanvasOS.png)
+
 ## 1.3. Segmentos objetivo
 El proyecto Ventix se dirige a usuarios que pasan gran parte de su día en entornos interiores de dimensiones reducidas, donde el control de la calidad del aire es crítico para su desempeño. Se han identificado los siguientes dos segmentos principales:
 
@@ -164,7 +171,7 @@ Este segmento comprende a jóvenes de entre 18 y 25 años que residen en dormito
 - **Contexto:** Suelen estudiar en habitaciones pequeñas que carecen de sistemas de ventilación centralizada.
 
 
-- **Puntos de dolor:** Experimentan fatiga, somnolencia y pérdida de concentración durante sesiones de estudio nocturnas o extendidas debido a la acumulación de $CO_2$.
+- **Puntos de dolor:** Experimentan fatiga, somnolencia y pérdida de concentración durante sesiones de estudio nocturnas o extendidas debido a la acumulación de CO₂.
 
 
 - **Necesidad:** Requieren una solución económica y fácil de instalar que les permita mantener un ambiente fresco de forma automática para no interrumpir su flujo de aprendizaje.
