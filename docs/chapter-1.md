@@ -177,7 +177,7 @@ Eficiencia de Control y Latencia del SistemaCreemos que el uso de una arquitectu
 El proyecto Ventix se dirige a usuarios que pasan gran parte de su día en entornos interiores de dimensiones reducidas, donde el control de la calidad del aire es crítico para su desempeño. Se han identificado los siguientes dos segmentos principales:
 
 
-**1. Estudiantes universitarios en espacios cerrados:** 
+**SEGMENTO OBJETIVO 1: Estudiantes universitarios en espacios cerrados:** 
 
 Este segmento comprende a jóvenes de entre 18 y 25 años que residen en dormitorios universitarios, habitaciones alquiladas o departamentos compartidos.
 
@@ -190,7 +190,7 @@ Este segmento comprende a jóvenes de entre 18 y 25 años que residen en dormito
 - **Necesidad:** Requieren una solución económica y fácil de instalar que les permita mantener un ambiente fresco de forma automática para no interrumpir su flujo de aprendizaje.
 
 
-**2. Trabajadores en modalidad Home Office:**
+**SEGMENTO OBJETIVO 2: Trabajadores en modalidad Home Office:**
 
 Este perfil incluye a profesionales (principalmente del sector tecnológico y administrativo) que han trasladado su oficina al hogar.
 
