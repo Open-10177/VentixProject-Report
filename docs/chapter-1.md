@@ -22,45 +22,42 @@ La introducción desempeña un papel fundamental en la estructuración y compren
 ### 1.2.1. Antecedentes y problemática
 **Antecedentes:**
 
-Históricamente, la ventilación en espacios residenciales pequeños se ha limitado al uso de ventanas o ventiladores mecánicos de control manual. Con el auge del Home Office y la educación a distancia, pasamos hasta el 90% de nuestro tiempo en interiores. Estudios recientes de calidad del aire demuestran que en habitaciones cerradas de menos de 10 $m^2$, los niveles de $CO_2$ pueden duplicarse en menos de una hora, afectando directamente la capacidad cognitiva.
-
+Históricamente, la ventilación en espacios residenciales pequeños se ha limitado al uso de ventanas o ventiladores mecánicos de control manual, lo que resulta insuficiente para garantizar una adecuada calidad del aire. Con el auge del teletrabajo y la educación a distancia, las personas pasan hasta el 90 % de su tiempo en interiores, aumentando la exposición a contaminantes y a la acumulación de dióxido de carbono (CO₂). La Organización Mundial de la Salud advierte que en habitaciones cerradas de menos de 10 m² los niveles de CO₂ pueden duplicarse en menos de una hora, afectando directamente la capacidad cognitiva y el rendimiento académico o laboral (World Health Organization, 2006). Asimismo, el Instituto Nacional de Seguridad y Salud en el Trabajo subraya que la ventilación insuficiente es un factor de riesgo crítico en la exposición prolongada a contaminantes interiores (INSST, 2003).
 
 **Problemática:**
 
-El problema central es la invisible degradación del entorno. El ser humano no detecta cambios sutiles en la calidad del aire o la temperatura hasta que el malestar físico (sudoración, somnolencia, falta de concentración) ya está presente. 
+El problema central radica en la degradación invisible del entorno interior. El ser humano no detecta cambios sutiles en la calidad del aire o la temperatura hasta que el malestar físico (como sudoración, somnolencia o falta de concentración) ya está presente. Informes recientes señalan que la ausencia de sistemas automatizados de ventilación y monitoreo contribuye a la disminución del rendimiento cognitivo y al incremento del riesgo de transmisión de enfermedades en espacios cerrados (Eurofins Environment Testing Spain, 2025). Además, estudios sobre tecnologías abiertas y colaborativas demuestran que los enfoques de código abierto pueden acelerar la democratización del acceso a soluciones de control ambiental, permitiendo que comunidades y organizaciones implementen sistemas inteligentes de ventilación con mayor transparencia y eficiencia (Dave, Sivajohan, Basmaji, & Slessarev, 2022).
 
-Las soluciones actuales son:
+Las soluciones actuales presentan limitaciones:
 
-- Manuales: Requieren que el usuario interrumpa su flujo de trabajo.
+Manuales: requieren que el usuario interrumpa su flujo de trabajo.
 
+Costosas: los sistemas de aire acondicionado centralizado no son accesibles para todos.
 
-- Costosas: Los sistemas de aire acondicionado centralizado no son accesibles para todos.
-
-
-- Privadas: Muchas apps de IoT comerciales no son transparentes con los datos del usuario.
+Privadas: muchas aplicaciones de IoT comerciales no son transparentes con los datos del usuario.
 
 **Analisis 5W + 2H:**
 
 
-**Who? (¿Quién?)**	Estudiantes universitarios y profesionales que realizan trabajo remoto en espacios cerrados o reducidos.
+**Who? (¿Quién?)**	Los principales afectados son estudiantes universitarios y profesionales que trabajan desde casa en espacios cerrados. Una revisión reciente sobre teletrabajo e impacto ambiental interior confirma que la calidad del aire en el hogar influye directamente en la salud y el rendimiento cognitivo de quienes realizan actividades académicas o laborales prolongadas (Navas-Martín, Jiménez-Planet & Cuerdo-Vilches, 2024).
 
 
-**What? (¿Qué?)**	Deficiente circulación de aire y falta de control térmico automatizado que afecta la salud y productividad.
+**What? (¿Qué?)**	El problema es la deficiente circulación de aire y la falta de control térmico automatizado, lo que afecta la productividad. Estudios recientes muestran que la acumulación de CO₂ en interiores deteriora la capacidad de concentración y decisión, incluso en niveles moderados (Mendell et al., 2024).
 
 
-**Where? (¿Dónde?)**	Habitaciones, oficinas pequeñas y cubículos de estudio con ventilación natural limitada.
+**Where? (¿Dónde?)**	Los espacios más vulnerables son habitaciones pequeñas, oficinas domésticas y cubículos de estudio con ventilación natural limitada. Chen et al. (2021) recomiendan mejorar la ventilación en espacios reducidos para prevenir acumulación de CO₂ y riesgos de salud.
 
 
-**When? (¿Cuándo?)**	Principalmente durante jornadas extendidas de estudio/trabajo y durante las horas de descanso nocturno.
+**When? (¿Cuándo?)**	El impacto ocurre principalmente durante jornadas extendidas de estudio o trabajo remoto, así como en horas de descanso nocturno. Allen et al. (2016) demostraron que trabajadores expuestos a ambientes con mala ventilación presentaban hasta un 50% menos de rendimiento en pruebas cognitivas.
 
 
-**Why? (¿Por qué?)**	Porque el monitoreo manual es ineficiente y no existen soluciones de bajo costo y Open Source que automaticen el bienestar ambiental.
+**Why? (¿Por qué?)**	Porque el monitoreo manual es ineficiente y no existen soluciones de bajo costo y abiertas que automaticen el bienestar ambiental. La OMS actualizó en 2021 sus guías globales de calidad del aire, subrayando que la ventilación adecuada es esencial para reducir contaminantes y proteger la salud (World Health Organization, 2021).
 
 
-**How? (¿Cómo?)**	Mediante el despliegue de un ecosistema IoT: sensores recogen datos, un microcontrolador los procesa y una Web App en permite al usuario visualizar y gestionar la automatización.
+**How? (¿Cómo?)**	La solución es el despliegue de un ecosistema IoT: sensores que recojan datos de CO₂, temperatura y humedad, un microcontrolador que procese la información, una aplicación web que permita visualizar y gestionar la automatización. Por ejemplo, Pineda-Tobón et al. (2024) presentaron Aquality32, un dispositivo open source basado en ESP32 que permite monitorear la calidad del aire de manera accesible y eficiente.
 
 
-**How much? (¿Cuánto?)**	El costo de implementación es significativamente menor a un sistema de aire acondicionado, utilizando hardware accesible (ESP32) y software libre.
+**How much? (¿Cuánto?)**	El costo de implementación es significativamente menor que un sistema de aire acondicionado centralizado, ya que se utilizan componentes accesibles como el ESP32 y software libre. Estos dispositivos democratizan el acceso a tecnologías de bienestar inteligente, permitiendo que estudiantes y profesionales implementen soluciones de bajo costo (Pineda-Tobón et al., 2024). A continuación se presentara un cuadro de finanzas presupuestales:
 
 
 ### 1.2.2. Lean UX Process
@@ -70,8 +67,7 @@ El Lean UX es un enfoque que permite validar las soluciones propuestas para prob
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-La problemática central reside en la degradación invisible de la calidad del aire en espacios cerrados, como habitaciones de estudio o pequeñas oficinas, donde la acumulación de dióxido de carbono ($CO_2$) y el aumento de la temperatura ocurren de forma gradual. Al no ser cambios detectables por los sentidos humanos de manera inmediata, el usuario solo percibe el problema cuando ya presenta síntomas de fatiga, somnolencia e irritabilidad, lo que reduce drásticamente su capacidad cognitiva y productividad durante jornadas extendidas de trabajo o estudio.
-
+La problemática central reside en la degradación invisible de la calidad del aire en espacios cerrados, como habitaciones de estudio o pequeñas oficinas, donde la acumulación de dióxido de carbono (CO₂) y el aumento de la temperatura ocurren de forma gradual. Al no ser cambios detectables por los sentidos humanos de manera inmediata, el usuario solo percibe el problema cuando ya presenta síntomas de fatiga, somnolencia e irritabilidad, lo que reduce drásticamente su capacidad cognitiva y productividad durante jornadas extendidas de trabajo o estudio.
 
 Actualmente, la gestión de la ventilación en estos entornos es puramente manual y reactiva, lo que obliga al usuario a interrumpir constantemente su "estado de flujo" o concentración para evaluar el ambiente y activar ventiladores o abrir ventanas. Esta interacción física no solo genera distracciones innecesarias, sino que también suele ser ineficiente, ya que el usuario tiende a olvidar apagar los dispositivos una vez alcanzado el confort, resultando en un desperdicio energético acumulado y una gestión deficiente de los recursos.
 
