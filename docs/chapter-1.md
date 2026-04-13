@@ -3,18 +3,30 @@
 La introducción desempeña un papel fundamental en la estructuración y comprensión del proyecto, ya que establece el marco conceptual y contextual sobre el cual se desarrollará el trabajo. En esta sección inicial, se presenta una visión general que permite al lector comprender los objetivos principales que se desean alcanzar, así como los antecedentes que han llevado a la formulación del proyecto. También se delimita el alcance del mismo, es decir, hasta dónde se pretende llegar con el desarrollo de la propuesta. Asimismo, la introducción cumple la función de contextualizar la relevancia del proyecto en un entorno específico, destacando las razones que justifican su realización, los desafíos que se pretenden abordar y los beneficios esperados a partir de su implementación. En suma, esta parte inicial no solo informa, sino que también orienta y motiva al lector a profundizar en el contenido que se presentará a lo largo del documento.
 
 ## 1.1. Startup Profile
-**Ventix** es una startup tecnológica orientada al desarrollo de soluciones de Bienestar Inteligente (Smart Wellness) bajo el modelo de código abierto. Nuestra misión es democratizar el acceso a tecnologías de control ambiental, permitiendo que cualquier persona u organización pueda implementar sistemas de ventilación automatizados que mejoren la calidad del aire en espacios cerrados.
+El perfil de la startup es un elemento fundamental para comprender la identidad y el rumbo estratégico de una empresa emergente. A través de este perfil, se revela su visión de futuro, sus valores esenciales y la propuesta de valor que la diferencia en el mercado competitivo.
 
-- **Misión:** Mejorar la salud y productividad de las personas mediante la automatización inteligente del entorno, utilizando software open source y hardware accesible.
+En esta sección se describen los aspectos clave que definen a la startup, incluyendo su origen, las motivaciones que impulsaron su creación, el problema específico que busca solucionar y el enfoque innovador que emplea para posicionarse frente a sus competidores. Asimismo, se analizan los objetivos a mediano y largo plazo, junto con las estrategias diseñadas para su crecimiento y consolidación dentro del sector. Entender estos elementos resulta vital para evaluar el potencial de la startup y el impacto que puede generar en su entorno.
 
+### 1.1.1. Descripción de la Startup
 
-- **Visión:** Convertirnos en el framework de referencia para proyectos de automatización ambiental en la comunidad de código abierto para el año 2028.
+En una sociedad donde la calidad del aire en espacios cerrados se ha convertido en un desafío silencioso para la salud y la productividad, Ventix nace con una visión clara: democratizar el acceso a tecnologías de control ambiental mediante un modelo de código abierto. Nuestro propósito es brindar soluciones de Bienestar Inteligente (Smart Wellness) que permitan a cualquier persona u organización implementar sistemas de ventilación automatizados, mejorando la calidad del aire y reduciendo los riesgos asociados a la exposición prolongada en interiores.
+
+Nos diferenciamos por ofrecer un framework abierto, flexible y escalable, capaz de integrar sensores ambientales, algoritmos de control inteligente y herramientas de monitoreo accesibles. Además, Ventix está preparada para evolucionar hacia un ecosistema conectado mediante dispositivos IoT, que permitan medir en tiempo real parámetros como dióxido de carbono (CO₂), humedad y temperatura, asegurando un entorno saludable y sostenible.
+
+Nuestra propuesta está diseñada para adaptarse a distintos niveles de necesidad, desde hogares pequeños hasta instituciones educativas y organizaciones de gran escala. Con ello, buscamos democratizar la tecnología, generar confianza en la comunidad y elevar los estándares de bienestar ambiental a un nuevo nivel. Ventix no es solo un sistema de ventilación automatizado. Es una plataforma abierta, un puente entre innovación tecnológica y salud colectiva, y un compromiso hacia un nuevo paradigma de bienestar inteligente.
+
+#### Misión
+Mejorar la salud y productividad de las personas mediante la automatización inteligente del entorno, utilizando software open source y hardware accesible. En Ventix nos enfocamos en la innovación constante, la colaboración comunitaria y la integración de herramientas digitales que fortalezcan la confianza y mejoren la calidad de vida en espacios cerrados.
+
+#### Visión
+Convertirnos en el framework de referencia para proyectos de automatización ambiental en la comunidad de código abierto para el año 2028. Aspiramos a transformar la gestión de la ventilación en un proceso transparente, confiable y humano, acompañando a comunidades e instituciones en la creación de una nueva era de bienestar integral.
+
 ### 1.1.2. Perfiles de integrantes del equipo
 | Foto | Información                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | | **Nombre Completo:** <br> **Código:** <br> **Carrera:** <br><br> **Perfil:** <br> <br><br> **Habilidades Técnicas:** <br> - <br> - <br> - <br><br> **Habilidades Sociales:** <br> - <br> - <br> -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | | **Nombre Completo:** Jorge Francisco Taipe Sangama<br> **Código:** U202313458 <br> **Carrera:** Ingenieria de Software <br><br> **Perfil:** <br> Estudiante de Ingeniería de Software apasionado por el desarrollo de aplicaciones y soluciones tecnológicas mas enfocado en el tema de DevOps <br><br> **Habilidades Técnicas:** <br> - Mandejo de base de datos SQL <br> - GIT <br> - Flutter <br><br> **Habilidades Sociales:** <br> - Lider de equipo <br> - Responsable <br> - Comunicador                                                                                                                                                                                                                             |
-| | **Nombre Completo:** <br> **Código:** <br> **Carrera:** <br><br> **Perfil:** <br> <br><br> **Habilidades Técnicas:** <br> - <br> - <br> - <br><br> **Habilidades Sociales:** <br> - <br> - <br> -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| | **Nombre Completo:** Geraldine Suarez Chinga<br> **Código:** u20241c804<br> **Carrera:** Ingenieria de Software<br><br> **Perfil:** <br> Estudiante apasionada en el diseñodel perfil de los sitios web y aplicaciones, centrada en el area del proceso creativo y programacion de juegos <br><br> **Habilidades Técnicas:** <br> -Diseño de aplicacion <br> -Programacion visual studio promedio <br><br> **Habilidades Sociales:** <br> -Comunicadora <br> -Responsable <br> -Activa proactiva                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | | **Nombre Completo:** <br> **Código:** <br> **Carrera:** <br><br> **Perfil:** <br> <br><br> **Habilidades Técnicas:** <br> - <br> - <br> - <br><br> **Habilidades Sociales:** <br> - <br> - <br> -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | | **Nombre Completo:** <br> **Código:** <br> **Carrera:** <br><br> **Perfil:** <br> <br><br> **Habilidades Técnicas:** <br> - <br> - <br> - <br><br> **Habilidades Sociales:** <br> - <br> - <br> -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
@@ -22,45 +34,45 @@ La introducción desempeña un papel fundamental en la estructuración y compren
 ### 1.2.1. Antecedentes y problemática
 **Antecedentes:**
 
-Históricamente, la ventilación en espacios residenciales pequeños se ha limitado al uso de ventanas o ventiladores mecánicos de control manual. Con el auge del Home Office y la educación a distancia, pasamos hasta el 90% de nuestro tiempo en interiores. Estudios recientes de calidad del aire demuestran que en habitaciones cerradas de menos de 10 $m^2$, los niveles de $CO_2$ pueden duplicarse en menos de una hora, afectando directamente la capacidad cognitiva.
+Históricamente, la ventilación en espacios residenciales pequeños se ha limitado al uso de ventanas o ventiladores mecánicos de control manual, lo que resulta insuficiente para garantizar una adecuada calidad del aire. Con el auge del teletrabajo y la educación a distancia, las personas pasan hasta el 90 % de su tiempo en interiores, aumentando la exposición a contaminantes y a la acumulación de dióxido de carbono (CO₂).
 
+Es asi que, la Organización Mundial de la Salud advierte que en habitaciones cerradas de menos de 10 m² los niveles de CO₂ pueden duplicarse en menos de una hora, afectando directamente la capacidad cognitiva y el rendimiento académico o laboral (World Health Organization, 2006). Asimismo, el Instituto Nacional de Seguridad y Salud en el Trabajo subraya que la ventilación insuficiente es un factor de riesgo crítico en la exposición prolongada a contaminantes interiores (INSST, 2003).
+
+En este contexto, la necesidad de soluciones tecnológicas que automaticen y optimicen la ventilación se vuelve cada vez más urgente. La pandemia de la COVID-19 actuó como catalizador, visibilizando la importancia de contar con sistemas inteligentes capaces de monitorear y regular la calidad del aire en tiempo real. Sin embargo, la adopción de estas tecnologías sigue siendo limitada, lo que abre un espacio para propuestas innovadoras como Ventix, que buscan democratizar el acceso a herramientas de control ambiental bajo un modelo de código abierto (Dave, Sivajohan, Basmaji, & Slessarev, 2022).
 
 **Problemática:**
 
-El problema central es la invisible degradación del entorno. El ser humano no detecta cambios sutiles en la calidad del aire o la temperatura hasta que el malestar físico (sudoración, somnolencia, falta de concentración) ya está presente. 
+Riesgo invisible en espacios cerrados:
+La degradación ambiental interior ocurre de manera silenciosa y pasa desapercibida para quienes habitan los espacios. Las personas no perciben cambios en la calidad del aire hasta que el malestar físico —como somnolencia, sudoración o falta de concentración— ya se manifiesta. Este fenómeno convierte al aire contaminado en un riesgo latente que afecta la salud y disminuye la productividad en hogares, oficinas y aulas (Eurofins Environment Testing Spain, 2025).
 
-Las soluciones actuales son:
+Limitaciones de las soluciones actuales:
+Los sistemas de ventilación disponibles en el mercado presentan barreras significativas. Los manuales requieren intervención constante del usuario, los centralizados resultan costosos y poco viables para espacios pequeños, y las aplicaciones IoT comerciales suelen ser privadas y poco transparentes con los datos del usuario (World Health Organization, 2021). Estas limitaciones restringen el acceso a tecnologías que deberían ser universales y accesibles, dejando a estudiantes y profesionales sin alternativas prácticas para mejorar su entorno.
 
-- Manuales: Requieren que el usuario interrumpa su flujo de trabajo.
-
-
-- Costosas: Los sistemas de aire acondicionado centralizado no son accesibles para todos.
-
-
-- Privadas: Muchas apps de IoT comerciales no son transparentes con los datos del usuario.
+Ausencia de plataformas abiertas e integradas:  
+No existe una solución open source que unifique el monitoreo, la automatización y la gestión ambiental en un solo sistema. Los modelos cerrados predominan en el mercado, limitando la transparencia y la posibilidad de colaboración comunitaria. Este vacío tecnológico abre la oportunidad para iniciativas como Ventix, que buscan ofrecer un framework abierto y accesible para democratizar el bienestar inteligente y garantizar ambientes saludables y sostenibles (Dave, Sivajohan, Basmaji, & Slessarev, 2022).
 
 **Analisis 5W + 2H:**
 
 
-**Who? (¿Quién?)**	Estudiantes universitarios y profesionales que realizan trabajo remoto en espacios cerrados o reducidos.
+**Who? (¿Quién?)**	Los principales afectados son estudiantes universitarios y profesionales que trabajan desde casa en espacios cerrados. Una revisión reciente sobre teletrabajo e impacto ambiental interior confirma que la calidad del aire en el hogar influye directamente en la salud y el rendimiento cognitivo de quienes realizan actividades académicas o laborales prolongadas (Navas-Martín, Jiménez-Planet & Cuerdo-Vilches, 2024).
 
 
-**What? (¿Qué?)**	Deficiente circulación de aire y falta de control térmico automatizado que afecta la salud y productividad.
+**What? (¿Qué?)**	El problema es la deficiente circulación de aire y la falta de control térmico automatizado, lo que afecta la productividad. Estudios recientes muestran que la acumulación de CO₂ en interiores deteriora la capacidad de concentración y decisión, incluso en niveles moderados (Mendell et al., 2024).
 
 
-**Where? (¿Dónde?)**	Habitaciones, oficinas pequeñas y cubículos de estudio con ventilación natural limitada.
+**Where? (¿Dónde?)**	Los espacios más vulnerables son habitaciones pequeñas, oficinas domésticas y cubículos de estudio con ventilación natural limitada. Chen et al. (2021) recomiendan mejorar la ventilación en espacios reducidos para prevenir acumulación de CO₂ y riesgos de salud.
 
 
-**When? (¿Cuándo?)**	Principalmente durante jornadas extendidas de estudio/trabajo y durante las horas de descanso nocturno.
+**When? (¿Cuándo?)**	El impacto ocurre principalmente durante jornadas extendidas de estudio o trabajo remoto, así como en horas de descanso nocturno. Allen et al. (2016) demostraron que trabajadores expuestos a ambientes con mala ventilación presentaban hasta un 50% menos de rendimiento en pruebas cognitivas.
 
 
-**Why? (¿Por qué?)**	Porque el monitoreo manual es ineficiente y no existen soluciones de bajo costo y Open Source que automaticen el bienestar ambiental.
+**Why? (¿Por qué?)**	Porque el monitoreo manual es ineficiente y no existen soluciones de bajo costo y abiertas que automaticen el bienestar ambiental. La OMS actualizó en 2021 sus guías globales de calidad del aire, subrayando que la ventilación adecuada es esencial para reducir contaminantes y proteger la salud (World Health Organization, 2021).
 
 
-**How? (¿Cómo?)**	Mediante el despliegue de un ecosistema IoT: sensores recogen datos, un microcontrolador los procesa y una Web App en permite al usuario visualizar y gestionar la automatización.
+**How? (¿Cómo?)**	La solución es el despliegue de un ecosistema IoT: sensores que recojan datos de CO₂, temperatura y humedad, un microcontrolador que procese la información, una aplicación web que permita visualizar y gestionar la automatización. Por ejemplo, Pineda-Tobón et al. (2024) presentaron Aquality32, un dispositivo open source basado en ESP32 que permite monitorear la calidad del aire de manera accesible y eficiente.
 
 
-**How much? (¿Cuánto?)**	El costo de implementación es significativamente menor a un sistema de aire acondicionado, utilizando hardware accesible (ESP32) y software libre.
+**How much? (¿Cuánto?)**	El costo de implementación es significativamente menor que un sistema de aire acondicionado centralizado, ya que se utilizan componentes accesibles como el ESP32 y software libre. Estos dispositivos democratizan el acceso a tecnologías de bienestar inteligente, permitiendo que estudiantes y profesionales implementen soluciones de bajo costo (Pineda-Tobón et al., 2024). A continuación se presentara un cuadro de finanzas presupuestales:
 
 
 ### 1.2.2. Lean UX Process
@@ -70,8 +82,7 @@ El Lean UX es un enfoque que permite validar las soluciones propuestas para prob
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-La problemática central reside en la degradación invisible de la calidad del aire en espacios cerrados, como habitaciones de estudio o pequeñas oficinas, donde la acumulación de dióxido de carbono ($CO_2$) y el aumento de la temperatura ocurren de forma gradual. Al no ser cambios detectables por los sentidos humanos de manera inmediata, el usuario solo percibe el problema cuando ya presenta síntomas de fatiga, somnolencia e irritabilidad, lo que reduce drásticamente su capacidad cognitiva y productividad durante jornadas extendidas de trabajo o estudio.
-
+La problemática central reside en la degradación invisible de la calidad del aire en espacios cerrados, como habitaciones de estudio o pequeñas oficinas, donde la acumulación de dióxido de carbono (CO₂) y el aumento de la temperatura ocurren de forma gradual. Al no ser cambios detectables por los sentidos humanos de manera inmediata, el usuario solo percibe el problema cuando ya presenta síntomas de fatiga, somnolencia e irritabilidad, lo que reduce drásticamente su capacidad cognitiva y productividad durante jornadas extendidas de trabajo o estudio.
 
 Actualmente, la gestión de la ventilación en estos entornos es puramente manual y reactiva, lo que obliga al usuario a interrumpir constantemente su "estado de flujo" o concentración para evaluar el ambiente y activar ventiladores o abrir ventanas. Esta interacción física no solo genera distracciones innecesarias, sino que también suele ser ineficiente, ya que el usuario tiende a olvidar apagar los dispositivos una vez alcanzado el confort, resultando en un desperdicio energético acumulado y una gestión deficiente de los recursos.
 
@@ -136,7 +147,10 @@ Para abordar estos desafíos, surge la necesidad de desarrollar una plataforma O
 
 
 - Logs Históricos: Almacenamiento de datos para que el usuario pueda ver el comportamiento de su ambiente durante la última semana o mes.
+
+  
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
 **Hipótesis 1:** 
 
 Automatización y Rendimiento CognitivoCreemos que la implementación de un sistema de activación automática basado en sensores de $CO_2$ para estudiantes y trabajadores remotos resultará en una reducción significativa de la fatiga mental. Sabremos que hemos tenido éxito cuando los reportes de autoevaluación de los usuarios durante las pruebas de validación muestren una mejora del 20% en sus niveles de concentración y energía tras una jornada de 4 horas.
@@ -155,26 +169,28 @@ Transparencia y Modelo Open SourceCreemos que proveer una documentación complet
 **Hipótesis 4:** 
 
 Eficiencia de Control y Latencia del SistemaCreemos que el uso de una arquitectura basada en microservicios para gestionar la comunicación entre el hardware y la web garantizará una respuesta inmediata del ventilador ante condiciones críticas. Sabremos que hemos tenido éxito cuando el tiempo transcurrido entre la detección de un nivel de $CO_2$ superior a las 800 ppm y la activación física del actuador sea menor a 5 segundos.
+
 #### 1.2.2.4. Lean UX Canvas
 ![CanvasOS.png](../assets/img/chapter-1/CanvasOS.png)
+
 ## 1.3. Segmentos objetivo
 El proyecto Ventix se dirige a usuarios que pasan gran parte de su día en entornos interiores de dimensiones reducidas, donde el control de la calidad del aire es crítico para su desempeño. Se han identificado los siguientes dos segmentos principales:
 
 
-**1. Estudiantes universitarios en espacios cerrados:** 
+**SEGMENTO OBJETIVO 1: Estudiantes universitarios en espacios cerrados:** 
 
 Este segmento comprende a jóvenes de entre 18 y 25 años que residen en dormitorios universitarios, habitaciones alquiladas o departamentos compartidos.
 
 - **Contexto:** Suelen estudiar en habitaciones pequeñas que carecen de sistemas de ventilación centralizada.
 
 
-- **Puntos de dolor:** Experimentan fatiga, somnolencia y pérdida de concentración durante sesiones de estudio nocturnas o extendidas debido a la acumulación de $CO_2$.
+- **Puntos de dolor:** Experimentan fatiga, somnolencia y pérdida de concentración durante sesiones de estudio nocturnas o extendidas debido a la acumulación de CO₂.
 
 
 - **Necesidad:** Requieren una solución económica y fácil de instalar que les permita mantener un ambiente fresco de forma automática para no interrumpir su flujo de aprendizaje.
 
 
-**2. Trabajadores en modalidad Home Office:**
+**SEGMENTO OBJETIVO 2: Trabajadores en modalidad Home Office:**
 
 Este perfil incluye a profesionales (principalmente del sector tecnológico y administrativo) que han trasladado su oficina al hogar.
 
