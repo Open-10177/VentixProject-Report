@@ -130,32 +130,14 @@ Para Ventix, hemos identificado tres tipos de competidores que actualmente domin
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
-#### Fortalezas y Oportunidades:
+Luego de haber realizado el análisis de nuestra solución con respecto a soluciones ya existentes, nuestro equipo procederá a plantear estrategias y tácticas que debemos poner en marcha para sobresalir de las otras soluciones.
 
-- Diferenciación técnica: Enfoque en la soberanía de datos (privacidad) y monitoreo especializado de $CO_2$ para la productividad.
+# Matriz CAME para el desarrollo de estrategias en base al análisis FODA
 
-
-- Crecimiento orgánico: Aprovechamiento de la cultura Wellness y el respaldo de la comunidad Open Source para mejorar el software sin costos añadidos.
-
-#### Aprovechamiento de Debilidades y Amenazas de los Competidores:
-
-- Seguridad y Costo: Posicionamiento como alternativa local-first frente a la inseguridad de nubes externas (Xiaomi) y como opción democrática frente a los precios prohibitivos de la competencia premium (Dyson).
-
-
-- UX Superior: Superar la complejidad de los proyectos DIY mediante una interfaz profesional en Angular y una API documentada.
-
-#### Estrategias de Marketing:
-
-- Nicho Técnico y de Salud: Difusión en comunidades de desarrolladores (GitHub/Dev.to) y campañas de concientización sobre fatiga ambiental dirigidas a estudiantes en exámenes y trabajadores remotos.
-
-
-- Alianzas Maker: Colaboración con clubes tecnológicos universitarios para validar y expandir el ecosistema Ventix.
-
-#### Costos y Precios:
-
-Inversión mínima: Software gratuito (Open Source) con un costo de hardware (BOM) accesible de entre  35 USD y 50 USD.
-
-Ventaja económica: Reducción de costos de hasta un 90% en comparación con sistemas comerciales inteligentes de gama media y alta.
+| **Análisis FODA cruzado** | **Oportunidades** | **Amenazas** |
+|---|---|---|
+| **Fortalezas (F)**<br>1. Enfoque en soberanía de datos y privacidad.<br>2. Modelo open source con hardware accesible.<br>3. Especialización en monitoreo de CO₂ y productividad académica/laboral.<br>4. Costos de implementación bajos frente a sistemas comerciales. | **Estrategia (FO) — Estrategias Ofensivas**<br>1. Alianzas con comunidades universitarias y makers para validar prototipos y expandir el ecosistema Ventix.<br>2. Posicionamiento como solución académica y de teletrabajo, destacando impacto en concentración y salud.<br>3. Roadmap de integraciones IoT: sensores de CO₂, humedad y temperatura con APIs abiertas.<br>4. Campañas de concientización sobre “fatiga ambiental” dirigidas a estudiantes y profesionales remotos.<br>5. Estrategia freemium → up-sell: kits básicos para adopción rápida y planes premium para instituciones educativas. | **Estrategia (FA) — Estrategias Defensivas**<br>1. Documentar y comunicar políticas de seguridad y privacidad adaptadas a entornos académicos y laborales.<br>2. Ofrecer soporte local y comunidad activa en GitHub para contrarrestar ecosistemas cerrados.<br>3. Diferenciarse por transparencia y accesibilidad frente a competidores globales (Xiaomi, Dyson).<br>4. Diseñar funcionalidades offline/parciales para minimizar fricción en zonas con conectividad limitada.<br>5. Difundir resultados de pilotos y casos de uso en universidades para contrarrestar la ventaja presupuestal de marcas establecidas. |
+| **Debilidades (D)**<br>1. Bajo reconocimiento de marca (startup emergente).<br>2. Recursos limitados frente a gigantes del Smart Home.<br>3. Madurez inicial en integraciones empresariales.<br>4. Necesidad de validación en distintos contextos académicos y laborales. | **Estrategia (DO) — Reorientación**<br>1. Validación rápida con Lean UX: pruebas de usabilidad y pilotos documentados en aulas y oficinas.<br>2. Buscar subvenciones y programas de innovación tecnológica para financiar pilotos.<br>3. Generar contenido técnico y académico: whitepapers, casos de estudio y guías para decisores.<br>4. Priorizar desarrollo de APIs públicas y SDKs para integradores, reduciendo fricción de adopción.<br>5. Crear un programa de partners locales (clubes makers, consultoras) para escalar despliegues sin aumentar plantilla interna. | **Estrategia (DA) — Supervivencia**<br>1. Priorizar seguridad e infraestructura crítica: backups automáticos, alta disponibilidad y pruebas de penetración.<br>2. Política de precios defensiva inicial: kits entry-level competitivos y promociones para ganar masa crítica.<br>3. Obtener certificaciones de seguridad y calidad ambiental como sello de confianza.<br>4. Buscar aceleradoras y socios estratégicos que aporten recursos sin diluir el control del producto.<br>5. Formalizar un plan de gestión de incidentes y comunicación para reducir impacto reputacional. |
 
 ## 2.2. Entrevistas
 
