@@ -388,20 +388,29 @@ Para este segmento se elaboró el User Persona Luis Estefano Ruiz. Se considerar
 
 
 ### 2.3.2. User Task Matrix
-|                  |                    |                    |
-|------------------|--------------------|--------------------|
-|                  |                    |                    |
-|                  |                    |                    |
-|                  |                    |                    |
-|                  |                    |                    |
-|                  |                    |                    |
-|                  |                    |                    |
-|                  |                    |                    |
-|                  |                    |                    |
-|                  |                    |                    |
-|                  |                    |                    |
-|                  |                    |                    |
 
+El User Task Matrix presenta las tareas que realizan los User Persona para cumplir sus objetivos en su día a día. Se evalúa la frecuencia y la importancia de cada tarea para identificar dónde el sistema Ventix puede automatizar o mitigar riesgos.
+
+| **Tarea(Task)**                                      | **Estudiante (Maria Elena)** | **Dueño de Casa Hogar (Luis)** |
+|------------------------------------------------------|------------------------------|--------------------------------|
+|                                                      | Frecuencia                   |                                |
+| Monitorear la ventilación de espacios cerrados       | Often                        | High                           |
+| Verificar la temperatura de las habitaciones         | Occasionally                 | Medium                         |
+| Identificar síntomas de somnolencia o fatiga         | Often                        | High                           |
+| Abrir ventanas/puertas para renovar el aire          | Often                        | Medium                         |
+| Supervisar el bienestar físico de los residentes     | Rarely                       | Low                            |
+| Atender alertas por condiciones ambientales críticas | Rarely                       | High                           |
+| Revisar el consumo energético de ventiladores/AC     | Monthly                      | Medium                         |
+| Analizar reportes de calidad ambiental histórica     | Rarely                       | Low                            |
+
+
+**Análisis del Task Matrix**
+
+**Actividades Críticas:** El monitoreo de ventilación es la tarea "Core" para ambos (Importancia High / Frecuencia Often). En María Elena impacta el rendimiento académico y en Luis Estéfano la salud pública de los residentes.
+
+**Punto de Dolor Común:** La tarea de "Abrir ventanas" es muy frecuente, validando el valor de la automatización del ventilador de Ventix para reducir la carga operativa manual.
+
+**Gestión de Riesgos:** Aunque las "Alertas críticas" ocurren ocasionalmente, su importancia High justifica la necesidad del sistema de notificaciones en tiempo real para prevenir incidentes de salud.
 
 ## 2.3.3. User Journey Mapping
 ### Segmento 1 – Estudiante Universitaria (María Elena López)  
