@@ -322,67 +322,64 @@ Resumen:
 
 ### 2.2.3. Análisis de entrevistas 
 
-En esta sección se presenta el análisis detallado de la información recolectada. Para cada segmento, se explican primero los hallazgos estadísticos objetivos y subjetivos, seguidos de la evidencia gráfica correspondiente.  
+En esta sección se presenta el análisis detallado de la información recolectada. Para cada segmento, se explican primero los hallazgos estadísticos objetivos y subjetivos, seguidos de la evidencia gráfica correspondiente.
 
 ### Segmento 1: Estudiantes Universitarios en Espacios Cerrados  
 
 **Análisis de Características Objetivas y Subjetivas**  
 
-El análisis revela condiciones deficientes en espacios de estudio. Como se detalla en el gráfico a continuación:  
+El análisis revela condiciones deficientes en espacios de estudio. Como se detalla en el gráfico a continuación:
 
-Los principales factores que afectan la experiencia de los estudiantes se concentran en la falta de ventilación (25%), la somnolencia tras largas horas de estudio continuo (20%), la disminución de la concentración debido al aire pesado o caluroso (18%), las interrupciones generadas por la necesidad de ajustar ventiladores (15%) y la percepción de falta de soluciones simples y accesibles (22%).
+Los principales factores que afectan la experiencia de los estudiantes se concentran en la falta de ventilación (25%), la somnolencia tras largas horas de estudio continuo (20%), la disminución de la concentración debido al aire pesado o caluroso (18%), las interrupciones generadas por la necesidad de ajustar ventiladores fisicos (15%) y la percepción de falta de soluciones simples y accesibles (22%).
 
-<img src="/assets/img/chapter-2/grafica 1.png" alt="Grafica 01" width="800">
-
-### Segmento 2: Profesionales en Modalidad Home Office  
+### Segmento 2: Tutores o dueños de casa que necesiten monitoriar en el exterior 
 
 **Análisis de Características Objetivas y Subjetivas** 
 
-Los datos confirman una experiencia deficiente en espacios laborales domésticos. Como se detalla en el gráfico a continuación:  
+Los datos confirman una experiencia limitada en la gestión del ambiente doméstico, especialmente cuando el usuario no se encuentra dentro del hogar de manera constante. Como se detalla en el gráfico a continuación:
 
-Los principales factores que afectan el desempeño en modalidad home office se concentran en el encierro y la limitada ventilación durante reuniones (24%), la disminución de la productividad después del mediodía (19%), el agotamiento mental asociado al ambiente físico (18%), las interrupciones generadas por la manipulación constante de ventiladores o ventanas (17%) y la preocupación por la privacidad junto con la necesidad de soluciones tecnológicas confiables (22%).
-
-<img src="/assets/img/chapter-2/grafica 2.png" alt="Grafica 02" width="800">
+Los principales factores que afectan la tranquilidad y el control del entorno del hogar se concentran en la limitada ventilación en espacios cerrados (24%), la preocupación por el bienestar de mascotas, niños o personas mayores en ausencia del usuario (22%), la dificultad para supervisar las condiciones ambientales en tiempo real (19%), las interrupciones generadas por la necesidad de realizar ajustes manuales al regresar al hogar (17%) y la desconfianza hacia soluciones tecnológicas que no garantizan privacidad ni control de datos (18%).
 
 ### Análisis Comparativo  
 
 **Contrastación de Segmentos**  
 
-Al comparar ambos grupos, encontramos coincidencias vitales para el producto:
+Al comparar ambos grupos, se identifican coincidencias clave para el desarrollo del producto:
 
-Tanto estudiantes como profesionales evidencian que los principales factores que afectan su desempeño están relacionados con condiciones ambientales deficientes, especialmente la falta de ventilación y las interrupciones durante sus actividades. En ambos segmentos, estos factores representan una proporción relevante dentro del análisis (entre 15% y 25%), lo que refuerza la necesidad de automatizar y centralizar la gestión del entorno para mejorar la experiencia. Sin embargo, existe una diferencia clave en la prioridad de sus necesidades. Los estudiantes otorgan mayor importancia a la accesibilidad de soluciones (22%), priorizando herramientas simples, económicas y fáciles de usar. Por otro lado, los profesionales ponen mayor énfasis en la privacidad y confiabilidad tecnológica (22%), considerando fundamental el control y la transparencia en el manejo de sus datos.
+Tanto estudiantes como dueños de casa evidencian que los principales factores que afectan su experiencia están relacionados con condiciones ambientales deficientes, especialmente la falta de ventilación y la necesidad de intervención constante para regular el entorno. En ambos segmentos, estos factores representan una proporción relevante dentro del análisis (entre 15% y 25%), lo que refuerza la necesidad de automatizar y centralizar la gestión del ambiente para mejorar la experiencia del usuario. Sin embargo, existe una diferencia clave en la prioridad de sus necesidades. Los estudiantes otorgan mayor importancia a la accesibilidad de soluciones (22%), priorizando herramientas simples, económicas y fáciles de usar que no interrumpan su concentración. Por otro lado, los dueños de casa ponen mayor énfasis en la posibilidad de monitoreo remoto, la seguridad del entorno y la privacidad de la información (22%), considerando fundamental mantener el control del hogar incluso en su ausencia.
 
-Esto define nuestra propuesta de valor: eficiencia y accesibilidad para estudiantes, y control, privacidad y confianza para profesionales.  
+Esto define la propuesta de valor del sistema: accesibilidad y simplicidad para estudiantes, y control remoto, seguridad y confianza para dueños de casa.
 
 ### Conclusiones y Definición de Arquetipos  
 
-**User Persona Estudiante ("El Aprendiz Concentrado")**  
+**User Persona Estudiante ("El Aprendiz Concentrado")**
 
 Rasgo clave: Busca mejorar su rendimiento académico en espacios cerrados.
+
 Sustento: Los factores más influyentes en su experiencia son la falta de ventilación (25%), la somnolencia (20%) y la percepción de falta de soluciones accesibles (22%). Esto evidencia que necesita un entorno cómodo y herramientas simples que no interrumpan su flujo de estudio. La solución debe tener una curva de aprendizaje mínima y un costo accesible.
 
-**User Persona Profesional ("El Teletrabajador Precavido")**  
+**User Persona Dueño de Casa ("El Supervisor del Hogar")**
 
-Rasgo clave: Necesita control del entorno sin comprometer su privacidad.
-Sustento: Los principales factores que afectan su desempeño incluyen el encierro y la ventilación limitada (24%), la disminución de la productividad (19%) y la preocupación por la privacidad (22%). Esto indica que prioriza soluciones que le permitan mantener productividad con control y transparencia. La solución debe centrarse en monitoreo en tiempo real y protección de datos.
+Rasgo clave: Necesita monitorear y controlar el ambiente de su hogar de forma remota y segura.
+
+Sustento: Los principales factores que afectan su tranquilidad incluyen la ventilación limitada (24%), la preocupación por el bienestar de los ocupantes del hogar (22%) y la dificultad para supervisar el entorno en tiempo real (19%). Esto indica que prioriza soluciones que le permitan mantener control, seguridad y confianza, especialmente cuando no se encuentra en casa. La solución debe centrarse en monitoreo remoto, automatización y protección de datos.
 
 ## 2.3. Needfinding
-A partir del análisis de entrevistas y la recolección de información sobre las dinámicas en espacios cerrados de estudio y trabajo, se identificaron los principales perfiles de usuarios que interactúan directamente con la solución **Ventix**. Estos perfiles representan los segmentos clave para el sistema, ya que concentran tanto la necesidad de mejorar la concentración y el confort ambiental como la necesidad de contar con herramientas confiables y transparentes para la gestión del aire interior.  
+A partir del análisis de entrevistas y la recolección de información sobre las dinámicas en espacios cerrados de estudio y hogar, se identificaron los principales perfiles de usuarios que interactúan directamente con la solución Ventix. Estos perfiles representan los segmentos clave para el sistema, ya que concentran tanto la necesidad de mejorar la concentración y el confort ambiental como la necesidad de contar con herramientas confiables y seguras para la gestión del aire interior.
 
 ## 2.3.1. User Personas  
 
-La construcción de los *User Persona* permite al equipo de desarrollo comprender mejor sus motivaciones, frustraciones y hábitos, lo que resulta esencial para diseñar funcionalidades adecuadas y experiencias de usuario efectivas.  
+La construcción de los User Persona permite al equipo de desarrollo comprender mejor sus motivaciones, frustraciones y hábitos, lo que resulta esencial para diseñar funcionalidades adecuadas y experiencias de usuario efectivas.
 
-**1) Segmento 1: Estudiantes Universitarios en Espacios Cerrados**  
-Para los estudiantes se elaboró el User Persona **Maria Elena Lopez**. Se consideraron factores como su edad, rutina académica, tiempo prolongado en habitaciones cerradas y la necesidad de mantener concentración durante largas jornadas de estudio. Sus principales frustraciones giran en torno a la somnolencia y la fatiga ambiental, además de la molestia de tener que interrumpir sus actividades para ajustar manualmente la ventilación. Asimismo, se tomó en cuenta su disposición hacia soluciones simples, económicas y open source, que les permitan confiar en la tecnología sin barreras de complejidad.  
+**Segmento 1: Estudiantes Universitarios en Espacios Cerrados**
 
-//
-<br>  
+Para los estudiantes se elaboró el User Persona Maria Elena Lopez. Se consideraron factores como su edad, rutina académica, tiempo prolongado en habitaciones cerradas y la necesidad de mantener concentración durante largas jornadas de estudio. Sus principales frustraciones giran en torno a la somnolencia y la fatiga ambiental, además de la molestia de tener que interrumpir sus actividades para ajustar manualmente la ventilación. Asimismo, se tomó en cuenta su disposición hacia soluciones simples, económicas y open source, que les permitan confiar en la tecnología sin barreras de complejidad.
 
-**2) Segmento 2: Profesionales en Modalidad Home Office**  
-Para los profesionales se elaboró el User Persona **Luis Estefano Ruiz**. Se consideraron aspectos como su edad, ocupación y su rol en la gestión de espacios de trabajo domésticos. Sus principales motivaciones están orientadas a mantener productividad y confort ambiental durante la jornada laboral, mientras que sus frustraciones se relacionan con la pérdida de concentración por manipular constantemente ventiladores o ventanas y la desconfianza hacia dispositivos smart que envían datos a nubes externas. Su perfil refleja una predisposición positiva hacia soluciones digitales open source, siempre que estas sean transparentes, confiables y fáciles de integrar en su rutina diaria.  
 
-//
+**Segmento 2: Dueños de Casa que Monitorean su Hogar**
+
+Para este segmento se elaboró el User Persona Luis Estefano Ruiz. Se consideraron aspectos como su edad, estilo de vida y su responsabilidad en el cuidado del hogar. Sus principales motivaciones están orientadas a garantizar el bienestar de las personas y mascotas dentro de su vivienda, así como a mantener condiciones ambientales adecuadas incluso en su ausencia. Sus frustraciones se relacionan con la imposibilidad de supervisar el entorno en tiempo real, la necesidad de realizar ajustes manuales al regresar a casa y la desconfianza hacia dispositivos inteligentes que comprometen la privacidad. Su perfil refleja una predisposición positiva hacia soluciones tecnológicas open source, siempre que estas sean seguras, confiables y le permitan tener control remoto del hogar de manera sencilla.
+
 
 ### 2.3.2. User Task Matrix
 |                  |                    |                    |
