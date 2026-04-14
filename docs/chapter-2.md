@@ -332,7 +332,7 @@ El análisis revela condiciones deficientes en espacios de estudio. Como se deta
 
 Los principales factores que afectan la experiencia de los estudiantes se concentran en la falta de ventilación (25%), la somnolencia tras largas horas de estudio continuo (20%), la disminución de la concentración debido al aire pesado o caluroso (18%), las interrupciones generadas por la necesidad de ajustar ventiladores fisicos (15%) y la percepción de falta de soluciones simples y accesibles (22%).
 
-<img src="/assets/img/chapter-2/grafica 1.png" alt="grafica01" width="800">
+<img src="/assets/img/chapter-2/grafica 1.png" alt="grafica01" width="650">
 
 ### Segmento 2: Tutores o dueños de casa que necesiten monitoriar en el exterior 
 
@@ -342,7 +342,7 @@ Los datos confirman una experiencia limitada en la gestión del ambiente domést
 
 Los principales factores que afectan la tranquilidad y el control del entorno del hogar se concentran en la limitada ventilación en espacios cerrados (24%), la preocupación por el bienestar de mascotas, niños o personas mayores en ausencia del usuario (22%), la dificultad para supervisar las condiciones ambientales en tiempo real (19%), las interrupciones generadas por la necesidad de realizar ajustes manuales al regresar al hogar (17%) y la desconfianza hacia soluciones tecnológicas que no garantizan privacidad ni control de datos (18%).
 
-<img src="/assets/img/chapter-2/grafica 2.png" alt="grafica02" width="800">
+<img src="/assets/img/chapter-2/grafica 2.png" alt="grafica02" width="650">
 
 ### Análisis Comparativo  
 
@@ -353,6 +353,8 @@ Al comparar ambos grupos, se identifican coincidencias clave para el desarrollo 
 Tanto estudiantes como dueños de casa evidencian que los principales factores que afectan su experiencia están relacionados con condiciones ambientales deficientes, especialmente la falta de ventilación y la necesidad de intervención constante para regular el entorno. En ambos segmentos, estos factores representan una proporción relevante dentro del análisis (entre 15% y 25%), lo que refuerza la necesidad de automatizar y centralizar la gestión del ambiente para mejorar la experiencia del usuario. Sin embargo, existe una diferencia clave en la prioridad de sus necesidades. Los estudiantes otorgan mayor importancia a la accesibilidad de soluciones (22%), priorizando herramientas simples, económicas y fáciles de usar que no interrumpan su concentración. Por otro lado, los dueños de casa ponen mayor énfasis en la posibilidad de monitoreo remoto, la seguridad del entorno y la privacidad de la información (22%), considerando fundamental mantener el control del hogar incluso en su ausencia.
 
 Esto define la propuesta de valor del sistema: accesibilidad y simplicidad para estudiantes, y control remoto, seguridad y confianza para dueños de casa.
+
+<img src="/assets/img/chapter-2/grafica resultado final.png" alt="resultado final" width="650">
 
 ### Conclusiones y Definición de tipos
 
