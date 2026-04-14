@@ -340,7 +340,7 @@ Los datos confirman una experiencia limitada en la gestión del ambiente domést
 
 Los principales factores que afectan la tranquilidad y el control del entorno del hogar se concentran en la limitada ventilación en espacios cerrados (24%), la preocupación por el bienestar de mascotas, niños o personas mayores en ausencia del usuario (22%), la dificultad para supervisar las condiciones ambientales en tiempo real (19%), las interrupciones generadas por la necesidad de realizar ajustes manuales al regresar al hogar (17%) y la desconfianza hacia soluciones tecnológicas que no garantizan privacidad ni control de datos (18%).
 
-### Análisis Comparativo  
+## Análisis Comparativo  
 
 **Contrastación de Segmentos**  
 
@@ -350,7 +350,7 @@ Tanto estudiantes como dueños de casa evidencian que los principales factores q
 
 Esto define la propuesta de valor del sistema: accesibilidad y simplicidad para estudiantes, y control remoto, seguridad y confianza para dueños de casa.
 
-### Conclusiones y Definición de Arquetipos  
+## Conclusiones y Definición de Arquetipos  
 
 **User Persona Estudiante ("El Aprendiz Concentrado")**
 
@@ -400,40 +400,36 @@ Para este segmento se elaboró el User Persona Luis Estefano Ruiz. Se considerar
 ## 2.3.3. User Journey Mapping
 ### Segmento 1 – Estudiante Universitaria (María Elena López)  
 
-El User Journey Mapping de María Elena representa el recorrido actual que experimenta como estudiante universitaria en espacios cerrados, durante sus jornadas de estudio. El mapa ilustra el proceso end-to-end, desde el inicio de sus sesiones académicas hasta la gestión de pausas y la búsqueda de concentración.  
+El User Journey Mapping de María Elena representa el recorrido actual que experimenta como estudiante universitaria en espacios cerrados, durante sus jornadas de estudio. El mapa ilustra el proceso end-to-end, desde el inicio de sus sesiones académicas hasta la gestión de pausas y la búsqueda de concentración.
 
-En la situación As-Is, María Elena enfrenta un flujo de trabajo ambiental poco optimizado: estudia en habitaciones cerradas, ajusta manualmente ventiladores o ventanas y experimenta somnolencia después de largas horas. Esto genera interrupciones, pérdida de concentración y fatiga ambiental.  
-
-El Journey busca evidenciar los puntos críticos de su experiencia actual, identificando emociones, tareas, fricciones y oportunidades de mejora a lo largo de cada etapa (Awareness, Data Collection, Daily Study, Concentration, Breaks y Performance). Este análisis servirá como base para diseñar una solución tecnológica que automatice la ventilación, mejore la eficiencia y facilite la concentración en espacios cerrados.  
+En la situación As-Is, María Elena enfrenta un flujo de trabajo ambiental poco optimizado: estudia en habitaciones cerradas, ajusta manualmente ventiladores o ventanas y experimenta somnolencia después de largas horas. Esto genera interrupciones, pérdida de concentración y fatiga ambiental. El Journey busca evidenciar los puntos críticos de su experiencia actual, identificando emociones, tareas, fricciones y oportunidades de mejora a lo largo de cada etapa (Awareness, Data Collection, Daily Study, Concentration, Breaks y Performance). Este análisis servirá como base para diseñar una solución tecnológica que automatice la ventilación, mejore la eficiencia y facilite la concentración en espacios cerrados. 
 
 **Journey Map Segmento 1**  
 
-### Segmento 2 – Profesional en Home Office (Luis Estéfano Ruiz)  
+### Segmento 2 – Dueño o tutor de casa hogar (Luis Estéfano Ruiz)  
 
-El User Journey Mapping de Luis Estéfano describe la experiencia completa que vive como trabajador remoto, desde el inicio de su jornada laboral hasta la recepción de notificaciones sobre el ambiente físico de su espacio de trabajo. El mapa detalla las etapas de su recorrido end-to-end, reflejando las acciones, pensamientos, emociones y frustraciones que enfrenta actualmente sin contar con una plataforma digital centralizada.  
+El User Journey Mapping de Luis Estéfano describe la experiencia que vive como responsable del hogar, especialmente en situaciones donde necesita supervisar el ambiente doméstico sin estar presente. El mapa detalla las etapas de su recorrido end-to-end, desde que sale de casa hasta que monitorea las condiciones del entorno y toma decisiones en función de la información disponible.
 
-En la situación As-Is, Luis depende de medios tradicionales como ventiladores manuales y apertura de ventanas para regular el ambiente. Esto provoca interrupciones constantes, pérdida de concentración y una sensación de agotamiento físico que no siempre se relaciona con el estrés laboral.  
-
-El Journey permite comprender su perspectiva emocional y sus puntos de dolor, mostrando los momentos clave en los que necesita información rápida, confiable y accesible sobre la calidad del aire. Este análisis busca sentar las bases para una futura solución tecnológica que le brinde productividad, transparencia y confianza, fortaleciendo su vínculo con el bienestar en el trabajo remoto.  
+En la situación As-Is, Luis depende de revisiones presenciales y métodos tradicionales como ventiladores o ventanas para mantener el ambiente adecuado. Esto genera incertidumbre cuando no se encuentra en casa, ya que no puede verificar en tiempo real las condiciones en las que se encuentran mascotas, niños o personas mayores. Además, al regresar, debe realizar ajustes manuales, lo que representa incomodidad y pérdida de tiempo. El Journey permite comprender su perspectiva emocional y sus puntos de dolor, evidenciando la necesidad de contar con información remota, confiable y accesible sobre la calidad del aire y el estado del entorno. Este análisis busca sentar las bases para una solución tecnológica que le brinde control, seguridad y tranquilidad, fortaleciendo su confianza en la gestión del hogar.
 
 **Journey Map Segmento 2**  
 
 
 ## 2.3.4. Empathy Mapping  
 
-Para la elaboración de los Empathy Maps, el equipo partió del conocimiento y observaciones recolectadas durante el análisis de los User Persona. Se colocó al centro de cada mapa al usuario correspondiente (María Elena López y Luis Estéfano Ruiz) y se respondieron las preguntas claves sobre su entorno, emociones, comportamientos y necesidades.  
+Para la elaboración de los Empathy Maps, el equipo partió del conocimiento y observaciones recolectadas durante el análisis de los User Persona. Se colocó al centro de cada mapa al usuario correspondiente (María Elena López y Luis Estéfano Ruiz) y se respondieron las preguntas claves sobre su entorno, emociones, comportamientos y necesidades.
 
 ### Segmento 1: Estudiantes Universitarios  
 
 **Empathy Mapping 1**  
 
-En este mapa se analizó a María Elena López, una estudiante universitaria que busca mantener concentración y rendimiento académico en espacios cerrados. Se identificó que piensa constantemente en la necesidad de contar con un ambiente fresco y controlado, ya que le preocupa que la fatiga ambiental afecte su memoria y productividad. Escucha a sus compañeros quejarse de somnolencia y observa cómo muchos deben interrumpir sus estudios para ajustar manualmente ventiladores o ventanas. María Elena expresa la necesidad de contar con una solución moderna y accesible que automatice la ventilación, y actúa implementando estrategias básicas como abrir ventanas o usar ventiladores portátiles. Su dolor principal es la pérdida de concentración y la fatiga ambiental, mientras que su ganancia esperada es lograr eficiencia en el estudio, bienestar físico y un mejor control del ambiente.  
+En este mapa se analizó a María Elena López, una estudiante universitaria que busca mantener concentración y rendimiento académico en espacios cerrados. Se identificó que piensa constantemente en la necesidad de contar con un ambiente fresco y controlado, ya que le preocupa que la fatiga ambiental afecte su memoria y productividad. Escucha a sus compañeros quejarse de somnolencia y observa cómo muchos deben interrumpir sus estudios para ajustar manualmente ventiladores o ventanas. María Elena expresa la necesidad de contar con una solución moderna y accesible que automatice la ventilación, y actúa implementando estrategias básicas como abrir ventanas o usar ventiladores portátiles. Su dolor principal es la pérdida de concentración y la fatiga ambiental, mientras que su ganancia esperada es lograr eficiencia en el estudio, bienestar físico y un mejor control del ambiente.
 
-### Segmento 2: Profesionales en Home Office  
+### Segmento 2: Dueños de casa
 
 **Empathy Mapping 2**  
 
-En este mapa se analizó a Luis Estéfano Ruiz, un profesional que busca mantener productividad y bienestar mientras trabaja desde casa. Él piensa en la tranquilidad que le daría tener acceso rápido y claro a la calidad del aire en su espacio de trabajo. Escucha a colegas compartir la frustración por la falta de concentración y observa que depender de ventiladores o ventanas no siempre es suficiente. Luis suele expresar la necesidad de contar con una aplicación confiable y fácil de usar, y actúa ajustando manualmente el ambiente varias veces al día. Su dolor principal es la interrupción constante y el agotamiento físico, mientras que su ganancia esperada es tener confianza, productividad y control al poder consultar la información ambiental en tiempo real desde cualquier lugar.  
+En este mapa se analizó a Luis Estéfano Ruiz, un usuario que busca garantizar el bienestar y control de su hogar incluso cuando no se encuentra en él. Él piensa constantemente en la seguridad y las condiciones ambientales en las que se encuentran sus mascotas, niños o personas mayores. Escucha a otros usuarios expresar preocupación por no poder supervisar sus hogares en tiempo real y observa que depender de métodos tradicionales no le brinda suficiente tranquilidad. Luis expresa la necesidad de contar con una solución tecnológica confiable y segura, y actúa verificando el estado de su hogar cuando regresa o mediante soluciones limitadas. Su dolor principal es la incertidumbre y la falta de control remoto, mientras que su ganancia esperada es obtener tranquilidad, seguridad y confianza al poder monitorear y gestionar el ambiente del hogar en tiempo real desde cualquier lugar.
 
 ## 2.4. Big Picture Event Storming
 ## 2.5. Ubiquitous Language
