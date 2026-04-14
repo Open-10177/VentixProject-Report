@@ -352,9 +352,7 @@ Al comparar ambos grupos, encontramos coincidencias vitales para el producto:
 
 Tanto estudiantes como profesionales evidencian que los principales factores que afectan su desempeño están relacionados con condiciones ambientales deficientes, especialmente la falta de ventilación y las interrupciones durante sus actividades. En ambos segmentos, estos factores representan una proporción relevante dentro del análisis (entre 15% y 25%), lo que refuerza la necesidad de automatizar y centralizar la gestión del entorno para mejorar la experiencia. Sin embargo, existe una diferencia clave en la prioridad de sus necesidades. Los estudiantes otorgan mayor importancia a la accesibilidad de soluciones (22%), priorizando herramientas simples, económicas y fáciles de usar. Por otro lado, los profesionales ponen mayor énfasis en la privacidad y confiabilidad tecnológica (22%), considerando fundamental el control y la transparencia en el manejo de sus datos.
 
-Esto define nuestra propuesta de valor: eficiencia y accesibilidad para estudiantes, y control, privacidad y confianza para profesionales. 
-
-//grafica 
+Esto define nuestra propuesta de valor: eficiencia y accesibilidad para estudiantes, y control, privacidad y confianza para profesionales.  
 
 ### Conclusiones y Definición de Arquetipos  
 
