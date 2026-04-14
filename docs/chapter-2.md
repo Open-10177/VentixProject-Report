@@ -350,7 +350,7 @@ Tanto estudiantes como dueños de casa evidencian que los principales factores q
 
 Esto define la propuesta de valor del sistema: accesibilidad y simplicidad para estudiantes, y control remoto, seguridad y confianza para dueños de casa.
 
-## Conclusiones y Definición de Arquetipos  
+## Conclusiones y Definición de tipos
 
 **User Persona Estudiante ("El Aprendiz Concentrado")**
 
