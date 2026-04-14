@@ -13,8 +13,7 @@ En una sociedad donde la calidad del aire en espacios cerrados se ha convertido 
 
 Nos diferenciamos por ofrecer un framework abierto, flexible y escalable, capaz de integrar sensores ambientales, algoritmos de control inteligente y herramientas de monitoreo accesibles. Además, Ventix está preparada para evolucionar hacia un ecosistema conectado mediante dispositivos IoT, que permitan medir en tiempo real parámetros como dióxido de carbono (CO₂), humedad y temperatura, asegurando un entorno saludable y sostenible.
 
-Nuestra propuesta está diseñada para adaptarse a distintos niveles de necesidad, desde hogares pequeños hasta instituciones educativas y organizaciones de gran escala. Con ello, buscamos democratizar la tecnología, generar confianza en la comunidad y elevar los estándares de bienestar ambiental a un nuevo nivel. Ventix no es solo un sistema de ventilación automatizado. Es una plataforma abierta, un puente entre innovación tecnológica y salud colectiva, y un compromiso hacia un nuevo paradigma de bienestar inteligente.
-
+Nuestra propuesta está diseñada para adaptarse a distintos niveles de necesidad, desde hogares pequeños hasta instituciones educativas y organizaciones de gran escala. Con ello, buscamos democratizar la tecnología, generar confianza en la comunidad y elevar los estándares de bienestar ambiental a un nuevo nivel. Ventix no es solo un sistema de ventilación automatizado, es una plataforma abierta, un puente entre innovación tecnológica y salud colectiva.
 #### Misión
 Mejorar la salud y productividad de las personas mediante la automatización inteligente del entorno, utilizando software open source y hardware accesible. En Ventix nos enfocamos en la innovación constante, la colaboración comunitaria y la integración de herramientas digitales que fortalezcan la confianza y mejoren la calidad de vida en espacios cerrados.
 
