@@ -331,6 +331,7 @@ En esta sección se presenta el análisis detallado de la información recolecta
 El análisis revela condiciones deficientes en espacios de estudio. Como se detalla en el gráfico a continuación:  
 
 Los principales factores que afectan la experiencia de los estudiantes se concentran en la falta de ventilación (25%), la somnolencia tras largas horas de estudio continuo (20%), la disminución de la concentración debido al aire pesado o caluroso (18%), las interrupciones generadas por la necesidad de ajustar ventiladores (15%) y la percepción de falta de soluciones simples y accesibles (22%).
+
 //grafica
 
 ### Segmento 2: Profesionales en Modalidad Home Office  
@@ -340,6 +341,7 @@ Los principales factores que afectan la experiencia de los estudiantes se concen
 Los datos confirman una experiencia deficiente en espacios laborales domésticos. Como se detalla en el gráfico a continuación:  
 
 Los principales factores que afectan el desempeño en modalidad home office se concentran en el encierro y la limitada ventilación durante reuniones (24%), la disminución de la productividad después del mediodía (19%), el agotamiento mental asociado al ambiente físico (18%), las interrupciones generadas por la manipulación constante de ventiladores o ventanas (17%) y la preocupación por la privacidad junto con la necesidad de soluciones tecnológicas confiables (22%).
+
 //grafica 
 
 ### Análisis Comparativo  
