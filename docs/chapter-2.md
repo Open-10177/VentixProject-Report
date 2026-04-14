@@ -340,7 +340,7 @@ Los datos confirman una experiencia limitada en la gestión del ambiente domést
 
 Los principales factores que afectan la tranquilidad y el control del entorno del hogar se concentran en la limitada ventilación en espacios cerrados (24%), la preocupación por el bienestar de mascotas, niños o personas mayores en ausencia del usuario (22%), la dificultad para supervisar las condiciones ambientales en tiempo real (19%), las interrupciones generadas por la necesidad de realizar ajustes manuales al regresar al hogar (17%) y la desconfianza hacia soluciones tecnológicas que no garantizan privacidad ni control de datos (18%).
 
-##### Análisis Comparativo  
+#### Análisis Comparativo  
 
 **Contrastación de Segmentos**  
 
@@ -350,7 +350,7 @@ Tanto estudiantes como dueños de casa evidencian que los principales factores q
 
 Esto define la propuesta de valor del sistema: accesibilidad y simplicidad para estudiantes, y control remoto, seguridad y confianza para dueños de casa.
 
-##### Conclusiones y Definición de tipos
+#### Conclusiones y Definición de tipos
 
 **User Persona Estudiante ("El Aprendiz Concentrado")**
 
