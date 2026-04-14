@@ -327,10 +327,9 @@ En esta sección se presenta el análisis detallado de la información recolecta
 ### Segmento 1: Estudiantes Universitarios en Espacios Cerrados  
 
 **Análisis de Características Objetivas y Subjetivas**  
-El análisis revela condiciones ambientales deficientes en espacios de estudio. Como se detalla en el gráfico a continuación:  
+El análisis revela condiciones deficientes en espacios de estudio. Como se detalla en el gráfico a continuación:  
 
-El 100% de los estudiantes entrevistados suele cerrar puertas y ventanas por privacidad o ruido, lo que limita la ventilación. Un 80% manifestó sentir somnolencia o pesadez después de dos horas de estudio continuo, y un 70% reconoció que su concentración disminuye cuando el aire se siente pesado o caluroso. El 60% considera molesto tener que interrumpir el estudio para ajustar un ventilador, mientras que un 40% lo ve como una rutina inevitable. A nivel subjetivo, el 90% mostró interés en soluciones simples y económicas, y un 70% expresó confianza en plataformas open source que les permitan entender cómo funciona el sistema.  
-
+Los principales factores que afectan la experiencia de los estudiantes se concentran en la falta de ventilación (25%), la somnolencia tras largas horas de estudio continuo (20%), la disminución de la concentración debido al aire pesado o caluroso (18%), las interrupciones generadas por la necesidad de ajustar ventiladores (15%) y la percepción de falta de soluciones simples y accesibles (22%).
 //grafica
 
 ### Segmento 2: Profesionales en Modalidad Home Office  
@@ -338,33 +337,33 @@ El 100% de los estudiantes entrevistados suele cerrar puertas y ventanas por pri
 **Análisis de Características Objetivas y Subjetivas** 
 Los datos confirman una experiencia deficiente en espacios laborales domésticos. Como se detalla en el gráfico a continuación:  
 
-El 100% de los profesionales entrevistados mantiene la puerta cerrada durante reuniones para evitar ruidos, lo que reduce la circulación de aire. Un 75% reportó agotamiento mental al final de la jornada, asociado más al ambiente físico que al estrés laboral. El 80% considera que su productividad baja después del mediodía debido al encierro, y el 70% indicó que manipular varias veces al día ventiladores o ventanas rompe su estado de concentración. Subjetivamente, el 60% expresó preocupación por la privacidad en dispositivos smart comerciales, mientras que el 100% valoró la idea de una solución open source con interfaz web minimalista y transparente.  
-
+Los principales factores que afectan el desempeño en modalidad home office se concentran en el encierro y la limitada ventilación durante reuniones (24%), la disminución de la productividad después del mediodía (19%), el agotamiento mental asociado al ambiente físico (18%), las interrupciones generadas por la manipulación constante de ventiladores o ventanas (17%) y la preocupación por la privacidad junto con la necesidad de soluciones tecnológicas confiables (22%).
 //grafica 
 
 ### Análisis Comparativo  
 
 **Contrastación de Segmentos**  
-Al comparar ambos grupos, encontramos coincidencias vitales para el producto: 
+Al comparar ambos grupos, encontramos coincidencias vitales para el producto:
 
-Tanto estudiantes como profesionales reconocen la necesidad de **automatizar y centralizar la gestión ambiental**. Sin embargo, existe una diferencia en la percepción de la “preocupación”, los estudiantes priorizan la **simplicidad y bajo costo** como factor decisivo, mientras que los profesionales ponen mayor énfasis en la **privacidad y transparencia de datos**.  
+Tanto estudiantes como profesionales evidencian que los principales factores que afectan su desempeño están relacionados con condiciones ambientales deficientes, especialmente la falta de ventilación y las interrupciones durante sus actividades. En ambos segmentos, estos factores representan una proporción relevante dentro del análisis (entre 15% y 25%), lo que refuerza la necesidad de automatizar y centralizar la gestión del entorno para mejorar la experiencia.
 
-Esto define nuestra propuesta de valor: **eficiencia y accesibilidad para estudiantes, soberanía de datos y confianza para profesionales**.  
+Sin embargo, existe una diferencia clave en la prioridad de sus necesidades. Los estudiantes otorgan mayor importancia a la accesibilidad de soluciones (22%), priorizando herramientas simples, económicas y fáciles de usar. Por otro lado, los profesionales ponen mayor énfasis en la privacidad y confiabilidad tecnológica (22%), considerando fundamental el control y la transparencia en el manejo de sus datos.
+
+Esto define nuestra propuesta de valor: eficiencia y accesibilidad para estudiantes, y control, privacidad y confianza para profesionales. 
 
 //grafica 
 
 ### Conclusiones y Definición de Arquetipos  
 
 **User Persona Estudiante ("El Aprendiz Concentrado")**  
-Rasgo clave: Busca mejorar su rendimiento académico en espacios reducidos.  
-Sustento: El 80% reporta somnolencia y pérdida de concentración, y el 90% exige soluciones simples y económicas. La solución debe tener una curva de aprendizaje mínima y un costo accesible.  
+Rasgo clave: Busca mejorar su rendimiento académico en espacios cerrados.
+Sustento: Los factores más influyentes en su experiencia son la falta de ventilación (25%), la somnolencia (20%) y la percepción de falta de soluciones accesibles (22%). Esto evidencia que necesita un entorno cómodo y herramientas simples que no interrumpan su flujo de estudio. La solución debe tener una curva de aprendizaje mínima y un costo accesible.
 
 **User Persona Profesional ("El Teletrabajador Precavido")**  
-Rasgo clave: Necesita control y transparencia para reducir la ansiedad y mantener productividad.  
-Sustento: El 75% reporta agotamiento físico por el ambiente y el 100% valora la soberanía de datos. La solución debe centrarse en notificaciones en tiempo real y en la privacidad del usuario.  
+Rasgo clave: Necesita control del entorno sin comprometer su privacidad.
+Sustento: Los principales factores que afectan su desempeño incluyen el encierro y la ventilación limitada (24%), la disminución de la productividad (19%) y la preocupación por la privacidad (22%). Esto indica que prioriza soluciones que le permitan mantener productividad con control y transparencia. La solución debe centrarse en monitoreo en tiempo real y protección de datos.
 
 ## 2.3. Needfinding
-
 A partir del análisis de entrevistas y la recolección de información sobre las dinámicas en espacios cerrados de estudio y trabajo, se identificaron los principales perfiles de usuarios que interactúan directamente con la solución **Ventix**. Estos perfiles representan los segmentos clave para el sistema, ya que concentran tanto la necesidad de mejorar la concentración y el confort ambiental como la necesidad de contar con herramientas confiables y transparentes para la gestión del aire interior.  
 
 ## 2.3.1. User Personas  
