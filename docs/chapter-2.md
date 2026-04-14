@@ -440,18 +440,5 @@ En este mapa se analizó a María Elena López, una estudiante universitaria que
 
 En este mapa se analizó a Luis Estéfano Ruiz, un profesional que busca mantener productividad y bienestar mientras trabaja desde casa. Él piensa en la tranquilidad que le daría tener acceso rápido y claro a la calidad del aire en su espacio de trabajo. Escucha a colegas compartir la frustración por la falta de concentración y observa que depender de ventiladores o ventanas no siempre es suficiente. Luis suele expresar la necesidad de contar con una aplicación confiable y fácil de usar, y actúa ajustando manualmente el ambiente varias veces al día. Su dolor principal es la interrupción constante y el agotamiento físico, mientras que su ganancia esperada es tener confianza, productividad y control al poder consultar la información ambiental en tiempo real desde cualquier lugar.  
 
-## 2.4. Big Picture Event Storming.
-## 2.5. Ubiquitous Language.
-### 2.1.1. Análisis competitivo.
-### 2.1.2. Estrategias y tácticas frente a competidores.
-## 2.2. Entrevistas.
-### 2.2.1. Diseño de entrevistas.
-### 2.2.2. Registro de entrevistas.
-### 2.2.3. Análisis de entrevistas.
-## 2.3. Needfinding.
-### 2.3.1. User Personas.
-### 2.3.2. User Task Matrix.
-### 2.3.3. User Journey Mapping.
-### 2.3.4. Empathy Mapping.
-## 2.4. Big Picture Event Storming.
-## 2.5. Ubiquitous Language.
+## 2.4. Big Picture Event Storming
+## 2.5. Ubiquitous Language
