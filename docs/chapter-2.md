@@ -342,7 +342,7 @@ Los datos confirman una experiencia deficiente en espacios laborales domésticos
 
 Los principales factores que afectan el desempeño en modalidad home office se concentran en el encierro y la limitada ventilación durante reuniones (24%), la disminución de la productividad después del mediodía (19%), el agotamiento mental asociado al ambiente físico (18%), las interrupciones generadas por la manipulación constante de ventiladores o ventanas (17%) y la preocupación por la privacidad junto con la necesidad de soluciones tecnológicas confiables (22%).
 
-//grafica 
+<img src="/assets/img/chapter-2/grafica 2.png" alt="Grafica 02" width="800">
 
 ### Análisis Comparativo  
 
