@@ -332,7 +332,7 @@ El análisis revela condiciones deficientes en espacios de estudio. Como se deta
 
 Los principales factores que afectan la experiencia de los estudiantes se concentran en la falta de ventilación (25%), la somnolencia tras largas horas de estudio continuo (20%), la disminución de la concentración debido al aire pesado o caluroso (18%), las interrupciones generadas por la necesidad de ajustar ventiladores (15%) y la percepción de falta de soluciones simples y accesibles (22%).
 
-//grafica
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/25f8e671-7cae-4175-b10c-0d67b31a013c" />
 
 ### Segmento 2: Profesionales en Modalidad Home Office  
 
