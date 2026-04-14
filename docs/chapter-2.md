@@ -332,6 +332,8 @@ El análisis revela condiciones deficientes en espacios de estudio. Como se deta
 
 Los principales factores que afectan la experiencia de los estudiantes se concentran en la falta de ventilación (25%), la somnolencia tras largas horas de estudio continuo (20%), la disminución de la concentración debido al aire pesado o caluroso (18%), las interrupciones generadas por la necesidad de ajustar ventiladores fisicos (15%) y la percepción de falta de soluciones simples y accesibles (22%).
 
+<img src="/assets/img/chapter-2/grafica 1.png" alt="grafica01" width="800">
+
 ### Segmento 2: Tutores o dueños de casa que necesiten monitoriar en el exterior 
 
 **Análisis de Características Objetivas y Subjetivas** 
@@ -339,6 +341,8 @@ Los principales factores que afectan la experiencia de los estudiantes se concen
 Los datos confirman una experiencia limitada en la gestión del ambiente doméstico, especialmente cuando el usuario no se encuentra dentro del hogar de manera constante. Como se detalla en el gráfico a continuación:
 
 Los principales factores que afectan la tranquilidad y el control del entorno del hogar se concentran en la limitada ventilación en espacios cerrados (24%), la preocupación por el bienestar de mascotas, niños o personas mayores en ausencia del usuario (22%), la dificultad para supervisar las condiciones ambientales en tiempo real (19%), las interrupciones generadas por la necesidad de realizar ajustes manuales al regresar al hogar (17%) y la desconfianza hacia soluciones tecnológicas que no garantizan privacidad ni control de datos (18%).
+
+<img src="/assets/img/chapter-2/grafica 2.png" alt="grafica02" width="800">
 
 ### Análisis Comparativo  
 
