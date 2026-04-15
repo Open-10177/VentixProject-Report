@@ -32,15 +32,15 @@ La paleta de colores de ventrix fue elegida minuciosamente para expresar sensaci
 
 Colores que definen la identidad de Ventrix y se utilizan en los elementos clave de la interfaz.
 
-**Primario (Azul oscuro): #144E73** Color principal de la marca, utilizando en encabezados, botones y elementos destacados.
+**Primario (Azul oscuro): #144E73** Es color que da seriedad a la marca y se usa en las partes más importantes de la página.
 
-**Secundario(Azul Medio): #348ABF** empleado en componentes interactivos y elementos activos.
+**Secundario(Azul Medio): #348ABF** Se utiliza para resaltar las funciones inteligentes del producto.
 
-**Terciario (Turquesa): #39A7BF** utilizado para acentos visuales y detalles dinámicos
+**Terciario (Turquesa): #39A7BF** Es el color que llama la atención para que el usuario actúe, ademas de utilizarlo para acentos visuales y detalles dinámicos
 
-**Fondo claro: #F0F0F2** Aplicado en fondos generales para mantener lo minimalista y limpieza.
+**Fondo claro: #F0F0F2** Se usa en casi todo el fondo de la página para que se vea limpia, espaciosa y para que los textos de los clientes y beneficios se lean sin esfuerzo.
 
-**Complementario (Verde Agua): #79D9BE** Refuerza la frescura y usa en elementos de apoyo
+**Complementario (Verde Agua): #79D9BE** Sirve para representar la naturaleza y el ahorro, destacando los cuadros que hablan de aire puro, salud y de no gastar luz de más.
 
 **Colores funcionales**
 
@@ -120,21 +120,22 @@ La información de Ventrix está organizada de lo general a lo específico, perm
 * **Secciones principales**
 La landing page de Ventrix se estructura en secciones clave que guían al usuario a lo largo del recorrido:
 
-    * **Hero:** Presenta la propuesta de valor, enfocada en el control inteligente del ambiente
+    * **Hero:** Es la presentación inicial que muestra el nombre de la marca, una imagen de estilo de vida y la propuesta de valor centrada en ofrecer "Ventilación transparente para espacios productivos".
       
-    * **Que ofrecemos:** Detalla funcionalidades como monitoreo en tiempo real, activación automática y control remoto.
-  
-    * **Beneficios:** Muestra como Ventrix ayuda a la ventilacion de tu hogar y al uso tanto remoto como automatizado.
+    * **Funciones:** Detalla funcionalidades como monitoreo en tiempo real, activación automática y control remoto.
+  Explica cómo el sistema utiliza sensores en tiempo real para ajustar la potencia de ventilación, mantener el aire limpio y asegurar la temperatura ideal con bajo consumo energético. Muestra como Ventrix ayuda a la ventilacion de tu hogar y al uso tanto remoto como automatizado.
       
-    * **Sobre nosotros:** Describe la visión del proyecto y su enfoque tecnológico.
+    * **Beneficios:**  Resalta las tres ventajas principales del sistema: la mejora de la salud mediante la eliminación de contaminantes, el control total del hogar de forma remota y el ahorro de electricidad al funcionar solo cuando es necesario.
       
-    * **Equipo:** Presenta a los desarrolladores detrás de la plataforma.
+    * **Misión y Visión:** escribe el propósito de la empresa de crear entornos inteligentes para mejores vidas y su meta de convertirse en un referente de bienestar inteligente.
       
-    * **Demo:** Muestra una prueba gratuita de la app.
+    * **Equipo:** Presenta a los desarrolladores responsables de la creación y el mantenimiento de la aplicación de Ventix.
       
     * **Planes:** Expone las opciones disponibles según las necesidades del usuario.
       
-    * **Testimonios y CTA:** Refuerza la confianza y motiva al usuario a registrarse o utilizar el sistema.
+    * **Testimonios y CTA:** Incluye opiniones de usuarios reales, reforzando la confianza y motiva al usuario a registrarse o utilizar el sistema.
+      
+    * **Contacto:** Finaliza con un formulario para resolver dudas de inmediato y botones de acción.
  
 **Agrupación de Contenido:**
 El contenido se organiza de manera lógica y visualmente estructurada para facilitar su comprensión. Las funcionalidades del sistema se presentan en tarjetas con bordes semi-ovalados que agrupan información como datos ambientales, configuraciones y acciones disponibles. Asimismo, los beneficios y caracteristicas se muestran en bloques claros que permiten una lectura eficienta.
@@ -148,6 +149,24 @@ El contenido se organiza de manera lógica y visualmente estructurada para facil
 * **Lenguaje Adaptativo:** El contenido en la app esta diseñado para ser comprensible tato como para estudiantes como para los usuarios que lo manejan desde fuera de su casa, que son los principales segmentos de usuarios. Se evita el uso de terminología técnica compleja, enfocandose en beneficios como comodidad, control, automatización y bienestar.
   
 ### 4.2.3. SEO Tags and Meta Tags
+Esta sección define las etiquetas que optimizan la visibilidad del sistema en buscadores y redes sociales.
+
+  * **Web Application (Plataforma de Usuario)** Enfocada en la capacitación de cliente y marketing.
+      * Title:
+          * **Ventix:** Ventilación inteligente y espacios productivos
+      * Metaetiquetas:
+          * **Descripción:** Descubre Ventix, el sistema de ventilación inteligente que utiliza sensores en tiempo real para garantizar aire puro, bienestar y ahorro energético en tu hogar.
+          * **Keywords:** Ventilación inteligente, aire puro, sensores a tiempo real, ahorro energético, bienestar hogar.
+          * **Author:** Equipo de desarrollo Ventrix.
+            
+  * **Web Application (Plataforma de Usuario)** Enfocada en la capacitación de cliente y marketing.
+      * **Title:**
+          * Panel de Control - Ventix Evolution.
+      * **Metaetiquetas:**
+          * **Descripción:** Gestiona de forma remota el clima de tu hogar, visualiza reportes mensuales y configura el modo automático de tus dispositivos Ventix.
+          * **Keywords:** gestión remota, monitoreo de aire, reportes avanzados, configuración sensores, smart ventilation.
+          * **Author:** Ventix Evolution Team.
+
 
 ### 4.2.4. Searching Systems.
 
