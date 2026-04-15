@@ -358,16 +358,14 @@ Esto define la propuesta de valor del sistema: accesibilidad y simplicidad para 
 
 ### Conclusiones y Definición de tipos
 
-**User Persona Estudiante ("El Aprendiz Concentrado")**
+**Estudiante ("El Aprendiz Concentrado")**
 
 Rasgo clave: Busca mejorar su rendimiento académico en espacios cerrados.
-
 Sustento: Los factores más influyentes en su experiencia son la falta de ventilación (25%), la somnolencia (20%) y la percepción de falta de soluciones accesibles (22%). Esto evidencia que necesita un entorno cómodo y herramientas simples que no interrumpan su flujo de estudio. La solución debe tener una curva de aprendizaje mínima y un costo accesible.
 
-**User Persona Dueño de Casa ("El Supervisor del Hogar")**
+**Dueño de Casa ("El Supervisor del Hogar")**
 
 Rasgo clave: Necesita monitorear y controlar el ambiente de su hogar de forma remota y segura.
-
 Sustento: Los principales factores que afectan su tranquilidad incluyen la ventilación limitada (24%), la preocupación por el bienestar de los ocupantes del hogar (22%) y la dificultad para supervisar el entorno en tiempo real (19%). Esto indica que prioriza soluciones que le permitan mantener control, seguridad y confianza, especialmente cuando no se encuentra en casa. La solución debe centrarse en monitoreo remoto, automatización y protección de datos.
 
 ## 2.3. Needfinding
