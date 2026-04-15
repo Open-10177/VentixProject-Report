@@ -420,16 +420,11 @@ El User Journey Mapping de María Elena representa el recorrido actual que exper
 
 En la situación As-Is, María Elena enfrenta un flujo de trabajo ambiental poco optimizado: estudia en habitaciones cerradas, ajusta manualmente ventiladores o ventanas y experimenta somnolencia después de largas horas. Esto genera interrupciones, pérdida de concentración y fatiga ambiental. El Journey busca evidenciar los puntos críticos de su experiencia actual, identificando emociones, tareas, fricciones y oportunidades de mejora a lo largo de cada etapa (Awareness, Data Collection, Daily Study, Concentration, Breaks y Performance). Este análisis servirá como base para diseñar una solución tecnológica que automatice la ventilación, mejore la eficiencia y facilite la concentración en espacios cerrados. 
 
-**Journey Map Segmento 1**  
-
 ### Segmento 2 – Dueño o tutor de casa hogar (Luis Estéfano Ruiz)  
 
 El User Journey Mapping de Luis Estéfano describe la experiencia que vive como responsable del hogar, especialmente en situaciones donde necesita supervisar el ambiente doméstico sin estar presente. El mapa detalla las etapas de su recorrido end-to-end, desde que sale de casa hasta que monitorea las condiciones del entorno y toma decisiones en función de la información disponible.
 
 En la situación As-Is, Luis depende de revisiones presenciales y métodos tradicionales como ventiladores o ventanas para mantener el ambiente adecuado. Esto genera incertidumbre cuando no se encuentra en casa, ya que no puede verificar en tiempo real las condiciones en las que se encuentran mascotas, niños o personas mayores. Además, al regresar, debe realizar ajustes manuales, lo que representa incomodidad y pérdida de tiempo. El Journey permite comprender su perspectiva emocional y sus puntos de dolor, evidenciando la necesidad de contar con información remota, confiable y accesible sobre la calidad del aire y el estado del entorno. Este análisis busca sentar las bases para una solución tecnológica que le brinde control, seguridad y tranquilidad, fortaleciendo su confianza en la gestión del hogar.
-
-**Journey Map Segmento 2**  
-
 
 ## 2.3.4. Empathy Mapping  
 
@@ -437,15 +432,11 @@ Para la elaboración de los Empathy Maps, el equipo partió del conocimiento y o
 
 ### Segmento 1: Estudiantes Universitarios  
 
-**Empathy Mapping 1**  
-
 En este mapa se analizó a María Elena López, una estudiante universitaria que busca mantener la concentración en espacios cerrados. Se identificó que percibe que la falta de ventilación afecta su rendimiento y genera fatiga durante el estudio. Además, observa y experimenta interrupciones constantes al tener que ajustar manualmente el ambiente, como abrir ventanas o usar ventiladores. Su principal dolor es la pérdida de enfoque, mientras que su ganancia esperada es contar con un sistema que mantenga el ambiente adecuado automáticamente, pero que también le permita realizar ajustes de forma sencilla cuando lo necesite.
 
 <img src="/assets/img/chapter-2/Emphaty Map Estudiante_Ventix.png" alt="emphaty map-estudiante" width="700">
 
 ### Segmento 2: Dueños de casa
-
-**Empathy Mapping 2**  
 
 En este mapa se analizó a Luis Estéfano Ruiz, un usuario que busca mantener la tranquilidad y el control de su hogar mientras se encuentra fuera. Se identificó que percibe incertidumbre al no poder supervisar el ambiente en tiempo real, especialmente por el bienestar de quienes permanecen en casa. Al regresar, revisa el estado del hogar y analiza la información del día para realizar ajustes según sus necesidades. Su principal dolor es la falta de visibilidad durante su ausencia, mientras que su ganancia esperada es contar con un sistema que funcione de manera independiente, pero que también le permita revisar y personalizar el entorno de forma sencilla.
 
