@@ -189,14 +189,14 @@ Este segmento comprende a jóvenes de entre 18 y 25 años que residen en dormito
 - **Necesidad:** Requieren una solución económica y fácil de instalar que les permita mantener un ambiente fresco de forma automática para no interrumpir su flujo de aprendizaje.
 
 
-**SEGMENTO OBJETIVO 2: Trabajadores en modalidad Home Office:**
 
-Este perfil incluye a profesionales (principalmente del sector tecnológico y administrativo) que han trasladado su oficina al hogar.
+**SEGMENTO OBJETIVO 2: Dueños de casa que desean monitorear de forma externa el ambiente y el bienestar de quienes permanecen dentro del hogar**
 
-- **Contexto:** Pasan jornadas de 8 horas o más frente al computador, a menudo en habitaciones que permanecen cerradas para evitar ruidos externos o mantener la temperatura.
+Este perfil incluye a propietarios que buscan mantener control y tranquilidad sobre su entorno doméstico incluso cuando se encuentran fuera de casa.  
 
+- **Contexto:** Pasan tiempo fuera del hogar por trabajo u otras actividades, dejando familiares o mascotas en casa. Buscan información confiable y en tiempo real sobre las condiciones ambientales y el bienestar de quienes permanecen adentro.  
 
-- **Puntos de dolor:** Dolores de cabeza frecuentes y cansancio acumulado al final del día causados por la mala renovación del aire. Valoran la productividad y evitan interrupciones manuales.
+- **Puntos de dolor:** Incertidumbre por no saber si el ambiente es adecuado, preocupación por emergencias no notificadas y dependencia de llamadas o mensajes que generan retrasos.  
 
-
-- **Necesidad:** Una plataforma web (Dashboard) que les dé seguridad sobre la salud de su entorno y un sistema que actúe por sí solo, permitiéndoles enfocarse al 100% en sus metas laborales.
+- **Necesidad:** Una plataforma web (Dashboard) que centralice la información y actúe de forma automática, brindando tranquilidad y confianza mientras están fuera.  
+ 
