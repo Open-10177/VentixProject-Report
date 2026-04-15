@@ -386,6 +386,7 @@ Para los estudiantes se elaboró el User Persona Maria Elena Lopez. Se considera
 
 Para este segmento se elaboró el User Persona Luis Estefano Ruiz. Se consideraron aspectos como su edad, estilo de vida y su responsabilidad en el cuidado del hogar. Sus principales motivaciones están orientadas a garantizar el bienestar de las personas y mascotas dentro de su vivienda, así como a mantener condiciones ambientales adecuadas incluso en su ausencia. Sus frustraciones se relacionan con la imposibilidad de supervisar el entorno en tiempo real, la necesidad de realizar ajustes manuales al regresar a casa y la desconfianza hacia dispositivos inteligentes que comprometen la privacidad. Su perfil refleja una predisposición positiva hacia soluciones tecnológicas open source, siempre que estas sean seguras, confiables y le permitan tener control remoto del hogar de manera sencilla.
 
+<img src="/assets/img/chapter-2/User Persona Dueño de casa_Ventix.png" alt="user persona segundo segmento-dueño de casa" width="700">
 
 ### 2.3.2. User Task Matrix
 
