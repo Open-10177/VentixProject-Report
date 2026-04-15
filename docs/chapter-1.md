@@ -14,6 +14,7 @@ En una sociedad donde la calidad del aire en espacios cerrados se ha convertido 
 Nos diferenciamos por ofrecer un framework abierto, flexible y escalable, capaz de integrar sensores ambientales, algoritmos de control inteligente y herramientas de monitoreo accesibles. Además, Ventix está preparada para evolucionar hacia un ecosistema conectado mediante dispositivos IoT, que permitan medir en tiempo real parámetros como dióxido de carbono (CO₂), humedad y temperatura, asegurando un entorno saludable y sostenible.
 
 Nuestra propuesta está diseñada para adaptarse a distintos niveles de necesidad, desde hogares pequeños hasta instituciones educativas y organizaciones de gran escala. Con ello, buscamos democratizar la tecnología, generar confianza en la comunidad y elevar los estándares de bienestar ambiental a un nuevo nivel. Ventix no es solo un sistema de ventilación automatizado, es una plataforma abierta, un puente entre innovación tecnológica y salud colectiva.
+
 #### Misión
 Mejorar la salud y productividad de las personas mediante la automatización inteligente del entorno, utilizando software open source y hardware accesible. En Ventix nos enfocamos en la innovación constante, la colaboración comunitaria y la integración de herramientas digitales que fortalezcan la confianza y mejoren la calidad de vida en espacios cerrados.
 
@@ -33,61 +34,63 @@ Convertirnos en el framework de referencia para proyectos de automatización amb
 ### 1.2.1. Antecedentes y problemática
 **Antecedentes:**
 
-Históricamente, la ventilación en espacios residenciales pequeños se ha limitado al uso de ventanas o ventiladores mecánicos de control manual, lo que resulta insuficiente para garantizar una adecuada calidad del aire. Con el auge del teletrabajo y la educación a distancia, las personas pasan hasta el 90 % de su tiempo en interiores, aumentando la exposición a contaminantes y a la acumulación de dióxido de carbono (CO₂).
+Históricamente, la ventilación en espacios residenciales pequeños se ha limitado al uso de ventanas o ventiladores mecánicos de control manual, lo que resulta insuficiente para garantizar una adecuada calidad del aire. Con el auge del cuidado remoto fuera de casa y la educación a distancia, las personas pasan hasta el 90 % de su tiempo en interiores, aumentando la exposición a contaminantes y a la acumulación de dióxido de carbono (CO₂).
 
-Es asi que, la Organización Mundial de la Salud advierte que en habitaciones cerradas de menos de 10 m² los niveles de CO₂ pueden duplicarse en menos de una hora, afectando directamente la capacidad cognitiva y el rendimiento académico o laboral (World Health Organization, 2006). Asimismo, el Instituto Nacional de Seguridad y Salud en el Trabajo subraya que la ventilación insuficiente es un factor de riesgo crítico en la exposición prolongada a contaminantes interiores (INSST, 2003).
+Es así que, la Organización Mundial de la Salud advierte que en habitaciones cerradas de menos de 10 m² los niveles de CO₂ pueden duplicarse en menos de una hora, afectando directamente la capacidad cognitiva y el rendimiento académico (World Health Organization, 2006). Asimismo, el Instituto Nacional de Seguridad y Salud en el Trabajo subraya que la ventilación insuficiente es un factor de riesgo crítico en la exposición prolongada a contaminantes interiores (INSST, 2003).
 
 En este contexto, la necesidad de soluciones tecnológicas que automaticen y optimicen la ventilación se vuelve cada vez más urgente. La pandemia de la COVID-19 actuó como catalizador, visibilizando la importancia de contar con sistemas inteligentes capaces de monitorear y regular la calidad del aire en tiempo real. Sin embargo, la adopción de estas tecnologías sigue siendo limitada, lo que abre un espacio para propuestas innovadoras como Ventix, que buscan democratizar el acceso a herramientas de control ambiental bajo un modelo de código abierto (Dave, Sivajohan, Basmaji, & Slessarev, 2022).
 
 **Problemática:**
 
 Riesgo invisible en espacios cerrados:
-La degradación ambiental interior ocurre de manera silenciosa y pasa desapercibida para quienes habitan los espacios. Las personas no perciben cambios en la calidad del aire hasta que el malestar físico (como somnolencia, sudoración o falta de concentración) ya se manifiesta. Este fenómeno convierte al aire contaminado en un riesgo latente que afecta la salud y disminuye la productividad en hogares, oficinas y aulas (Eurofins Environment Testing Spain, 2025).
+La degradación ambiental interior ocurre de manera silenciosa y pasa desapercibida para quienes habitan los espacios. Las personas no perciben cambios en la calidad del aire hasta que el malestar físico (como somnolencia, sudoración o falta de concentración) ya se manifiesta. Este fenómeno convierte al aire contaminado en un riesgo latente que afecta la salud y disminuye el rendimiento en hogares y espacios de estudio (Eurofins Environment Testing Spain, 2025).
 
 Limitaciones de las soluciones actuales:
-Los sistemas de ventilación disponibles en el mercado presentan barreras significativas. Los manuales requieren intervención constante del usuario, los centralizados resultan costosos y poco viables para espacios pequeños, y las aplicaciones IoT comerciales suelen ser privadas y poco transparentes con los datos del usuario (World Health Organization, 2021). Estas limitaciones restringen el acceso a tecnologías que deberían ser universales y accesibles, dejando a estudiantes y profesionales sin alternativas prácticas para mejorar su entorno.
+Los sistemas de ventilación disponibles en el mercado presentan barreras significativas. Los manuales requieren intervención constante del usuario, los centralizados resultan costosos y poco viables para espacios pequeños, y las aplicaciones IoT comerciales suelen ser privadas y poco transparentes con los datos del usuario (World Health Organization, 2021). Estas limitaciones restringen el acceso a tecnologías que deberían ser universales y accesibles, dejando a estudiantes y usuarios del hogar sin alternativas prácticas para mejorar su entorno.
 
-Ausencia de plataformas abiertas e integradas:  
+Ausencia de plataformas abiertas e integradas:
 No existe una solución open source que unifique el monitoreo, la automatización y la gestión ambiental en un solo sistema. Los modelos cerrados predominan en el mercado, limitando la transparencia y la posibilidad de colaboración comunitaria. Este vacío tecnológico abre la oportunidad para iniciativas como Ventix, que buscan ofrecer un framework abierto y accesible para democratizar el bienestar inteligente y garantizar ambientes saludables y sostenibles (Dave, Sivajohan, Basmaji, & Slessarev, 2022).
+
 
 **Analisis 5W + 2H:**
 
 
-**Who? (¿Quién?)**	Los principales afectados son estudiantes universitarios y profesionales que trabajan desde casa en espacios cerrados. Una revisión reciente sobre teletrabajo e impacto ambiental interior confirma que la calidad del aire en el hogar influye directamente en la salud y el rendimiento cognitivo de quienes realizan actividades académicas o laborales prolongadas (Navas-Martín, Jiménez-Planet & Cuerdo-Vilches, 2024).
+*Who? (¿Quién?)*
+Los principales afectados son estudiantes universitarios que estudian en casa y dueños de hogar que buscan monitorear las condiciones ambientales para el bienestar de sus familiares o mascotas. Una revisión reciente confirma que la calidad del aire en el hogar influye directamente en la salud y el rendimiento cognitivo durante actividades académicas prolongadas (Navas-Martín, Jiménez-Planet & Cuerdo-Vilches, 2024).
 
+*What? (¿Qué?)*
+El problema es la deficiente circulación de aire y la falta de control térmico automatizado, lo que afecta la concentración y el bienestar. Estudios recientes muestran que la acumulación de CO₂ en interiores deteriora la capacidad de atención y toma de decisiones, incluso en niveles moderados (Mendell et al., 2024).
 
-**What? (¿Qué?)**	El problema es la deficiente circulación de aire y la falta de control térmico automatizado, lo que afecta la productividad. Estudios recientes muestran que la acumulación de CO₂ en interiores deteriora la capacidad de concentración y decisión, incluso en niveles moderados (Mendell et al., 2024).
+*Where? (¿Dónde?)*
+Los espacios más vulnerables son habitaciones pequeñas, espacios de estudio en casa y ambientes del hogar con ventilación limitada. Chen et al. (2021) recomiendan mejorar la ventilación en espacios reducidos para prevenir la acumulación de CO₂ y riesgos de salud.
 
+*When? (¿Cuándo?)*
+El impacto ocurre principalmente durante jornadas extendidas de estudio en casa o durante periodos prolongados de permanencia en el hogar. Allen et al. (2016) demostraron que la exposición a ambientes con mala ventilación reduce significativamente el rendimiento cognitivo.
 
-**Where? (¿Dónde?)**	Los espacios más vulnerables son habitaciones pequeñas, oficinas domésticas y cubículos de estudio con ventilación natural limitada. Chen et al. (2021) recomiendan mejorar la ventilación en espacios reducidos para prevenir acumulación de CO₂ y riesgos de salud.
+*Why? (¿Por qué?)*
+Porque el monitoreo manual es ineficiente y no existen soluciones de bajo costo y abiertas que automaticen el bienestar ambiental. La OMS actualizó en 2021 sus guías globales de calidad del aire, subrayando que la ventilación adecuada es esencial para reducir contaminantes y proteger la salud (World Health Organization, 2021).
 
+*How? (¿Cómo?)*
+La solución es el despliegue de un ecosistema IoT: sensores que recojan datos de CO₂, temperatura y humedad, un microcontrolador que procese la información y una aplicación web que permita visualizar y gestionar la automatización. Por ejemplo, Pineda-Tobón et al. (2024) presentaron Aquality32, un dispositivo open source basado en ESP32 que permite monitorear la calidad del aire de manera accesible y eficiente.
 
-**When? (¿Cuándo?)**	El impacto ocurre principalmente durante jornadas extendidas de estudio o trabajo remoto, así como en horas de descanso nocturno. Allen et al. (2016) demostraron que trabajadores expuestos a ambientes con mala ventilación presentaban hasta un 50% menos de rendimiento en pruebas cognitivas.
+*How much? (¿Cuánto?)*
+El costo de implementación es significativamente menor que un sistema de aire acondicionado centralizado, ya que se utilizan componentes accesibles como el ESP32 y software libre. Estos dispositivos democratizan el acceso a tecnologías de bienestar inteligente, permitiendo que estudiantes y usuarios del hogar implementen soluciones de bajo costo (Pineda-Tobón et al., 2024).
 
-
-**Why? (¿Por qué?)**	Porque el monitoreo manual es ineficiente y no existen soluciones de bajo costo y abiertas que automaticen el bienestar ambiental. La OMS actualizó en 2021 sus guías globales de calidad del aire, subrayando que la ventilación adecuada es esencial para reducir contaminantes y proteger la salud (World Health Organization, 2021).
-
-
-**How? (¿Cómo?)**	La solución es el despliegue de un ecosistema IoT: sensores que recojan datos de CO₂, temperatura y humedad, un microcontrolador que procese la información, una aplicación web que permita visualizar y gestionar la automatización. Por ejemplo, Pineda-Tobón et al. (2024) presentaron Aquality32, un dispositivo open source basado en ESP32 que permite monitorear la calidad del aire de manera accesible y eficiente.
-
-
-**How much? (¿Cuánto?)**	El costo de implementación es significativamente menor que un sistema de aire acondicionado centralizado, ya que se utilizan componentes accesibles como el ESP32 y software libre. Estos dispositivos democratizan el acceso a tecnologías de bienestar inteligente, permitiendo que estudiantes y profesionales implementen soluciones de bajo costo (Pineda-Tobón et al., 2024). A continuación se presentara un cuadro de finanzas presupuestales:
-
+INSERTAR GRAFICA ESTADISTICA
 
 ### 1.2.2. Lean UX Process
 
 El Lean UX es un enfoque que permite validar las soluciones propuestas para problemas identificados. Este enfoque se centra en las personas que utilizarán nuestro producto. Una vez identificada la problemática a resolver, se empleó este proceso para reconocer áreas clave que contribuirán a dar forma al producto propuesto.
 
-
 #### 1.2.2.1. Lean UX Problem Statements
 
-La problemática central reside en la degradación invisible de la calidad del aire en espacios cerrados, como habitaciones de estudio o pequeñas oficinas, donde la acumulación de dióxido de carbono (CO₂) y el aumento de la temperatura ocurren de forma gradual. Al no ser cambios detectables por los sentidos humanos de manera inmediata, el usuario solo percibe el problema cuando ya presenta síntomas de fatiga, somnolencia e irritabilidad, lo que reduce drásticamente su capacidad cognitiva y productividad durante jornadas extendidas de trabajo o estudio.
+La problemática central reside en la degradación invisible de la calidad del aire en espacios cerrados, como habitaciones de estudio o ambientes del hogar, donde la acumulación de dióxido de carbono (CO₂) y el aumento de la temperatura ocurren de forma gradual. Al no ser cambios detectables por los sentidos humanos de manera inmediata, el usuario solo percibe el problema cuando ya presenta síntomas de fatiga, somnolencia e irritabilidad, lo que reduce su capacidad cognitiva durante jornadas extendidas de estudio en casa o permanencia prolongada en el hogar.
 
-Actualmente, la gestión de la ventilación en estos entornos es puramente manual y reactiva, lo que obliga al usuario a interrumpir constantemente su "estado de flujo" o concentración para evaluar el ambiente y activar ventiladores o abrir ventanas. Esta interacción física no solo genera distracciones innecesarias, sino que también suele ser ineficiente, ya que el usuario tiende a olvidar apagar los dispositivos una vez alcanzado el confort, resultando en un desperdicio energético acumulado y una gestión deficiente de los recursos.
+Actualmente, la gestión de la ventilación en estos entornos es puramente manual y reactiva, lo que obliga al usuario a interrumpir constantemente su concentración para evaluar el ambiente y activar ventiladores o abrir ventanas. Esta interacción genera distracciones y suele ser ineficiente, ya que el usuario tiende a olvidar apagar los dispositivos una vez alcanzado el confort, produciendo un uso innecesario de energía.
 
-Desde la perspectiva del desarrollo de software, existe una barrera crítica impuesta por los sistemas de automatización comerciales, los cuales operan bajo protocolos cerrados y propietarios que limitan la soberanía de los datos del usuario. Al ser soluciones de "caja negra", no permiten la personalización de algoritmos de control ni la auditoría del procesamiento de la información, lo que contraviene los principios de transparencia y colaboración necesarios en entornos académicos y profesionales modernos.
+Desde la perspectiva del desarrollo de software, existe una barrera crítica impuesta por los sistemas de automatización comerciales, los cuales operan bajo protocolos cerrados y propietarios que limitan la soberanía de los datos del usuario. Al ser soluciones de “caja negra”, no permiten la personalización ni la transparencia en el procesamiento de la información.
 
-Para abordar estos desafíos, surge la necesidad de desarrollar una plataforma Open Source que integre un frontend dinámico con una API REST robusta, capaz de centralizar los datos de sensores IoT. Este sistema no solo busca automatizar el bienestar ambiental mediante decisiones basadas en datos precisos, sino también ofrecer una solución transparente y extensible que permita a la comunidad de desarrolladores mejorar y adaptar el control climático a diversas necesidades de salud y confort.
+Para abordar estos desafíos, surge la necesidad de desarrollar una plataforma Open Source que integre un frontend dinámico con una API REST robusta, capaz de centralizar los datos de sensores IoT. Este sistema busca automatizar el bienestar ambiental mediante decisiones basadas en datos, manteniendo a su vez la posibilidad de intervención manual por parte del usuario.
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -96,7 +99,7 @@ Para abordar estos desafíos, surge la necesidad de desarrollar una plataforma O
 - **Creemos que** existe un mercado creciente de usuarios que valoran la soberanía de sus datos y prefieren soluciones de código abierto sobre ecosistemas cerrados.
 
 
-- **Creemos que** el bajo costo del hardware (sensores e infraestructura DIY) es el principal motor de adopción para estudiantes y profesionales jóvenes.
+- **Creemos que** el bajo costo del hardware (sensores e infraestructura DIY) es el principal motor de adopción para estudiantes y dueños de hogares que trabajan fuera constamente .
 
 
 - **Creemos que** la transparencia del código (Open Source) generará confianza y permitirá que la comunidad extienda las capacidades del sistema.
@@ -152,22 +155,30 @@ Para abordar estos desafíos, surge la necesidad de desarrollar una plataforma O
 
 **Hipótesis 1:** 
 
-Automatización y Rendimiento CognitivoCreemos que la implementación de un sistema de activación automática basado en sensores de $CO_2$ para estudiantes y trabajadores remotos resultará en una reducción significativa de la fatiga mental. Sabremos que hemos tenido éxito cuando los reportes de autoevaluación de los usuarios durante las pruebas de validación muestren una mejora del 20% en sus niveles de concentración y energía tras una jornada de 4 horas.
+Automatización y Rendimiento Cognitivo
+
+Creemos que la implementación de un sistema de activación automática basado en sensores de $CO_2$ para estudiantes y trabajadores remotos resultará en una reducción significativa de la fatiga mental. Sabremos que hemos tenido éxito cuando los reportes de autoevaluación de los usuarios durante las pruebas de validación muestren una mejora del 20% en sus niveles de concentración y energía tras una jornada de 4 horas.
 
 
 **Hipótesis 2:** 
 
-Visualización de Datos y Conciencia AmbientalCreemos que el desarrollo de un Dashboard dinámico en Angular que visualice métricas de calidad del aire en tiempo real permitirá a los usuarios comprender mejor su entorno doméstico. Sabremos que hemos tenido éxito cuando las analíticas del sistema registren que los usuarios consultan el historial de datos al menos 3 veces al día para ajustar sus hábitos de ventilación manual.
+Visualización de Datos y Conciencia Ambiental
+
+Creemos que el desarrollo de un Dashboard dinámico en Angular que visualice métricas de calidad del aire en tiempo real permitirá a los usuarios comprender mejor su entorno doméstico. Sabremos que hemos tenido éxito cuando las analíticas del sistema registren que los usuarios consultan el historial de datos al menos 3 veces al día para ajustar sus hábitos de ventilación manual.
 
 
 **Hipótesis 3:**
 
-Transparencia y Modelo Open SourceCreemos que proveer una documentación completa de la API REST y el código fuente del frontend para la comunidad de desarrolladores fomentará la transparencia y la extensibilidad del proyecto. Sabremos que hemos tenido éxito cuando el repositorio de GitHub de Ventix reciba sus primeros "Forks" o contribuciones externas (Pull Requests) orientadas a integrar nuevos tipos de sensores o funcionalidades.
+Transparencia y Modelo Open Source
+
+Creemos que proveer una documentación completa de la API REST y el código fuente del frontend para la comunidad de desarrolladores fomentará la transparencia y la extensibilidad del proyecto. Sabremos que hemos tenido éxito cuando el repositorio de GitHub de Ventix reciba sus primeros "Forks" o contribuciones externas (Pull Requests) orientadas a integrar nuevos tipos de sensores o funcionalidades.
 
 
 **Hipótesis 4:** 
 
-Eficiencia de Control y Latencia del SistemaCreemos que el uso de una arquitectura basada en microservicios para gestionar la comunicación entre el hardware y la web garantizará una respuesta inmediata del ventilador ante condiciones críticas. Sabremos que hemos tenido éxito cuando el tiempo transcurrido entre la detección de un nivel de $CO_2$ superior a las 800 ppm y la activación física del actuador sea menor a 5 segundos.
+Eficiencia de Control y Latencia del Sistema
+
+Creemos que el uso de una arquitectura basada en microservicios para gestionar la comunicación entre el hardware y la web garantizará una respuesta inmediata del ventilador ante condiciones críticas. Sabremos que hemos tenido éxito cuando el tiempo transcurrido entre la detección de un nivel de $CO_2$ superior a las 800 ppm y la activación física del actuador sea menor a 5 segundos.
 
 #### 1.2.2.4. Lean UX Canvas
 ![CanvasOS.png](../assets/img/chapter-1/CanvasOS.png)
