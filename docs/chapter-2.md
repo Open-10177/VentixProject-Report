@@ -418,13 +418,13 @@ El User Task Matrix presenta las tareas que realizan los User Persona para cumpl
 
 El User Journey Mapping de María Elena describe su experiencia como estudiante en espacios cerrados a lo largo de sus sesiones de estudio. En el estado actual, identifica que la ventilación limitada y los ajustes manuales del entorno afectan su concentración, generando interrupciones y fatiga. A lo largo del proceso, pasa por etapas de reconocimiento del problema, exploración y evaluación de alternativas, hasta la prueba y adopción de una solución. Este recorrido evidencia la necesidad de un sistema que mantenga condiciones adecuadas de forma automática, incorporando a su vez la posibilidad de intervención manual para mejorar la continuidad y eficiencia en su experiencia de estudio.
 
-<img src="/assets/img/chapter-2/Journey mapping estudiante_Ventix.png" alt="journey mapping estudiante" width="700">
+<img src="/assets/img/chapter-2/Journey mapping estudiante_Ventix.jpg" alt="journey mapping estudiante" width="700">
 
 ### Segmento 2 – Dueño o tutor de casa hogar (Luis Estéfano Ruiz)  
 
 El User Journey Mapping de Luis Estéfano Ruiz describe su experiencia como responsable del hogar que permanece fuera durante gran parte del día. En el estado actual, enfrenta incertidumbre al no tener visibilidad sobre las condiciones ambientales, lo que afecta su tranquilidad. A lo largo del recorrido, identifica el problema, busca alternativas y evalúa opciones hasta probar una solución que le permita monitorear su vivienda. Este proceso evidencia la necesidad de un sistema que mantenga el ambiente de forma automática durante su ausencia y que, al mismo tiempo, le brinde acceso a la información para revisar lo ocurrido y ajustar el entorno según sus preferencias.
 
-<img src="/assets/img/chapter-2/Journey mapping dueño de casa_Ventix.png" alt="journey mapping dueño de casa " width="700">
+<img src="/assets/img/chapter-2/Journey mapping dueño de casa_Ventix.jpg" alt="journey mapping dueño de casa " width="700">
 
 ## 2.3.4. Empathy Mapping  
 
