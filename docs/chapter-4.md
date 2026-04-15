@@ -105,10 +105,10 @@ Los íconos son simples, reconocibles y consistentes en toda la plataforma, repr
 
 **Repositorio Central**
 
-**Organización**
+**Organización:**
 Ventrix cuenta con una estructura organizada de archivos que facilita el desarrollo y mantenimiento del sistema.
 
-**Versionado**
+**Versionado:**
 Se utiliza un sistema de control de versiones como git, lo que permite mantener un historial de cambios y colaborar de manera eficiente.
 ## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems.
