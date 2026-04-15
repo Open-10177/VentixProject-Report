@@ -111,11 +111,58 @@ Ventrix cuenta con una estructura organizada de archivos que facilita el desarro
 **Versionado:**
 Se utiliza un sistema de control de versiones como git, lo que permite mantener un historial de cambios y colaborar de manera eficiente.
 ## 4.2. Information Architecture.
+La arquitectura de la información de Ventix está diseñada para ofrecer una navegación clara e intuitiva, permitiendo a los usuarios comprender rápidamente el funcionamiento de la plataforma y acceder de forma eficiente al monitoreo, la automatización del sistema y el monitoero. Esta estructura busca optimizar tanto la experiencia en la landing page como en el dashboard, facilitando la toma de decisiones basadas en datos a tiempo real.
 ### 4.2.1. Organization Systems.
+
+* **Jerarquía de contenidos:**
+La información de Ventrix está organizada de lo general a lo específico, permitiendo que el usuario priemro comprenda el propósito del sistema y luego profundice en sus funcionalidades. La experiencia comienza con un breve mensaje principal en la sección inicial, seguido de una explicación de la solución, sus característias y beneficios, para finalmente presentar opciones de uso y acceso de la misma.
+
+* **Secciones principales**
+La landing page de Ventrix se estructura en secciones clave que guían al usuario a lo largo del recorrido:
+
+    * **Hero:** Presenta la propuesta de valor, enfocada en el control inteligente del ambiente
+      
+    * **Que ofrecemos:** Detalla funcionalidades como monitoreo en tiempo real, activación automática y control remoto.
+  
+    * **Beneficios:** Muestra como Ventrix ayuda a la ventilacion de tu hogar y al uso tanto remoto como automatizado.
+      
+    * **Sobre nosotros:** Describe la visión del proyecto y su enfoque tecnológico.
+      
+    * **Equipo:** Presenta a los desarrolladores detrás de la plataforma.
+      
+    * **Demo:** Muestra una prueba gratuita de la app.
+      
+    * **Planes:** Expone las opciones disponibles según las necesidades del usuario.
+      
+    * **Testimonios y CTA:** Refuerza la confianza y motiva al usuario a registrarse o utilizar el sistema.
+ 
+**Agrupación de Contenido:**
+El contenido se organiza de manera lógica y visualmente estructurada para facilitar su comprensión. Las funcionalidades del sistema se presentan en tarjetas con bordes semi-ovalados que agrupan información como datos ambientales, configuraciones y acciones disponibles. Asimismo, los beneficios y caracteristicas se muestran en bloques claros que permiten una lectura eficienta.
+ 
 ### 4.2.2. Labeling Systems.
+
+* **Nomenclatura:** Venix utiliza un lenguaje claro, directo en los títulos y elementos de la interfaz. Se emplean etiquetas como "Monitoreo en tiempo real", "Activar ventilador", "Modo automático", etc, permitiendo que el usuario comprenda inmediatamente la función de cada elemento.
+  
+* **Consistencia:** Se mantiene una nomenclatura uniforme en toda la paltaforma, evitando asi confusiones por parte de los usuarios. Por ejemplo, términos como "Planes" o configuracion" se utilizan de manera coherente para una mejor navegación en los títulos de cada sección.
+
+* **Lenguaje Adaptativo:** El contenido en la app esta diseñado para ser comprensible tato como para estudiantes como para los usuarios que lo manejan desde fuera de su casa, que son los principales segmentos de usuarios. Se evita el uso de terminología técnica compleja, enfocandose en beneficios como comodidad, control, automatización y bienestar.
+  
 ### 4.2.3. SEO Tags and Meta Tags
+
 ### 4.2.4. Searching Systems.
+
+* **Barra de búsqueda:** Dentro del dashboard de Ventix, la barra de búsqueda permite a los usuarios encontrar rápidamente información relacionada con espacios monitoreados, historial de datos o configuraciones especificas.
+  
+* **Filtros de busquedas:** El sistema incorpora opciones de filtrado que permiten organizar la información como tipo de datos (temperatura, CO2, humedad), rangos de tiempo (día, semana, mes) o espacios monitoreados.
+
 ### 4.2.5. Navigation Systems.
+
+* **Navegación global (Landing page):** La navegación principal se encuentra en el encabezado de la plataforma, permitiendo acceder a secciónes como inicio, beneficios, planes, contactos, así como opciones de autenticación. En diapositivos móviles, esta navegación se adapta mediante un menú desplegable
+  
+* **Navegación Contextual (En la app):** Dentro del sistema, los botones y acciones guían al usuario según el contexto. Por ejemplo, desde la visualización de datos se puede acceder directamente a configuraciones o activar el ventilador en distintos ambientes del hogar, facilitando la interación continua.
+  
+* **Navegación Secundaria (Accesos adicionales):** Se incluyen accesos adicionales dentro del dashboard, como menús laterales o accesos rápidos, que permiten cambiar entre secciones como historial, configuración, monitoreo de espacios o alertas. Esto mejora la eficiencia del usuario al interactuar con múltiples funcionalidades del sistema.
+  
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
 ### 4.3.2. Landing Page Mock-up.
