@@ -12,7 +12,7 @@ En este capítulo, se explicarán los elementos visuales y estéticos que confor
 El logo principal de la plataforma Ventrix,  se construye sobre una identidad visual moderna, tecnológica y fluida, que comunica innovación y eficiencia en soluciones de ventilación inteligente. El logotipo presenta formas curvas y dinámicas que indican el flujo de aire, simbolizando movimiento, conectividad y adaptación continua, elementos claves en nuestro sistema inteligente
 
 <p align="center">
-  <img src="assets/img/Chapter-4/Letra.png" alt="Primary Color Palette" width="500px" height="auto"/>
+  <img src="</assets/img/chapter-2/ventixlogo.png" alt="Logo" width="500px" height="auto"/>
 </p>
 
 
@@ -51,6 +51,10 @@ Reservados para comunicar estados específicos dentro de la aplicación.
 **Error: Rojo (#F44336)** Para mensajes de error o alertas.
 
 **Advertencia: Amarillo (#FFC107)** Para avisos importantes o notificaciones.
+
+<p align="center">
+  <img src="assets/img/Chapter-4/paleta_colores.png" alt="Primary Color Palette" width="800px" height="auto"/>
+</p>
 
 Esta combinación cromática refleja los valores de nuestra marca, transmitiendo claridad, calma, fluidez y seguridad en el monitoreo de los ventiladores del hogar
 
