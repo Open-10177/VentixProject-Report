@@ -194,8 +194,8 @@ Este diseño de Ventix es básicamente la puerta de entrada a una página web, o
 
 <img src="assets/img/Chapter-4/hero.png" alt="hero" width="300px">
 
-**Services**
-Esta sección, titulada "Lo que ofrecemos", utiliza un formato de carrusel interactivo para mostrar detalladamente cada función del proyecto. En el centro, un panel principal combina una imagen representativa en el cuadro gris oscuro con una explicación clara en el cuadro gris claro, permitiendo que el usuario entienda cada funcionalidad de forma visual y textual al mismo tiempo. Gracias a la flecha lateral, el visitante puede explorar las diferentes herramientas de manera dinámica, mientras que el botón inferior ofrece una vía rápida para obtener más información o comenzar a usarlas.
+**Funciones**
+Esta sección, titulada "Funcionalidades", utiliza un formato de carrusel interactivo para mostrar detalladamente cada función del proyecto. En el centro, un panel principal combina una imagen representativa en el cuadro gris oscuro con una explicación clara en el cuadro gris claro, permitiendo que el usuario entienda cada funcionalidad de forma visual y textual al mismo tiempo. Gracias a la flecha lateral, el visitante puede explorar las diferentes herramientas de manera dinámica, mientras que el botón inferior ofrece una vía rápida para obtener más información o comenzar a usarlas.
 
 <img src="assets/img/Chapter-4/demo.png" alt="Services" width="300px">
 
@@ -205,11 +205,11 @@ Esta sección está diseñada para resaltar lo mejor de la marca de forma clara 
 <img src="assets/img/Chapter-4/beneficios.png" alt="Beneficios" width="300px">
 
 **Sobre nosotros**
-Esta sección presenta al equipo detrás del proyecto bajo el título central de "Integrantes", dándole un rostro humano a la marca. El diseño utiliza una cuadrícula de tarjetas blancas con bordes redondeados que resaltan sobre el fondo oscuro, creando un espacio limpio y ordenado para mostrar la fotografía y el rol de cada miembro.
+Esta sección presenta al equipo detrás del proyecto bajo el título central de "Equipo", dándole un rostro humano a la marca. El diseño utiliza una cuadrícula de tarjetas blancas con bordes redondeados que resaltan sobre el fondo oscuro, creando un espacio limpio y ordenado para mostrar la fotografía y el rol de cada miembro.
 
 <img src="assets/img/Chapter-4/integrantes.png" alt="Integrantes" width="300px">
 
-**Equipo**
+**Misión y visión**
 Esta sección está dedicada a explicar el propósito del proyecto a través de su misión y visión, utilizando un diseño que transmite seriedad y enfoque. En la columna de la izquierda, los bloques de texto están reservados para definir los objetivos y la razón de ser de la marca, acompañados de un botón de acción para quienes deseen profundizar en la historia del equipo. A la derecha, el gran recuadro blanco funciona como el espacio ideal para una imagen inspiradora o un gráfico que represente visualmente esos valores, logrando una estructura equilibrada que permite entender de un vistazo hacia dónde se dirige el proyecto.
 
 <img src="assets/img/Chapter-4/demo.png" alt="Equipo" width="300px">
@@ -222,19 +222,50 @@ Esta sección de "Planes" organiza las diferentes opciones de suscripción o ser
 **Testimonios**
 Esta sección está diseñada para mostrar testimonios de clientes y generar confianza a través de la experiencia de otros. A la izquierda, un espacio para un título llamativo y dos pequeños indicadores permiten saber quién está hablando o navegar entre opiniones, mientras que a la derecha aparecen tarjetas blancas amplias donde se destacan las citas o comentarios de los usuarios.
 
+
+
+<img src="assets/img/Chapter-4/contacto" alt="Demo" width="300px">
+
 <img src="assets/img/Chapter-4/referencias.png" alt="referencias" width="300px">
+
+**Contacto**
+Esta sección esta diseñada para que le usuario pueda contactarse con un especialista, para resulver sus dudas de inmediato, mediante un formulario donde debes registrar tu nombre, correo y consulta.
 
 **Footer**
 Este es el pie de página o footer, diseñado para cerrar el sitio con toda la información complementaria organizada de forma clara. A la izquierda destaca nuevamente el nombre de Ventix, mientras que en el centro se distribuyen dos columnas de enlaces que permiten navegar rápidamente hacia secciones secundarias o legales. En la hilera inferior, el diseño reserva espacios específicos para iconos de redes sociales a la izquierda, una barra para derechos de autor o avisos legales en el medio, y una imagen del logo a la derecha, logrando que el usuario tenga todo lo necesario a mano antes de terminar su visita.
 
 <img src="assets/img/Chapter-4/footer.png" alt="referencias" width="300px">
 
-**Demo**
-Esta sección final está pensada para que los usuarios den el paso definitivo y se pongan en contacto de forma sencilla. En la parte superior resalta un botón claro para "Solicitar demo", invitando a probar el servicio de inmediato. Más abajo, dentro de un contenedor con bordes suaves, se agrupa la información de contacto: a la izquierda hay un espacio ideal para un mapa o una imagen representativa, mientras que a la derecha aparece el título "Contacto" seguido de líneas de texto para datos como el correo o el teléfono, y un botón pequeño para enviar consultas.
-
-<img src="assets/img/Chapter-4/contacto" alt="Demo" width="300px">
-
 ### 4.3.2. Landing Page Mock-up.
+**Hero de la aplicación**
+Esta sección de apertura presenta el logotipo de Ventix junto al eslogan "Ventilación transparente para espacios productivos". Incluye una barra de navegación para acceso rápido a servicios, testimonios y beneficios, además de un botón de llamado a la acción: "Más información". Visualmente, utiliza elementos que transmiten frescura y claridad.
+
+**Funcionalidades**
+Bajo el título "Todo lo que necesitas en un solo lugar", se explica cómo el diseño inteligente y las funciones avanzadas ofrecen una experiencia única.
+
+**Misión y vision**
+Define el propósito estratégico de la organización:
+    * **Misión:** "Entornos inteligentes, mejores vidas".
+    * **Visión:** "Referente en bienestar inteligente".
+    
+**Testimonios**
+Titulada "Menos estrés, más resultados", esta sección comparte las experiencias de los usuarios. Por ejemplo, Amira Sandoval destaca que gracias al modo automático puede olvidarse de ajustar el aire o abrir ventanas, ya que el sistema detecta y actúa cuando el ambiente se siente pesado.
+
+**Beneficios**
+Describe las ventajas clave de utilizar el sistema para mejorar la calidad de vida
+
+**Equipo**
+Bajo el encabezado "Conoce a nuestro equipo", se presenta a los desarrolladores de la aplicación. Esta sección está diseñada para humanizar la marca y mostrar el talento detrás del software.
+
+**Plan**
+Presenta "Un plan a tu medida" con dos opciones principales para desbloquear el potencial total de la herramienta.
+
+**contacto**
+Sección dedicada a la atención al cliente con el mensaje "Ponte en contacto con nosotros". Incluye un formulario interactivo donde el usuario puede ingresar su nombre, correo y consulta para resolver dudas de inmediato.
+
+**Foter**
+El cierre de la página refuerza la identidad con el nombre "Ventix Smart Ventilation". Contiene enlaces de navegación secundarios, iconos de redes sociales y el aviso legal de derechos reservados para el año 2026.
+
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 ### 4.4.2. Web Applications Wireflow Diagrams.
