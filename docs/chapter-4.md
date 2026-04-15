@@ -11,9 +11,9 @@ En este capítulo, se explicarán los elementos visuales y estéticos que confor
 
 El logo principal de la plataforma Ventrix,  se construye sobre una identidad visual moderna, tecnológica y fluida, que comunica innovación y eficiencia en soluciones de ventilación inteligente. El logotipo presenta formas curvas y dinámicas que indican el flujo de aire, simbolizando movimiento, conectividad y adaptación continua, elementos claves en nuestro sistema inteligente
 
-<div aling="center">
-   <img src="/assets/img/chapter-2/ventixlogo.png" alt="Ventix" width="300">
-</div>
+<p aling="center">
+   <img src="-/assets/img/chapter-2/ventixlogo.png" alt="Ventix" width="350px" height="auto"/>
+</p>
 
 **Typography**
 
