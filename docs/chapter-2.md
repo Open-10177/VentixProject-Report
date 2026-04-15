@@ -447,4 +447,19 @@ En este mapa se analizó a María Elena López, una estudiante universitaria que
 En este mapa se analizó a Luis Estéfano Ruiz, un usuario que busca garantizar el bienestar y control de su hogar incluso cuando no se encuentra en él. Él piensa constantemente en la seguridad y las condiciones ambientales en las que se encuentran sus mascotas, niños o personas mayores. Escucha a otros usuarios expresar preocupación por no poder supervisar sus hogares en tiempo real y observa que depender de métodos tradicionales no le brinda suficiente tranquilidad. Luis expresa la necesidad de contar con una solución tecnológica confiable y segura, y actúa verificando el estado de su hogar cuando regresa o mediante soluciones limitadas. Su dolor principal es la incertidumbre y la falta de control remoto, mientras que su ganancia esperada es obtener tranquilidad, seguridad y confianza al poder monitorear y gestionar el ambiente del hogar en tiempo real desde cualquier lugar.
 
 ## 2.4. Big Picture Event Storming
+
+**Step 1 – Free Exploration**
+
+En esta primera etapa, el equipo realizó una sesión de lluvia de ideas para capturar todos los eventos relevantes dentro del dominio de monitoreo ambiental, sin preocuparse por el orden o la jerarquía. El objetivo principal fue representar los acontecimientos reales del negocio y del entorno del usuario, de manera independiente a cualquier función técnica
+
+![part1 Big Picture.png](../assets/img/chapter-2/part1%20Big%20Picture.png)
+
+**Step 2 – Structured Organization**
+
+Después de listar los eventos, el equipo los organizó en flujos de negocio lógicos que reflejan las principales etapas en la operación . Esta estructura ayudó a identificar los procesos clave y las áreas de mejora que posteriormente podrían abordarse mediante soluciones digitales o de gestión
+
+![Part2 Big Picture.png](../assets/img/chapter-2/Part2%20Big%20Picture.png)
+
 ## 2.5. Ubiquitous Language
+
+
