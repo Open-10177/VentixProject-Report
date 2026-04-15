@@ -441,6 +441,8 @@ Para la elaboración de los Empathy Maps, el equipo partió del conocimiento y o
 
 En este mapa se analizó a María Elena López, una estudiante universitaria que busca mantener concentración y rendimiento académico en espacios cerrados. Se identificó que piensa constantemente en la necesidad de contar con un ambiente fresco y controlado, ya que le preocupa que la fatiga ambiental afecte su memoria y productividad. Escucha a sus compañeros quejarse de somnolencia y observa cómo muchos deben interrumpir sus estudios para ajustar manualmente ventiladores o ventanas. María Elena expresa la necesidad de contar con una solución moderna y accesible que automatice la ventilación, y actúa implementando estrategias básicas como abrir ventanas o usar ventiladores portátiles. Su dolor principal es la pérdida de concentración y la fatiga ambiental, mientras que su ganancia esperada es lograr eficiencia en el estudio, bienestar físico y un mejor control del ambiente.
 
+<img src="/assets/img/chapter-2/Emphaty Map Estudiante_Ventix.png" alt="emphaty map-esetudiante" width="700">
+
 ### Segmento 2: Dueños de casa
 
 **Empathy Mapping 2**  
