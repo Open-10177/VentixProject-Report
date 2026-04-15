@@ -462,4 +462,24 @@ Después de listar los eventos, el equipo los organizó en flujos de negocio ló
 
 ## 2.5. Ubiquitous Language
 
+El Lenguaje Ubicuo de Ventix define los términos técnicos y de negocio que deben utilizarse de manera consistente en el código fuente, la interfaz de usuario y la documentación técnica. Esto elimina ambigüedades entre el equipo de desarrollo y los stakeholders.
 
+
+| **Término**         | **Definición**                                                                                                   | **Contexto de Uso**  |
+|---------------------|------------------------------------------------------------------------------------------------------------------|----------------------|
+| Nodo (Node)         | Dispositivo físico o simulado que contiene los sensores y actuadores en un espacio físico.                       | Técnico / Hardware   |
+| Umbral (Threshold)  | Valor límite configurado (ppm, °C, %) que dispara una acción automática del sistema.                             | Configuración        |
+| PPM (CO2 Level)     | Partes Por Millón; medida estándar utilizada para determinar la calidad del aire y ventilación.                  | Monitoreo            |
+| Actuador (Actuator) | El componente físico (ventilador) que realiza una acción mecánica basada en una orden del sistema.               | Funcional            |
+| Modo Optimizado     | Estado del sistema donde los umbrales se ajustan automáticamente para maximizar la concentración del estudiante. | Usuario (Estudiante) |
+| Soberanía de Datos  | Capacidad del usuario de elegir el almacenamiento local de sus métricas sin dependencia de la nube.              | Privacidad / Ética   |
+| Pánico Ambiental    | Estado de alerta máxima disparado por niveles críticos de gases o temperatura extrema.                           | Seguridad (Familiar) |
+| Log de Eventos      | Registro histórico de todas las mediciones y acciones automáticas realizadas por el nodo.                        | Reportes             |
+| Override Manual     | Acción del usuario que invalida temporalmente la lógica automática para controlar el ventilador a voluntad.      | Control              |
+
+**Beneficios esperados del Ubiquitous Language:**
+
+- **Facilita la comunicación entre desarrolladores, usuarios y administradores del sistema:** Al usar términos como "Umbral" o "Modo Optimizado", el administrador de la casa hogar y el programador de Java hablan el mismo idioma, evitando confusiones sobre qué significa "aire limpio".
+
+
+- **Mejora la comprensión de las funcionalidades principales del sistema:** Términos como "Override Manual" o "Pánico Ambiental" describen por sí mismos el propósito de la función, permitiendo que un nuevo estudiante entienda la app sin necesidad de un manual extenso.
