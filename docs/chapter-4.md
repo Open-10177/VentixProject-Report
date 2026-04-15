@@ -173,29 +173,44 @@ El wireframe de la página de inicio de Ventix funciona como un mapa visual que 
 **Nav y Hero**
 Este diseño de Ventix es básicamente la puerta de entrada a una página web, organizado de forma sencilla para que nadie se pierda. En la parte superior tienes el menú de navegación con el logo y botones para moverse por el sitio, mientras que la parte central se divide en dos: a la izquierda, hay espacio para un título potente, una breve explicación y un botón llamativo que invita a la acción; a la derecha, ese cuadro grande con una cruz es el lugar reservado para una buena foto o ilustración que termine de darle vida a la marca. Es una estructura muy clara que busca que, en cuanto alguien entre, entienda de inmediato qué se ofrece y qué paso debe seguir.
 
+<img src="assets/img/Chapter-4/hero.png" alt="hero" width="300px">
+
 **Services**
 Esta sección, titulada "Lo que ofrecemos", utiliza un formato de carrusel interactivo para mostrar detalladamente cada función del proyecto. En el centro, un panel principal combina una imagen representativa en el cuadro gris oscuro con una explicación clara en el cuadro gris claro, permitiendo que el usuario entienda cada funcionalidad de forma visual y textual al mismo tiempo. Gracias a la flecha lateral, el visitante puede explorar las diferentes herramientas de manera dinámica, mientras que el botón inferior ofrece una vía rápida para obtener más información o comenzar a usarlas.
+
+<img src="assets/img/Chapter-4/demo.png" alt="Services" width="300px">
 
 **Beneficios**
 Esta sección está diseñada para resaltar lo mejor de la marca de forma clara y directa. A la izquierda se encuentra el título "Beneficios" para ubicar al usuario, mientras que el resto del espacio lo ocupan tres tarjetas verticales con bordes redondeados, ideales para explicar los puntos clave o ventajas del servicio.
 
+<img src="assets/img/Chapter-4/beneficios.png" alt="Beneficios" width="300px">
+
 **Sobre nosotros**
 Esta sección presenta al equipo detrás del proyecto bajo el título central de "Integrantes", dándole un rostro humano a la marca. El diseño utiliza una cuadrícula de tarjetas blancas con bordes redondeados que resaltan sobre el fondo oscuro, creando un espacio limpio y ordenado para mostrar la fotografía y el rol de cada miembro.
 
+<img src="assets/img/Chapter-4/integrantes.png" alt="Integrantes" width="300px">
 
 **Equipo**
 Esta sección está dedicada a explicar el propósito del proyecto a través de su misión y visión, utilizando un diseño que transmite seriedad y enfoque. En la columna de la izquierda, los bloques de texto están reservados para definir los objetivos y la razón de ser de la marca, acompañados de un botón de acción para quienes deseen profundizar en la historia del equipo. A la derecha, el gran recuadro blanco funciona como el espacio ideal para una imagen inspiradora o un gráfico que represente visualmente esos valores, logrando una estructura equilibrada que permite entender de un vistazo hacia dónde se dirige el proyecto.
 
+<img src="assets/img/Chapter-4/demo.png" alt="Equipo" width="300px">
+
 **Planes**
 Esta sección de "Planes" organiza las diferentes opciones de suscripción o servicios de la aplicación de una manera muy visual y comparativa. Se utilizan tres columnas principales donde cada una detalla lo que incluye el plan: un título para el nombre del nivel, un icono o precio destacado, y una lista de características para que el usuario sepa exactamente qué beneficios recibe en cada opción.
 
+<img src="assets/img/Chapter-4/planes.png" alt="Planes" width="300px">
+
 **Testimonios**
 Esta sección está diseñada para mostrar testimonios de clientes y generar confianza a través de la experiencia de otros. A la izquierda, un espacio para un título llamativo y dos pequeños indicadores permiten saber quién está hablando o navegar entre opiniones, mientras que a la derecha aparecen tarjetas blancas amplias donde se destacan las citas o comentarios de los usuarios.
+
+<img src="assets/img/Chapter-4/referencias.png" alt="referencias" width="300px">
 
 **Footer**
 
 **Demo**
 Esta sección final está pensada para que los usuarios den el paso definitivo y se pongan en contacto de forma sencilla. En la parte superior resalta un botón claro para "Solicitar demo", invitando a probar el servicio de inmediato. Más abajo, dentro de un contenedor con bordes suaves, se agrupa la información de contacto: a la izquierda hay un espacio ideal para un mapa o una imagen representativa, mientras que a la derecha aparece el título "Contacto" seguido de líneas de texto para datos como el correo o el teléfono, y un botón pequeño para enviar consultas.
+
+<img src="assets/img/Chapter-4/contacto" alt="Demo" width="300px">
 
 ### 4.3.2. Landing Page Mock-up.
 ## 4.4. Web Applications UX/UI Design.
