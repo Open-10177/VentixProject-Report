@@ -206,6 +206,9 @@ Esta sección está diseñada para mostrar testimonios de clientes y generar con
 <img src="assets/img/Chapter-4/referencias.png" alt="referencias" width="300px">
 
 **Footer**
+Este es el pie de página o footer, diseñado para cerrar el sitio con toda la información complementaria organizada de forma clara. A la izquierda destaca nuevamente el nombre de Ventix, mientras que en el centro se distribuyen dos columnas de enlaces que permiten navegar rápidamente hacia secciones secundarias o legales. En la hilera inferior, el diseño reserva espacios específicos para iconos de redes sociales a la izquierda, una barra para derechos de autor o avisos legales en el medio, y una imagen del logo a la derecha, logrando que el usuario tenga todo lo necesario a mano antes de terminar su visita.
+
+<img src="assets/img/Chapter-4/footer.png" alt="referencias" width="300px">
 
 **Demo**
 Esta sección final está pensada para que los usuarios den el paso definitivo y se pongan en contacto de forma sencilla. En la parte superior resalta un botón claro para "Solicitar demo", invitando a probar el servicio de inmediato. Más abajo, dentro de un contenedor con bordes suaves, se agrupa la información de contacto: a la izquierda hay un espacio ideal para un mapa o una imagen representativa, mientras que a la derecha aparece el título "Contacto" seguido de líneas de texto para datos como el correo o el teléfono, y un botón pequeño para enviar consultas.
