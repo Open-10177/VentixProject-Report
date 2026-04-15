@@ -439,15 +439,17 @@ Para la elaboración de los Empathy Maps, el equipo partió del conocimiento y o
 
 **Empathy Mapping 1**  
 
-En este mapa se analizó a María Elena López, una estudiante universitaria que busca mantener concentración y rendimiento académico en espacios cerrados. Se identificó que piensa constantemente en la necesidad de contar con un ambiente fresco y controlado, ya que le preocupa que la fatiga ambiental afecte su memoria y productividad. Escucha a sus compañeros quejarse de somnolencia y observa cómo muchos deben interrumpir sus estudios para ajustar manualmente ventiladores o ventanas. María Elena expresa la necesidad de contar con una solución moderna y accesible que automatice la ventilación, y actúa implementando estrategias básicas como abrir ventanas o usar ventiladores portátiles. Su dolor principal es la pérdida de concentración y la fatiga ambiental, mientras que su ganancia esperada es lograr eficiencia en el estudio, bienestar físico y un mejor control del ambiente.
+En este mapa se analizó a María Elena López, una estudiante universitaria que busca mantener la concentración en espacios cerrados. Se identificó que percibe que la falta de ventilación afecta su rendimiento y genera fatiga durante el estudio. Además, observa y experimenta interrupciones constantes al tener que ajustar manualmente el ambiente, como abrir ventanas o usar ventiladores. Su principal dolor es la pérdida de enfoque, mientras que su ganancia esperada es contar con un sistema que mantenga el ambiente adecuado automáticamente, pero que también le permita realizar ajustes de forma sencilla cuando lo necesite.
 
-<img src="/assets/img/chapter-2/Emphaty Map Estudiante_Ventix.png" alt="emphaty map-esetudiante" width="700">
+<img src="/assets/img/chapter-2/Emphaty Map Estudiante_Ventix.png" alt="emphaty map-estudiante" width="700">
 
 ### Segmento 2: Dueños de casa
 
 **Empathy Mapping 2**  
 
-En este mapa se analizó a Luis Estéfano Ruiz, un usuario que busca garantizar el bienestar y control de su hogar incluso cuando no se encuentra en él. Él piensa constantemente en la seguridad y las condiciones ambientales en las que se encuentran sus mascotas, niños o personas mayores. Escucha a otros usuarios expresar preocupación por no poder supervisar sus hogares en tiempo real y observa que depender de métodos tradicionales no le brinda suficiente tranquilidad. Luis expresa la necesidad de contar con una solución tecnológica confiable y segura, y actúa verificando el estado de su hogar cuando regresa o mediante soluciones limitadas. Su dolor principal es la incertidumbre y la falta de control remoto, mientras que su ganancia esperada es obtener tranquilidad, seguridad y confianza al poder monitorear y gestionar el ambiente del hogar en tiempo real desde cualquier lugar.
+En este mapa se analizó a Luis Estéfano Ruiz, un usuario que busca mantener la tranquilidad y el control de su hogar mientras se encuentra fuera. Se identificó que percibe incertidumbre al no poder supervisar el ambiente en tiempo real, especialmente por el bienestar de quienes permanecen en casa. Al regresar, revisa el estado del hogar y analiza la información del día para realizar ajustes según sus necesidades. Su principal dolor es la falta de visibilidad durante su ausencia, mientras que su ganancia esperada es contar con un sistema que funcione de manera independiente, pero que también le permita revisar y personalizar el entorno de forma sencilla.
+
+<img src="/assets/img/chapter-2/Emphaty Map dueño de casa_Ventix.png" alt="emphaty map-dueño de casa" width="700">
 
 ## 2.4. Big Picture Event Storming
 
