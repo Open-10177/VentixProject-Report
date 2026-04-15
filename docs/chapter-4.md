@@ -32,8 +32,11 @@ Colores que definen la identidad de Ventrix y se utilizan en los elementos clave
 
 **Colores funcionales**
 Reservados para comunicar estados específicos dentro de la aplicación.
+
 **Éxito: Verde (#4CAF50)** Para acciones correctas o confirmaciones.
+
 **Error: Rojo (#F44336)** Para mensajes de error o alertas.
+
 **Advertencia: Amarillo (#FFC107)** Para avisos importantes o notificaciones.
 
 Esta combinación cromática refleja los valores de nuestra marca, transmitiendo claridad, calma, fluidez y seguridad en el monitoreo de los ventiladores del hogar
