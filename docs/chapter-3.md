@@ -78,43 +78,47 @@ Technical Stories
 
 | Orden | User Story ID | Título | Descripción | Story Points |
 |------|--------------|--------|-------------|--------------|
-| 1 | US-01 | Menú de navegación | Como visitante de la Landing Page, quiero poder acceder a un menú de navegación para explorar fácilmente las secciones del sistema Ventix. | 3 |
-| 2 | US-02 | Visualización de beneficios y planes | Como visitante, quiero ver los beneficios del sistema Ventix junto a sus características para evaluar su utilidad. | 5 |
-| 3 | US-03 | Selección de plan en Landing Page | Como visitante, quiero seleccionar un plan y registrarme rápidamente para comenzar a usar el sistema. | 5 |
-| 4 | US-04 | Visualización de creadores | Como visitante, quiero ver a los creadores del sistema para generar confianza en la plataforma. | 2 |
-| 5 | US-05 | Cambio de idioma | Como visitante, quiero cambiar entre español e inglés para entender mejor la plataforma. | 2 |
-| 6 | US-06 | Redes sociales | Como usuario, quiero acceder a las redes sociales de Ventix para conocer más sobre el proyecto. | 2 |
-| 7 | US-07 | Formulario de contacto | Como usuario, quiero enviar consultas mediante un formulario para recibir soporte. | 3 |
-| 8 | US-08 | Visualización de datos en tiempo real | Como usuario, quiero ver en tiempo real los niveles de CO₂, temperatura y humedad para monitorear mi ambiente. | 5 |
-| 9 | US-09 | Historial de datos ambientales | Como usuario, quiero ver el historial de datos para analizar el comportamiento del ambiente. | 5 |
-| 10 | US-10 | Activación automática por CO₂ alto | Como usuario, quiero que el ventilador se active automáticamente cuando el CO₂ sea alto. | 5 |
-| 11 | US-11 | Activación automática por temperatura alta | Como usuario, quiero que el ventilador se active cuando la temperatura sea alta. | 5 |
-| 12 | US-12 | Desactivación automática del ventilador | Como usuario, quiero que el ventilador se apague cuando el ambiente vuelva a niveles normales. | 5 |
-| 13 | US-13 | Configuración de umbrales de humedad | Como usuario, quiero configurar el nivel de humedad para adaptar el sistema a mi entorno. | 4 |
-| 14 | US-14 | Configuración de umbral de CO₂ | Como usuario, quiero definir el nivel de CO₂ para activar el sistema automáticamente. | 5 |
-| 15 | US-15 | Configuración de temperatura | Como usuario, quiero definir la temperatura ideal para el control automático del sistema. | 5 |
-| 16 | US-16 | Activación manual del ventilador | Como usuario, quiero encender el ventilador manualmente cuando lo necesite. | 3 |
-| 17 | US-17 | Modo manual y automático | Como usuario, quiero alternar entre modo manual y automático para controlar el sistema. | 5 |
-| 18 | US-18 | Modo ahorro energético | Como usuario, quiero activar un modo ahorro para reducir consumo energético. | 3 |
-| 19 | US-19 | Monitoreo de múltiples espacios | Como usuario, quiero monitorear diferentes ambientes desde una sola plataforma. | 5 |
-| 20 | US-20 | Modo optimizado | Como estudiante, quiero optimizar el ambiente automáticamente durante mis sesiones de estudio. | 4 |
-| 21 | US-21 | Activación automática prioritaria | Como usuario, quiero que el sistema priorice la seguridad y active automáticamente el ventilador en casos críticos. | 5 |
-| 22 | US-22 | Notificaciones de aire contaminado | Como usuario, quiero recibir alertas cuando el aire esté contaminado para actuar a tiempo. | 3 |
-| 23 | US-23 | Monitoreo remoto de ambientes | Como usuario, quiero monitorear mi hogar desde cualquier lugar para asegurar condiciones saludables. | 5 |
-| 24 | US-24 | Botón de pánico ambiental | Como usuario, quiero un acceso rápido a emergencias cuando detecte niveles peligrosos. | 4 |
-| 25 | US-25 | Activación remota del ventilador | Como usuario, quiero activar el ventilador remotamente para mejorar el ambiente. | 4 |
-| 26 | US-26 | Notificación de inactividad del sistema | Como usuario, quiero recibir alertas si el sistema deja de funcionar correctamente. | 3 |
-| 27 | US-27 | Notificación de temperatura extrema | Como usuario, quiero recibir alertas cuando la temperatura sea peligrosa. | 3 |
-| 28 | US-28 | Confirmación de acciones remotas | Como usuario, quiero confirmar que las acciones remotas se ejecutaron correctamente. | 2 |
-| 29 | US-29 | Notificación de uso manual | Como usuario, quiero saber si alguien modifica el sistema manualmente en casa. | 3 |
-| 30 | US-30 | Evaluación de estabilidad del entorno | Como usuario, quiero ver si el ambiente se mantiene estable durante el día. | 5 |
-| 31 | US-31 | Registro de usuarios | Como usuario, quiero crear una cuenta para acceder al sistema Ventix. | 3 |
-| 32 | US-32 | Recuperación de contraseña | Como usuario, quiero recuperar mi contraseña en caso de olvido. | 3 |
-| 33 | US-33 | Vinculación de dispositivo | Como usuario, quiero vincular sensores o ventiladores a mi cuenta. | 5 |
-| 34 | US-34 | Cierre de sesión global | Como usuario, quiero cerrar sesión en todos los dispositivos para proteger mi cuenta. | 3 |
-| 35 | US-35 | Reporte mensual de calidad del aire | Como usuario, quiero recibir reportes mensuales del estado del aire en mi hogar. | 5 |
-| 36 | US-36 | Validación de datos de registro | Como usuario, quiero que el sistema valide mis datos al registrarme. | 3 |
-| 37 | US-37 | Recuperación de acceso simplificada | Como usuario, quiero recuperar mi acceso fácilmente si olvido mis credenciales. | 3 |
-| 38 | US-38 | Persistencia de sesión | Como usuario, quiero mantener mi sesión activa para evitar iniciar sesión constantemente. | 2 |
-| 39 | US-39 | Registro por tipo de usuario | Como usuario, quiero elegir mi tipo de perfil (estudiante o familiar) al registrarme. | 3 |
-| 40 | US-40 | Visualización de perfil | Como usuario, quiero ver un resumen de mi perfil y configuración del sistema. | 2 |
+| Orden | User Story ID | Título | Descripción | Story Points |
+|------|--------------|--------|-------------|--------------|
+| 1 | US-01 | Menú de navegación | Como visitante quiero acceder a un menú superior para navegar entre secciones del sistema. | 3 |
+| 2 | US-02 | Visualización de planes y beneficios | Como visitante quiero ver los planes disponibles con precios y características para compararlos. | 5 |
+| 3 | US-03 | Selección de plan | Como visitante quiero seleccionar un plan antes de registrarme para agilizar el proceso. | 3 |
+| 4 | US-04 | Visualización del equipo | Como visitante quiero ver información del equipo de desarrollo para generar confianza. | 2 |
+| 5 | US-05 | Cambio de idioma | Como usuario quiero cambiar el idioma entre español e inglés para mejorar la experiencia. | 3 |
+| 6 | US-06 | Formulario de contacto | Como visitante quiero enviar consultas desde la landing page para recibir información personalizada. | 3 |
+| 7 | US-07 | Redes sociales | Como visitante quiero acceder a redes sociales del sistema para obtener más información. | 2 |
+| 8 | US-08 | Visualización de datos en tiempo real | Como usuario quiero ver CO₂, temperatura y humedad en tiempo real para monitorear el ambiente. | 8 |
+| 9 | US-09 | Historial ambiental | Como usuario quiero ver el historial de datos ambientales para analizar tendencias. | 5 |
+| 10 | US-10 | Activación automática por CO₂ | Como usuario quiero que el ventilador se active automáticamente si el CO₂ es alto. | 5 |
+| 11 | US-11 | Activación por temperatura | Como usuario quiero activación automática del ventilador por temperatura alta. | 5 |
+| 12 | US-12 | Apagado automático del ventilador | Como usuario quiero que el ventilador se apague cuando el ambiente esté normal. | 3 |
+| 13 | US-13 | Configuración de umbral CO₂ | Como usuario quiero configurar el nivel de CO₂ permitido. | 3 |
+| 14 | US-14 | Configuración de temperatura | Como usuario quiero configurar el umbral de temperatura del sistema. | 3 |
+| 15 | US-15 | Configuración de humedad | Como usuario quiero definir el umbral de humedad del sistema. | 3 |
+| 16 | US-16 | Control manual del ventilador | Como usuario quiero encender o apagar el ventilador manualmente. | 3 |
+| 17 | US-17 | Modo automático/manual | Como usuario quiero alternar entre modo automático y manual. | 5 |
+| 18 | US-18 | Modo ahorro energético | Como usuario quiero reducir el consumo energético automáticamente. | 3 |
+| 19 | US-19 | Monitoreo de múltiples espacios | Como usuario quiero monitorear varios ambientes desde una sola plataforma. | 5 |
+| 20 | US-20 | Modo optimizado | Como estudiante quiero optimizar automáticamente el ambiente durante mis sesiones. | 3 |
+| 21 | US-21 | Activación automática prioritaria | Como usuario quiero que el sistema actúe automáticamente en casos críticos. | 5 |
+| 22 | US-22 | Notificaciones de CO₂ alto | Como usuario quiero recibir alertas cuando el aire esté contaminado. | 3 |
+| 23 | US-23 | Monitoreo remoto | Como usuario quiero ver mi hogar desde cualquier lugar en tiempo real. | 5 |
+| 24 | US-24 | Botón de pánico ambiental | Como usuario quiero acceso rápido a contactos de emergencia. | 3 |
+| 25 | US-25 | Control remoto del ventilador | Como usuario quiero activar el ventilador desde cualquier lugar. | 5 |
+| 26 | US-26 | Notificación de inactividad | Como usuario quiero alertas si el sistema deja de funcionar. | 3 |
+| 27 | US-27 | Notificación de temperatura extrema | Como usuario quiero recibir alertas de calor extremo. | 3 |
+| 28 | US-28 | Confirmación de acciones remotas | Como usuario quiero confirmación de acciones ejecutadas. | 2 |
+| 29 | US-29 | Registro de cambios manuales | Como usuario quiero saber si alguien cambia el sistema manualmente. | 3 |
+| 30 | US-30 | Evaluación de estabilidad | Como usuario quiero saber si el ambiente es estable. | 3 |
+| 31 | TS-01 | Autenticación de usuario | Como desarrollador, quiero autenticar usuarios para garantizar acceso seguro al sistema Ventix. | 5 | EP-05 |
+| 32 | TS-02 | Registro de usuario | Como desarrollador, quiero registrar nuevos usuarios para permitir acceso al sistema. | 5 | EP-05 |
+| 33 | TS-03 | Obtener perfil de usuario por ID | Como desarrollador, quiero obtener la información de un usuario por su ID para visualizar su perfil completo. | 3 | EP-05 |
+| 34 | TS-04 | Actualizar perfil de usuario | Como desarrollador, quiero actualizar los datos de un usuario para mantener su información y preferencias al día. | 4 | EP-05 |
+| 35 | TS-05 | Listar usuarios | Como desarrollador, quiero listar todos los usuarios registrados para su administración. | 3 | EP-05 |
+| 36 | TS-06 | Registrar lectura de sensores | Como desarrollador, quiero almacenar datos de sensores en tiempo real para alimentar el sistema de monitoreo ambiental. | 5 | EP-03 |
+| 37 | TS-07 | Obtener datos de sensores | Como desarrollador, quiero consultar los datos de sensores para visualizar condiciones ambientales. | 4 | EP-03 |
+| 38 | TS-08 | Obtener sensor por ID | Como desarrollador, quiero consultar un sensor específico para ver su estado y última lectura. | 3 | EP-03 |
+| 39 | TS-09 | Actualizar configuración de sensores | Como desarrollador, quiero actualizar umbrales de CO₂, temperatura y humedad para personalizar el sistema. | 5 | EP-03 |
+| 40 | TS-10 | Eliminar sensores | Como desarrollador, quiero eliminar sensores del sistema para mantener la base de datos limpia. | 3 | EP-03 |
+| 41 | TS-11 | Gestión de dispositivos vinculados | Como desarrollador, quiero obtener los dispositivos vinculados a un usuario para gestionar el ecosistema IoT. | 4 | EP-05 |
+| 42 | TS-12 | Obtener dispositivo por ID | Como desarrollador, quiero consultar un dispositivo específico para ver su estado y tipo. | 3 | EP-05 |
