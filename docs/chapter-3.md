@@ -78,8 +78,6 @@ Technical Stories
 
 | Orden | User Story ID | Título | Descripción | Story Points |
 |------|--------------|--------|-------------|--------------|
-| Orden | User Story ID | Título | Descripción | Story Points |
-|------|--------------|--------|-------------|--------------|
 | 1 | US-01 | Menú de navegación | Como visitante quiero acceder a un menú superior para navegar entre secciones del sistema. | 3 |
 | 2 | US-02 | Visualización de planes y beneficios | Como visitante quiero ver los planes disponibles con precios y características para compararlos. | 5 |
 | 3 | US-03 | Selección de plan | Como visitante quiero seleccionar un plan antes de registrarme para agilizar el proceso. | 3 |
