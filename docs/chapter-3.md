@@ -23,7 +23,7 @@ Segmento 2: Tutores o dueños de casa (monitoreo remoto)
 
 ## 3.2. User Stories.
 
-# Epics
+### Epics
 
 | EPIC ID | Título | Descripción |
 |--------|--------|-------------|
