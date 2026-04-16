@@ -175,7 +175,9 @@ Eficiencia de Control y Latencia del Sistema
 Creemos que el uso de una arquitectura basada en microservicios para gestionar la comunicación entre el hardware y la web garantizará una respuesta inmediata del ventilador ante condiciones críticas. Sabremos que hemos tenido éxito cuando el tiempo transcurrido entre la detección de un nivel de CO₂ superior a las 800 ppm y la activación física del actuador sea menor a 5 segundos.
 
 #### 1.2.2.4. Lean UX Canvas
-![CanvasOS.png](../assets/img/chapter-1/CanvasOS.png)
+
+![last lean  ux canvas1.png](../assets/img/chapter-1/last%20lean%20%20ux%20canvas1.png)
+
 
 ## 1.3. Segmentos objetivo
 
