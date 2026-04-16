@@ -20,7 +20,19 @@ Segmento 2: Tutores o dueños de casa (monitoreo remoto)
 | Supervisión y análisis | Revisa reportes históricos del estado del aire en el hogar para tomar decisiones de mejora. | “Ahora puedo entender mejor cómo se comporta la ventilación en mi casa.” | Confiado y tranquilo respecto al bienestar del hogar. |
 
 
+
 ## 3.2. User Stories.
+Epics.
+
+| EPIC ID | Título | Descripción |
+|--------|--------|-------------|
+| EP-01 | Landing Page y experiencia inicial | Permite a los visitantes explorar la plataforma mediante una landing page informativa con navegación, planes, equipo, selección de plan y cambio de idioma, facilitando la conversión de usuarios. |
+| EP-02 | Comunicación y soporte al usuario | Permite a los visitantes contactar a Ventix mediante formulario, redes sociales y canales de comunicación, asegurando atención e interacción con la plataforma. |
+| EP-03 | Gestión y monitoreo ambiental en tiempo real | Permite visualizar, controlar y automatizar el monitoreo de variables ambientales (CO₂, temperatura y humedad), incluyendo activación del ventilador y configuración de umbrales. |
+| EP-04 | Sistema de alertas y monitoreo remoto | Permite enviar notificaciones inteligentes, monitorear ambientes de forma remota y ejecutar acciones de emergencia ante condiciones críticas del sistema. |
+| EP-05 | Seguridad, usuarios y gestión de dispositivos | Permite la gestión de cuentas de usuario, autenticación, recuperación de acceso, roles, vinculación de dispositivos IoT y control de sesiones seguras. |
+
+## User Stories
 
 | US ID | Título | Descripción | Criterios de Aceptación | EPIC |
 |------|--------|-------------|--------------------------|------|
