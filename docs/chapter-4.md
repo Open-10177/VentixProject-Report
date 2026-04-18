@@ -267,10 +267,78 @@ Sección dedicada a la atención al cliente con el mensaje "Ponte en contacto co
 El cierre de la página refuerza la identidad con el nombre "Ventix Smart Ventilation". Contiene enlaces de navegación secundarios, iconos de redes sociales y el aviso legal de derechos reservados para el año 2026.
 
 ## 4.4. Web Applications UX/UI Design.
+
 ### 4.4.1. Web Applications Wireframes.
+Se observa la pantalla de bienvenida a la aplicación de Ventix, la cual constituye el primer punto de interacción del usuario con el sistema, presentando una interfaz clara y amigable que introduce la funcionalidad principal de la plataforma
+
+**Pantalla inicial**
+Esta es la pantalla de inicio de Ventix. Presenta un diseño limpio con el logo central y un botón de 'Conectar' que permite al usuario ingresar a la aplicación de forma rápida.
+
+**Inicio de sesión**
+Es una wireframe de la interfaz de inicio de sesión de Ventix que presenta un diseño minimalista con campos para correo y contraseña. Incluye opciones para recuperar la clave, registrarse y botones circulares para autenticación social en la parte inferior.
+
+**Recuperación de contraseña**
+Este wireframe presenta la interfaz de recuperación de contraseña, centrada en una tarjeta para ingresar el correo electrónico vinculado. Debajo, incluye campos para establecer y confirmar la nueva clave, manteniendo la estética limpia y funcional del sistema.
+
+**Registro de usuario**
+Este wireframe de registro presenta un formulario con campos para datos personales y de contacto, acompañados de un botón de acción principal. Se complementa con un espacio lateral para contenido visual, como para la foto del usuario, y un icono de idioma en la esquina superior derecha.
+
+**Registro de diapositivo**
+Este wireframe muestra la interfaz de registro de dispositivos, ofreciendo dos métodos principales: escaneo mediante QR o entrada mediante código. Presenta una estructura simétrica con iconos marcadores de posición y breves instrucciones para cada opción.
+
+**Pantalla principal**
+Este wireframe del panel principal organiza el control por ambientes y funciones clave, destacando un acceso rápido al historial de datos y la configuración de umbrales. Incluye un menú lateral de navegación y un botón de pánico prominente para emergencias dentro de la interfaz de control.
+
+**Notificación**
+Este wireframe presenta la pantalla de notificaciones, clasificando las alertas bajo una sección de "Importantes" y utilizando barras de marcador de posición para el contenido. Incluye elementos de navegación como una flecha de retorno y un menú de perfil o ajustes en la parte superior derecha.
+
+**Historial de datos**
+Este wireframe del historial de datos utiliza una disposición de tarjetas para visualizar métricas, destacando un área central amplia ideal para datos sobre el estado del aire en un cierto periodo de tiempo. Se complementa con un panel lateral de detalles y mantiene la coherencia visual mediante la barra de navegación superior con iconos de control.
+
+**Configuración de umbrales**
+Este wireframe para la configuración de los umbrales permite ajustar parámetros críticos como la batería mediante una interfaz de tarjetas. El elemento central está reservado para una imagen descriptiva, flanqueada por paneles laterales que organizan los controles y especificaciones técnicas de forma clara.
+
+**Configuración de perfil**
+Este wireframe de la pantalla de configuración organiza los ajustes de usuario en bloques para cambiar correo, contraseña e idioma. Incluye una sección dedicada a cambiar de plan y botones funcionales en la parte inferior para cambiar de cuenta o cerrar sesión.
+
+**Mapa del hogar**
+Este wireframe presenta el mapa del hogar, utilizando un espacio amplio con una "X" para indicar la ubicación del plano o imagen espacial. Sobre este se superpone una ventana emergente de detalle, diseñada para mostrar información específica o controles sobre un área seleccionada del mapa.
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
+Este wireflow integral traza el recorrido completo del usuario, desde la autenticación inicial hasta el control de dispositivos y gestión de datos. Define la jerarquía de navegación conectando el registro con todas las funciones operativas del sistema.
+
+ * *Link del wireflow diagram para una mejor visibilidad*
+     * [Wireflow diagram](https://www.figma.com/design/8hSVeN0bsKGAHm1RcFYhMU/wireflow?node-id=0-1&t=zA0w7ayQzJ3J9218-1)
+
 ### 4.4.2. Web Applications Mock-ups.
+
+**Pantalla inicial**
+
+**Inicio de sesión**
+
+**Recuperación de contraseña**
+
+**Registro de usuario**
+
+**Registro de diapositivo**
+
+**Pantalla principal**
+
+**Notificación**
+
+**Historial de datos**
+
+**Configuración de umbrales**
+
+**Configuración de perfil**
+
+**Mapa del hogar**
+
 ### 4.4.3. Web Applications User Flow Diagrams.
+
+* *Link del user flow diagrams para una mejor visibilidad*
+    *[user diagrams](https://miro.com/app/board/uXjVGg7StrE=/?share_link_id=836653906543)
+  
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level Event Storming.
