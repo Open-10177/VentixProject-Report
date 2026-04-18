@@ -12,7 +12,7 @@ En este capítulo, se explicarán los elementos visuales y estéticos que confor
 El logo principal de la plataforma Ventrix,  se construye sobre una identidad visual moderna, tecnológica y fluida, que comunica innovación y eficiencia en soluciones de ventilación inteligente. El logotipo presenta formas curvas y dinámicas que indican el flujo de aire, simbolizando movimiento, conectividad y adaptación continua, elementos claves en nuestro sistema inteligente
 
 <p align="center">
-  <img src="</assets/img/chapter-2/ventixlogo.png" alt="Logo" width="350px" height="auto"/>
+  <img src="assets/img/chapter-2/ventixlogo.png" alt="Veyra-Logo" width="350px" height="auto"/>
 </p>
 
 
@@ -21,8 +21,9 @@ El logo principal de la plataforma Ventrix,  se construye sobre una identidad vi
 La tipografía implementada en Ventrix será Manrope, perteneciente a la familia sans serif, en sus variantes Regular, Medium, Semi Bold y Bold. La elección de esta fuente se fundamenta  en su estilo moderno, limpio y tecnológico, el cual se alinea con la identidad visual de la marca. Además, ofrece una excelente legibilidad en distintos dispositivos como móviles, tabletas y ordenadores,garantizando una mejor experiencia de lectura para los usuarios. Asimismo, su disponibilidad a través de Google Fonts permite una carga eficiente y consistente en la aplicación
 
 <p align="center">
-  <img src="assets/img/Chapter-4/Letra.png" alt="Letra" width="500px" height="auto"/>
+  <img src="assets/img/Chapter-4/Letra.png" alt="Primary Color Palette" width="500px" height="auto"/>
 </p>
+
 La jerarquía tipográfica se establece de la siguiente manera para asegurar claridad, orden visual y una adecuada experiencia de usuario.
 
 **Colors**
@@ -53,7 +54,7 @@ Reservados para comunicar estados específicos dentro de la aplicación.
 **Advertencia: Amarillo (#FFC107)** Para avisos importantes o notificaciones.
 
 <p align="center">
-  <img src="assets/img/Chapter-4/paleta_colores.png" alt="Primary Color Palette" width="800px" height="auto"/>
+  <img src="assets/img/Chapter-4/paleta_colores.jpeg" alt="Primary Color Palette" width="500px" height="auto"/>
 </p>
 
 Esta combinación cromática refleja los valores de nuestra marca, transmitiendo claridad, calma, fluidez y seguridad en el monitoreo de los ventiladores del hogar
