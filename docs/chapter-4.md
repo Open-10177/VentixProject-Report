@@ -436,7 +436,7 @@ Este wireflow integral traza el recorrido completo del usuario, desde la autenti
 ### 4.4.3. Web Applications User Flow Diagrams.
 
 * **Link del user flow diagrams para una mejor visibilidad*
-    *[user diagrams](https://miro.com/app/board/uXjVGg7StrE=/?share_link_id=836653906543)
+   *[user diagrams](https://miro.com/app/board/uXjVGg7StrE=/?share_link_id=836653906543)
 
 <img src="assets/img/Chapter-4/userflow--plano.png" alt="userflow-plano" width="300px">
 <img src="assets/img/Chapter-4/userflow-configuracion-perfiles.png" alt="userflow-perfil" width="300px">
