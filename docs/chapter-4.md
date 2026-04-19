@@ -472,7 +472,13 @@ El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación
 
 ![M&A Bounded.png](../assets/img/Chapter-4/M%26A%20Bounded.png)
 
+3. Bounded Context **Device & Asset Management**
 
+   El Bounded Context Device & Asset Management se encarga del inventario, vinculación y mantenimiento del hardware dentro del ecosistema Ventix. Administra procesos esenciales como el registro de nuevos nodos físicos, la asociación de dispositivos a usuarios específicos, el monitoreo del estado de la batería y la actualización del firmware. Su propósito es asegurar que la infraestructura tecnológica esté correctamente desplegada y operativa, garantizando que cada sensor y actuador esté vinculado de forma única y segura antes de iniciar cualquier actividad de monitoreo o automatización en la plataforma.
+
+![D&A Bounded.png](../assets/img/Chapter-4/D%26A%20Bounded.png)
+
+4. Bounded Context ****
 ### 4.6.2. Software Architecture Context Diagram.
 ### 4.6.3. Software Architecture Container Diagrams.
 ### 4.6.4. Software Architecture Components Diagrams.
