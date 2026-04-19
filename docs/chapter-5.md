@@ -5,17 +5,29 @@
 ### 5.1.3. Source Code Style Guide & Conventions.
 ### 5.1.4. Software Deployment Configuration.
 ## 5.2. Landing Page, Services & Applications Implementation.
-### 5.2.X. Sprint 1
-##### 5.2.X.1. Sprint Planning 1.
-#### 5.2.X.2. Aspect Leaders and Collaborators.
-#### 5.2.X.3. Sprint Backlog 1.
-#### 5.2.X.4. Development Evidence for Sprint Review.
-#### 5.2.X.5. Execution Evidence for Sprint Review.
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review.
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review.
-#### 5.2.X.8. Team Collaboration Insights during Sprint.
+### 5.2.1. Sprint 1
+##### 5.2.1.1. Sprint Planning 1.
+#### 5.2.1.2. Aspect Leaders and Collaborators.
+#### 5.2.1.3. Sprint Backlog 1.
+#### 5.2.1.4. Development Evidence for Sprint Review.
+#### 5.2.1.5. Execution Evidence for Sprint Review.
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
+
 # Conclusiones
 ## Conclusiones y recomendaciones.
-## Video About-the-Team.
+
 ## Bibliografía
+
 ## Anexos
+
+**Anexo A: Enlaces de Despliegue y Repositorios**
+
+A continuación se listan los enlaces a los entornos de producción y los repositorios de código fuente utilizados durante todo el ciclo de vida del proyecto.
+
+| Recurso                     | URL                                                 |
+|-----------------------------|-----------------------------------------------------|
+| Landing Page (GitHub Pages) | https://open-10177.github.io/Ventix-LandingPage/    |
+| Repositorio Landing Page    | https://github.com/Open-10177/Ventix-LandingPage    |
+| Repositorio Project Report  | https://github.com/Open-10177/VentixProject-Report  |
