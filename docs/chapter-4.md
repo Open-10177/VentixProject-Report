@@ -451,7 +451,21 @@ Este wireflow integral traza el recorrido completo del usuario, desde la autenti
   
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
+
+La arquitectura de software de VENTIX se basa en los principios de Domain-Driven Design (DDD), priorizando la lógica del negocio y la consistencia del lenguaje ubicuo sobre las implementaciones técnicas.
+
+En las siguientes secciones se presenta cada nivel del modelo, explicando la estructura, responsabilidades y comunicación entre los elementos que conforman la arquitectura de VENTIX.
+
 ### 4.6.1. Design-Level Event Storming.
+Para identificar los eventos de dominio, es recomendable realizar una sesión de Event Storming. Esta técnica permite visualizar y comprender el flujo de eventos dentro del dominio, facilitando la identificación de los Bounded Context.
+El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación Miro
+
+1. Bounded Context **IAM**
+
+    El Bounded Context IAM (Identity and Access Management) se encarga de la autenticación, autorización y gestión de identidades dentro del ecosistema Ventix. Administra procesos fundamentales como el registro de estudiantes y dueños de casa, el inicio de sesión seguro, la revocación de sesiones y la asignación de permisos basados en roles específicos.Su propósito es garantizar accesos protegidos y personalizados, asegurando que cada usuario acceda únicamente a sus propios dispositivos y métricas ambientales, manteniendo la integridad y privacidad de la información en toda la plataforma.
+
+![IAM Bounded.png](../assets/img/Chapter-4/IAM%20Bounded.png)
+
 ### 4.6.2. Software Architecture Context Diagram.
 ### 4.6.3. Software Architecture Container Diagrams.
 ### 4.6.4. Software Architecture Components Diagrams.
