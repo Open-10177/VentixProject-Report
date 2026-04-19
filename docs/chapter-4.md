@@ -420,89 +420,145 @@ Este wireframe presenta el mapa del hogar, utilizando un espacio amplio con una 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 Este wireflow integral traza el recorrido completo del usuario, desde la autenticación inicial hasta el control de dispositivos y gestión de datos. Define la jerarquía de navegación conectando el registro con todas las funciones operativas del sistema.
 
- * *Link del wireflow diagram para una mejor visibilidad*
-     * [Wireflow diagram](https://www.figma.com/design/8hSVeN0bsKGAHm1RcFYhMU/wireflow?node-id=0-1&t=zA0w7ayQzJ3J9218-1)
+ *Link del wireflow diagram para una mejor visibilidad*
+
+- [Wireflow diagram](https://www.figma.com/design/8hSVeN0bsKGAHm1RcFYhMU/wireflow?node-id=0-1&t=zA0w7ayQzJ3J9218-1)
 
 ### 4.4.2. Web Applications Mock-ups.
 
 **Pantalla inicial**
 
-<img src="assets/img/Chapter-4/inicio.png" alt="pantalla-principal" width="300px">
+\
+![inicio.png](../assets/img/Chapter-4/inicio.png)
 
 **Inicio de sesión**
 
-<img src="assets/img/Chapter-4/login.png" alt="login" width="300px">
-<img src="assets/img/Chapter-4/usuarios.png" alt="usuario" width="300px">
+
+![login.png](../assets/img/Chapter-4/login.png)
+
+![usuarios.png](../assets/img/Chapter-4/usuarios.png)
+
+
 
 **Recuperación de contraseña**
 
-<img src="assets/img/Chapter-4/recuperación-contr1.png" alt="recuperacion" width="300px">
-<img src="assets/img/Chapter-4/recuperación-contr2.png" alt="recuperacion" width="300px">
-<img src="assets/img/Chapter-4/recuperación-contr3.png" alt="recuperacion" width="300px">
-<img src="assets/img/Chapter-4/recuperación-contr4.png" alt="recuperacion" width="300px">
+![recuperación-contr1.png](../assets/img/Chapter-4/recuperaci%C3%B3n-contr1.png)
+
+![recuperación-contr2.png](../assets/img/Chapter-4/recuperaci%C3%B3n-contr2.png)
+
+![recuperación-contr3.png](../assets/img/Chapter-4/recuperaci%C3%B3n-contr3.png)
+
+
+![recuperación-contr4.png](../assets/img/Chapter-4/recuperaci%C3%B3n-contr4.png)
+
+
+
+
 
 **Registro de usuario**
-<img src="assets/img/Chapter-4/registro.png" alt="idiomas" width="300px">
-<img src="assets/img/Chapter-4/registro-idiomas.png" alt="idiomas" width="300px">
+
+
+![registro.png](../assets/img/Chapter-4/registro.png)
+
+![registro-idiomas.png](../assets/img/Chapter-4/registro-idiomas.png)
+
 
 **Registro de diapositivo**
 
-<img src="assets/img/Chapter-4/registro-diapositivos.png" alt="registro" width="300px">
-<img src="assets/img/Chapter-4/configuracion-diapositivo.png" alt="registro" width="300px">
-  * **Mediante codigo*
-    <img src="assets/img/Chapter-4/codigo.png" alt="footer" width="300px">
-    <img src="assets/img/Chapter-4/conectado--codigo.png" alt="codigo" width="300px">
-    <img src="assets/img/Chapter-4/conectando--codigo.png" alt="codigo" width="300px">
-    
-  * **Mediante QR*
-    <img src="assets/img/Chapter-4/codigo.png" alt="qr" width="300px">
-    <img src="assets/img/Chapter-4/coectado-qr.png" alt="qr" width="300px">
-    <img src="assets/img/Chapter-4/qr.png" alt="qr" width="300px">
+
+![registro-diapositivos.png](../assets/img/Chapter-4/registro-diapositivos.png)
+
+
+![configuracion-diapositivo.png](../assets/img/Chapter-4/configuracion-diapositivo.png)
+
+**Mediante codigo**
+
+
+![codigo.png](../assets/img/Chapter-4/codigo.png)
+
+![conectando--codigo.png](../assets/img/Chapter-4/conectando--codigo.png)
+
+![conectado--codigo.png](../assets/img/Chapter-4/conectado--codigo.png)
+
+
+
+**Mediante QR**
+
+
+![codigo.png](../assets/img/Chapter-4/codigo.png)
+
+![coectado-qr.png](../assets/img/Chapter-4/coectado-qr.png)
+
+![qr.png](../assets/img/Chapter-4/qr.png)
+
+
 
 **Pantalla principal**
 
-<img src="assets/img/Chapter-4/pantalla-principal.pngg" alt="pantalla-inicial" width="300px">
 
+![pantalla-principal.png](../assets/img/Chapter-4/pantalla-principal.png)
 
 **Notificación**
 
-<img src="assets/img/Chapter-4/notificaciones-sistema.png" alt="notificación" width="300px">
-
+![notificaciones-sistema.png](../assets/img/Chapter-4/notificaciones-sistema.png)
 
 **Historial de datos**
 
-<img src="assets/img/Chapter-4/historial.png" alt="historial-datos" width="300px">
+
+![historial.png](../assets/img/Chapter-4/historial.png)
+
 
 **Configuración de umbrales**
 
-<img src="assets/img/Chapter-4/codigo.png" alt="footer" width="300px">
 
+![codigo.png](../assets/img/Chapter-4/codigo.png)
 
 **Configuración de perfil**
 
-<img src="assets/img/Chapter-4/configuracion.png" alt="configuración-perfil" width="300px">
-<img src="assets/img/Chapter-4/configuracion-idiomas.png" alt="idiomas" width="300px">
 
+![configuracion.png](../assets/img/Chapter-4/configuracion.png)
+
+![configuracion-idiomas.png](../assets/img/Chapter-4/configuracion-idiomas.png)
 
 **Mapa del hogar**
 
-<img src="assets/img/Chapter-4/plano-casa.png" alt="plano" width="300px">
 
+![plano-casa.png](../assets/img/Chapter-4/plano-casa.png)
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 
 * **Link del user flow diagrams para una mejor visibilidad*
    *[user diagrams](https://miro.com/app/board/uXjVGg7StrE=/?share_link_id=836653906543)
 
-<img src="assets/img/Chapter-4/userflow--plano.png" alt="userflow-plano" width="300px">
-<img src="assets/img/Chapter-4/userflow-configuracion-perfiles.png" alt="userflow-perfil" width="300px">
-<img src="assets/img/Chapter-4/userflow-historial.png" alt="userflow-historial" width="300px">
-<img src="assets/img/Chapter-4/userflow-ingreso.png" alt="userflow-plataforma" width="300px">
-<img src="assets/img/Chapter-4/userflow-notificaciones.png" alt="userflow-notificaciones" width="300px">
-<img src="assets/img/Chapter-4/userflow-recuperación.png" alt="userflow-recuperacion" width="300px">
-<img src="assets/img/Chapter-4/userflow-registrar-diapositivos.png" alt="userflow diapositivos-nuevos" width="300px">
-<img src="assets/img/Chapter-4/userflow-registro.png" alt="userflow-registro" width="300px">
-<img src="assets/img/Chapter-4/userflow-umbreales.png" alt="userflow-umbreales" width="300px">
+
+![userflow--plano.png](../assets/img/Chapter-4/userflow--plano.png)
+![userflow-configuracion-perfiles.png](../assets/img/Chapter-4/userflow-configuracion-perfiles.png)
+![userflow-historial.png](../assets/img/Chapter-4/userflow-historial.png)
+![userflow-ingreso.png](../assets/img/Chapter-4/userflow-ingreso.png)
+![userflow-notificaciones.png](../assets/img/Chapter-4/userflow-notificaciones.png)
+![userflow-recuperación.png](../assets/img/Chapter-4/userflow-recuperaci%C3%B3n.png)
+![userflow-registrar-diapositivos.png](../assets/img/Chapter-4/userflow-registrar-diapositivos.png)
+![userflow-registro.png](../assets/img/Chapter-4/userflow-registro.png)
+![userflow-umbreales.png](../assets/img/Chapter-4/userflow-umbreales.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 ## 4.5. Web Applications Prototyping.
