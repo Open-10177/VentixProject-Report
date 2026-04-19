@@ -574,50 +574,52 @@ El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación
 
 1. Bounded Context **IAM**
 
-    El Bounded Context IAM (Identity and Access Management) se encarga de la autenticación, autorización y gestión de identidades dentro del ecosistema Ventix. Administra procesos fundamentales como el registro de estudiantes y dueños de casa, el inicio de sesión seguro, la revocación de sesiones y la asignación de permisos basados en roles específicos.Su propósito es garantizar accesos protegidos y personalizados, asegurando que cada usuario acceda únicamente a sus propios dispositivos y métricas ambientales, manteniendo la integridad y privacidad de la información en toda la plataforma.
+El Bounded Context IAM (Identity and Access Management) se encarga de la autenticación, autorización y gestión de identidades dentro del ecosistema Ventix. Administra procesos fundamentales como el registro de estudiantes y dueños de casa, el inicio de sesión seguro, la revocación de sesiones y la asignación de permisos basados en roles específicos.Su propósito es garantizar accesos protegidos y personalizados, asegurando que cada usuario acceda únicamente a sus propios dispositivos y métricas ambientales, manteniendo la integridad y privacidad de la información en toda la plataforma.
 
 ![IAM Bounded.png](../assets/img/Chapter-4/IAM%20Bounded.png)
 
 2. Bounded Context **Monitoring & Automation**
 
-   El Bounded Context Monitoring & Automation se encarga de la ingesta de datos en tiempo real, el procesamiento de métricas ambientales y la ejecución de respuestas automáticas dentro del ecosistema Ventix. Administra procesos críticos como la recepción de lecturas de sensores ($CO_2$, temperatura y humedad), la evaluación de reglas de negocio basadas en umbrales personalizados y la activación o desactivación automática de actuadores (ventiladores). Su propósito es garantizar un entorno saludable y productivo de forma autónoma, permitiendo además el control manual y la supervisión constante de la calidad del aire a través de un dashboard interactivo.
+El Bounded Context Monitoring & Automation se encarga de la ingesta de datos en tiempo real, el procesamiento de métricas ambientales y la ejecución de respuestas automáticas dentro del ecosistema Ventix. Administra procesos críticos como la recepción de lecturas de sensores ($CO_2$, temperatura y humedad), la evaluación de reglas de negocio basadas en umbrales personalizados y la activación o desactivación automática de actuadores (ventiladores). Su propósito es garantizar un entorno saludable y productivo de forma autónoma, permitiendo además el control manual y la supervisión constante de la calidad del aire a través de un dashboard interactivo.
 
 ![M&A Bounded.png](../assets/img/Chapter-4/M%26A%20Bounded.png)
 
 3. Bounded Context **Device & Asset Management**
 
-   El Bounded Context Device & Asset Management se encarga del inventario, vinculación y mantenimiento del hardware dentro del ecosistema Ventix. Administra procesos esenciales como el registro de nuevos nodos físicos, la asociación de dispositivos a usuarios específicos, el monitoreo del estado de la batería y la actualización del firmware. Su propósito es asegurar que la infraestructura tecnológica esté correctamente desplegada y operativa, garantizando que cada sensor y actuador esté vinculado de forma única y segura antes de iniciar cualquier actividad de monitoreo o automatización en la plataforma.
+El Bounded Context Device & Asset Management se encarga del inventario, vinculación y mantenimiento del hardware dentro del ecosistema Ventix. Administra procesos esenciales como el registro de nuevos nodos físicos, la asociación de dispositivos a usuarios específicos, el monitoreo del estado de la batería y la actualización del firmware. Su propósito es asegurar que la infraestructura tecnológica esté correctamente desplegada y operativa, garantizando que cada sensor y actuador esté vinculado de forma única y segura antes de iniciar cualquier actividad de monitoreo o automatización en la plataforma.
 
 ![D&A Bounded.png](../assets/img/Chapter-4/D%26A%20Bounded.png)
 
 4. Bounded Context **Analytics and Reporting**
 
-   El Bounded Context Analytics & Reporting se encarga del procesamiento, análisis y visualización de la información histórica generada dentro del ecosistema Ventix. Administra procesos como el cálculo de tendencias semanales de calidad de aire, la generación de reportes mensuales de salud ambiental y la determinación del "score de concentración" para estudiantes. Su propósito es transformar los datos crudos recolectados por los sensores en información estratégica y comprensible, brindando a los usuarios una visión clara sobre su bienestar, el rendimiento de sus dispositivos y el cumplimiento de sus objetivos de salud a largo plazo.
+El Bounded Context Analytics & Reporting se encarga del procesamiento, análisis y visualización de la información histórica generada dentro del ecosistema Ventix. Administra procesos como el cálculo de tendencias semanales de calidad de aire, la generación de reportes mensuales de salud ambiental y la determinación del "score de concentración" para estudiantes. Su propósito es transformar los datos crudos recolectados por los sensores en información estratégica y comprensible, brindando a los usuarios una visión clara sobre su bienestar, el rendimiento de sus dispositivos y el cumplimiento de sus objetivos de salud a largo plazo.
 
 ![A&R Bounded.png](../assets/img/Chapter-4/A%26R%20Bounded.png)
+
+
+5.  Bounded Context **Payment**
+
+Se ha definido el Bounded Context de Payments para gestionar el ciclo de vida financiero de los usuarios. Este contexto actúa como un adaptador para la pasarela de pagos Stripe, encargándose de la gestión de planes, suscripciones y la persistencia de transacciones. Esta separación asegura que la lógica de negocio core (monitoreo) permanezca agnóstica a los cambios en los proveedores de pago externos.
+
+![PaymentBoundedContext.png](../assets/img/Chapter-4/PaymentBoundedContext.png)
 
 ### 4.6.2. Software Architecture Context Diagram.
 
 En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema de software Ventix como una “caja negra” y en las interacciones que mantiene con sus usuarios y con otros sistemas externos.
 
-El Context Diagram muestra al **Ventix Software System** como un recuadro en el centro, rodeado por los principales actores y sistemas con los que se comunica:
+El context diagram muestra al Ventix Software System como un recuadro en el centro, rodeado por los principales actores y sistemas con los que se comunica:
 
-* **University Student:** Usuario principal que utiliza la plataforma para monitorear la calidad del aire en su área de estudio, configurar el "Modo Optimizado" y visualizar sus métricas de concentración y fatiga.
+**Student:** usuario principal que interactúa con la plataforma para monitorear la calidad del aire en sus áreas de estudio, configurar estados de confort y visualizar sus métricas de concentración y salud ambiental.
 
+**Home Owner:** usuario responsable de la gestión de los dispositivos en el hogar o institución. Interactúa con Ventix para vincular nuevos nodos sensores, establecer umbrales de alerta y supervisar la seguridad del ambiente de forma remota.
 
-* **Home Owner / Guardian:** Usuario responsable de la supervisión remota del hogar. Interactúa con Ventix para recibir notificaciones críticas, supervisar el bienestar de dependientes o mascotas y realizar controles manuales de ventilación desde el exterior.
+**IoT Sensor Hardware:** sistema físico externo compuesto por nodos sensores de $CO_2$, temperatura y humedad. Se comunica con Ventix para enviar telemetría en tiempo real y recibir comandos de activación para los sistemas de ventilación.
 
+**Payment System (Stripe):** sistema externo encargado de procesar las suscripciones de los planes premium, pagos por adquisición de hardware y la facturación asociada al uso de las funcionalidades avanzadas de la plataforma.
 
-* **IoT Hardware (Sensors & Actuators):** Dispositivos físicos que envían datos ambientales (CO2, temperatura, humedad) al sistema y reciben órdenes de ejecución para activar o desactivar los ventiladores según las políticas de automatización.
+En el diagrama se representan las relaciones entre estos elementos, destacando que tanto el estudiante como el dueño de casa interactúan únicamente con Ventix, mientras que el sistema se encarga de orquestar las integraciones con el hardware físico y los servicios externos (pagos y notificaciones). Esta vista permite entender el alcance del sistema, los límites de responsabilidad y el ecosistema en el que se inserta Ventix antes de entrar a detalles de implementación.
 
-
-* **Email/Push Notification Service:** Servicio externo encargado de enviar alertas de emergencia, reportes mensuales de salud y recordatorios de mantenimiento de hardware a los dispositivos móviles de los usuarios.
-
-
-* **Storage & Analytics:** Infraestructura encargada del almacenamiento de datos históricos y el procesamiento de los algoritmos de tendencias que alimentan los reportes de rendimiento y salud ambiental.
-
-
-* **Payment System(Stripe)** sistema externo encargado de procesar suscripciones, pagos y facturación asociados al uso de la plataforma.
+![SystemContext.png](../assets/img/Chapter-4/Diagrams/SystemContext.png)
 
 ### 4.6.3. Software Architecture Container Diagrams.
 ### 4.6.4. Software Architecture Components Diagrams.
