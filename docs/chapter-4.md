@@ -2,6 +2,7 @@
 ## 4.1. Style G
 
 ### 4.1.1. General Style Guidelines.
+
 El diseño visual de la plataforma **Ventix** opta por una estética moderna, dinámica y tecnológica. Sus colores transmiten frescura, confianza, claridad y facilidad de uso. Esta propuesta busca reflejar innovación y eficiencia, alineándose con nuestro compromiso de ofrecer soluciones inteligentes y accesibles.
 
 Mediante una interfaz clara, se pretende brindar una experiencia digital intuitiva y agradable, que combine funcionalidad, ligereza y control, mejorando la comodidad del usuario.
@@ -290,17 +291,19 @@ Bajo el encabezado "Conoce a nuestro equipo", se presenta a los desarrolladores 
 **Plan**
 Presenta "Un plan a tu medida" con dos opciones principales para desbloquear el potencial total de la herramienta.
 
-<img src="assets/img/Chapter-4/plan-m.png" alt="planes" width="300px">
+
+![plan-m.png](../assets/img/Chapter-4/plan-m.png)
 
 **contacto**
 Sección dedicada a la atención al cliente con el mensaje "Ponte en contacto con nosotros". Incluye un formulario interactivo donde el usuario puede ingresar su nombre, correo y consulta para resolver dudas de inmediato.
 
-<img src="assets/img/Chapter-4/contactos-m.png" alt="contacto" width="300px">
+![contactos-m.png](../assets/img/Chapter-4/contactos-m.png)
 
 **Foter**
 El cierre de la página refuerza la identidad con el nombre "Ventix Smart Ventilation". Contiene enlaces de navegación secundarios, iconos de redes sociales y el aviso legal de derechos reservados para el año 2026.
 
-<img src="assets/img/Chapter-4/footer-mo.png" alt="footer" width="300px">
+
+![footer-mo.png](../assets/img/Chapter-4/footer-mo.png)
 
 ## 4.4. Web Applications UX/UI Design.
 
@@ -308,73 +311,111 @@ El cierre de la página refuerza la identidad con el nombre "Ventix Smart Ventil
 Se observa la pantalla de bienvenida a la aplicación de Ventix, la cual constituye el primer punto de interacción del usuario con el sistema, presentando una interfaz clara y amigable que introduce la funcionalidad principal de la plataforma
 
 **Pantalla inicial**
+
 Esta es la pantalla de inicio de Ventix. Presenta un diseño limpio con el logo central y un botón de 'Conectar' que permite al usuario ingresar a la aplicación de forma rápida.
 
-<img src="assets/img/Chapter-4/footer-mo.png" alt="footer" width="300px">
+
+![footer-mo.png](../assets/img/Chapter-4/footer-mo.png)
 
 **Inicio de sesión**
+
 Es una wireframe de la interfaz de inicio de sesión de Ventix que presenta un diseño minimalista con campos para correo y contraseña. Incluye opciones para recuperar la clave, registrarse y botones circulares para autenticación social en la parte inferior.
 
-<img src="assets/img/Chapter-4/inicio de sesión.png" alt="inicio de seción" width="300px">
-<img src="assets/img/Chapter-4/elegir cuenta.png" alt="cuenta" width="300px">
+![inicio de sesión.png](../assets/img/Chapter-4/inicio%20de%20sesi%C3%B3n.png)
+
+
+![elegir cuenta.png](../assets/img/Chapter-4/elegir%20cuenta.png)
+
 
 **Recuperación de contraseña**
+
 Este wireframe presenta la interfaz de recuperación de contraseña, centrada en una tarjeta para ingresar el correo electrónico vinculado. Debajo, incluye campos para establecer y confirmar la nueva clave, manteniendo la estética limpia y funcional del sistema.
 
-<img src="assets/img/Chapter-4/recuperar contraseñ5.png" alt="recuperacion" width="300px">
-<img src="assets/img/Chapter-4/recuperar contraseña.png" alt="recuperacion" width="300px">
-<img src="assets/img/Chapter-4/recuperar contraseña2.png" alt="recuperacion" width="300px">
-<img src="assets/img/Chapter-4/recuperar contraseña3.png" alt="recuperacion" width="300px">
+![recuperar contraseñ5.png](../assets/img/Chapter-4/recuperar%20contrase%C3%B15.png)
+
+![recuperar contraseña.png](../assets/img/Chapter-4/recuperar%20contrase%C3%B1a.png)
+
+![recuperar contraseña2.png](../assets/img/Chapter-4/recuperar%20contrase%C3%B1a2.png)
+
+![recuperar contraseña3.png](../assets/img/Chapter-4/recuperar%20contrase%C3%B1a3.png)
+
 
 **Registro de usuario**
+
 Este wireframe de registro presenta un formulario con campos para datos personales y de contacto, acompañados de un botón de acción principal. Se complementa con un espacio lateral para contenido visual, como para la foto del usuario, y un icono de idioma en la esquina superior derecha.
 
-<img src="assets/img/Chapter-4/cambio de idioma-registro.png" alt="idioma" width="300px">
-<img src="assets/img/Chapter-4/seleccionar-usuario.png" alt="idioma" width="300px">
+![cambio de idioma-registro.png](../assets/img/Chapter-4/cambio%20de%20idioma-registro.png)
+
+![seleccionar-usuario.png](../assets/img/Chapter-4/seleccionar-usuario.png)
 
 **Registro de diapositivo**
+
 Este wireframe muestra la interfaz de registro de dispositivos, ofreciendo dos métodos principales: escaneo mediante QR o entrada mediante código. Presenta una estructura simétrica con iconos marcadores de posición y breves instrucciones para cada opción.
 
-<img src="assets/img/Chapter-4/registro-diapositivo.png" alt="codigo" width="300px">
-<img src="assets/img/Chapter-4/conectado-codigo.png" alt="codigo" width="300px">
-<img src="assets/img/Chapter-4/conectando-codigo.png" alt="codigo" width="300px">
-<img src="assets/img/Chapter-4/daots del diapositivo.png" alt="datos- diapositivos" width="300px">
-<img src="assets/img/Chapter-4/mediante-codigo.png" alt="datos- diapositivos" width="300px">
-<img src="assets/img/Chapter-4/mediante qr.png" alt="qr" width="300px">
-<img src="assets/img/Chapter-4/conectando-qr.png" alt="codigo" width="300px">
-<img src="assets/img/Chapter-4/conectado.png" alt="qr" width="300px">
+
+![registro-diapositivo.png](../assets/img/Chapter-4/registro-diapositivo.png)
+
+![conectando-codigo.png](../assets/img/Chapter-4/conectando-codigo.png)
+
+![conectado-codigo.png](../assets/img/Chapter-4/conectado-codigo.png)
+
+
+
+![daots del diapositivo.png](../assets/img/Chapter-4/daots%20del%20diapositivo.png)
+
+![mediante-codigo.png](../assets/img/Chapter-4/mediante-codigo.png)
+
+![mediante qr.png](../assets/img/Chapter-4/mediante%20qr.png)
+
+![conectando-qr.png](../assets/img/Chapter-4/conectando-qr.png)
+
+
+![conectado.png](../assets/img/Chapter-4/conectado.png)
 
 
 **Pantalla principal**
+
 Este wireframe del panel principal organiza el control por ambientes y funciones clave, destacando un acceso rápido al historial de datos y la configuración de umbrales. Incluye un menú lateral de navegación y un botón de pánico prominente para emergencias dentro de la interfaz de control.
 
-<img src="assets/img/Chapter-4/menu principal.png" alt="pantalla-principal" width="300px">
+
+![menu principal.png](../assets/img/Chapter-4/menu%20principal.png)
+
 
 **Notificación**
+
 Este wireframe presenta la pantalla de notificaciones, clasificando las alertas bajo una sección de "Importantes" y utilizando barras de marcador de posición para el contenido. Incluye elementos de navegación como una flecha de retorno y un menú de perfil o ajustes en la parte superior derecha.
 
-<img src="assets/img/Chapter-4/notificación.png" alt="notificación" width="300px">
+
+![notificación.png](../assets/img/Chapter-4/notificaci%C3%B3n.png)
 
 **Historial de datos**
+
 Este wireframe del historial de datos utiliza una disposición de tarjetas para visualizar métricas, destacando un área central amplia ideal para datos sobre el estado del aire en un cierto periodo de tiempo. Se complementa con un panel lateral de detalles y mantiene la coherencia visual mediante la barra de navegación superior con iconos de control.
 
-<img src="assets/img/Chapter-4/historial de datos.png" alt="historial-datos" width="300px">
+![historial de datos.png](../assets/img/Chapter-4/historial%20de%20datos.png)
+
 
 **Configuración de umbrales**
+
 Este wireframe para la configuración de los umbrales permite ajustar parámetros críticos como la batería mediante una interfaz de tarjetas. El elemento central está reservado para una imagen descriptiva, flanqueada por paneles laterales que organizan los controles y especificaciones técnicas de forma clara.
 
-<img src="assets/img/Chapter-4/configuracion-umbreales.png" alt="configuracio-umbreales" width="300px">
-<img src="assets/img/Chapter-4/modo-remoto.png" alt="configuracio-umbreales" width="300px">
+![configuracion-umbreales.png](../assets/img/Chapter-4/configuracion-umbreales.png)
+
+
+![modo-remoto.png](../assets/img/Chapter-4/modo-remoto.png)
 
 **Configuración de perfil**
+
 Este wireframe de la pantalla de configuración organiza los ajustes de usuario en bloques para cambiar correo, contraseña e idioma. Incluye una sección dedicada a cambiar de plan y botones funcionales en la parte inferior para cambiar de cuenta o cerrar sesión.
 
-<img src="assets/img/Chapter-4/configuración-perfil.png" alt="configuració-perfil" width="300px">
+![configuración-perfil.png](../assets/img/Chapter-4/configuraci%C3%B3n-perfil.png)
+
 
 **Mapa del hogar**
+
 Este wireframe presenta el mapa del hogar, utilizando un espacio amplio con una "X" para indicar la ubicación del plano o imagen espacial. Sobre este se superpone una ventana emergente de detalle, diseñada para mostrar información específica o controles sobre un área seleccionada del mapa.
 
-<img src="assets/img/Chapter-4/mapa de la casa.png" alt="plano" width="300px">
+![mapa de la casa.png](../assets/img/Chapter-4/mapa%20de%20la%20casa.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 Este wireflow integral traza el recorrido completo del usuario, desde la autenticación inicial hasta el control de dispositivos y gestión de datos. Define la jerarquía de navegación conectando el registro con todas las funciones operativas del sistema.
