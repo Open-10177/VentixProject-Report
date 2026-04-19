@@ -322,121 +322,161 @@ Resumen:
 
 ### 2.2.3. Análisis de entrevistas 
 
-En esta sección se presenta el análisis detallado de la información recolectada. Para cada segmento, se explican primero los hallazgos estadísticos objetivos y subjetivos, seguidos de la evidencia gráfica correspondiente.  
+En esta sección se presenta el análisis detallado de la información recolectada. Para cada segmento, se explican primero los hallazgos estadísticos objetivos y subjetivos, seguidos de la evidencia gráfica correspondiente.
 
 ### Segmento 1: Estudiantes Universitarios en Espacios Cerrados  
 
 **Análisis de Características Objetivas y Subjetivas**  
 
-El análisis revela condiciones deficientes en espacios de estudio. Como se detalla en el gráfico a continuación:  
+El análisis revela condiciones deficientes en espacios de estudio. Como se detalla en el gráfico a continuación:
 
-Los principales factores que afectan la experiencia de los estudiantes se concentran en la falta de ventilación (25%), la somnolencia tras largas horas de estudio continuo (20%), la disminución de la concentración debido al aire pesado o caluroso (18%), las interrupciones generadas por la necesidad de ajustar ventiladores (15%) y la percepción de falta de soluciones simples y accesibles (22%).
+Los principales factores que afectan la experiencia de los estudiantes se concentran en la falta de ventilación (25%), la somnolencia tras largas horas de estudio continuo (20%), la disminución de la concentración debido al aire pesado o caluroso (18%), las interrupciones generadas por la necesidad de ajustar ventiladores fisicos (15%) y la percepción de falta de soluciones simples y accesibles (22%).
 
-### Segmento 2: Profesionales en Modalidad Home Office  
+<img src="/assets/img/chapter-2/grafica 1.png" alt="grafica01" width="500">
+
+### Segmento 2: Tutores o dueños de casa que necesiten monitoriar en el exterior 
 
 **Análisis de Características Objetivas y Subjetivas** 
 
-Los datos confirman una experiencia deficiente en espacios laborales domésticos. Como se detalla en el gráfico a continuación:  
+Los datos confirman una experiencia limitada en la gestión del ambiente doméstico, especialmente cuando el usuario no se encuentra dentro del hogar de manera constante. Como se detalla en el gráfico a continuación:
 
-Los principales factores que afectan el desempeño en modalidad home office se concentran en el encierro y la limitada ventilación durante reuniones (24%), la disminución de la productividad después del mediodía (19%), el agotamiento mental asociado al ambiente físico (18%), las interrupciones generadas por la manipulación constante de ventiladores o ventanas (17%) y la preocupación por la privacidad junto con la necesidad de soluciones tecnológicas confiables (22%).
+Los principales factores que afectan la tranquilidad y el control del entorno del hogar se concentran en la limitada ventilación en espacios cerrados (24%), la preocupación por el bienestar de mascotas, niños o personas mayores en ausencia del usuario (22%), la dificultad para supervisar las condiciones ambientales en tiempo real (19%), las interrupciones generadas por la necesidad de realizar ajustes manuales al regresar al hogar (17%) y la desconfianza hacia soluciones tecnológicas que no garantizan privacidad ni control de datos (18%).
 
-//grafica 
+<img src="/assets/img/chapter-2/grafica 2.png" alt="grafica02" width="500">
 
 ### Análisis Comparativo  
 
 **Contrastación de Segmentos**  
 
-Al comparar ambos grupos, encontramos coincidencias vitales para el producto:
+Al comparar ambos grupos, se identifican coincidencias clave para el desarrollo del producto:
 
-Tanto estudiantes como profesionales evidencian que los principales factores que afectan su desempeño están relacionados con condiciones ambientales deficientes, especialmente la falta de ventilación y las interrupciones durante sus actividades. En ambos segmentos, estos factores representan una proporción relevante dentro del análisis (entre 15% y 25%), lo que refuerza la necesidad de automatizar y centralizar la gestión del entorno para mejorar la experiencia. Sin embargo, existe una diferencia clave en la prioridad de sus necesidades. Los estudiantes otorgan mayor importancia a la accesibilidad de soluciones (22%), priorizando herramientas simples, económicas y fáciles de usar. Por otro lado, los profesionales ponen mayor énfasis en la privacidad y confiabilidad tecnológica (22%), considerando fundamental el control y la transparencia en el manejo de sus datos.
+Tanto estudiantes como dueños de casa evidencian que los principales factores que afectan su experiencia están relacionados con condiciones ambientales deficientes, especialmente la falta de ventilación y la necesidad de intervención constante para regular el entorno. En ambos segmentos, estos factores representan una proporción relevante dentro del análisis (entre 15% y 25%), lo que refuerza la necesidad de automatizar y centralizar la gestión del ambiente para mejorar la experiencia del usuario. Sin embargo, existe una diferencia clave en la prioridad de sus necesidades. Los estudiantes otorgan mayor importancia a la accesibilidad de soluciones (22%), priorizando herramientas simples, económicas y fáciles de usar que no interrumpan su concentración. Por otro lado, los dueños de casa ponen mayor énfasis en la posibilidad de monitoreo remoto, la seguridad del entorno y la privacidad de la información (22%), considerando fundamental mantener el control del hogar incluso en su ausencia.
 
-Esto define nuestra propuesta de valor: eficiencia y accesibilidad para estudiantes, y control, privacidad y confianza para profesionales. 
+Esto define la propuesta de valor del sistema: accesibilidad y simplicidad para estudiantes, y control remoto, seguridad y confianza para dueños de casa.
 
-//grafica 
+<img src="/assets/img/chapter-2/grafica resultado final.png" alt="conclusion final" width="500">
 
-### Conclusiones y Definición de Arquetipos  
+### Conclusiones y Definición de tipos
 
-**User Persona Estudiante ("El Aprendiz Concentrado")**  
+**Estudiante ("El Aprendiz Concentrado")**
 
 Rasgo clave: Busca mejorar su rendimiento académico en espacios cerrados.
 Sustento: Los factores más influyentes en su experiencia son la falta de ventilación (25%), la somnolencia (20%) y la percepción de falta de soluciones accesibles (22%). Esto evidencia que necesita un entorno cómodo y herramientas simples que no interrumpan su flujo de estudio. La solución debe tener una curva de aprendizaje mínima y un costo accesible.
 
-**User Persona Profesional ("El Teletrabajador Precavido")**  
+**Dueño de Casa ("El Supervisor del Hogar")**
 
-Rasgo clave: Necesita control del entorno sin comprometer su privacidad.
-Sustento: Los principales factores que afectan su desempeño incluyen el encierro y la ventilación limitada (24%), la disminución de la productividad (19%) y la preocupación por la privacidad (22%). Esto indica que prioriza soluciones que le permitan mantener productividad con control y transparencia. La solución debe centrarse en monitoreo en tiempo real y protección de datos.
+Rasgo clave: Necesita monitorear y controlar el ambiente de su hogar de forma remota y segura.
+Sustento: Los principales factores que afectan su tranquilidad incluyen la ventilación limitada (24%), la preocupación por el bienestar de los ocupantes del hogar (22%) y la dificultad para supervisar el entorno en tiempo real (19%). Esto indica que prioriza soluciones que le permitan mantener control, seguridad y confianza, especialmente cuando no se encuentra en casa. La solución debe centrarse en monitoreo remoto, automatización y protección de datos.
 
 ## 2.3. Needfinding
-A partir del análisis de entrevistas y la recolección de información sobre las dinámicas en espacios cerrados de estudio y trabajo, se identificaron los principales perfiles de usuarios que interactúan directamente con la solución **Ventix**. Estos perfiles representan los segmentos clave para el sistema, ya que concentran tanto la necesidad de mejorar la concentración y el confort ambiental como la necesidad de contar con herramientas confiables y transparentes para la gestión del aire interior.  
+A partir del análisis de entrevistas y la recolección de información sobre las dinámicas en espacios cerrados de estudio y hogar, se identificaron los principales perfiles de usuarios que interactúan directamente con la solución Ventix. Estos perfiles representan los segmentos clave para el sistema, ya que concentran tanto la necesidad de mejorar la concentración y el confort ambiental como la necesidad de contar con herramientas confiables y seguras para la gestión del aire interior.
 
 ## 2.3.1. User Personas  
 
-La construcción de los *User Persona* permite al equipo de desarrollo comprender mejor sus motivaciones, frustraciones y hábitos, lo que resulta esencial para diseñar funcionalidades adecuadas y experiencias de usuario efectivas.  
+La construcción de los User Persona permite al equipo de desarrollo comprender mejor sus motivaciones, frustraciones y hábitos, lo que resulta esencial para diseñar funcionalidades adecuadas y experiencias de usuario efectivas.
 
-**1) Segmento 1: Estudiantes Universitarios en Espacios Cerrados**  
-Para los estudiantes se elaboró el User Persona **Maria Elena Lopez**. Se consideraron factores como su edad, rutina académica, tiempo prolongado en habitaciones cerradas y la necesidad de mantener concentración durante largas jornadas de estudio. Sus principales frustraciones giran en torno a la somnolencia y la fatiga ambiental, además de la molestia de tener que interrumpir sus actividades para ajustar manualmente la ventilación. Asimismo, se tomó en cuenta su disposición hacia soluciones simples, económicas y open source, que les permitan confiar en la tecnología sin barreras de complejidad.  
+**Segmento 1: Estudiantes Universitarios en Espacios Cerrados**
 
-//
-<br>  
+Para los estudiantes se elaboró el User Persona Maria Elena Lopez. Se consideraron factores como su edad, rutina académica, tiempo prolongado en habitaciones cerradas y la necesidad de mantener concentración durante largas jornadas de estudio. Sus principales frustraciones giran en torno a la somnolencia y la fatiga ambiental, además de la molestia de tener que interrumpir sus actividades para ajustar manualmente la ventilación. Asimismo, se tomó en cuenta su disposición hacia soluciones simples, económicas y open source, que les permitan confiar en la tecnología sin barreras de complejidad.
 
-**2) Segmento 2: Profesionales en Modalidad Home Office**  
-Para los profesionales se elaboró el User Persona **Luis Estefano Ruiz**. Se consideraron aspectos como su edad, ocupación y su rol en la gestión de espacios de trabajo domésticos. Sus principales motivaciones están orientadas a mantener productividad y confort ambiental durante la jornada laboral, mientras que sus frustraciones se relacionan con la pérdida de concentración por manipular constantemente ventiladores o ventanas y la desconfianza hacia dispositivos smart que envían datos a nubes externas. Su perfil refleja una predisposición positiva hacia soluciones digitales open source, siempre que estas sean transparentes, confiables y fáciles de integrar en su rutina diaria.  
+<img src="/assets/img/chapter-2/User Persona Estudiante_Ventix.png" alt="user persona primer segmento-estudiante" width="700">
 
-//
+
+**Segmento 2: Dueños de Casa que Monitorean su Hogar**
+
+Para este segmento se elaboró el User Persona Luis Estefano Ruiz. Se consideraron aspectos como su edad, estilo de vida y su responsabilidad en el cuidado del hogar. Sus principales motivaciones están orientadas a garantizar el bienestar de las personas y mascotas dentro de su vivienda, así como a mantener condiciones ambientales adecuadas incluso en su ausencia. Sus frustraciones se relacionan con la imposibilidad de supervisar el entorno en tiempo real, la necesidad de realizar ajustes manuales al regresar a casa y la desconfianza hacia dispositivos inteligentes que comprometen la privacidad. Su perfil refleja una predisposición positiva hacia soluciones tecnológicas open source, siempre que estas sean seguras, confiables y le permitan tener control remoto del hogar de manera sencilla.
+
+<img src="/assets/img/chapter-2/User Persona Dueño de casa_Ventix.png" alt="user persona segundo segmento-dueño de casa" width="700">
 
 ### 2.3.2. User Task Matrix
-|                  |                    |                    |
-|------------------|--------------------|--------------------|
-|                  |                    |                    |
-|                  |                    |                    |
-|                  |                    |                    |
-|                  |                    |                    |
-|                  |                    |                    |
-|                  |                    |                    |
-|                  |                    |                    |
-|                  |                    |                    |
-|                  |                    |                    |
-|                  |                    |                    |
-|                  |                    |                    |
 
+El User Task Matrix presenta las tareas que realizan los User Persona para cumplir sus objetivos en su día a día. Se evalúa la frecuencia y la importancia de cada tarea para identificar dónde el sistema Ventix puede automatizar o mitigar riesgos.
+
+| **Tarea(Task)**                                      | **Estudiante (Maria Elena)** | **Dueño de Casa Hogar (Luis)** |
+|------------------------------------------------------|------------------------------|--------------------------------|
+|                                                      | Frecuencia                   |                                |
+| Monitorear la ventilación de espacios cerrados       | Often                        | High                           |
+| Verificar la temperatura de las habitaciones         | Occasionally                 | Medium                         |
+| Identificar síntomas de somnolencia o fatiga         | Often                        | High                           |
+| Abrir ventanas/puertas para renovar el aire          | Often                        | Medium                         |
+| Supervisar el bienestar físico de los residentes     | Rarely                       | Low                            |
+| Atender alertas por condiciones ambientales críticas | Rarely                       | High                           |
+| Revisar el consumo energético de ventiladores/AC     | Monthly                      | Medium                         |
+| Analizar reportes de calidad ambiental histórica     | Rarely                       | Low                            |
+
+
+**Análisis del Task Matrix**
+
+**Actividades Críticas:** El monitoreo de ventilación es la tarea "Core" para ambos (Importancia High / Frecuencia Often). En María Elena impacta el rendimiento académico y en Luis Estéfano la salud pública de los residentes.
+
+**Punto de Dolor Común:** La tarea de "Abrir ventanas" es muy frecuente, validando el valor de la automatización del ventilador de Ventix para reducir la carga operativa manual.
+
+**Gestión de Riesgos:** Aunque las "Alertas críticas" ocurren ocasionalmente, su importancia High justifica la necesidad del sistema de notificaciones en tiempo real para prevenir incidentes de salud.
 
 ## 2.3.3. User Journey Mapping
 ### Segmento 1 – Estudiante Universitaria (María Elena López)  
 
-El User Journey Mapping de María Elena representa el recorrido actual que experimenta como estudiante universitaria en espacios cerrados, durante sus jornadas de estudio. El mapa ilustra el proceso end-to-end, desde el inicio de sus sesiones académicas hasta la gestión de pausas y la búsqueda de concentración.  
+El User Journey Mapping de María Elena describe su experiencia como estudiante en espacios cerrados a lo largo de sus sesiones de estudio. En el estado actual, identifica que la ventilación limitada y los ajustes manuales del entorno afectan su concentración, generando interrupciones y fatiga. A lo largo del proceso, pasa por etapas de reconocimiento del problema, exploración y evaluación de alternativas, hasta la prueba y adopción de una solución. Este recorrido evidencia la necesidad de un sistema que mantenga condiciones adecuadas de forma automática, incorporando a su vez la posibilidad de intervención manual para mejorar la continuidad y eficiencia en su experiencia de estudio.
 
-En la situación As-Is, María Elena enfrenta un flujo de trabajo ambiental poco optimizado: estudia en habitaciones cerradas, ajusta manualmente ventiladores o ventanas y experimenta somnolencia después de largas horas. Esto genera interrupciones, pérdida de concentración y fatiga ambiental.  
+<img src="/assets/img/chapter-2/Journey mapping estudiante_Ventix.jpg" alt="journey mapping estudiante" width="700">
 
-El Journey busca evidenciar los puntos críticos de su experiencia actual, identificando emociones, tareas, fricciones y oportunidades de mejora a lo largo de cada etapa (Awareness, Data Collection, Daily Study, Concentration, Breaks y Performance). Este análisis servirá como base para diseñar una solución tecnológica que automatice la ventilación, mejore la eficiencia y facilite la concentración en espacios cerrados.  
+### Segmento 2 – Dueño o tutor de casa hogar (Luis Estéfano Ruiz)  
 
-**Journey Map Segmento 1**  
+El User Journey Mapping de Luis Estéfano Ruiz describe su experiencia como responsable del hogar que permanece fuera durante gran parte del día. En el estado actual, enfrenta incertidumbre al no tener visibilidad sobre las condiciones ambientales, lo que afecta su tranquilidad. A lo largo del recorrido, identifica el problema, busca alternativas y evalúa opciones hasta probar una solución que le permita monitorear su vivienda. Este proceso evidencia la necesidad de un sistema que mantenga el ambiente de forma automática durante su ausencia y que, al mismo tiempo, le brinde acceso a la información para revisar lo ocurrido y ajustar el entorno según sus preferencias.
 
-### Segmento 2 – Profesional en Home Office (Luis Estéfano Ruiz)  
-
-El User Journey Mapping de Luis Estéfano describe la experiencia completa que vive como trabajador remoto, desde el inicio de su jornada laboral hasta la recepción de notificaciones sobre el ambiente físico de su espacio de trabajo. El mapa detalla las etapas de su recorrido end-to-end, reflejando las acciones, pensamientos, emociones y frustraciones que enfrenta actualmente sin contar con una plataforma digital centralizada.  
-
-En la situación As-Is, Luis depende de medios tradicionales como ventiladores manuales y apertura de ventanas para regular el ambiente. Esto provoca interrupciones constantes, pérdida de concentración y una sensación de agotamiento físico que no siempre se relaciona con el estrés laboral.  
-
-El Journey permite comprender su perspectiva emocional y sus puntos de dolor, mostrando los momentos clave en los que necesita información rápida, confiable y accesible sobre la calidad del aire. Este análisis busca sentar las bases para una futura solución tecnológica que le brinde productividad, transparencia y confianza, fortaleciendo su vínculo con el bienestar en el trabajo remoto.  
-
-**Journey Map Segmento 2**  
-
+<img src="/assets/img/chapter-2/Journey mapping dueño de casa_Ventix.jpg" alt="journey mapping dueño de casa " width="700">
 
 ## 2.3.4. Empathy Mapping  
 
-Para la elaboración de los Empathy Maps, el equipo partió del conocimiento y observaciones recolectadas durante el análisis de los User Persona. Se colocó al centro de cada mapa al usuario correspondiente (María Elena López y Luis Estéfano Ruiz) y se respondieron las preguntas claves sobre su entorno, emociones, comportamientos y necesidades.  
+Para la elaboración de los Empathy Maps, el equipo partió del conocimiento y observaciones recolectadas durante el análisis de los User Persona. Se colocó al centro de cada mapa al usuario correspondiente (María Elena López y Luis Estéfano Ruiz) y se respondieron las preguntas claves sobre su entorno, emociones, comportamientos y necesidades.
 
 ### Segmento 1: Estudiantes Universitarios  
 
-**Empathy Mapping 1**  
+En este mapa se analizó a María Elena López, una estudiante universitaria que busca mantener la concentración en espacios cerrados. Se identificó que percibe que la falta de ventilación afecta su rendimiento y genera fatiga durante el estudio. Además, observa y experimenta interrupciones constantes al tener que ajustar manualmente el ambiente, como abrir ventanas o usar ventiladores. Su principal dolor es la pérdida de enfoque, mientras que su ganancia esperada es contar con un sistema que mantenga el ambiente adecuado automáticamente, pero que también le permita realizar ajustes de forma sencilla cuando lo necesite.
 
-En este mapa se analizó a María Elena López, una estudiante universitaria que busca mantener concentración y rendimiento académico en espacios cerrados. Se identificó que piensa constantemente en la necesidad de contar con un ambiente fresco y controlado, ya que le preocupa que la fatiga ambiental afecte su memoria y productividad. Escucha a sus compañeros quejarse de somnolencia y observa cómo muchos deben interrumpir sus estudios para ajustar manualmente ventiladores o ventanas. María Elena expresa la necesidad de contar con una solución moderna y accesible que automatice la ventilación, y actúa implementando estrategias básicas como abrir ventanas o usar ventiladores portátiles. Su dolor principal es la pérdida de concentración y la fatiga ambiental, mientras que su ganancia esperada es lograr eficiencia en el estudio, bienestar físico y un mejor control del ambiente.  
+<img src="/assets/img/chapter-2/Emphaty Map Estudiante_Ventix.png" alt="emphaty map-estudiante" width="700">
 
-### Segmento 2: Profesionales en Home Office  
+### Segmento 2: Dueños de casa
 
-**Empathy Mapping 2**  
+En este mapa se analizó a Luis Estéfano Ruiz, un usuario que busca mantener la tranquilidad y el control de su hogar mientras se encuentra fuera. Se identificó que percibe incertidumbre al no poder supervisar el ambiente en tiempo real, especialmente por el bienestar de quienes permanecen en casa. Al regresar, revisa el estado del hogar y analiza la información del día para realizar ajustes según sus necesidades. Su principal dolor es la falta de visibilidad durante su ausencia, mientras que su ganancia esperada es contar con un sistema que funcione de manera independiente, pero que también le permita revisar y personalizar el entorno de forma sencilla.
 
-En este mapa se analizó a Luis Estéfano Ruiz, un profesional que busca mantener productividad y bienestar mientras trabaja desde casa. Él piensa en la tranquilidad que le daría tener acceso rápido y claro a la calidad del aire en su espacio de trabajo. Escucha a colegas compartir la frustración por la falta de concentración y observa que depender de ventiladores o ventanas no siempre es suficiente. Luis suele expresar la necesidad de contar con una aplicación confiable y fácil de usar, y actúa ajustando manualmente el ambiente varias veces al día. Su dolor principal es la interrupción constante y el agotamiento físico, mientras que su ganancia esperada es tener confianza, productividad y control al poder consultar la información ambiental en tiempo real desde cualquier lugar.  
+<img src="/assets/img/chapter-2/Emphaty Map dueño de casa_Ventix.png" alt="emphaty map-dueño de casa" width="700">
 
 ## 2.4. Big Picture Event Storming
+
+**Step 1 – Free Exploration**
+
+En esta primera etapa, el equipo realizó una sesión de lluvia de ideas para capturar todos los eventos relevantes dentro del dominio de monitoreo ambiental, sin preocuparse por el orden o la jerarquía. El objetivo principal fue representar los acontecimientos reales del negocio y del entorno del usuario, de manera independiente a cualquier función técnica
+
+![part1 Big Picture.png](../assets/img/chapter-2/part1%20Big%20Picture.png)
+
+**Step 2 – Structured Organization**
+
+Después de listar los eventos, el equipo los organizó en flujos de negocio lógicos que reflejan las principales etapas en la operación . Esta estructura ayudó a identificar los procesos clave y las áreas de mejora que posteriormente podrían abordarse mediante soluciones digitales o de gestión
+
+![Part2 Big Picture.png](../assets/img/chapter-2/Part2%20Big%20Picture.png)
+
 ## 2.5. Ubiquitous Language
+
+The Ventix Ubiquitous Language defines the technical and business terms that must be used consistently across the source code, user interface, and technical documentation. This eliminates ambiguities between the development team and stakeholders.
+
+| **Term**              | **Definition**                                                                                           | 
+|-----------------------|----------------------------------------------------------------------------------------------------------|
+| Node                  | A physical or simulated device containing sensors and actuators within a physical space.                 | 
+| Threshold             | A configured limit value (ppm, °C, %) that triggers an automatic system action .                         | 
+| PPM (CO2 Level)       | Parts Per Million; the standard unit used to measure air quality and ventilation levels .                | 
+| Actuator              | The physical component (fan) that performs a mechanical action based on a system command.                | 
+| Optimized Mode        | A system state where thresholds adjust automatically to maximize the student's concentration.            |
+| Data Sovereignty      | The user's ability to choose local storage for their metrics without cloud dependency.                   | 
+| Critical Notification | A high-priority alert state triggered by critical gas levels or extreme temperatures.                    |
+| Event Log             | A historical record of all measurements and automatic actions performed by the node.                     |
+| Manual Override       | A user action that temporarily bypasses automatic logic to control the fan at will.                      |
+| Confort state         | The ideal range of temperature and $CO_2$ defined by the user based on their activity (Study vs. Rest).  |
+
+**Expected Benefits of the Ubiquitous Language:**
+
+- **Facilitates communication among developers, users, and system administrators:** By using terms like "Threshold" or "Optimized Mode", the household manager and the Java developer speak the same language, avoiding confusion over what defines "clean air."
+
+- **Improves understanding of the system’s main functionalities:** Terms like "Manual Override" or "Critical Notification" are self-descriptive, allowing a new student to understand the application’s purpose without an extensive manual.
+
+- **Ensures consistency in documentation, interfaces, and project processes:** It guarantees that a button label on the dashboard matches the endpoint name in the API and the data presented in monthly health reports.

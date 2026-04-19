@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
 
@@ -133,3 +134,6 @@ Technical Stories
 | 40 | TS-10 | Eliminar sensores | Como desarrollador, quiero eliminar sensores del sistema para mantener la base de datos limpia. | 3 | EP-03 |
 | 41 | TS-11 | Gestión de dispositivos vinculados | Como desarrollador, quiero obtener los dispositivos vinculados a un usuario para gestionar el ecosistema IoT. | 4 | EP-05 |
 | 42 | TS-12 | Obtener dispositivo por ID | Como desarrollador, quiero consultar un dispositivo específico para ver su estado y tipo. | 3 | EP-05 |
+=======
+
+>>>>>>> origin/docs/chapter-2
