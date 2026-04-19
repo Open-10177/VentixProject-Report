@@ -485,6 +485,28 @@ El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación
 ![A&R Bounded.png](../assets/img/Chapter-4/A%26R%20Bounded.png)
 
 ### 4.6.2. Software Architecture Context Diagram.
+
+En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema de software Ventix como una “caja negra” y en las interacciones que mantiene con sus usuarios y con otros sistemas externos.
+
+El Context Diagram muestra al **Ventix Software System** como un recuadro en el centro, rodeado por los principales actores y sistemas con los que se comunica:
+
+* **University Student:** Usuario principal que utiliza la plataforma para monitorear la calidad del aire en su área de estudio, configurar el "Modo Optimizado" y visualizar sus métricas de concentración y fatiga.
+
+
+* **Home Owner / Guardian:** Usuario responsable de la supervisión remota del hogar. Interactúa con Ventix para recibir notificaciones críticas, supervisar el bienestar de dependientes o mascotas y realizar controles manuales de ventilación desde el exterior.
+
+
+* **IoT Hardware (Sensors & Actuators):** Dispositivos físicos que envían datos ambientales (CO2, temperatura, humedad) al sistema y reciben órdenes de ejecución para activar o desactivar los ventiladores según las políticas de automatización.
+
+
+* **Email/Push Notification Service:** Servicio externo encargado de enviar alertas de emergencia, reportes mensuales de salud y recordatorios de mantenimiento de hardware a los dispositivos móviles de los usuarios.
+
+
+* **Storage & Analytics:** Infraestructura encargada del almacenamiento de datos históricos y el procesamiento de los algoritmos de tendencias que alimentan los reportes de rendimiento y salud ambiental.
+
+
+* **Payment System(Stripe)** sistema externo encargado de procesar suscripciones, pagos y facturación asociados al uso de la plataforma.
+
 ### 4.6.3. Software Architecture Container Diagrams.
 ### 4.6.4. Software Architecture Components Diagrams.
 ## 4.7. Software Object-Oriented Design.
