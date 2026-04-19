@@ -478,7 +478,12 @@ El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación
 
 ![D&A Bounded.png](../assets/img/Chapter-4/D%26A%20Bounded.png)
 
-4. Bounded Context ****
+4. Bounded Context **Analytics and Reporting**
+
+   El Bounded Context Analytics & Reporting se encarga del procesamiento, análisis y visualización de la información histórica generada dentro del ecosistema Ventix. Administra procesos como el cálculo de tendencias semanales de calidad de aire, la generación de reportes mensuales de salud ambiental y la determinación del "score de concentración" para estudiantes. Su propósito es transformar los datos crudos recolectados por los sensores en información estratégica y comprensible, brindando a los usuarios una visión clara sobre su bienestar, el rendimiento de sus dispositivos y el cumplimiento de sus objetivos de salud a largo plazo.
+
+![A&R Bounded.png](../assets/img/Chapter-4/A%26R%20Bounded.png)
+
 ### 4.6.2. Software Architecture Context Diagram.
 ### 4.6.3. Software Architecture Container Diagrams.
 ### 4.6.4. Software Architecture Components Diagrams.
