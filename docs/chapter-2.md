@@ -458,24 +458,25 @@ Después de listar los eventos, el equipo los organizó en flujos de negocio ló
 
 ## 2.5. Ubiquitous Language
 
-El Lenguaje Ubicuo de Ventix define los términos técnicos y de negocio que deben utilizarse de manera consistente en el código fuente, la interfaz de usuario y la documentación técnica. Esto elimina ambigüedades entre el equipo de desarrollo y los stakeholders.
+The Ventix Ubiquitous Language defines the technical and business terms that must be used consistently across the source code, user interface, and technical documentation. This eliminates ambiguities between the development team and stakeholders.
 
+| **Term**              | **Definition**                                                                                           | 
+|-----------------------|----------------------------------------------------------------------------------------------------------|
+| Node                  | A physical or simulated device containing sensors and actuators within a physical space.                 | 
+| Threshold             | A configured limit value (ppm, °C, %) that triggers an automatic system action .                         | 
+| PPM (CO2 Level)       | Parts Per Million; the standard unit used to measure air quality and ventilation levels .                | 
+| Actuator              | The physical component (fan) that performs a mechanical action based on a system command.                | 
+| Optimized Mode        | A system state where thresholds adjust automatically to maximize the student's concentration.            |
+| Data Sovereignty      | The user's ability to choose local storage for their metrics without cloud dependency.                   | 
+| Critical Notification | A high-priority alert state triggered by critical gas levels or extreme temperatures.                    |
+| Event Log             | A historical record of all measurements and automatic actions performed by the node.                     |
+| Manual Override       | A user action that temporarily bypasses automatic logic to control the fan at will.                      |
+| Confort state         | The ideal range of temperature and $CO_2$ defined by the user based on their activity (Study vs. Rest).  |
 
-| **Término**         | **Definición**                                                                                                   | **Contexto de Uso**  |
-|---------------------|------------------------------------------------------------------------------------------------------------------|----------------------|
-| Nodo (Node)         | Dispositivo físico o simulado que contiene los sensores y actuadores en un espacio físico.                       | Técnico / Hardware   |
-| Umbral (Threshold)  | Valor límite configurado (ppm, °C, %) que dispara una acción automática del sistema.                             | Configuración        |
-| PPM (CO2 Level)     | Partes Por Millón; medida estándar utilizada para determinar la calidad del aire y ventilación.                  | Monitoreo            |
-| Actuador (Actuator) | El componente físico (ventilador) que realiza una acción mecánica basada en una orden del sistema.               | Funcional            |
-| Modo Optimizado     | Estado del sistema donde los umbrales se ajustan automáticamente para maximizar la concentración del estudiante. | Usuario (Estudiante) |
-| Soberanía de Datos  | Capacidad del usuario de elegir el almacenamiento local de sus métricas sin dependencia de la nube.              | Privacidad / Ética   |
-| Pánico Ambiental    | Estado de alerta máxima disparado por niveles críticos de gases o temperatura extrema.                           | Seguridad (Familiar) |
-| Log de Eventos      | Registro histórico de todas las mediciones y acciones automáticas realizadas por el nodo.                        | Reportes             |
-| Override Manual     | Acción del usuario que invalida temporalmente la lógica automática para controlar el ventilador a voluntad.      | Control              |
+**Expected Benefits of the Ubiquitous Language:**
 
-**Beneficios esperados del Ubiquitous Language:**
+- **Facilitates communication among developers, users, and system administrators:** By using terms like "Threshold" or "Optimized Mode", the household manager and the Java developer speak the same language, avoiding confusion over what defines "clean air."
 
-- **Facilita la comunicación entre desarrolladores, usuarios y administradores del sistema:** Al usar términos como "Umbral" o "Modo Optimizado", el administrador de la casa hogar y el programador de Java hablan el mismo idioma, evitando confusiones sobre qué significa "aire limpio".
+- **Improves understanding of the system’s main functionalities:** Terms like "Manual Override" or "Critical Notification" are self-descriptive, allowing a new student to understand the application’s purpose without an extensive manual.
 
-
-- **Mejora la comprensión de las funcionalidades principales del sistema:** Términos como "Override Manual" o "Pánico Ambiental" describen por sí mismos el propósito de la función, permitiendo que un nuevo estudiante entienda la app sin necesidad de un manual extenso.
+- **Ensures consistency in documentation, interfaces, and project processes:** It guarantees that a button label on the dashboard matches the endpoint name in the API and the data presented in monthly health reports.
