@@ -1,5 +1,6 @@
 # Capítulo IV: Product Design
-## 4.1. Style Guidelines.
+## 4.1. Style G
+
 ### 4.1.1. General Style Guidelines.
 El diseño visual de la plataforma **Ventix** opta por una estética moderna, dinámica y tecnológica. Sus colores transmiten frescura, confianza, claridad y facilidad de uso. Esta propuesta busca reflejar innovación y eficiencia, alineándose con nuestro compromiso de ofrecer soluciones inteligentes y accesibles.
 
@@ -185,86 +186,106 @@ El diseño de la interfaz de usuario (UI) de la página de inicio dde Ventix es 
 El wireframe de la página de inicio de Ventix funciona como un mapa visual que define la estructura, jerarqía y flujo de la información. Las secciones del wireframe están diseñadas para guiar al usuario a través de una experiencia clara y progresiva, desde la comprensión del problema hasta la exploración de las funcionalidade y beneficios de la plataforma.
 
 **Nav y Hero**
+
 Este diseño de Ventix es básicamente la puerta de entrada a una página web, organizado de forma sencilla para que nadie se pierda. En la parte superior tienes el menú de navegación con el logo y botones para moverse por el sitio, mientras que la parte central se divide en dos: a la izquierda, hay espacio para un título potente, una breve explicación y un botón llamativo que invita a la acción; a la derecha, ese cuadro grande con una cruz es el lugar reservado para una buena foto o ilustración que termine de darle vida a la marca. Es una estructura muy clara que busca que, en cuanto alguien entre, entienda de inmediato qué se ofrece y qué paso debe seguir.
 
-<img src="assets/img/Chapter-4/hero.png" alt="hero" width="300px">
+![hero.png](../assets/img/Chapter-4/hero.png)
 
 **Funciones**
+
 Esta sección, titulada "Funcionalidades", utiliza un formato de carrusel interactivo para mostrar detalladamente cada función del proyecto. En el centro, un panel principal combina una imagen representativa en el cuadro gris oscuro con una explicación clara en el cuadro gris claro, permitiendo que el usuario entienda cada funcionalidad de forma visual y textual al mismo tiempo. Gracias a la flecha lateral, el visitante puede explorar las diferentes herramientas de manera dinámica, mientras que el botón inferior ofrece una vía rápida para obtener más información o comenzar a usarlas.
 
-<img src="assets/img/Chapter-4/demo.png" alt="Services" width="300px">
+
+![demo.png](../assets/img/Chapter-4/demo.png)
 
 **Beneficios**
+
 Esta sección está diseñada para resaltar lo mejor de la marca de forma clara y directa. A la izquierda se encuentra el título "Beneficios" para ubicar al usuario, mientras que el resto del espacio lo ocupan tres tarjetas verticales con bordes redondeados, ideales para explicar los puntos clave o ventajas del servicio.
 
-<img src="assets/img/Chapter-4/beneficios.png" alt="Beneficios" width="300px">
+![beneficios.png](../assets/img/Chapter-4/beneficios.png)
 
 **Sobre nosotros**
+
 Esta sección presenta al equipo detrás del proyecto bajo el título central de "Equipo", dándole un rostro humano a la marca. El diseño utiliza una cuadrícula de tarjetas blancas con bordes redondeados que resaltan sobre el fondo oscuro, creando un espacio limpio y ordenado para mostrar la fotografía y el rol de cada miembro.
 
-<img src="assets/img/Chapter-4/integrantes.png" alt="Integrantes" width="300px">
+![integrantes.png](../assets/img/Chapter-4/integrantes.png)
+
 
 **Misión y visión**
+
 Esta sección está dedicada a explicar el propósito del proyecto a través de su misión y visión, utilizando un diseño que transmite seriedad y enfoque. En la columna de la izquierda, los bloques de texto están reservados para definir los objetivos y la razón de ser de la marca, acompañados de un botón de acción para quienes deseen profundizar en la historia del equipo. A la derecha, el gran recuadro blanco funciona como el espacio ideal para una imagen inspiradora o un gráfico que represente visualmente esos valores, logrando una estructura equilibrada que permite entender de un vistazo hacia dónde se dirige el proyecto.
 
-<img src="assets/img/Chapter-4/demo.png" alt="Equipo" width="300px">
+
+![demo.png](../assets/img/Chapter-4/demo.png)
 
 **Planes**
+
 Esta sección de "Planes" organiza las diferentes opciones de suscripción o servicios de la aplicación de una manera muy visual y comparativa. Se utilizan tres columnas principales donde cada una detalla lo que incluye el plan: un título para el nombre del nivel, un icono o precio destacado, y una lista de características para que el usuario sepa exactamente qué beneficios recibe en cada opción.
 
-<img src="assets/img/Chapter-4/planes.png" alt="Planes" width="300px">
+![planes.png](../assets/img/Chapter-4/planes.png)
 
 **Testimonios**
+
 Esta sección está diseñada para mostrar testimonios de clientes y generar confianza a través de la experiencia de otros. A la izquierda, un espacio para un título llamativo y dos pequeños indicadores permiten saber quién está hablando o navegar entre opiniones, mientras que a la derecha aparecen tarjetas blancas amplias donde se destacan las citas o comentarios de los usuarios.
 
 
 
-<img src="assets/img/Chapter-4/contacto" alt="Demo" width="300px">
+![referencias.png](../assets/img/Chapter-4/referencias.png)
 
-<img src="assets/img/Chapter-4/referencias.png" alt="referencias" width="300px">
 
 **Contacto**
+
 Esta sección esta diseñada para que le usuario pueda contactarse con un especialista, para resulver sus dudas de inmediato, mediante un formulario donde debes registrar tu nombre, correo y consulta.
 
-<img src="assets/img/Chapter-4/contacto.png" alt="contacto" width="300px">
+![contacto.png](../assets/img/Chapter-4/contacto.png)
 
 **Footer**
+
 Este es el pie de página o footer, diseñado para cerrar el sitio con toda la información complementaria organizada de forma clara. A la izquierda destaca nuevamente el nombre de Ventix, mientras que en el centro se distribuyen dos columnas de enlaces que permiten navegar rápidamente hacia secciones secundarias o legales. En la hilera inferior, el diseño reserva espacios específicos para iconos de redes sociales a la izquierda, una barra para derechos de autor o avisos legales en el medio, y una imagen del logo a la derecha, logrando que el usuario tenga todo lo necesario a mano antes de terminar su visita.
 
-<img src="assets/img/Chapter-4/footer.png" alt="referencias" width="300px">
+
+![footer.png](../assets/img/Chapter-4/footer.png)
 
 ### 4.3.2. Landing Page Mock-up.
 **Hero de la aplicación**
+
 Esta sección de apertura presenta el logotipo de Ventix junto al eslogan "Ventilación transparente para espacios productivos". Incluye una barra de navegación para acceso rápido a servicios, testimonios y beneficios, además de un botón de llamado a la acción: "Más información". Visualmente, utiliza elementos que transmiten frescura y claridad.
 
-<img src="assets/img/Chapter-4/hero-m.png" alt="hero" width="300px">
+
+![hero-m.png](../assets/img/Chapter-4/hero-m.png)
 
 **Funcionalidades**
+
 Bajo el título "Todo lo que necesitas en un solo lugar", se explica cómo el diseño inteligente y las funciones avanzadas ofrecen una experiencia única.
 
-<img src="assets/img/Chapter-4/Servicios-m.png" alt="funcionalidades" width="300px">
+![Servicios-m.png](../assets/img/Chapter-4/Servicios-m.png)
 
 **Misión y vision**
-Define el propósito estratégico de la organización:
-    * **Misión:** "Entornos inteligentes, mejores vidas".
-    * **Visión:** "Referente en bienestar inteligente".
 
-<img src="assets/img/Chapter-4/Servicios-m.png" alt="funcionalidades" width="300px">
-    
+Define el propósito estratégico de la organización:
+- **Misión:** "Entornos inteligentes, mejores vidas".
+ 
+- **Visión:** "Referente en bienestar inteligente".
+
+![Servicios-m.png](../assets/img/Chapter-4/Servicios-m.png)
+
 **Testimonios**
+
 Titulada "Menos estrés, más resultados", esta sección comparte las experiencias de los usuarios. Por ejemplo, Amira Sandoval destaca que gracias al modo automático puede olvidarse de ajustar el aire o abrir ventanas, ya que el sistema detecta y actúa cuando el ambiente se siente pesado.
 
-<img src="assets/img/Chapter-4/testimonios-m.png" alt="testimonios" width="300px">
+
+![testimonios-m.png](../assets/img/Chapter-4/testimonios-m.png)
 
 **Beneficios**
 Describe las ventajas clave de utilizar el sistema para mejorar la calidad de vida
 
-<img src="assets/img/Chapter-4/beneficios-m.png" alt="beneficios" width="300px">
+
+![beneficios-m.png](../assets/img/Chapter-4/beneficios-m.png)
 
 **Equipo**
 Bajo el encabezado "Conoce a nuestro equipo", se presenta a los desarrolladores de la aplicación. Esta sección está diseñada para humanizar la marca y mostrar el talento detrás del software.
 
-<img src="assets/img/Chapter-4/itegrante-m.png" alt="integrantes" width="300px">
+![itegrante-m.png](../assets/img/Chapter-4/itegrante-m.png)
 
 **Plan**
 Presenta "Un plan a tu medida" con dos opciones principales para desbloquear el potencial total de la herramienta.
