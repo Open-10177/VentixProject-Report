@@ -466,6 +466,13 @@ El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación
 
 ![IAM Bounded.png](../assets/img/Chapter-4/IAM%20Bounded.png)
 
+2. Bounded Context **Monitoring & Automation**
+
+   El Bounded Context Monitoring & Automation se encarga de la ingesta de datos en tiempo real, el procesamiento de métricas ambientales y la ejecución de respuestas automáticas dentro del ecosistema Ventix. Administra procesos críticos como la recepción de lecturas de sensores ($CO_2$, temperatura y humedad), la evaluación de reglas de negocio basadas en umbrales personalizados y la activación o desactivación automática de actuadores (ventiladores). Su propósito es garantizar un entorno saludable y productivo de forma autónoma, permitiendo además el control manual y la supervisión constante de la calidad del aire a través de un dashboard interactivo.
+
+![M&A Bounded.png](../assets/img/Chapter-4/M%26A%20Bounded.png)
+
+
 ### 4.6.2. Software Architecture Context Diagram.
 ### 4.6.3. Software Architecture Container Diagrams.
 ### 4.6.4. Software Architecture Components Diagrams.
