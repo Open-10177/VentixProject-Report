@@ -622,6 +622,36 @@ En el diagrama se representan las relaciones entre estos elementos, destacando q
 ![SystemContext.png](../assets/img/Chapter-4/Diagrams/SystemContext.png)
 
 ### 4.6.3. Software Architecture Container Diagrams.
+
+En el nivel de contenedores, la atención se desplaza desde “quién usa el sistema” hacia “cómo se organiza internamente el sistema en aplicaciones y fuentes de datos”. El container diagram muestra los elementos de alto nivel de la arquitectura de Ventix, sus responsabilidades principales y la forma en que se comunican entre sí y con los sistemas externos.
+
+La arquitectura lógica de Ventix se estructura en los siguientes contenedores:
+
+**Landing Page:** aplicación web estática que presenta la propuesta de valor de Ventix, guía a nuevos usuarios y redirige a la aplicación principal. Está desarrollada con tecnologías web estándar (HTML, CSS y JavaScript) y se despliega en un entorno orientado a contenido estático.
+
+**API Gateway:** contenedor basado en Spring Cloud Gateway que actúa como punto de entrada único para la SPA. Se encarga del ruteo inteligente hacia los microservicios, la validación centralizada de tokens JWT y el control de tráfico, garantizando que ninguna petición no autorizada llegue a los servicios internos.
+
+**Bounded Contexts (Microservices):** backend distribuido implementado con Spring Boot, que encapsula la lógica de negocio y reglas de validación de cada dominio. Este contenedor agrupa los servicios independientes que gestionan la identidad, el monitoreo ambiental, la administración de hardware, la generación de analítica y el procesamiento de pagos.
+
+**Databases:** sistema de persistencia basado en MySQL, donde se almacena la información estructurada de cada contexto de forma independiente. Cada microservicio gestiona su propio esquema de base de datos, asegurando el aislamiento de los datos y permitiendo escalabilidad técnica sin afectar la integridad global del sistema.
+
+En el diagrama se observa que:
+
+
+
+- Los usuarios acceden primero a la Landing Page, la cual redirige a la SPA tras la autenticación.
+
+
+- La SPA se comunica exclusivamente con la API Application mediante peticiones HTTP/HTTPS con mensajes JSON, siguiendo un estilo REST.
+
+
+- La API Application persiste y consulta datos en la Database mediante JDBC y mapeo objeto–relacional.
+
+
+- Tanto la SPA como la API Application interactúan con los sistemas externos: el Payment System para pagos y suscripciones.
+
+![Container last.png](../assets/img/Chapter-4/Diagrams/Container%20last.png)
+
 ### 4.6.4. Software Architecture Components Diagrams.
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
