@@ -138,72 +138,72 @@ Luego de haber realizado el análisis de nuestra solución con respecto a soluci
 
 ### 2.2.1. Diseño la entrevistas.
 
-**Segmento 1: Estudiantes universitarios en espacios cerrados**
+## Segmento Objetivo 1: Estudiantes universitarios en espacios cerrados
 
 <h4 id="PreguntPersonal">Preguntas Personales:</h4>
 
-¿Cuál es su nombre?
-
-¿Cuál es su edad?
-
-¿Cuál es su cargo dentro del negocio?
-
-¿Qué tipo de negocio administra?
-
-¿Cuántos años lleva operando el negocio?
-
-¿Cuántos trabajadores tiene actualmente?
+Me podrías brindar tu nombre, edad y a qué te dedicas actualmente?
 
 <h4 id="PreguntEspe">Preguntas específicas:</h4>
 
+¿Dónde sueles estudiar y cuántas horas pasas ahí al día?
 
-¿Sueles cerrar la puerta y ventana por privacidad o para evitar el ruido exterior mientras estudias?
+¿En qué momento del día estudias más (mañana, tarde o noche)?
 
-¿Sientes somnolencia o pesadez después de estar más de dos horas estudiando encerrado?
+¿Sueles estudiar con la puerta o ventana cerrada? ¿Por qué?
 
-¿Has notado una disminución en tu capacidad de concentración cuando la habitación se siente calurosa o el aire pesado?
+¿Cómo describirías el ambiente de tu habitación (calor, ventilación, aire pesado)?
 
-¿Te resulta molesto tener que interrumpir tu estudio para levantarte y encender o ajustar un ventilador?
+¿Has sentido cansancio o somnolencia después de estudiar varias horas seguidas?
 
-¿Sabías que los niveles altos de $CO_2$ en cuartos cerrados afectan directamente tu memoria y capacidad de aprendizaje?
+¿Sientes que tu concentración disminuye con el paso del tiempo en ese ambiente?
 
-¿Qué tan dispuesto estarías a armar tu propio dispositivo (DIY) si el costo total fuera menor a 40 dólares?
+¿Alguna vez interrumpes tu estudio para ventilar el cuarto o encender un ventilador?
 
-¿Te genera confianza una plataforma que sea Open Source y te permita ver (o incluso modificar) cómo funciona por dentro?
+¿Qué tan frecuente ocurre esa interrupción?
 
-.
+¿Qué haces actualmente para mejorar el ambiente donde estudias?
 
-**Segmento 2: Trabajadores en modalidad Home Office**
+Antes de hoy, ¿sabías que altos niveles de CO₂ pueden afectar tu rendimiento?
+
+¿Qué tan útil sería para ti que el sistema se active automáticamente sin que tengas que intervenir?
+
+¿Estarías dispuesto a instalar un dispositivo económico que mejore tu ambiente de estudio?
+
+
+---
+
+## Segmento Objetivo 2: Responsables del hogar (monitoreo remoto)
 
 <h4 id="PreguntPersonal">Preguntas Personales:</h4>
 
-¿Cuál es su nombre?
-
-¿Cuál es su edad?
-
-¿Cuál es su cargo dentro del negocio?
-
-¿Qué tipo de negocio administra?
-
-¿Cuántos años lleva operando el negocio?
-
-¿Cuántos trabajadores tiene actualmente?
+Me podrías brindar tu nombre, edad y a qué te dedicas actualmente?
 
 <h4 id="PreguntEspe">Preguntas específicas:</h4>
 
-¿Mantienes la puerta cerrada durante tus reuniones para evitar ruidos domésticos?
+¿Cuál es tu ocupación y cuánto tiempo pasas fuera de casa al día?
 
-¿Al terminar tu jornada laboral, sientes un agotamiento mental que no asocies con el estrés, sino con el ambiente físico? 
+¿Sueles dejar habitaciones cerradas cuando sales de casa?
 
-¿Consideras que tu productividad baja después del mediodía debido al encierro en tu espacio de trabajo? 
+¿Al regresar has notado que el ambiente está cargado o caluroso?
 
-¿Cuántas veces al día manipulas el control del ventilador o la ventana para ajustar el clima y qué tan molesto te resulta?
+¿Te preocupa la calidad del aire dentro de tu hogar cuando no estás presente?
 
-¿Consideras que estas pequeñas tareas manuales rompen tu "estado de flujo" (deep work) o concentración?
+¿Actualmente utilizas algún sistema para monitorear tu hogar?
 
-¿Te preocupa que los dispositivos "smart" de marcas grandes envíen datos de tu hogar a nubes externas?
+¿Qué tan importante es para ti poder supervisar tu hogar a distancia?
 
-¿Prefieres una interfaz web minimalista que puedas revisar desde tu segunda pantalla o una aplicación móvil?
+¿Te gustaría ver datos en tiempo real sobre temperatura o calidad del aire?
+
+¿Te sería útil poder activar un ventilador antes de llegar a casa?
+
+¿Qué tan importante es que el sistema funcione automáticamente sin intervención?
+
+¿Qué valorarías más: control remoto, automatización o ahorro de energía?
+
+¿Qué nivel de confianza te genera una solución de bajo costo y de código abierto?
+
+¿Estarías dispuesto a instalar un sistema sencillo para mejorar el ambiente de tu hogar?
 
 ### 2.2.2. Registro de entrevistas
 
