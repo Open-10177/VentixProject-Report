@@ -171,8 +171,6 @@ Antes de hoy, ¿sabías que altos niveles de CO₂ pueden afectar tu rendimiento
 ¿Estarías dispuesto a instalar un dispositivo económico que mejore tu ambiente de estudio?
 
 
----
-
 ## Segmento Objetivo 2: Responsables del hogar (monitoreo remoto)
 
 <h4 id="PreguntPersonal">Preguntas Personales:</h4>
