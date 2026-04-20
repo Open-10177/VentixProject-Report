@@ -175,30 +175,34 @@ Eficiencia de Control y Latencia del SistemaCreemos que el uso de una arquitectu
 ![CanvasOS.png](../assets/img/chapter-1/CanvasOS.png)
 
 ## 1.3. Segmentos objetivo
-El proyecto Ventix se dirige a usuarios que pasan gran parte de su día en entornos interiores de dimensiones reducidas, donde el control de la calidad del aire es crítico para su desempeño. Se han identificado los siguientes dos segmentos principales:
+El proyecto Ventix se dirige a usuarios que pasan gran parte de su tiempo en entornos interiores, donde la calidad del aire, la ventilación y la automatización del ambiente influyen directamente en su bienestar y rendimiento. Se han identificado dos segmentos principales:
 
+---
 
-**SEGMENTO OBJETIVO 1: Estudiantes universitarios en espacios cerrados:** 
+## SEGMENTO OBJETIVO 1: Estudiantes universitarios en espacios cerrados
 
-Este segmento comprende a jóvenes de entre 18 y 25 años que residen en dormitorios universitarios, habitaciones alquiladas o departamentos compartidos.
+Este segmento comprende a jóvenes entre 18 y 25 años que estudian en dormitorios universitarios, habitaciones alquiladas o espacios compartidos.
 
-- **Contexto:** Suelen estudiar en habitaciones pequeñas que carecen de sistemas de ventilación centralizada.
+- **Contexto:**  
+  Estudian en habitaciones pequeñas o medianas donde la ventilación suele ser limitada o completamente manual, sin sistemas de control automático del ambiente.
 
+- **Puntos de dolor:**  
+  Experimentan somnolencia, fatiga mental y pérdida de concentración durante sesiones de estudio prolongadas, especialmente en horarios nocturnos. Además, deben interrumpir constantemente su estudio para ajustar ventilación, ventiladores o abrir ventanas.
 
-- **Puntos de dolor:** Experimentan fatiga, somnolencia y pérdida de concentración durante sesiones de estudio nocturnas o extendidas debido a la acumulación de CO₂.
+- **Necesidad:**  
+  Requieren una solución accesible, de fácil instalación y bajo costo que permita automatizar el control del ambiente (temperatura, ventilación y calidad del aire), evitando interrupciones en su flujo de estudio y mejorando su rendimiento académico.
 
+---
 
-- **Necesidad:** Requieren una solución económica y fácil de instalar que les permita mantener un ambiente fresco de forma automática para no interrumpir su flujo de aprendizaje.
+## SEGMENTO OBJETIVO 2: Responsables del hogar (monitoreo remoto)
 
+Este segmento incluye a padres de familia, tutores o responsables del hogar que pasan parte del día fuera de casa y desean mantener control sobre las condiciones ambientales del entorno.
 
-**SEGMENTO OBJETIVO 2: Trabajadores en modalidad Home Office:**
+- **Contexto:**  
+  Permanecen fuera del hogar durante varias horas al día por motivos laborales o personales, dejando espacios cerrados o parcialmente ventilados. En muchos casos, no existe supervisión constante del ambiente interior.
 
-Este perfil incluye a profesionales (principalmente del sector tecnológico y administrativo) que han trasladado su oficina al hogar.
+- **Puntos de dolor:**  
+  Preocupación por la calidad del aire dentro del hogar, falta de visibilidad del estado del ambiente en tiempo real y dificultad para actuar rápidamente ante condiciones desfavorables como calor excesivo o mala ventilación.
 
-- **Contexto:** Pasan jornadas de 8 horas o más frente al computador, a menudo en habitaciones que permanecen cerradas para evitar ruidos externos o mantener la temperatura.
-
-
-- **Puntos de dolor:** Dolores de cabeza frecuentes y cansancio acumulado al final del día causados por la mala renovación del aire. Valoran la productividad y evitan interrupciones manuales.
-
-
-- **Necesidad:** Una plataforma web (Dashboard) que les dé seguridad sobre la salud de su entorno y un sistema que actúe por sí solo, permitiéndoles enfocarse al 100% en sus metas laborales.
+- **Necesidad:**  
+  Una plataforma web tipo dashboard que permita monitorear el hogar en tiempo real desde cualquier lugar, junto con un sistema automatizado que gestione la ventilación y condiciones ambientales sin intervención constante del usuario, brindando seguridad, tranquilidad y control remoto eficiente.
