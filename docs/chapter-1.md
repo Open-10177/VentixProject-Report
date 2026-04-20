@@ -197,7 +197,7 @@ Este segmento comprende a jóvenes de entre 18 y 25 años que residen en dormito
 
 
 
-**SEGMENTO OBJETIVO 2: Dueños de casa que desean monitorear de forma externa el ambiente y el bienestar de quienes permanecen dentro del hogar**
+**SEGMENTO OBJETIVO 2: Dueños de casa que desean monitorear remoto sus hogares desde el exterior 
 
 Este perfil incluye a propietarios que buscan mantener control y tranquilidad sobre su entorno doméstico incluso cuando se encuentran fuera de casa.  
 
