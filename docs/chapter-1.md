@@ -177,7 +177,6 @@ Eficiencia de Control y Latencia del SistemaCreemos que el uso de una arquitectu
 ## 1.3. Segmentos objetivo
 El proyecto Ventix se dirige a usuarios que pasan gran parte de su tiempo en entornos interiores, donde la calidad del aire, la ventilación y la automatización del ambiente influyen directamente en su bienestar y rendimiento. Se han identificado dos segmentos principales:
 
----
 
 ## SEGMENTO OBJETIVO 1: Estudiantes universitarios en espacios cerrados
 
@@ -192,7 +191,6 @@ Este segmento comprende a jóvenes entre 18 y 25 años que estudian en dormitori
 - **Necesidad:**  
   Requieren una solución accesible, de fácil instalación y bajo costo que permita automatizar el control del ambiente (temperatura, ventilación y calidad del aire), evitando interrupciones en su flujo de estudio y mejorando su rendimiento académico.
 
----
 
 ## SEGMENTO OBJETIVO 2: Responsables del hogar (monitoreo remoto)
 
