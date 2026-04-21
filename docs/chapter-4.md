@@ -648,13 +648,18 @@ En el diagrama se observa que:
 
 - Los usuarios (Estudiante y Dueño de Casa) interactúan con la Landing Page para descubrir el producto e iniciar su registro, lo que a su vez carga la SPA servida por la Web Application.
 
+
 - La SPA se comunica exclusivamente con el API Gateway mediante peticiones HTTP/HTTPS utilizando el formato JSON. Además, la SPA inicia flujos directos hacia Stripe (mediante Checkout) para la captura segura de datos de pago.
+
 
 - El API Gateway autentica las peticiones y las enruta hacia la suite de Microservicios correspondiente.
 
+
 - Los Microservicios interactúan con la Database mediante JDBC para operaciones de lectura y escritura en sus respectivos esquemas.
 
+
 - Existen integraciones críticas en el backend: el microservicio de Payments crea cargos y procesa webhooks provenientes de Stripe, mientras que el contexto de Monitoring recibe la telemetría continua empujada (push) por el IoT Sensor Hardware mediante protocolos HTTP o MQTT.
+
 
 - Esta vista permite apreciar claramente el patrón de arquitectura de microservicios adoptado, la separación estricta entre presentación, orquestación (Gateway), lógica de negocio distribuida y persistencia de datos.
 
@@ -662,45 +667,42 @@ En el diagrama se observa que:
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
-En el nivel de componentes se detalla la descomposición interna de los contenedores, mostrando los bloques estructurales que conforman cada uno y las relaciones entre ellos. 
+En el nivel de componentes se detalla la descomposición interna de los contenedores, mostrando los bloques estructurales que conforman cada uno y las relaciones entre ellos. Dado que la Single Page Application y la Database ya fueron descritas en otros apartados mediante diagramas de clases frontend y de base de datos, en esta sección se pone especial énfasis en el contenedor API Application, donde reside la mayor parte de la lógica de negocio.
 
-Dado que la Single Page Application y la Database ya fueron descritas en otros apartados mediante diagramas de clases y de base de datos, en esta sección se pone especial énfasis en el contenedor API Application, donde reside la mayor parte de la lógica de negocio y la inteligencia de automatización.
+El component diagram de la API Application agrupa la arquitectura interna siguiendo los bounded contexts definidos en el dominio de Ventix. Cada módulo backend representa un componente principal dentro del contenedor:
 
-El component diagram de la API Application agrupa la arquitectura interna siguiendo los bounded contexts definidos en el dominio de Ventix. Cada módulo backend representa un componente principal dentro del contenedor, implementado bajo un enfoque de microservicios lógicos o módulos de Spring Boot:
-
-
-- **IAM Backend:** se encarga de la autenticación, registro de usuarios, gestión de sesiones y revocación de acceso. Es el componente upstream que provee el contexto de seguridad (JWT) para todos los demás módulos.
+- **IAM Backend:** se encarga de la autenticación, registro de usuarios (Estudiantes y Dueños de Casa), gestión de sesiones, validación de tokens JWT y revocación de acceso.
 
 
-- **Monitoring & Automation Backend:** es el núcleo operativo del sistema. Recibe la telemetría de los sensores, evalúa las reglas de automatización en tiempo real y detecta niveles críticos de $CO_2$ para disparar acciones de ventilación.
+- **Monitoring & Automation Backend:** recibe la telemetría de los nodos sensores, evalúa las reglas de automatización configurables y detecta niveles críticos de CO2 para disparar comandos de activación de ventilación.
 
 
-- **Device & Asset Management Backend:** gestiona el ciclo de vida del hardware, incluyendo el registro de nodos, vinculación de dispositivos a cuentas de usuario, monitoreo de batería, versiones de firmware y gestión de stock institucional.
+- **Analytics & Reporting Backend:** ofrece capacidades de agregación y consulta de métricas, calculando los concentration scores, produciendo gráficos de tendencias y generando los reportes mensuales de salud institucional.
 
 
-- **Analytics & Reporting Backend:** se encarga de la agregación de datos históricos para generar reportes mensuales de salud, calcular los concentration scores de los estudiantes y producir gráficos de tendencias ambientales.
+- **Device & Asset Management Backend:** gestiona el ciclo de vida del hardware, incluyendo el registro de nodos sensores, vinculación de dispositivos a usuarios, monitoreo de batería y seguimiento del stock.
 
 
-- **Payment Backend:** encapsula la lógica de planes de suscripción (Normal y Plus), gestión de facturas y reembolsos. Actúa como el puente de integración directa con la pasarela de pagos externa
+- **Payment Backend:** encapsula el manejo de compras de planes (Normal y Plus), suscripciones recurrentes, facturación y reembolsos, integrándose con el Payment System (Stripe) para la ejecución y confirmación de cobros.
+
+
+- **Shared backend** provee componentes compartidos, utilidades, objetos de valor comunes (como configuraciones globales y filtros de seguridad), clases base e infraestructura transversal utilizada por los demás módulos backend.
 
 En el diagrama se refleja cómo:
 
-- La Single Page Application (SPA) consume los servicios expuestos por cada módulo backend a través de la API Application, utilizando peticiones REST/HTTPS dirigidas a los controladores específicos de cada contexto.
+- La SPA consume los servicios expuestos por cada módulo backend a través de la API Application, utilizando endpoints REST/HTTPS específicos por contexto para renderizar dashboards, reportes y vistas de gestión.
 
 
-- Cada módulo backend accede de forma independiente a la Database (MySQL) para persistir y consultar la información de su dominio mediante JPA/Hibernate (por ejemplo, el módulo de Monitoring accede a tablas de lecturas y umbrales, mientras que Device Mgmt accede a registros de hardware).
+- Cada módulo backend accede a la Database para leer y escribir la información correspondiente a su contexto de forma independiente (por ejemplo, Monitoring Backend a tablas de lecturas y umbrales, Payment Backend a tablas de suscripciones e invoices, etc.).
 
 
-- El componente Payment Backend mantiene una comunicación bidireccional con el sistema externo Stripe, enviando solicitudes de cobro y recibiendo confirmaciones mediante webhooks para actualizar el estado de las suscripciones.
+- Algunos módulos se integran con sistemas externos: Payment Backend mantiene una comunicación bidireccional con Stripe (mediante API y webhooks), y Monitoring Backend interactúa con el IoT Sensor Hardware para la ingesta de telemetría. Además, se realizan llamadas internas (REST) entre módulos, como la notificación de pago exitoso desde Payment hacia Device Management.
 
 
-- Se observa una relación de dependencia desde Device Management y Payment Backend hacia Monitoring, asegurando que las reglas de automatización se activen solo cuando un nodo ha sido correctamente pagado y vinculado.
+- Todos los módulos operativos backend reutilizan capacidades comunes provistas por el Shared Kernel en tiempo de compilación, lo que favorece la consistencia, la reutilización y la reducción de duplicación de código en todo el sistema.
 
 
-De esta forma, los component diagrams complementan los diagramas de clases, mostrando cómo el backend se descompone en módulos coherentes con los bounded contexts del dominio y cómo estos colaboran para implementar la funcionalidad completa de monitoreo y automatización de Ventix.
-
-
-![Components.png](../assets/img/Chapter-4/Diagrams/Components.png)
+![ComponentsLast.png](../assets/img/Chapter-4/Diagrams/ComponentsLast.png)
 
 ## 4.7. Software Object-Oriented Design.
 
