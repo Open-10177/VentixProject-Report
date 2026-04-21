@@ -708,7 +708,7 @@ En el diagrama se refleja cómo:
 
 En esta sección se presenta el diseño orientado a objetos del sistema Ventix, el cual desarrolla con mayor detalle la implementación interna de los componentes identificados en los diagramas C4 del apartado anterior. A partir de los contenedores y componentes definidos (Frontend en Angular, API Application en Spring Boot y Database en MySQL), se derivan diagramas de clases específicos para cada bounded context del dominio, con el objetivo de mostrar:
 
-- **Modelado del Dominio (Backend):** Cómo se estructuran las entidades, agregados, repositorios y servicios dentro de cada microservicio de Spring Boot, asegurando que la lógica de negocio (como las reglas de automatización o el cálculo de scores) esté aislada y protegida.
+- **Modelado del Dominio (Backend):** Cómo se estructuran las entidades, agregados, repositorios y servicios dentro de cada microservicio de Spring Boot, asegurando que la lógica de negocio (como las reglas de automatización o el cálculo de scores) esté aislada y protegida, mientras se apoyan en un núcleo compartido para evitar redundancias.
 
 
 - **Arquitectura de Presentación (Frontend):** Cómo se organizan los componentes, servicios de datos y modelos de vista en Angular para ofrecer una experiencia reactiva al estudiante y al dueño de casa.
@@ -716,37 +716,61 @@ En esta sección se presenta el diseño orientado a objetos del sistema Ventix, 
 
 - **Diseño de Persistencia (Database):** Cómo se mapean los objetos del dominio a tablas relacionales en MySQL, manteniendo la integridad referencial y el aislamiento de datos por cada contexto.
 
+
 ### 4.7.1. Class Diagrams.
 
 En esta subsección se presentan los diagramas de clases que detallan la estructura interna de los principales componentes para cada bounded context. Estos diagramas complementan al Component Diagram de la API Application y a los contenedores definidos en Structurizr, proporcionando una vista técnica centrada en clases, atributos, métodos y relaciones de herencia y composición.
 
-A nivel de frontend, se modelan las clases en Angular en función de los módulos independientes que consumen los servicios expuestos por la API REST:
 
-Frontend completo (Ventix-Web): muestra la organización general de la capa de presentación, incluyendo el sistema de ruteo y los servicios de comunicación que interactúan con el API Gateway.
+A nivel de frontend, se modelan las clases en Angular en función de los módulos que consumen los servicios expuestos por la API REST:
 
-IAM Frontend: incluye los formularios y componentes relacionados con el registro de estudiantes y dueños de casa, inicio de sesión y servicios de guardia (AuthGuards) para la protección de rutas.
 
-Monitoring Frontend: detalla las clases que gestionan las vistas en tiempo real de la calidad del aire, indicadores de $CO_2$ y los componentes de control para la activación manual de ventiladores.
+- **Frontend completo (Ventix-Web):** muestra la organización general de la capa de presentación, incluyendo el sistema de ruteo y los servicios de comunicación que interactúan con el API Gateway.
 
-Device Mgmt Frontend: modela los componentes responsables de la vinculación de nuevos nodos sensores mediante códigos ID y la visualización del estado de salud de cada dispositivo físico.
 
-Analytics Frontend: presenta los componentes de interfaz que construyen los dashboards de concentración y gráficas de tendencias ambientales a partir de datos procesados.
+- **Shared Frontend:** agrupa componentes visuales reutilizables (como velocímetros de calidad de aire, tarjetas de estado, layouts base), interceptores HTTP y servicios de notificación comunes que sirven como infraestructura de presentación para el resto de los módulos.
 
-Payments Frontend: incluye las clases dedicadas a la gestión de planes de suscripción, integración de la pasarela de pago para el flujo de checkout y visualización de facturas.
 
-A nivel de backend, los diagramas de clases reflejan la implementación detallada en Spring Boot de los módulos definidos como componentes independientes, donde cada uno gestiona su propia lógica y persistencia:
+- **IAM Frontend:** incluye los formularios y componentes relacionados con el registro de estudiantes y dueños de casa, inicio de sesión y servicios de guardia (AuthGuards) para la protección de rutas.
 
-Backend completo (Ventix-API): ilustra la estructura de la capa de dominio siguiendo los patrones de Domain-Driven Design, mostrando cómo cada microservicio encapsula sus propios agregados, entidades y repositorios de forma aislada.
 
-IAM Backend: muestra clases como User, Role y AuthToken, junto con los servicios de seguridad encargados de la emisión y validación de credenciales.
+- **Monitoring Frontend:** detalla las clases que gestionan las vistas en tiempo real de la calidad del aire, indicadores de $CO_2$ y los componentes de control para la activación manual de ventiladores.
 
-Monitoring & Automation Backend: incluye los agregados fundamentales AirQualityReading y AutomationRule, los cuales contienen la lógica para evaluar la telemetría y ejecutar acciones de control sobre el hardware.
 
-Device & Asset Backend: detalla las clases SensorNode y DeviceOwnership, responsables de mantener el registro del hardware y su relación contractual con los usuarios finales.
+- **Device Mgmt Frontend:** modela los componentes responsables de la vinculación de nuevos nodos sensores mediante códigos ID y la visualización del estado de salud de cada dispositivo físico.
 
-Analytics Backend: modela las entidades especializadas en datos históricos como TrendAnalysis y ConcentrationScore, optimizadas para la lectura de reportes de bienestar.
 
-Payments Backend: contiene las clases Subscription y Transaction, encargadas de gestionar el ciclo de vida comercial y la integración técnica con los webhooks de Stripe.
+- **Analytics Frontend:** presenta los componentes de interfaz que construyen los dashboards de concentración y gráficas de tendencias ambientales a partir de datos procesados.
+
+
+- **Payments Frontend:** incluye las clases dedicadas a la gestión de planes de suscripción, integración de la pasarela de pago para el flujo de checkout y visualización de facturas.
+
+
+
+
+A nivel de backend, los diagramas de clases reflejan la implementación detallada en Spring Boot de los módulos definidos como componentes, donde cada uno gestiona su propia lógica y persistencia pero importa capacidades comunes:
+
+
+- **Backend completo:** ilustra la estructura de la capa de dominio siguiendo los patrones de Domain-Driven Design, mostrando cómo cada microservicio encapsula sus propios agregados, entidades y repositorios de forma aislada, dependiendo transversalmente de una librería compartida.
+
+
+- **Shared Backend:** concentra clases base como AuditableEntity, utilidades de manejo de excepciones, configuraciones de seguridad compartidas y objetos de valor comunes (como la estructura estándar de una lectura ambiental o de moneda), garantizando consistencia técnica en todo el ecosistema.
+
+
+- **IAM Backend:** muestra clases como User, Role y AuthToken, junto con los servicios de seguridad encargados de la emisión y validación de credenciales.
+
+
+- **Monitoring & Automation Backend:** incluye los agregados fundamentales AirQualityReading y AutomationRule, los cuales contienen la lógica para evaluar la telemetría y ejecutar acciones de control sobre el hardware.
+
+
+- **Device & Asset Backend:** detalla las clases SensorNode y DeviceOwnership, responsables de mantener el registro del hardware y su relación contractual con los usuarios finales.
+
+
+- **Analytics Backend:** modela las entidades especializadas en datos históricos como TrendAnalysis y ConcentrationScore, optimizadas para la lectura de reportes de bienestar.
+
+
+- **Payments Backend:** contiene las clases Subscription y Transaction, encargadas de gestionar el ciclo de vida comercial y la integración técnica con los webhooks de Stripe.
+
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams
