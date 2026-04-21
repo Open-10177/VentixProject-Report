@@ -632,30 +632,33 @@ En el nivel de contenedores, la atención se desplaza desde “quién usa el sis
 
 La arquitectura lógica de Ventix se estructura en los siguientes contenedores:
 
-**Landing Page:** aplicación web estática que presenta la propuesta de valor de Ventix, guía a nuevos usuarios y redirige a la aplicación principal. Está desarrollada con tecnologías web estándar (HTML, CSS y JavaScript) y se despliega en un entorno orientado a contenido estático.
+**Landing Page:** aplicación web estática que presenta la propuesta de valor de Ventix, compara los planes (Normal vs. Plus) y guía a nuevos usuarios. Está desarrollada con tecnologías web estándar (HTML, CSS y JavaScript) y se despliega en un entorno orientado a contenido estático.
 
-**API Gateway:** contenedor basado en Spring Cloud Gateway que actúa como punto de entrada único para la SPA. Se encarga del ruteo inteligente hacia los microservicios, la validación centralizada de tokens JWT y el control de tráfico, garantizando que ninguna petición no autorizada llegue a los servicios internos.
+**Web Application:** servidor de archivos estáticos (Nginx) responsable de entregar los binarios compilados de la SPA a los navegadores de los clientes.
 
-**Bounded Contexts (Microservices):** backend distribuido implementado con Spring Boot, que encapsula la lógica de negocio y reglas de validación de cada dominio. Este contenedor agrupa los servicios independientes que gestionan la identidad, el monitoreo ambiental, la administración de hardware, la generación de analítica y el procesamiento de pagos.
+**Single Page Application (SPA):** aplicación web principal, implementada en Angular, donde interactúan el Estudiante y el Dueño de Casa. Este contenedor concentra la experiencia de usuario, las interfaces de los dashboards de calidad de aire, la gestión de dispositivos IoT y los paneles de facturación.
 
-**Databases:** sistema de persistencia basado en MySQL, donde se almacena la información estructurada de cada contexto de forma independiente. Cada microservicio gestiona su propio esquema de base de datos, asegurando el aislamiento de los datos y permitiendo escalabilidad técnica sin afectar la integridad global del sistema.
+**API Application:** contenedor basado en Spring Cloud Gateway (implementado en Spring Boot) que actúa como punto de entrada único para la SPA. Se encarga del ruteo inteligente de peticiones hacia los microservicios internos y de la validación centralizada de seguridad (tokens JWT), garantizando protección perimetral.
+
+**Bounded Contexts (Microservices):** backend distribuido implementado mediante Spring Boot REST APIs, que encapsula la lógica de negocio y reglas de validación de cada dominio. Este contenedor agrupa los servicios independientes que gestionan la identidad (IAM), el monitoreo y automatización, la administración de hardware, la generación de analítica y el procesamiento de pagos.
+
+**Database:** sistema de persistencia basado en MySQL. Aunque físicamente puede estar en un mismo servidor para optimizar recursos iniciales, almacena la información estructurada mediante esquemas lógicamente separados para IAM, Monitoring, Devices, Analytics y Payments, asegurando el aislamiento de los datos y permitiendo escalabilidad técnica futura.
 
 En el diagrama se observa que:
 
+- Los usuarios (Estudiante y Dueño de Casa) interactúan con la Landing Page para descubrir el producto e iniciar su registro, lo que a su vez carga la SPA servida por la Web Application.
 
+- La SPA se comunica exclusivamente con el API Gateway mediante peticiones HTTP/HTTPS utilizando el formato JSON. Además, la SPA inicia flujos directos hacia Stripe (mediante Checkout) para la captura segura de datos de pago.
 
-- Los usuarios acceden primero a la Landing Page, la cual redirige a la SPA tras la autenticación.
+- El API Gateway autentica las peticiones y las enruta hacia la suite de Microservicios correspondiente.
 
+- Los Microservicios interactúan con la Database mediante JDBC para operaciones de lectura y escritura en sus respectivos esquemas.
 
-- La SPA se comunica exclusivamente con la API Application mediante peticiones HTTP/HTTPS con mensajes JSON, siguiendo un estilo REST.
+- Existen integraciones críticas en el backend: el microservicio de Payments crea cargos y procesa webhooks provenientes de Stripe, mientras que el contexto de Monitoring recibe la telemetría continua empujada (push) por el IoT Sensor Hardware mediante protocolos HTTP o MQTT.
 
+- Esta vista permite apreciar claramente el patrón de arquitectura de microservicios adoptado, la separación estricta entre presentación, orquestación (Gateway), lógica de negocio distribuida y persistencia de datos.
 
-- La API Application persiste y consulta datos en la Database mediante JDBC y mapeo objeto–relacional.
-
-
-- Tanto la SPA como la API Application interactúan con los sistemas externos: el Payment System para pagos y suscripciones.
-
-![Container last.png](../assets/img/Chapter-4/Diagrams/Container%20last.png)
+![Containerslast.png](../assets/img/Chapter-4/Containerslast.png)
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
