@@ -223,6 +223,23 @@ El desarrollo del sistema Ventix se basa en los siguientes principios:
 Este enfoque permite que el sistema sea extensible, mantenible y alineado con estándares modernos de desarrollo de software.
 
 ### 5.1.4. Software Deployment Configuration.
+
+Para el despliegue de la Landing Page del proyecto Ventix, se utilizó GitHub Pages como plataforma de publicación. A continuación, se describen los pasos principales seguidos para su implementación:
+
+1. Se creó un repositorio en GitHub que contiene todo el código fuente de la Landing Page, incluyendo archivos HTML, CSS y JavaScript.
+
+2. En la rama principal (`main`), se subieron todos los archivos del proyecto, asegurando que el archivo de entrada sea `index.html`.
+
+3. Dentro de la configuración del repositorio, en la sección Pages, se seleccionó la rama `main` y la carpeta raíz (`root`) como fuente de publicación.
+
+4. Dentro de la configuración del repositorio, en la sección Pages, se seleccionó la rama `main` y la carpeta raíz (`root`) como fuente de publicación.
+
+5. GitHub generó automáticamente una URL pública que permite acceder a la Landing Page del sistema Ventix.
+
+6. Posteriormente, se realizaron pruebas para validar que los estilos, scripts y recursos se carguen correctamente en el entorno de producción.
+
+Con esta configuración, cualquier cambio realizado en el repositorio principal se actualiza automáticamente en la versión publicada de la página.
+
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
 ##### 5.2.1.1. Sprint Planning 1.
