@@ -199,9 +199,7 @@ Me podrías brindar tu nombre, edad y a qué te dedicas actualmente?
 
 10- ¿Qué valorarías más: control remoto, automatización o ahorro de energía?
 
-11- ¿Qué nivel de confianza te genera una solución de bajo costo y de código abierto?
-
-12- ¿Estarías dispuesto a instalar un sistema sencillo para mejorar el ambiente de tu hogar?
+11- ¿Estaría dispuesto a probar una solución que mejore automáticamente la ventilación de su hogar ?
 
 ### 2.2.2. Registro de entrevistas
 
