@@ -352,6 +352,27 @@ El Sprint Backlog 1 reúne las historias de usuario y tareas necesarias para imp
 
 Todas las tareas son monitoreadas y actualizadas mediante Jira Software.
 
+Todas las tareas son monitoreadas y actualizadas mediante Jira Software.
+
+![Jiraevidence.png](../assets/img/chapter-5/Jiraevidence.png)
+
+A continuación, la estructura de la tabla de control de estado para el Sprint:
+
+
+
+| Sprint#    | Sprint 1                             |                 |                                          |                                                                                                                         |                      |                  |                                                    | 
+|------------|--------------------------------------|-----------------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|----------------------|------------------|----------------------------------------------------|
+| User Story |                                      | Work-Item /Task |                                          |                                                                                                                         |                      |                  |                                                    | 
+| **Id**     | **Title**                            | **Id**          | **Title**                                | **Description**                                                                                                         | **Estimation Hours** | **Assigned To**  | **Status (To-do / In-Process / To-Review / Done)** | 
+| US-001     | Menú de navegación                   | T001            | Desarrollar barra de navegación (Navbar) | Maquetar el menú superior con enlaces ancla a las secciones y botón de menú responsivo (hamburguesa) para móviles.      | 3                    | Geraldine Suarez | 	To-do                                             | 
+| US-002     | Visualización de Beneficios y planes | T002            | Implementar secciones Hero y Features    | Estructurar la cabecera principal y la sección de características (beneficios de automatización y hardware IoT).        | 5                    | Ruth Ozorio      | 	To-do                                             | 
+| US-002     | Selección de Plan en Landing Page    | T003            | Maquetar tabla comparativa Pricing       | Crear la sección de planes (Normal vs Plus) detallando características, precios y botones de llamado a la acción (CTA). | 4                    | Jorge Taipe      | 	To-do                                             | 
+| US-002     | Visualización de creadores           | T004            | Crear sección "About the Team"           | Diseñar tarjetas visuales que incluyan las fotografías, nombres y roles de los miembros del equipo de Ventix.           | 3                    | Ruth Ozorio      | 	To-do                                             | 
+| US-003     | Cambio de idioma                     | T005            | Configurar soporte bilingüe (i18n)       | Implementar el selector de idioma y los archivos de traducción (ES/EN) para todos los textos estáticos de la página.    | 6                    | Jorge Taipe      | 	To-do                                             | 
+| US-003     | Soporte y contacto                   | T006            | Maquetar contenedor de Contacto          | Estructurar la sección informativa con correos, teléfonos y horarios de atención de la empresa.                         | 2                    | Geraldine Suarez | 	To-do                                             | 
+| US-003     | Redes sociales                       | T007            | Implementar Footer y enlaces sociales    | Desarrollar el pie de página con el logo, enlaces legales y los iconos enlazados a las redes sociales del proyecto.     | 2                    | Jorge Taipe      | 	To-do                                             | 
+| US-004     | Formulario de contacto               | T008            | Desarrollar formulario de contacto       | Implementar los campos de entrada de datos (nombre, correo, mensaje) con validaciones visuales básicas de HTML5/CSS.    | 3                    | Albino Caceres   | 	To-do                                             | 
+
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
@@ -359,8 +380,12 @@ En esta sección se explican y presentan los avances en la implementación logra
 
 La tabla siguiente resume los commits más relevantes realizados en el repositorio de la Landing Page, indicando la rama, el identificador del commit, el mensaje asociado y una breve explicación del cambio introducido en la implementación.
 
-
-
+| Repository                                        | Branch | Commit Id                                 | Commit Message                     | Commit Message Body                                                                                                         | Commit on (Date) |
+|---------------------------------------------------|--------|-------------------------------------------|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|------------------|
+| https://github.com/Open-10177/Ventix-LandingPage  | main   | 8c26bff889ba9ee34d3a9c941047a4f68cb9a2cf  | First commit landing page finished | Commit inicial del repositorio, creando la estructura base del proyecto de Landing Page y la configuración de dependencias. | 15-04-2025       |
+| https://github.com/Open-10177/Ventix-LandingPage  | main   | 94f26223e32498740b2e5b225f49aae9d588dcd8  | Create CNAME                       | Create CNAME                                                                                                                | 15-04-2025       |
+| https://github.com/Open-10177/Ventix-LandingPage  | main   | a03ff07c4a04b405ebe4f53ab91e06fe84fb0dad  | Delete CNAME                       | Delte CNAME                                                                                                                 | 15-04-2025       |
+| https://github.com/Open-10177/Ventix-LandingPage  | main   | 087126147bfbe6414f86448511dbb5d4c47aafe4  | feat: fix structure                | feat: fix structure                                                                                                         | 15-04-2025       |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 Durante el Sprint 1, se completó exitosamente la implementación de todas las secciones del Landing Page de VENTIX, incluyendo navegación responsiva, soporte bilingüe y despliegue en GitHub Pages. A continuación se presentan evidencias de ejecución mediante capturas de pantalla de las principales vistas.
