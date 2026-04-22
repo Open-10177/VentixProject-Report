@@ -236,6 +236,7 @@ Carolina Méndez, consultora independiente de marketing de 42 años, pasa la may
 | Ocupacion                      | Estudiante    |      
 
 Resumen:
+Miranda, estudiante de Periodismo de 21 años, realiza sus actividades académicas principalmente en su habitación durante varias horas al día, especialmente en la noche debido al ruido en su hogar. Para poder concentrarse, suele estudiar con la puerta y ventana cerradas, lo que reduce la ventilación del espacio. Con el paso del tiempo, el ambiente se vuelve más caluroso y el aire se siente pesado, lo que le genera somnolencia, cansancio y una disminución en su concentración. Aunque en ocasiones interrumpe su estudio para ventilar o encender un ventilador, no siempre lo hace a tiempo. Miranda no tenía conocimiento sobre el impacto del CO₂ en el rendimiento, pero reconoce que el ambiente influye en su desempeño. Además, muestra interés en una solución automatizada que mejore la ventilación, siempre que sea fácil de instalar y accesible.
 
 
 * Entrevista 3:
