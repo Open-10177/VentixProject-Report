@@ -208,17 +208,17 @@ Me podrías brindar tu nombre, edad y a qué te dedicas actualmente?
 #### Segmento 1:
 * Entrevista 1:
 
-| Nombre                         |         Carolina         |      
-|--------------------------------|--------------------------|
-| Apellido                       |          Mendez          |      
-| Edad                           |            42            |      
-| Distrito                       |        Chimu, SJL        |      
+| Nombre                         |Carolina|      
+|--------------------------------|--------|
+| Apellido                       |Mendez|      
+| Edad                           |42|      
+| Distrito                       |Chimu, SJL|      
 | Evidencia                      |     |      
 | URL                            |     |      
 | Inicio de Entrevista           |     |      
 | Fin de entrevista              |     |      
-| Estado Civil                   |          Casada          |      
-| Ocupacion                      | Consultora de Marketing  |          
+| Estado Civil                   |Casada|      
+| Ocupacion                      |Consultora independiente de Marketing|          
 
 Resumen:
 
