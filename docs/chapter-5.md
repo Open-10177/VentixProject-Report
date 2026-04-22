@@ -183,7 +183,12 @@ Para el desarrollo del sistema Ventix (Landing Page y Dashboard Web), hemos deci
 
 Se sigue principalmente el Google HTML/CSS Style Guide para mantener buenas prácticas de codificación.
 
-Se utilizarán etiquetas semánticas como <header>, <section>, <article>, <nav> y <footer> para estructurar mejor el contenido de la página y del dashboard.
+Se utilizarán etiquetas semánticas como: 
+    
+    <header>, <section>, <article>, <nav> y <footer> 
+
+para estructurar mejor el contenido de la página y del dashboard.
+
 
 Los nombres de las clases en CSS se escribirán utilizando kebab-case (por ejemplo: .main-banner, .sensor-card).
 
@@ -191,13 +196,13 @@ Los identificadores serán claros y específicos para que tanto el acceso como e
 
 Las etiquetas principales que se usarán en el proyecto son:
 
-<div> para separar diferentes bloques o secciones del contenido.
-<img> para mostrar imágenes o elementos visuales del sistema.
-<ul> y <li> para crear listas, principalmente en los menús de navegación.
-<a> para establecer enlaces entre secciones o páginas.
-<p> para párrafos de texto descriptivo.
-<button> para botones que permitan al usuario realizar acciones específicas como activar o desactivar el sistema.
-Títulos <h1> hasta <h4> para jerarquizar la información de manera lógica.
+    <div> para separar diferentes bloques o secciones del contenido.
+    <img> para mostrar imágenes o elementos visuales del sistema.
+    <ul> y <li> para crear listas, principalmente en los menús de navegación.
+    <a> para establecer enlaces entre secciones o páginas.
+    <p> para párrafos de texto descriptivo.
+    <button> para botones que permitan al usuario realizar acciones específicas como activar o desactivar el sistema.
+    Títulos <h1> hasta <h4> para jerarquizar la información de manera lógica.
 
 ### JavaScript
 
@@ -225,16 +230,193 @@ Este enfoque permite que el sistema sea extensible, mantenible y alineado con es
 ### 5.1.4. Software Deployment Configuration.
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
-##### 5.2.1.1. Sprint Planning 1.
-#### 5.2.1.2. Aspect Leaders and Collaborators.
-#### 5.2.1.3. Sprint Backlog 1.
-#### 5.2.1.4. Development Evidence for Sprint Review.
-#### 5.2.1.5. Execution Evidence for Sprint Review.
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
-#### 5.2.1.8. Team Collaboration Insights during Sprint.
+Durante el Sprint 1, el equipo se enfocó en el desarrollo e implementación del Landing Page de Ventix, incluyendo todas las secciones de presentación del negocio con soporte bilingüe (español/inglés) y despliegue mediante GitHub Pages.
 
+Repositorio: https://github.com/Open-10177/VentixProject-Report
+
+Landing Page Desplegada: https://open-10177.github.io/Ventix-LandingPage/
+
+
+#### 5.2.1.1. Sprint Planning
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th colspan="2" style="text-align: center;">Sprint Planning Sprint 1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td>Date</td>
+      <td>22/04/2026</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>05:00 p.m.</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Discord</td>
+    </tr>
+    <tr>
+      <td>Prepared By</td>
+      <td>Jorge Taipe Sangama</td>
+    </tr>
+    <tr>
+      <td>Attendees (to planning meeting)</td>
+      <td>
+        Jorge Taipe
+            
+Geraldine Suarez
+        
+Ruth Sanchez
+        
+Albino Caceres
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 0 Review Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">N/A (Este es el primer sprint del proyecto)</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 0 Retrospective Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">N/A (Este es el primer sprint del proyecto)</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Sprint 1 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
+<em>We believe it delivers a clear and trustworthy first impression for University Students and Home Owners, helping them quickly understand how VENTIX monitors CO2 levels, automates ventilation, and how to select a plan.</em>
+<em>This will be confirmed when users from both segments can navigate through all core sections (Hero, Features, Plan Comparison, Hardware, Team, Contact) in Spanish and English and can initiate the registration or checkout process in no more than three clicks from the home view.</em></td>
+    </tr>
+    <tr>
+      <td>Sprint 1 Velocity</td>
+      <td>13 Story Points</td>
+    </tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>13 SP (≈ 53 horas estimadas)</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.1.2. Aspect Leaders and Collaborators.
+
+En esta sección se presenta la matriz **Leadership-and-Collaboration Matrix (LACX)** correspondiente al Sprint 1. Su propósito es identificar claramente los aspectos principales del sprint y asignar responsabilidades de liderazgo (L) y colaboración (C) para fortalecer la comunicación, coordinación y trazabilidad del trabajo dentro del equipo.
+
+Estos aspectos se derivan directamente de los objetivos definidos en el Sprint 1 Goal, asegurando cobertura total de los entregables planificados.
+
+- Landing Page Development & Deployment: Diseño, estructura, contenido y funcionalidad de la página principal del proyecto, incluyendo su despliegue.
+
+- Report Module Implementation: Desarrollo y presentación del módulo que permitirá crear, visualizar y exportar el reporte requerido.
+
+| Team Member                      | Aspect: Landing Page | Aspect: Report Module |
+|----------------------------------|----------------------|-----------------------|
+| Cáceres Pizarro Albino Florencio |                      | C                     |
+| Sanchez Osorio, Ruth Yanira      | C                    | C                     |
+| Suarez Chinga, Geraldine         | C                    | C                     |
+| Taipe Sangama, Jorge Francisco   | L                    | L                     |
+
+- *L* = Líder del aspecto
+
+- *C* = Colaborador en el aspecto
+
+#### 5.2.1.3. Sprint Backlog 1.
+
+El Sprint Backlog 1 reúne las historias de usuario y tareas necesarias para implementar la primera versión de la landing page, incluyendo el menú de navegación, la visualización de planes, la sección de creadores, redes sociales, el formulario de contacto y el cambio de idioma.
+
+Todas las tareas son monitoreadas y actualizadas mediante Jira Software.
+
+
+#### 5.2.1.4. Development Evidence for Sprint Review.
+
+En esta sección se explican y presentan los avances en la implementación logrados durante el Sprint 1 en relación con el producto de la solución incluido en su alcance: la Landing Page pública de VENTIX. A lo largo de este sprint se construyó la primera versión navegable del sitio, incluyendo las secciones Home/Hero, Features, Hardware (Sensores IoT), Plan Comparison (Pricing), About the Team y Contact, con sus estilos CSS y ajustes de responsividad.
+
+La tabla siguiente resume los commits más relevantes realizados en el repositorio de la Landing Page, indicando la rama, el identificador del commit, el mensaje asociado y una breve explicación del cambio introducido en la implementación.
+
+
+
+
+#### 5.2.1.5. Execution Evidence for Sprint Review.
+Durante el Sprint 1, se completó exitosamente la implementación de todas las secciones del Landing Page de VENTIX, incluyendo navegación responsiva, soporte bilingüe y despliegue en GitHub Pages. A continuación se presentan evidencias de ejecución mediante capturas de pantalla de las principales vistas.
+
+**Video de demostracion del Landing Page**
+
+**URL DE YOUTUBE** : 
+
+**Duracion**
+
+Capturas de las principales secciones:
+
+Encabezado y menu de navegacion:
+
+![navbar.png](../assets/img/chapter-5/navbar.png)
+
+Seccion hero:
+
+![Hero.png](../assets/img/chapter-5/Hero.png)
+
+Seccion Services:
+
+![Services.png](../assets/img/chapter-5/Services.png)
+
+Seccion Testimonials:
+
+![testimonial.png](../assets/img/chapter-5/testimonial.png)
+
+Seccion Benefits:
+
+![benefits.png](../assets/img/chapter-5/benefits.png)
+
+Seccion Pricing:
+
+![pricing.png](../assets/img/chapter-5/pricing.png)
+
+Seccion Contact:
+
+![contact.png](../assets/img/chapter-5/contact.png)
+
+Footer: 
+
+![footer-mo.png](../assets/img/Chapter-4/footer-mo.png)
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+En el Sprint 1, el equipo diseñó, programó y desplegó el Landing Page de Ventix. Esta es una página web estática, por lo que no hay Web Services disponibles en este sprint.
+
+| End Point | Funciones                                                                 |
+|-----------|---------------------------------------------------------------------------|
+| N/A       | No hay Web Services implementados en el Sprint 1 (Landing Page estático)  |
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+[Landing Page Ventix](https://open-10177.github.io/Ventix-LandingPage/) - https://open-10177.github.io/Ventix-LandingPage/
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
+Durante el Sprint 1, los analíticos de colaboración de GitHub muestran una participación activa y continua de todos los miembros del equipo sobre el repositorio de la Landing Page de Ventix. En el panel de Overview se observa un flujo constante de commits distribuidos a lo largo de los días del sprint, lo que evidencia que las tareas de implementación de las distintas secciones (Home/Hero, Features, Hardware IoT, Plan Comparison, About the Team, Contact y Footer) se desarrollaron de manera incremental y coordinada. Cada integrante realizó aportes directos al código, ya sea mediante la creación de nuevas secciones, ajustes de estilos responsivos, configuración del soporte bilingüe o correcciones derivadas de las revisiones entre pares, asegurando así que el entregable del sprint se construyera de forma colaborativa y no centralizada en una sola persona.
+
+![Evidence.png](../assets/img/chapter-5/Evidence.png)
+
+El Network Graph refleja esta dinámica mediante la presencia de ramas que nacen desde main y regresan a ella una vez integradas, siguiendo el flujo definido por GitFlow. Esta visualización confirma que las contribuciones individuales se alinearon con el marco de trabajo acordado: se desarrollaron cambios en ramas aisladas, se realizaron pruebas locales y posteriormente se integraron al tronco principal, lo que redujo conflictos y facilitó el seguimiento de la trazabilidad de cada cambio. De este modo, la colaboración no solo se dio a nivel de cantidad de commits, sino también en la forma de trabajo estructurada y compatible con las prácticas ágiles del equipo.
+
+![Evidence22.png](../assets/img/chapter-5/Evidence22.png)
+
+Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrollo y se consolidaban las funcionalidades del Landing Page, el repositorio comenzó a recibir visitas y visualizaciones, lo que sugiere interés progresivo en el producto por parte de stakeholders y del propio equipo durante las actividades de revisión y validación. En conjunto, estos analíticos de colaboración y actividad en GitHub demuestran que todos los integrantes tuvieron participación efectiva en la implementación del producto del Sprint (Landing Page) y sientan la base para replicar este mismo patrón de trabajo en los siguientes sprints, donde se abordarán la Web Application y los Web Services.
+
+![evidence33.png](../assets/img/chapter-5/evidence33.png)
 # Conclusiones
+
+
+
+
+
 ## Conclusiones y recomendaciones.
 
 ## Bibliografía
