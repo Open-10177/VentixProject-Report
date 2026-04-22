@@ -183,9 +183,9 @@ Para el desarrollo del sistema Ventix (Landing Page y Dashboard Web), hemos deci
 
 Se sigue principalmente el Google HTML/CSS Style Guide para mantener buenas prácticas de codificación.
 
-Se utilizarán etiquetas semánticas como <header>, <section>, <article>, <nav> y <footer> para estructurar mejor el contenido de la página y del dashboard.
+Se utilizarán etiquetas semánticas como `<header>`, `<section>`, `<article>`, `<nav>` y `<footer>` para estructurar mejor el contenido de la página y del dashboard.
 
-Los nombres de las clases en CSS se escribirán utilizando kebab-case (por ejemplo: .main-banner, .sensor-card).
+Los nombres de las clases en CSS se escribirán utilizando kebab-case (por ejemplo: `.main-banner`, `.sensor-card`).
 
 Los identificadores serán claros y específicos para que tanto el acceso como el mantenimiento del código sean más sencillos.
 
