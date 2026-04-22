@@ -23,21 +23,13 @@ Mejorar la salud y productividad de las personas mediante la automatización int
 Convertirnos en el framework de referencia para proyectos de automatización ambiental en la comunidad de código abierto para el año 2028. Aspiramos a transformar la gestión de la ventilación en un proceso transparente, confiable y humano, acompañando a comunidades e instituciones en la creación de una nueva era de bienestar integral.
 
 ### 1.1.2. Perfiles de integrantes del equipo
-<<<<<<< HEAD
-| Foto | Información                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| | **Nombre Completo:** <br> **Código:** <br> **Carrera:** <br><br> **Perfil:** <br> <br><br> **Habilidades Técnicas:** <br> - <br> - <br> - <br><br> **Habilidades Sociales:** <br> - <br> - <br> -                                                                                                                                                                                                                                                                                                |
-| | **Nombre Completo:** Jorge Francisco Taipe Sangama<br> **Código:** U202313458 <br> **Carrera:** Ingenieria de Software <br><br> **Perfil:** <br> Estudiante de Ingeniería de Software apasionado por el desarrollo de aplicaciones y soluciones tecnológicas mas enfocado en el tema de DevOps <br><br> **Habilidades Técnicas:** <br> - Mandejo de base de datos SQL <br> - GIT <br> - Flutter <br><br> **Habilidades Sociales:** <br> - Lider de equipo <br> - Responsable <br> - Comunicador  |
-| | **Nombre Completo:** Geraldine Suarez Chinga<br> **Código:** u20241c804<br> **Carrera:** Ingenieria de Software<br><br> **Perfil:** <br> Estudiante apasionada en el diseñodel perfil de los sitios web y aplicaciones, centrada en el area del proceso creativo y programacion de juegos <br><br> **Habilidades Técnicas:** <br> -Diseño de aplicacion <br> -Programacion visual studio promedio <br><br> **Habilidades Sociales:** <br> -Comunicadora <br> -Responsable <br> -Activa proactiva |
-| | **Nombre Completo:** Ruth Yanira Sanchez Osorio<br> **Código:** u20241c626<br> **Carrera:** Ingenieria de software<br> **Perfil:** <br>Estudiante apasionada por aprender nuevos lenguajes de programación, enfocada en la resolución de problemas y con interés en el diseño UI/UX. <br><br> **Habilidades Técnicas:** <br> -Conocimientos en programación <br> -Diseño de aplicaiones <br><br> **Habilidades Sociales:** <br> -Amable <br> -Responsable <br> -Proactiva                        |
-=======
-| Foto | Información                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|![Perfil_Jorge_Taipe.png](../assets/img/chapter-1/Perfil_Jorge_Taipe.png) | **Nombre Completo:** Jorge Francisco Taipe Sangama<br> **Código:** U202313458 <br> **Carrera:** Ingenieria de Software <br><br> **Perfil:** <br> Estudiante de Ingeniería de Software apasionado por el desarrollo de aplicaciones y soluciones tecnológicas mas enfocado en el tema de DevOps <br><br> **Habilidades Técnicas:** <br> - Mandejo de base de datos SQL <br> - GIT <br> - Flutter y Kotlin <br><br> **Habilidades Sociales:** <br> - Lider de equipo <br> - Responsable <br> - Comunicador                                                                                                                                                                                                                             |
-|<img src="/assets/img/chapter-1/foto cv.png" alt="foto de perfil" width="250"> | **Nombre Completo:** Geraldine Suarez Chinga<br> **Código:** u20241c804<br> **Carrera:** Ingenieria de Software<br><br> **Perfil:** <br> Estudiante apasionada en el diseñodel perfil de los sitios web y aplicaciones, centrada en el area del proceso creativo y programacion de juegos <br><br> **Habilidades Técnicas:** <br> -Diseño de aplicacion <br> -Programacion visual studio promedio <br><br> **Habilidades Sociales:** <br> -Comunicadora <br> -Responsable <br> -Activa proactiva                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| <img src="/assets/img/chapter-1/foto perfil.jpeg" alt="foto perfil" width="250"> | **Nombre Completo:** Ruth Yanira Sanchez Osorio<br> **Código:** u20241c626<br> **Carrera:** Ingenieria de software <br><br> **Perfil:** <br>Estudiante apasionada por aprender nuevos lenguajes de programación, enfocada en la resolución de problemas y con interés en el diseño UI/UX.  <br><br> **Habilidades Técnicas:** <br> -Conocimientos en programación <br> -Diseño de aplicaiones <br><br> **Habilidades Sociales:**<br> -Amable <br> -Responsable <br> -Proactiva                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
->>>>>>> docs/chapter-1
-| | **Nombre Completo:** Albino Cáceres Pizarro<br> **Código:** u201923820<br> **Carrera:** Ingienería de Software<br><br> **Perfil:** <br>Estudiante con interes en aprender habilidades FullStack <br><br> **Habilidades Técnicas:** <br> -Conocimientos de programación <br> -Dieño de aplicaciones <br> - <br><br> **Habilidades Sociales:** <br> -Adaptabilidad rápida <br> -Saber escuchar <br> -Trabajo en equipo                                                                                                                                                                                                                                                                           |
+
+| Foto | Información                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|-----|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|![Perfil_Jorge_Taipe.png](../assets/img/chapter-1/Perfil_Jorge_Taipe.png) | **Nombre Completo:** Jorge Francisco Taipe Sangama<br> **Código:** U202313458 <br> **Carrera:** Ingenieria de Software <br><br> **Perfil:** <br> Estudiante de Ingeniería de Software apasionado por el desarrollo de aplicaciones y soluciones tecnológicas mas enfocado en el tema de DevOps <br><br> **Habilidades Técnicas:** <br> - Mandejo de base de datos SQL <br> - GIT <br> - Flutter y Kotlin <br><br> **Habilidades Sociales:** <br> - Lider de equipo <br> - Responsable <br> - Comunicador |
+|<img src="/assets/img/chapter-1/foto cv.png" alt="foto de perfil" width="250"> | **Nombre Completo:** Geraldine Suarez Chinga<br> **Código:** u20241c804<br> **Carrera:** Ingenieria de Software<br><br> **Perfil:** <br> Estudiante apasionada en el diseñodel perfil de los sitios web y aplicaciones, centrada en el area del proceso creativo y programacion de juegos <br><br> **Habilidades Técnicas:** <br> -Diseño de aplicacion <br> -Programacion visual studio promedio <br><br> **Habilidades Sociales:** <br> -Comunicadora <br> -Responsable <br> -Activa proactiva        |
+| <img src="/assets/img/chapter-1/foto perfil.jpeg" alt="foto perfil" width="250"> | **Nombre Completo:** Ruth Yanira Sanchez Osorio<br> **Código:** u20241c626<br> **Carrera:** Ingenieria de software <br><br> **Perfil:** <br>Estudiante apasionada por aprender nuevos lenguajes de programación, enfocada en la resolución de problemas y con interés en el diseño UI/UX.  <br><br> **Habilidades Técnicas:** <br> -Conocimientos en programación <br> -Diseño de aplicaiones <br><br> **Habilidades Sociales:**<br> -Amable <br> -Responsable <br> -Proactiva                          |
+| | **Nombre Completo:** Albino Cáceres Pizarro<br> **Código:** u201923820<br> **Carrera:** Ingienería de Software<br><br> **Perfil:** <br>Estudiante con interes en aprender habilidades FullStack <br><br> **Habilidades Técnicas:** <br> -Conocimientos de programación <br> -Dieño de aplicaciones <br> - <br><br> **Habilidades Sociales:** <br> -Adaptabilidad rápida <br> -Saber escuchar <br> -Trabajo en equipo                                                                                    |
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
@@ -184,15 +176,15 @@ Creemos que el uso de una arquitectura basada en microservicios para gestionar l
 
 
 ## 1.3. Segmentos objetivo
-<<<<<<< HEAD
+
 El proyecto Ventix se dirige a usuarios que pasan gran parte de su tiempo en entornos interiores, donde la calidad del aire, la ventilación y la automatización del ambiente influyen directamente en su bienestar y rendimiento. Se han identificado dos segmentos principales:
-=======
+
 
 El proyecto Ventix se dirige a usuarios que pasan gran parte de su día en entornos interiores de dimensiones reducidas, donde el control de la calidad del aire es crítico para su desempeño. Se han identificado los siguientes dos segmentos principales:
->>>>>>> docs/chapter-1
 
 
-## SEGMENTO OBJETIVO 1: Estudiantes universitarios en espacios cerrados
+
+### SEGMENTO OBJETIVO 1: Estudiantes universitarios en espacios cerrados
 
 Este segmento comprende a jóvenes entre 18 y 25 años que estudian en dormitorios universitarios, habitaciones alquiladas o espacios compartidos.
 
@@ -206,7 +198,7 @@ Este segmento comprende a jóvenes entre 18 y 25 años que estudian en dormitori
   Requieren una solución accesible, de fácil instalación y bajo costo que permita automatizar el control del ambiente (temperatura, ventilación y calidad del aire), evitando interrupciones en su flujo de estudio y mejorando su rendimiento académico.
 
 
-## SEGMENTO OBJETIVO 2: Responsables del hogar (monitoreo remoto)
+### SEGMENTO OBJETIVO 2: Responsables del hogar (monitoreo remoto)
 
 Este segmento incluye a padres de familia, tutores o responsables del hogar que pasan parte del día fuera de casa y desean mantener control sobre las condiciones ambientales del entorno.
 
@@ -216,10 +208,10 @@ Este segmento incluye a padres de familia, tutores o responsables del hogar que 
 - **Puntos de dolor:**  
   Preocupación por la calidad del aire dentro del hogar, falta de visibilidad del estado del ambiente en tiempo real y dificultad para actuar rápidamente ante condiciones desfavorables como calor excesivo o mala ventilación.
 
-<<<<<<< HEAD
+
 - **Necesidad:**  
   Una plataforma web tipo dashboard que permita monitorear el hogar en tiempo real desde cualquier lugar, junto con un sistema automatizado que gestione la ventilación y condiciones ambientales sin intervención constante del usuario, brindando seguridad, tranquilidad y control remoto eficiente.
-=======
+
 
 **SEGMENTO OBJETIVO 2: Dueños de casa que desean monitorear remoto sus hogares desde el exterior** 
 
@@ -231,4 +223,4 @@ Este perfil incluye a propietarios que buscan mantener control y tranquilidad so
 
 - **Necesidad:** Una plataforma web (Dashboard) que centralice la información y actúe de forma automática, brindando tranquilidad y confianza mientras están fuera.  
  
->>>>>>> docs/chapter-1
+
