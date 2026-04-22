@@ -168,8 +168,6 @@ Me podrías brindar tu nombre, edad y a qué te dedicas actualmente?
 
 11- ¿Qué tan útil sería para ti que el sistema se active automáticamente sin que tengas que intervenir?
 
-12- ¿Estarías dispuesto a instalar un dispositivo económico que mejore tu ambiente de estudio?
-
 
 ## Segmento Objetivo 2: Responsables del hogar (monitoreo remoto)
 
@@ -225,17 +223,17 @@ Carolina Méndez, consultora independiente de marketing de 42 años, pasa la may
 
 * Entrevista 2:
 
-| Nombre                         |     |      
+| Nombre                         | Miranda   |      
 |--------------------------------|-----|
-| Apellido                       |     |      
-| Edad                           |     |      
-| Distrito                       |     |      
-| Evidencia                      |     |      
+| Apellido                       | Fernandez    |      
+| Edad                           | 21    |      
+| Distrito                       |  Jesus María   |      
+| Evidencia                      | Entrevista Virtual    |      
 | URL                            |     |      
 | Inicio de Entrevista           |     |      
 | Fin de entrevista              |     |      
-| Estado Civil                   |     |      
-| Ocupacion                      |     |      
+| Estado Civil                   | Soltera    |      
+| Ocupacion                      | Estudiante    |      
 
 Resumen:
 
@@ -259,17 +257,17 @@ Resumen:
 #### Segmento 2:
 * Entrevista 1:
 
-| Nombre                         |     |      
+| Nombre                         | Bianca    |      
 |--------------------------------|-----|
-| Apellido                       |     |      
-| Edad                           |     |      
-| Distrito                       |     |      
-| Evidencia                      |     |      
+| Apellido                       | Morales   |      
+| Edad                           | 25    |      
+| Distrito                       | Miraflores    |      
+| Evidencia                      | Entrevista virtual    |      
 | URL                            |     |      
 | Inicio de Entrevista           |     |      
 | Fin de entrevista              |     |      
-| Estado Civil                   |     |      
-| Ocupacion                      |     |         
+| Estado Civil                   |  Soltera   |      
+| Ocupacion                      |  Asistente administrativo   |         
 
 Resumen:
 
