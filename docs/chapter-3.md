@@ -56,6 +56,8 @@
 
 ## 3.2. Impact Mapping.
 
+<img src="/assets/img/chapter-3/impact-map.png" alt="journey mapping estudiante" width="700">
+
 ## 3.3. Product Backlog.
 
 | Orden | User Story ID | Título | Descripción | Story Points |
