@@ -4,6 +4,12 @@
 
 En esta sección se detallan las herramientas utilizadas para la gestión del proyecto, el diseño, el desarrollo, el despliegue y la documentación de la solución.
 
+Project Management:
+
+Trello Propósito: Gestión de tareas mediante tableros Kanban organizados en columnas (To Do, In Progress, Done).
+
+URL: https://trello.com
+
 ### 5.1.2. Source Code Management.
 ### 5.1.3. Source Code Style Guide & Conventions.
 ### 5.1.4. Software Deployment Configuration.
