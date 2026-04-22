@@ -228,6 +228,23 @@ El desarrollo del sistema Ventix se basa en los siguientes principios:
 Este enfoque permite que el sistema sea extensible, mantenible y alineado con estándares modernos de desarrollo de software.
 
 ### 5.1.4. Software Deployment Configuration.
+
+En esta sección se especifica la configuración de despliegue para cada uno de los producto digitales de la solución Ventix: Landing Page.
+
+Pasos de configuración:
+
+1. Acceder al repositorio NovaPeru-Tech-LandingPage en GitHub.
+
+2. Navegar a Settings > Pages en el menú lateral.
+
+3. En la sección "Source", seleccionar la rama main y carpeta / (root).
+
+4. Hacer clic en Save y esperar la generación del sitio (1-2 minutos).
+
+5. Verificar el despliegue accediendo a la URL generada.
+
+URL de despliegue: https://open-10177.github.io/Ventix-LandingPage/
+
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
 Durante el Sprint 1, el equipo se enfocó en el desarrollo e implementación del Landing Page de Ventix, incluyendo todas las secciones de presentación del negocio con soporte bilingüe (español/inglés) y despliegue mediante GitHub Pages.
