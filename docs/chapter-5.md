@@ -22,6 +22,8 @@ Esta disciplina se centra en la planificación, seguimiento y control de las act
 * Trello: Plataforma de gestión visual basada en tableros, listas y tarjetas, utilizada para la organización del Sprint Backlog, gestión de User Stories por estado (To-Do, In-Progress, Done) y colaboración del equipo en la priorización de requisitos del proyecto Ventix.
   Ruta de referencia : https://trello.com
 
+  <img src="/assets/img/chapter-5/logo-trello.png" alt="logoTrello" width="400">
+
 **Requirements Management**
 
 Este proceso se enfoca en la documentación, verificación y seguimiento de los requisitos del proyecto, asegurando que las necesidades de los stakeholders sean satisfechas.
@@ -36,19 +38,24 @@ El diseño de la experiencia de usuario y la interfaz de usuario para Ventix con
 
 1. **UXPressia:** Plataforma para la elaboración de User Personas, Empathy Maps, Customer Journey Maps e Impact Maps de los segmentos objetivo del proyecto Ventix .
 Ruta de referencia: https://uxpressia.com/
-  <img src="/assets/img/chapter-5/logo-uxpressia.png" alt="logoUXpressia" width="400">
+  <img src="/assets/img/chapter-5/logo-uxpressia.png" alt="logoUxpressia" width="400">
 
 
 3. **Miro:** Pizarra digital colaborativa utilizada para sesiones de Big Picture EventStorming y Design-Level EventStorming, facilitando la identificación de Bounded Contexts, Events, Commands y Aggregates del dominio Ventix.
 Ruta de referencia: https://miro.com/es/
 
-
+  <img src="/assets/img/chapter-5/logo-miro.png" alt="logoMiro" width="400">
+  
 4. **Figma:** Herramienta de diseño colaborativo para la creación de Wireframes, Mock-ups y Prototipos interactivos del Landing Page y Web Applications de Ventix, aplicando el Design System basado en Material Design.
 Ruta de referencia: https://www.figma.com/es-es/
 
+  <img src="/assets/img/chapter-5/logo-figma.png" alt="logoFignma" width="400">
 
-5. **LucidChart:** Aplicación de diagramación colaborativa para la creación de Wireflows, User Flows, diagramas UML (Class Diagrams) y Database Diagrams de la arquitectura de Ventix.
+
+6. **LucidChart:** Aplicación de diagramación colaborativa para la creación de Wireflows, User Flows, diagramas UML (Class Diagrams) y Database Diagrams de la arquitectura de Ventix.
 Ruta de referencia: https://www.lucidchart.com/pages/es
+
+  <img src="/assets/img/chapter-5/logo-lucid.png" alt="logoLucid" width="400">
 
 **Software Development:**
 
@@ -57,16 +64,18 @@ El desarrollo de software del proyecto Ventix abarca la implementación del Lang
 1. **GitHub:** Sistema de control de versiones distribuido y plataforma de hosting para repositorios de código fuente. Gestión de la organización Open-10177, implementación de GitFlow Workflow, Conventional Commits y Semantic Versioning.
 Ruta de referencia: https://github.com
     
-    Organización del proyecto: https://github.com/Open-10177 
+    Organización del proyecto: https://github.com/Open-10177
+   
+   <img src="/assets/img/chapter-5/logo-figma.png" alt="logoFignma" width="400">
 
 
-2. **WebStorm:** Entorno de desarrollo integrado (IDE) de JetBrains para la implementación del Frontend utilizando Angular Framework, HTML5, CSS3, JavaScript y TypeScript. Incluye integración con GitHub para control de versiones.
+3. **WebStorm:** Entorno de desarrollo integrado (IDE) de JetBrains para la implementación del Frontend utilizando Angular Framework, HTML5, CSS3, JavaScript y TypeScript. Incluye integración con GitHub para control de versiones.
 Ruta de descarga: https://www.jetbrains.com/webstorm/
 
     Licencia de estudiante: https://www.jetbrains.com/community/education/
+    <img src="/assets/img/chapter-5/logo-webstorm.png" alt="logoWebstorm" width="400">
 
-
-3. **HTML5, CSS3, JavaScript:** Tecnologías fundamentales para la implementación del Landing Page y estructura base de las Web Applications.
+4. **HTML5, CSS3, JavaScript:** Tecnologías fundamentales para la implementación del Landing Page y estructura base de las Web Applications.
    
     **Referencias:**
    * HTML5: https://html.spec.whatwg.org/
