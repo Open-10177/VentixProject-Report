@@ -73,9 +73,10 @@ Ruta de referencia: https://github.com
 Ruta de descarga: https://www.jetbrains.com/webstorm/
 
     Licencia de estudiante: https://www.jetbrains.com/community/education/
+   
     <img src="/assets/img/chapter-5/logo-webstorm.png" alt="logoWebstorm" width="400">
 
-4. **HTML5, CSS3, JavaScript:** Tecnologías fundamentales para la implementación del Landing Page y estructura base de las Web Applications.
+5. **HTML5, CSS3, JavaScript:** Tecnologías fundamentales para la implementación del Landing Page y estructura base de las Web Applications.
    
     **Referencias:**
    * HTML5: https://html.spec.whatwg.org/
