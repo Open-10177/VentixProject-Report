@@ -1,6 +1,56 @@
 # Capítulo V: Product Implementation, Validation & Deployment
+
 ## 5.1. Software Configuration Management.
+
+En esta sección se describen las decisiones, convenciones y principios adoptados por el equipo para garantizar la coherencia, trazabilidad y control de versiones durante el ciclo de vida del desarrollo de la solución Ventix. Se establecen los lineamientos para la configuración del entorno de desarrollo, gestión del código fuente, convenciones de estilo y configuración de despliegue.
+
 ### 5.1.1. Software Development Environment Configuration.
+
+En esta sección se especifican los productos de software utilizados durante el ciclo de vida del proyecto, incluyendo el nombre de cada herramienta, su propósito técnico específico dentro del proyecto Ventix, y la ruta de referencia (para software SaaS) o ruta de descarga (para productos de instalación local). Las herramientas se organizan según las siguientes disciplinas:
+
+1. Project Management
+2. Requirements Management
+3. Product UX/UI Design
+4. Software Development
+5. Software Testing
+6. Software Documentation
+
+**Project Management**
+
+Esta disciplina se centra en la planificación, seguimiento y control de las actividades del proyecto, asegurando el cumplimiento de los objetivos dentro del tiempo y recurso establecidos
+
+* Trello: Plataforma de gestión visual basada en tableros, listas y tarjetas, utilizada para la organización del Sprint Backlog, gestión de User Stories por estado (To-Do, In-Progress, Done) y colaboración del equipo en la priorización de requisitos del proyecto Ventix.
+  Ruta de referencia : https://trello.com
+
+**Requirements Management**
+
+Este proceso se enfoca en la documentación, verificación y seguimiento de los requisitos del proyecto, asegurando que las necesidades de los stakeholders sean satisfechas.
+
+
+* Trello: Plataforma de gestión visual basada en tableros, listas y tarjetas, utilizada para la organización del Sprint Backlog, gestión de User Stories por estado (To-Do, In-Progress, Done) y colaboración del equipo en la priorización de requisitos del proyecto Ventix.
+  Ruta de referencia : https://trello.com
+
+**Product UX/UI Design**
+
+El diseño de la experiencia de usuario y la interfaz de usuario para Ventix contempla un modelo de sitio web responsivo, compatible con navegadores de escritorio y dispositivos móviles. Se utilizan las siguientes herramientas.
+
+1. **UXPressia:** Plataforma para la elaboración de User Personas, Empathy Maps, Customer Journey Maps e Impact Maps de los segmentos objetivo del proyecto Ventix .
+Ruta de referencia: https://uxpressia.com/
+
+
+2. **Miro:** Pizarra digital colaborativa utilizada para sesiones de Big Picture EventStorming y Design-Level EventStorming, facilitando la identificación de Bounded Contexts, Events, Commands y Aggregates del dominio Ventix.
+Ruta de referencia: https://miro.com/es/
+
+
+3. **Figma:** Herramienta de diseño colaborativo para la creación de Wireframes, Mock-ups y Prototipos interactivos del Landing Page y Web Applications de Ventix, aplicando el Design System basado en Material Design.
+Ruta de referencia: https://www.figma.com/es-es/
+
+
+4. **LucidChart:** Aplicación de diagramación colaborativa para la creación de Wireflows, User Flows, diagramas UML (Class Diagrams) y Database Diagrams de la arquitectura de Ventix.
+Ruta de referencia: https://www.lucidchart.com/pages/es
+
+
+
 ### 5.1.2. Source Code Management.
 ### 5.1.3. Source Code Style Guide & Conventions.
 ### 5.1.4. Software Deployment Configuration.
