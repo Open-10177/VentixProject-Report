@@ -5,9 +5,50 @@
 En esta sección se detallan las herramientas utilizadas para la gestión del proyecto, el diseño, el desarrollo, el despliegue y la documentación de la solución.
 
 * Project Management:
-  * Trello Propósito: Gestión de tareas mediante tableros Kanban organizados en columnas (To Do, In Progress, Done).
+  
+  * Trello
+    Propósito: Gestión de tareas mediante tableros Kanban organizados en columnas (To Do, In Progress, Done).
+    
+    URL: https://trello.com
+    
+  * Uxpressia
+    Propósito: Creación de mapas de experiencia de usuario para analizar y entender a nuestros usuarios.
+    
+    URL: https://uxpressia.com
+    
+  * Lucidchart
+    Propósito: Elaboración de diagramas de flujo, wireframes y esquemas de arquitectura de sistemas.
+ 
+    URL: https://lucidchart.com
+    
+ 
+ 
+* Product UX/UI Design:
+  
+  * Figma
+    Propósito: Diseño de interfaces de usuario (UI), prototipado rápido y colaboración en tiempo real entre los miembros del equipo.
 
-URL: https://trello.com
+    URL: https://figma.com
+    
+ * Software Development:
+   * WebStorm
+     Propósito: Editor de código fuente principal utilizado para el desarrollo de la Landing Page (HTML, CSS, JavaScript).
+
+     URL: https://www.jetbrains.com/es-es/webstorm/download/?section=windows
+     
+ * Deployment Configuration:
+   * GitHub Pages Propósito: Publicación y despliegue automático de la Landing Page como sitio web estático directamente desde el repositorio.
+
+     URL: https://pages.github.com
+   
+ * Software Documentation:
+   * GitHub
+     Propósito: Almacenamiento de la documentación técnica dentro del repositorio del proyecto, utilizando archivos Markdown (.md).
+
+     URL: https://github.com/
+
+   * Markdown
+     Propósito: Formato de escritura utilizado para documentar de forma clara, sencilla y estructurada los detalles del proyecto.
 
 ### 5.1.2. Source Code Management.
 ### 5.1.3. Source Code Style Guide & Conventions.
