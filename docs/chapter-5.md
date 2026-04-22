@@ -177,64 +177,40 @@ Se aplica la especificación Conventional Commits para los mensajes de commit, s
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
-Para el desarrollo del sistema Ventix, se ha definido el uso del idioma inglés en todos los elementos del código (variables, funciones, clases, endpoints y nombres de archivos). Esta decisión permite mantener consistencia, facilitar la colaboración en entornos Open Source y asegurar la escalabilidad del proyecto a futuro.
-
-El sistema abarca tanto el desarrollo de la Landing Page como del Dashboard Web y la integración con dispositivos IoT, por lo que se establecen las siguientes convenciones:
+Para el desarrollo del sistema Ventix (Landing Page y Dashboard Web), hemos decidido utilizar el idioma inglés en todos los nombres de variables, funciones, clases y archivos. Esto nos permitirá mantener el código más ordenado, comprensible y facilitar su crecimiento en el futuro.
 
 ### HTML / CSS
 
-Se adopta como referencia el **Google HTML/CSS Style Guide** para garantizar buenas prácticas y consistencia en la estructura del código.
+Se sigue principalmente el Google HTML/CSS Style Guide para mantener buenas prácticas de codificación.
 
-Se emplean etiquetas semánticas como `<header>`, `<section>`, `<article>`, `<nav>` y `<footer>` para estructurar correctamente la Landing Page y el Dashboard, mejorando la accesibilidad y el SEO.
+Se utilizarán etiquetas semánticas como <header>, <section>, <article>, <nav> y <footer> para estructurar mejor el contenido de la página y del dashboard.
 
-Las clases CSS se nombran utilizando **kebab-case** (por ejemplo: `.sensor-card`, `.air-quality-status`, `.dashboard-container`), facilitando la legibilidad y organización visual.
+Los nombres de las clases en CSS se escribirán utilizando kebab-case (por ejemplo: .main-banner, .sensor-card).
 
-Los identificadores (`id`) son claros, descriptivos y orientados a su funcionalidad dentro del sistema.
+Los identificadores serán claros y específicos para que tanto el acceso como el mantenimiento del código sean más sencillos.
 
-Las principales etiquetas utilizadas en el proyecto son:
+Las etiquetas principales que se usarán en el proyecto son:
 
-- `<div>` para estructurar contenedores del dashboard y componentes UI.
-- `<img>` para representar íconos, gráficos o elementos visuales del sistema.
-- `<ul>` y `<li>` para menús de navegación y listados de dispositivos.
-- `<a>` para navegación entre secciones y rutas.
-- `<p>` para mostrar información descriptiva y estados del sistema.
-- `<button>` para acciones del usuario como activar/desactivar ventilación o cambiar modos.
-- `<h1>` a `<h4>` para jerarquizar información (títulos de secciones, métricas, estados).
+<div> para separar diferentes bloques o secciones del contenido.
+<img> para mostrar imágenes o elementos visuales del sistema.
+<ul> y <li> para crear listas, principalmente en los menús de navegación.
+<a> para establecer enlaces entre secciones o páginas.
+<p> para párrafos de texto descriptivo.
+<button> para botones que permitan al usuario realizar acciones específicas como activar o desactivar el sistema.
+Títulos <h1> hasta <h4> para jerarquizar la información de manera lógica.
 
-### JavaScript / TypeScript (Frontend - Angular)
+### JavaScript
 
-Se adopta el **Google JavaScript Style Guide** junto con las buenas prácticas del framework Angular.
+Se adopta el Google JavaScript Style Guide para seguir un estilo uniforme en el código.
 
-#### Convenciones de nomenclatura:
+En cuanto a la nomenclatura:
+Las variables y funciones se nombrarán en camelCase (por ejemplo: fetchSensorData, activateFan).
+Las clases se nombrarán utilizando PascalCase (por ejemplo: SensorManager, VentilationController).
+Las constantes serán escritas en UPPER_SNAKE_CASE (por ejemplo: MAX_CO2_LEVEL, MAX_TEMPERATURE).
 
-- Variables y funciones en **camelCase**  
-  Ejemplo: `getSensorData`, `activateFan`, `updateThreshold`
+Siempre que sea posible, se usará const y let en lugar de var para mejorar el control del ámbito de las variables.
 
-- Clases en **PascalCase**  
-  Ejemplo: `SensorService`, `VentilationController`, `DashboardComponent`
-
-- Constantes en **UPPER_SNAKE_CASE**  
-  Ejemplo: `MAX_CO2_LEVEL`, `DEFAULT_TEMPERATURE`
-
-Se prioriza el uso de `const` y `let` sobre `var` para asegurar un mejor control del scope.
-
-El código se desarrolla bajo un enfoque **modular y basado en componentes**, propio de Angular, facilitando la reutilización y mantenibilidad.
-
-Se evita el uso innecesario de funciones anónimas, favoreciendo funciones nombradas para mejorar la trazabilidad y depuración.
-
-### Backend / API REST
-
-Para la implementación de servicios backend, se siguen principios RESTful:
-
-- Endpoints en formato **kebab-case**  
-  Ejemplo: `/api/v1/sensor-data`, `/api/v1/device-status`
-
-- Uso de métodos HTTP estándar:  
-  `GET`, `POST`, `PUT`, `DELETE`
-
-- Respuestas estructuradas en formato **JSON**
-
-Se mantiene una separación clara entre lógica de negocio, controladores y acceso a datos.
+Se evitarán funciones anónimas cuando no sean necesarias, para que el código sea más fácil de depurar y entender.
 
 ### Enfoque General
 
@@ -242,8 +218,7 @@ El desarrollo del sistema Ventix se basa en los siguientes principios:
 
 - **Modularidad:** separación de responsabilidades entre frontend, backend e IoT.  
 - **Escalabilidad:** arquitectura preparada para múltiples dispositivos y usuarios.  
-- **Legibilidad:** código claro y consistente para facilitar mantenimiento.  
-- **Open Source:** estructura comprensible para fomentar contribuciones externas.  
+- **Legibilidad:** código claro y consistente para facilitar mantenimiento.
 
 Este enfoque permite que el sistema sea extensible, mantenible y alineado con estándares modernos de desarrollo de software.
 
