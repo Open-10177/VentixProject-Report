@@ -191,13 +191,13 @@ Los identificadores serán claros y específicos para que tanto el acceso como e
 
 Las etiquetas principales que se usarán en el proyecto son:
 
-<div> para separar diferentes bloques o secciones del contenido.
-<img> para mostrar imágenes o elementos visuales del sistema.
-<ul> y <li> para crear listas, principalmente en los menús de navegación.
-<a> para establecer enlaces entre secciones o páginas.
-<p> para párrafos de texto descriptivo.
-<button> para botones que permitan al usuario realizar acciones específicas como activar o desactivar el sistema.
-Títulos <h1> hasta <h4> para jerarquizar la información de manera lógica.
+- `<div>` para separar diferentes bloques o secciones del contenido.
+- `<img>` para mostrar imágenes o elementos visuales del sistema.
+- `<ul>` y `<li>` para crear listas, principalmente en los menús de navegación.
+- `<a>` para establecer enlaces entre secciones o páginas.
+- `<p>` para párrafos de texto descriptivo.
+- `<button>` para botones que permitan al usuario realizar acciones específicas como activar o desactivar el sistema.
+- Títulos `<h1>` hasta `<h4>` para jerarquizar la información de manera lógica.
 
 ### JavaScript
 
