@@ -146,29 +146,29 @@ Me podrías brindar tu nombre, edad y a qué te dedicas actualmente?
 
 <h4 id="PreguntEspe">Preguntas específicas:</h4>
 
-¿Dónde sueles estudiar y cuántas horas pasas ahí al día?
+1- ¿Dónde sueles estudiar y cuántas horas pasas ahí al día?
 
-¿En qué momento del día estudias más (mañana, tarde o noche)?
+2- ¿En qué momento del día estudias más (mañana, tarde o noche)?
 
-¿Sueles estudiar con la puerta o ventana cerrada? ¿Por qué?
+3- ¿Sueles estudiar con la puerta o ventana cerrada? ¿Por qué?
 
-¿Cómo describirías el ambiente de tu habitación (calor, ventilación, aire pesado)?
+4- ¿Cómo describirías el ambiente de tu habitación (calor, ventilación, aire pesado)?
 
-¿Has sentido cansancio o somnolencia después de estudiar varias horas seguidas?
+5- ¿Has sentido cansancio o somnolencia después de estudiar varias horas seguidas?
 
-¿Sientes que tu concentración disminuye con el paso del tiempo en ese ambiente?
+6- ¿Sientes que tu concentración disminuye con el paso del tiempo en ese ambiente?
 
-¿Alguna vez interrumpes tu estudio para ventilar el cuarto o encender un ventilador?
+7- ¿Alguna vez interrumpes tu estudio para ventilar el cuarto o encender un ventilador?
 
-¿Qué tan frecuente ocurre esa interrupción?
+8- ¿Qué tan frecuente ocurre esa interrupción?
 
-¿Qué haces actualmente para mejorar el ambiente donde estudias?
+9- ¿Qué haces actualmente para mejorar el ambiente donde estudias?
 
-Antes de hoy, ¿sabías que altos niveles de CO₂ pueden afectar tu rendimiento?
+10- Antes de hoy, ¿sabías que altos niveles de CO₂ pueden afectar tu rendimiento?
 
-¿Qué tan útil sería para ti que el sistema se active automáticamente sin que tengas que intervenir?
+11- ¿Qué tan útil sería para ti que el sistema se active automáticamente sin que tengas que intervenir?
 
-¿Estarías dispuesto a instalar un dispositivo económico que mejore tu ambiente de estudio?
+12- ¿Estarías dispuesto a instalar un dispositivo económico que mejore tu ambiente de estudio?
 
 
 ## Segmento Objetivo 2: Responsables del hogar (monitoreo remoto)
@@ -179,48 +179,46 @@ Me podrías brindar tu nombre, edad y a qué te dedicas actualmente?
 
 <h4 id="PreguntEspe">Preguntas específicas:</h4>
 
-¿Cuál es tu ocupación y cuánto tiempo pasas fuera de casa al día?
+1- ¿Cuál es tu ocupación y cuánto tiempo pasas fuera de casa al día?
 
-¿Sueles dejar habitaciones cerradas cuando sales de casa?
+2- ¿Sueles dejar habitaciones cerradas cuando sales de casa?
 
-¿Al regresar has notado que el ambiente está cargado o caluroso?
+3- ¿Al regresar has notado que el ambiente está cargado o caluroso?
 
-¿Te preocupa la calidad del aire dentro de tu hogar cuando no estás presente?
+4- ¿Te preocupa la calidad del aire dentro de tu hogar cuando no estás presente?
 
-¿Actualmente utilizas algún sistema para monitorear tu hogar?
+5- ¿Actualmente utilizas algún sistema para monitorear tu hogar?
 
-¿Qué tan importante es para ti poder supervisar tu hogar a distancia?
+6- ¿Qué tan importante es para ti poder supervisar tu hogar a distancia?
 
-¿Te gustaría ver datos en tiempo real sobre temperatura o calidad del aire?
+7- ¿Te gustaría ver datos en tiempo real sobre temperatura o calidad del aire?
 
-¿Te sería útil poder activar un ventilador antes de llegar a casa?
+8- ¿Te sería útil poder activar un ventilador antes de llegar a casa?
 
-¿Qué tan importante es que el sistema funcione automáticamente sin intervención?
+9- ¿Qué tan importante es que el sistema funcione automáticamente sin intervención?
 
-¿Qué valorarías más: control remoto, automatización o ahorro de energía?
+10- ¿Qué valorarías más: control remoto, automatización o ahorro de energía?
 
-¿Qué nivel de confianza te genera una solución de bajo costo y de código abierto?
+11- ¿Qué nivel de confianza te genera una solución de bajo costo y de código abierto?
 
-¿Estarías dispuesto a instalar un sistema sencillo para mejorar el ambiente de tu hogar?
+12- ¿Estarías dispuesto a instalar un sistema sencillo para mejorar el ambiente de tu hogar?
 
 ### 2.2.2. Registro de entrevistas
 
 #### Segmento 1:
 * Entrevista 1:
 
-| Nombre                         |     |      
-|--------------------------------|-----|
-| Apellido                       |     |      
-| Edad                           |     |      
-| Distrito                       |     |      
+| Nombre                         |         Carolina         |      
+|--------------------------------|--------------------------|
+| Apellido                       |          Mendez          |      
+| Edad                           |            42            |      
+| Distrito                       |        Chimu, SJL        |      
 | Evidencia                      |     |      
 | URL                            |     |      
 | Inicio de Entrevista           |     |      
 | Fin de entrevista              |     |      
-| Estado Civil                   |     |      
-| Ocupacion                      |     |      
-| Dispositivo de preferencia     |     |      
-| Canales de interaccion digital |     |     
+| Estado Civil                   |          Casada          |      
+| Ocupacion                      | Consultora de Marketing  |          
 
 Resumen:
 
@@ -238,8 +236,6 @@ Resumen:
 | Fin de entrevista              |     |      
 | Estado Civil                   |     |      
 | Ocupacion                      |     |      
-| Dispositivo de preferencia     |     |      
-| Canales de interaccion digital |     |     
 
 Resumen:
 
@@ -256,9 +252,7 @@ Resumen:
 | Inicio de Entrevista           |     |      
 | Fin de entrevista              |     |      
 | Estado Civil                   |     |      
-| Ocupacion                      |     |      
-| Dispositivo de preferencia     |     |      
-| Canales de interaccion digital |     |     
+| Ocupacion                      |     |         
 
 Resumen:
 
@@ -275,9 +269,7 @@ Resumen:
 | Inicio de Entrevista           |     |      
 | Fin de entrevista              |     |      
 | Estado Civil                   |     |      
-| Ocupacion                      |     |      
-| Dispositivo de preferencia     |     |      
-| Canales de interaccion digital |     |     
+| Ocupacion                      |     |         
 
 Resumen:
 
@@ -294,9 +286,7 @@ Resumen:
 | Inicio de Entrevista           |     |      
 | Fin de entrevista              |     |      
 | Estado Civil                   |     |      
-| Ocupacion                      |     |      
-| Dispositivo de preferencia     |     |      
-| Canales de interaccion digital |     |     
+| Ocupacion                      |     |        
 
 Resumen:
 
@@ -312,9 +302,7 @@ Resumen:
 | Inicio de Entrevista           |     |      
 | Fin de entrevista              |     |      
 | Estado Civil                   |     |      
-| Ocupacion                      |     |      
-| Dispositivo de preferencia     |     |      
-| Canales de interaccion digital |     |     
+| Ocupacion                      |     |         
 
 Resumen:
 
