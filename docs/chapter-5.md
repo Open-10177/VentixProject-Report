@@ -36,7 +36,7 @@ El diseño de la experiencia de usuario y la interfaz de usuario para Ventix con
 
 1. **UXPressia:** Plataforma para la elaboración de User Personas, Empathy Maps, Customer Journey Maps e Impact Maps de los segmentos objetivo del proyecto Ventix .
 Ruta de referencia: https://uxpressia.com/
- <img src="/assets/img/chapter-5/logo-uxpressia.png" alt="logoUXpressia" width="400">
+  <img src="/assets/img/chapter-5/logo-uxpressia.png" alt="logoUXpressia" width="400">
 
 
 3. **Miro:** Pizarra digital colaborativa utilizada para sesiones de Big Picture EventStorming y Design-Level EventStorming, facilitando la identificación de Bounded Contexts, Events, Commands y Aggregates del dominio Ventix.
