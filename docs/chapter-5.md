@@ -176,6 +176,77 @@ Se aplica la especificación Conventional Commits para los mensajes de commit, s
     chore(config): update environment variables for production
 
 ### 5.1.3. Source Code Style Guide & Conventions.
+
+Para el desarrollo del sistema Ventix, se ha definido el uso del idioma inglés en todos los elementos del código (variables, funciones, clases, endpoints y nombres de archivos). Esta decisión permite mantener consistencia, facilitar la colaboración en entornos Open Source y asegurar la escalabilidad del proyecto a futuro.
+
+El sistema abarca tanto el desarrollo de la Landing Page como del Dashboard Web y la integración con dispositivos IoT, por lo que se establecen las siguientes convenciones:
+
+### HTML / CSS
+
+Se adopta como referencia el **Google HTML/CSS Style Guide** para garantizar buenas prácticas y consistencia en la estructura del código.
+
+Se emplean etiquetas semánticas como `<header>`, `<section>`, `<article>`, `<nav>` y `<footer>` para estructurar correctamente la Landing Page y el Dashboard, mejorando la accesibilidad y el SEO.
+
+Las clases CSS se nombran utilizando **kebab-case** (por ejemplo: `.sensor-card`, `.air-quality-status`, `.dashboard-container`), facilitando la legibilidad y organización visual.
+
+Los identificadores (`id`) son claros, descriptivos y orientados a su funcionalidad dentro del sistema.
+
+Las principales etiquetas utilizadas en el proyecto son:
+
+- `<div>` para estructurar contenedores del dashboard y componentes UI.
+- `<img>` para representar íconos, gráficos o elementos visuales del sistema.
+- `<ul>` y `<li>` para menús de navegación y listados de dispositivos.
+- `<a>` para navegación entre secciones y rutas.
+- `<p>` para mostrar información descriptiva y estados del sistema.
+- `<button>` para acciones del usuario como activar/desactivar ventilación o cambiar modos.
+- `<h1>` a `<h4>` para jerarquizar información (títulos de secciones, métricas, estados).
+
+### JavaScript / TypeScript (Frontend - Angular)
+
+Se adopta el **Google JavaScript Style Guide** junto con las buenas prácticas del framework Angular.
+
+#### Convenciones de nomenclatura:
+
+- Variables y funciones en **camelCase**  
+  Ejemplo: `getSensorData`, `activateFan`, `updateThreshold`
+
+- Clases en **PascalCase**  
+  Ejemplo: `SensorService`, `VentilationController`, `DashboardComponent`
+
+- Constantes en **UPPER_SNAKE_CASE**  
+  Ejemplo: `MAX_CO2_LEVEL`, `DEFAULT_TEMPERATURE`
+
+Se prioriza el uso de `const` y `let` sobre `var` para asegurar un mejor control del scope.
+
+El código se desarrolla bajo un enfoque **modular y basado en componentes**, propio de Angular, facilitando la reutilización y mantenibilidad.
+
+Se evita el uso innecesario de funciones anónimas, favoreciendo funciones nombradas para mejorar la trazabilidad y depuración.
+
+### Backend / API REST
+
+Para la implementación de servicios backend, se siguen principios RESTful:
+
+- Endpoints en formato **kebab-case**  
+  Ejemplo: `/api/v1/sensor-data`, `/api/v1/device-status`
+
+- Uso de métodos HTTP estándar:  
+  `GET`, `POST`, `PUT`, `DELETE`
+
+- Respuestas estructuradas en formato **JSON**
+
+Se mantiene una separación clara entre lógica de negocio, controladores y acceso a datos.
+
+### Enfoque General
+
+El desarrollo del sistema Ventix se basa en los siguientes principios:
+
+- **Modularidad:** separación de responsabilidades entre frontend, backend e IoT.  
+- **Escalabilidad:** arquitectura preparada para múltiples dispositivos y usuarios.  
+- **Legibilidad:** código claro y consistente para facilitar mantenimiento.  
+- **Open Source:** estructura comprensible para fomentar contribuciones externas.  
+
+Este enfoque permite que el sistema sea extensible, mantenible y alineado con estándares modernos de desarrollo de software.
+
 ### 5.1.4. Software Deployment Configuration.
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
