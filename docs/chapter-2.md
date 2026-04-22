@@ -201,20 +201,20 @@ Me podrías brindar tu nombre, edad y a qué te dedicas actualmente?
 
 ### 2.2.2. Registro de entrevistas
 
-#### Segmento 1:
+#### Segmento 2:
 * Entrevista 1:
 
-| Nombre                         |Carolina|      
-|--------------------------------|--------|
-| Apellido                       |Mendez|      
-| Edad                           |42|      
-| Distrito                       |Chimu, SJL|      
-| Evidencia                      |     |      
-| URL                            |     |      
-| Inicio de Entrevista           |     |      
-| Fin de entrevista              |     |      
-| Estado Civil                   |Casada|      
-| Ocupacion                      |Consultora independiente de Marketing|          
+| Nombre                         | Carolina                                                                                                                                                                                                                                                                                                                                   |      
+|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Apellido                       | Mendez                                                                                                                                                                                                                                                                                                                                     |      
+| Edad                           | 42                                                                                                                                                                                                                                                                                                                                         |      
+| Distrito                       | Chimu, SJL                                                                                                                                                                                                                                                                                                                                 |      
+| Evidencia                      | ![interview1evidence.png](../assets/img/chapter-2/interview1evidence.png)                                                                                                                                                                                                                                                                  |      
+| URL                            | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313458_upc_edu_pe/IQAo8kghVR0jQo02440igfIBATodaC33GN97H5RdWyOYXfc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rfRIw7) |      
+| Inicio de Entrevista           | 00:00                                                                                                                                                                                                                                                                                                                                      |      
+| Fin de entrevista              | 05:11                                                                                                                                                                                                                                                                                                                                      |      
+| Estado Civil                   | Casada                                                                                                                                                                                                                                                                                                                                     |      
+| Ocupacion                      | Consultora independiente de Marketing                                                                                                                                                                                                                                                                                                      |          
 
 Resumen: 
 
@@ -223,17 +223,76 @@ Carolina Méndez, consultora independiente de marketing de 42 años, pasa la may
 
 * Entrevista 2:
 
-| Nombre                         | Miranda   |      
-|--------------------------------|-----|
-| Apellido                       | Fernandez    |      
-| Edad                           | 21    |      
-| Distrito                       |  Jesus María   |      
-| Evidencia                      | Entrevista Virtual    |      
-| URL                            |     |      
-| Inicio de Entrevista           |     |      
-| Fin de entrevista              |     |      
-| Estado Civil                   | Soltera    |      
-| Ocupacion                      | Estudiante    |      
+| Nombre                         | Ruth                                                                                                                                                                                                                                                                                                                                       |      
+|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Apellido                       | Ozorio                                                                                                                                                                                                                                                                                                                                     |      
+| Edad                           | 43                                                                                                                                                                                                                                                                                                                                         |      
+| Distrito                       | San Miguel                                                                                                                                                                                                                                                                                                                                 |      
+| Evidencia                      | ![interview2evidence.png](../assets/img/chapter-2/interview2evidence.png)                                                                                                                                                                                                                                                                  |      
+| URL                            | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313458_upc_edu_pe/IQAo8kghVR0jQo02440igfIBATodaC33GN97H5RdWyOYXfc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rfRIw7) |      
+| Inicio de Entrevista           | 05:16                                                                                                                                                                                                                                                                                                                                      |      
+| Fin de entrevista              | 10:54                                                                                                                                                                                                                                                                                                                                      |      
+| Estado Civil                   |                                                                                                                                                                                                                                                                                                                                            |      
+| Ocupacion                      | Contadora Publica                                                                                                                                                                                                                                                                                                                          |      
+
+Resumen: Ruth explica que pasa entre 8 y 10 horas fuera de casa y suele dejar todas las habitaciones cerradas por seguridad y limpieza. Al regresar, percibe frecuentemente un ambiente cargado y caluroso, lo que le genera preocupación por la salud de su familia y la posible proliferación de insectos.  A pesar de no contar actualmente con un sistema de monitoreo, la entrevistada muestra un alto interés en soluciones tecnológicas. Valora especialmente la capacidad de supervisión remota y la automatización, prefiriendo que el sistema actúe de forma autónoma basándose en la calidad del aire. Finalmente, Ruth se muestra dispuesta a instalar una solución de bajo costo y código abierto, siempre que sea fácil de mantener y mejore su bienestar doméstico.
+
+
+
+* Entrevista 3:
+
+| Nombre                         | Bianca                                                                                                                                                                                                                                                                                                                                     |      
+|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Apellido                       | Morales                                                                                                                                                                                                                                                                                                                                    |      
+| Edad                           | 25                                                                                                                                                                                                                                                                                                                                         |      
+| Distrito                       | Miraflores                                                                                                                                                                                                                                                                                                                                 |      
+| Evidencia                      | ![interview3evidence.png](../assets/img/chapter-2/interview3evidence.png)                                                                                                                                                                                                                                                                  |      
+| URL                            | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313458_upc_edu_pe/IQAo8kghVR0jQo02440igfIBATodaC33GN97H5RdWyOYXfc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rfRIw7) |      
+| Inicio de Entrevista           | 11:03                                                                                                                                                                                                                                                                                                                                      |      
+| Fin de entrevista              | 17:03                                                                                                                                                                                                                                                                                                                                      |      
+| Estado Civil                   | Soltera                                                                                                                                                                                                                                                                                                                                    |      
+| Ocupacion                      | Asistente administrativo                                                                                                                                                                                                                                                                                                                   |         
+
+Resumen:
+
+Bianca, de 25 años, trabaja como asistente administrativa y pasa la mayor parte del día fuera de casa. Debido a esto, su vivienda permanece cerrada durante largas horas, lo que provoca que el ambiente se vuelva caluroso y con aire cargado, especialmente en épocas de verano.Aunque cuenta con sistemas de seguridad como cámaras, no dispone de herramientas para monitorear la calidad del aire. Esta situación le genera preocupación, ya que deja a su hermano menor y a su mascota en casa, lo que aumenta su interés por conocer el estado del ambiente mientras no está. Bianca valora altamente la automatización, ya que no tiene tiempo para gestionar manualmente estos aspectos. Además, muestra interés en soluciones simples que le permitan visualizar el estado del ambiente y mejorar la ventilación de forma automática. Está dispuesta a probar una solución de este tipo, siempre que sea fácil de instalar y accesible económicamente.
+
+
+
+#### Segmento 1:
+
+* Entrevista 1:
+
+| Nombre                         | Aracely                                                                                                                                                                                                                                                                                                                                    |      
+|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Apellido                       | Ramos                                                                                                                                                                                                                                                                                                                                      |      
+| Edad                           | 20                                                                                                                                                                                                                                                                                                                                         |      
+| Distrito                       | Surco                                                                                                                                                                                                                                                                                                                                      |      
+| Evidencia                      | ![interview4evidence.png](../assets/img/chapter-2/interview4evidence.png)                                                                                                                                                                                                                                                                  |      
+| URL                            | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313458_upc_edu_pe/IQAo8kghVR0jQo02440igfIBATodaC33GN97H5RdWyOYXfc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rfRIw7) |      
+| Inicio de Entrevista           | 17:05                                                                                                                                                                                                                                                                                                                                      |      
+| Fin de entrevista              | 23:01                                                                                                                                                                                                                                                                                                                                      |      
+| Estado Civil                   | Soltera                                                                                                                                                                                                                                                                                                                                    |      
+| Ocupacion                      | Estudiante                                                                                                                                                                                                                                                                                                                                 |         
+
+Resumen:
+
+Aracely estudia principalmente en su habitación entre 5 y 6 horas diarias, incrementándose según la carga académica. Prefiere estudiar de noche por el silencio, aunque admite que es cuando más se agota. Debido al ruido externo, el frío o el polvo, suele mantener puertas y ventanas cerradas, lo que provoca que el aire se sienta "pesado" y caluroso tras un par de horas.
+ La entrevistada describe síntomas claros de una mala calidad del aire: cansancio, somnolencia, bostezos y pérdida de concentración. Desconocía que los niveles de CO2 afectaban su rendimiento, atribuyendo el agotamiento solo al exceso de estudio. Actualmente, interrumpe sus sesiones cada una o dos horas para ventilar manualmente, lo cual rompe su ritmo. Aracely concluye mostrando gran interés en un dispositivo automatizado y económico que gestione el ambiente sin su intervención, confiando en que mejoraría significativamente su productividad.
+
+* Entrevista 2:
+
+| Nombre                         | Miranda                                                                                                                                                                                                                                                                                                                                    |      
+|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Apellido                       | Fernandez                                                                                                                                                                                                                                                                                                                                  |      
+| Edad                           | 21                                                                                                                                                                                                                                                                                                                                         |      
+| Distrito                       | Jesus Maria                                                                                                                                                                                                                                                                                                                                |      
+| Evidencia                      | ![interview5evidence.png](../assets/img/chapter-2/interview5evidence.png)                                                                                                                                                                                                                                                                  |      
+| URL                            | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313458_upc_edu_pe/IQAo8kghVR0jQo02440igfIBATodaC33GN97H5RdWyOYXfc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rfRIw7) |      
+| Inicio de Entrevista           | 23:02                                                                                                                                                                                                                                                                                                                                      |      
+| Fin de entrevista              | 26:13                                                                                                                                                                                                                                                                                                                                      |      
+| Estado Civil                   | Soltera                                                                                                                                                                                                                                                                                                                                    |      
+| Ocupacion                      | Estudiante                                                                                                                                                                                                                                                                                                                                 |        
 
 Resumen:
 
@@ -242,70 +301,23 @@ Miranda, estudiante de Periodismo de 21 años, realiza sus actividades académic
 
 * Entrevista 3:
 
-| Nombre                         |     |      
-|--------------------------------|-----|
-| Apellido                       |     |      
-| Edad                           |     |      
-| Distrito                       |     |      
-| Evidencia                      |     |      
-| URL                            |     |      
-| Inicio de Entrevista           |     |      
-| Fin de entrevista              |     |      
-| Estado Civil                   |     |      
-| Ocupacion                      |     |         
+| Nombre                         | Rocio                                                                                                                                                                                                                                                                                                                                      |      
+|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Apellido                       | Sanchez                                                                                                                                                                                                                                                                                                                                    |      
+| Edad                           | 22                                                                                                                                                                                                                                                                                                                                         |      
+| Distrito                       |                                                                                                                                                                                                                                                                                                                                            |      
+| Evidencia                      | ![interview6evidence.png](../assets/img/chapter-2/interview6evidence.png)                                                                                                                                                                                                                                                                  |      
+| URL                            | [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313458_upc_edu_pe/IQAo8kghVR0jQo02440igfIBATodaC33GN97H5RdWyOYXfc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rfRIw7) |      
+| Inicio de Entrevista           | 26:15                                                                                                                                                                                                                                                                                                                                      |      
+| Fin de entrevista              | 32:31                                                                                                                                                                                                                                                                                                                                      |      
+| Estado Civil                   | Soltera                                                                                                                                                                                                                                                                                                                                    |      
+| Ocupacion                      | Estudiante                                                                                                                                                                                                                                                                                                                                 |         
 
 Resumen:
 
-#### Segmento 2:
-* Entrevista 1:
+Rocío estudia en su habitación entre 5 y 7 horas diarias, tiempo que aumenta significativamente durante periodos de exámenes. Debido al ruido exterior y al deseo de privacidad, suele mantener la puerta y ventana cerradas. Esto provoca que, tras un par de horas, el aire se sienta "pesado" y el ambiente se vuelva caluroso y sofocante.
 
-| Nombre                         | Bianca    |      
-|--------------------------------|-----|
-| Apellido                       | Morales   |      
-| Edad                           | 25    |      
-| Distrito                       | Miraflores    |      
-| Evidencia                      | Entrevista virtual    |      
-| URL                            |     |      
-| Inicio de Entrevista           |     |      
-| Fin de entrevista              |     |      
-| Estado Civil                   |  Soltera   |      
-| Ocupacion                      |  Asistente administrativo   |         
-
-Resumen:
-
-Bianca, de 25 años, trabaja como asistente administrativa y pasa la mayor parte del día fuera de casa. Debido a esto, su vivienda permanece cerrada durante largas horas, lo que provoca que el ambiente se vuelva caluroso y con aire cargado, especialmente en épocas de verano.Aunque cuenta con sistemas de seguridad como cámaras, no dispone de herramientas para monitorear la calidad del aire. Esta situación le genera preocupación, ya que deja a su hermano menor y a su mascota en casa, lo que aumenta su interés por conocer el estado del ambiente mientras no está. Bianca valora altamente la automatización, ya que no tiene tiempo para gestionar manualmente estos aspectos. Además, muestra interés en soluciones simples que le permitan visualizar el estado del ambiente y mejorar la ventilación de forma automática. Está dispuesta a probar una solución de este tipo, siempre que sea fácil de instalar y accesible económicamente.
-
-* Entrevista 2:
-
-| Nombre                         |     |      
-|--------------------------------|-----|
-| Apellido                       |     |      
-| Edad                           |     |      
-| Distrito                       |     |      
-| Evidencia                      |     |      
-| URL                            |     |      
-| Inicio de Entrevista           |     |      
-| Fin de entrevista              |     |      
-| Estado Civil                   |     |      
-| Ocupacion                      |     |        
-
-Resumen:
-
-* Entrevista 3:
-
-| Nombre                         |     |      
-|--------------------------------|-----|
-| Apellido                       |     |      
-| Edad                           |     |      
-| Distrito                       |     |      
-| Evidencia                      |     |      
-| URL                            |     |      
-| Inicio de Entrevista           |     |      
-| Fin de entrevista              |     |      
-| Estado Civil                   |     |      
-| Ocupacion                      |     |         
-
-Resumen:
+La entrevistada asocia esta falta de ventilación con síntomas como agotamiento, sueño y falta de concentración, admitiendo que desconocía el impacto directo de los niveles de CO2 en su capacidad de estudio. Rocío actualmente ventila de forma manual abriendo ventanas o encendiendo un ventilador, lo que interrumpe su ritmo. Finalmente, expresa un fuerte interés en un sistema automatizado, configurable y de bajo costo que regule el ambiente de forma autónoma para mejorar su bienestar y productividad.
 
 ### 2.2.3. Análisis de entrevistas 
 
