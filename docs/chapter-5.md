@@ -38,6 +38,7 @@ El diseño de la experiencia de usuario y la interfaz de usuario para Ventix con
 
 1. **UXPressia:** Plataforma para la elaboración de User Personas, Empathy Maps, Customer Journey Maps e Impact Maps de los segmentos objetivo del proyecto Ventix .
 Ruta de referencia: https://uxpressia.com/
+
   <img src="/assets/img/chapter-5/logo-uxpressia.png" alt="logoUxpressia" width="400">
 
 
@@ -66,7 +67,7 @@ Ruta de referencia: https://github.com
     
     Organización del proyecto: https://github.com/Open-10177
    
-   <img src="/assets/img/chapter-5/logo-figma.png" alt="logoFignma" width="400">
+   <img src="/assets/img/chapter-5/logo-github.png" alt="logoGithub" width="400">
 
 
 3. **WebStorm:** Entorno de desarrollo integrado (IDE) de JetBrains para la implementación del Frontend utilizando Angular Framework, HTML5, CSS3, JavaScript y TypeScript. Incluye integración con GitHub para control de versiones.
@@ -82,6 +83,7 @@ Ruta de descarga: https://www.jetbrains.com/webstorm/
    * HTML5: https://html.spec.whatwg.org/
    * CSS3: https://www.w3.org/Style/CSS/
    * JavaScript: https://developer.mozilla.org/es/docs/Web/JavaScript
+   
    <img src="/assets/img/chapter-5/logo-html.png" alt="logoHTML" width="400">
 
 **Software Testing**
