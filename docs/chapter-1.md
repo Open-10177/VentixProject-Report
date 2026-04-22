@@ -44,11 +44,13 @@ En este contexto, la necesidad de soluciones tecnológicas que automaticen y opt
 
 **Problemática:**
 
-Riesgo invisible en espacios cerrados: La degradación ambiental interior ocurre de manera silenciosa y pasa desapercibida para quienes habitan los espacios. Las personas no perciben cambios en la calidad del aire hasta que el malestar físico —como somnolencia, sudoración o falta de concentración— ya se manifiesta. Este fenómeno convierte al aire contaminado en un riesgo latente que afecta la salud y disminuye la productividad en hogares, oficinas y aulas (Eurofins Environment Testing Spain, 2025).
+***Riesgo invisible en espacios cerrados:***
+La degradación ambiental interior ocurre de manera silenciosa y pasa desapercibida para quienes habitan los espacios. Las personas no perciben cambios en la calidad del aire hasta que el malestar físico —como somnolencia, sudoración o falta de concentración— ya se manifiesta. Este fenómeno convierte al aire contaminado en un riesgo latente que afecta la salud y disminuye la productividad en hogares, oficinas y aulas (Eurofins Environment Testing Spain, 2025).
 
-Limitaciones de las soluciones actuales: Los sistemas de ventilación disponibles en el mercado presentan barreras significativas. Los manuales requieren intervención constante del usuario, los centralizados resultan costosos y poco viables para espacios pequeños, y las aplicaciones IoT comerciales suelen ser privadas y poco transparentes con los datos del usuario (World Health Organization, 2021). Estas limitaciones restringen el acceso a tecnologías que deberían ser universales y accesibles, dejando a estudiantes y profesionales sin alternativas prácticas para mejorar su entorno.
+***Limitaciones de las soluciones actuales:***
+Los sistemas de ventilación disponibles en el mercado presentan barreras significativas. Los manuales requieren intervención constante del usuario, los centralizados resultan costosos y poco viables para espacios pequeños, y las aplicaciones IoT comerciales suelen ser privadas y poco transparentes con los datos del usuario (World Health Organization, 2021). Estas limitaciones restringen el acceso a tecnologías que deberían ser universales y accesibles, dejando a estudiantes y profesionales sin alternativas prácticas para mejorar su entorno.
 
-**Ausencia de plataformas abiertas e integradas:**
+***Ausencia de plataformas abiertas e integradas:***
 
 No existe una solución open source que unifique el monitoreo, la automatización y la gestión ambiental en un solo sistema. Los modelos cerrados predominan en el mercado, limitando la transparencia y la posibilidad de colaboración comunitaria. Este vacío tecnológico abre la oportunidad para iniciativas como Ventix, que buscan ofrecer un framework abierto y accesible para democratizar el bienestar inteligente y garantizar ambientes saludables y sostenibles (Dave, Sivajohan, Basmaji, & Slessarev, 2022).
 
