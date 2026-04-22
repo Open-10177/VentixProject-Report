@@ -220,7 +220,9 @@ Me podrías brindar tu nombre, edad y a qué te dedicas actualmente?
 | Estado Civil                   |Casada|      
 | Ocupacion                      |Consultora independiente de Marketing|          
 
-Resumen:
+Resumen: 
+
+Carolina Méndez, consultora independiente de marketing de 42 años, pasa la mayor parte del día fuera de casa (9 a 10 horas) y a veces viaja por trabajo, dejando el hogar solo o con su esposo, hijos y padres, pero ambiente algo sellado. Siempre mantiene las habitaciones cerradas por seguridad, lo que ocasiona ambientes sofocantes y pesado de calor u humedad, especialmente en verano. Le preocupa la calidad del aire al regresar y considera fundamental poder supervisar su hogar a distancia, aunque, no utiliza sistemas de monitoreo actualmente, valora la posibilidad de contar con datos en tiempo real, activar ventiladores antes de llegar y que el sistema funcione automáticamente. Prefiere soluciones de bajo costo, como de código abierto, siempre que sean confiables, fáciles de instalar, y estaría dispuesta a implementarlas para mejorar el ambiente de su hogar.
 
 
 * Entrevista 2:
