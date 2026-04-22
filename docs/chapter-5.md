@@ -49,9 +49,113 @@ Ruta de referencia: https://www.figma.com/es-es/
 4. **LucidChart:** Aplicación de diagramación colaborativa para la creación de Wireflows, User Flows, diagramas UML (Class Diagrams) y Database Diagrams de la arquitectura de Ventix.
 Ruta de referencia: https://www.lucidchart.com/pages/es
 
+**Software Development:**
+
+El desarrollo de software del proyecto Ventix abarca la implementación del Langin Page, Frontend Web Application y Backend Web Services. Se utilizan las siguientes herramientas y tecnologías.
+
+1. **GitHub:** Sistema de control de versiones distribuido y plataforma de hosting para repositorios de código fuente. Gestión de la organización Open-10177, implementación de GitFlow Workflow, Conventional Commits y Semantic Versioning.
+Ruta de referencia: https://github.com
+    
+    Organización del proyecto: https://github.com/Open-10177 
 
 
+2. **WebStorm:** Entorno de desarrollo integrado (IDE) de JetBrains para la implementación del Frontend utilizando Angular Framework, HTML5, CSS3, JavaScript y TypeScript. Incluye integración con GitHub para control de versiones.
+Ruta de descarga: https://www.jetbrains.com/webstorm/
+
+    Licencia de estudiante: https://www.jetbrains.com/community/education/
+
+
+3. **HTML5, CSS3, JavaScript:** Tecnologías fundamentales para la implementación del Landing Page y estructura base de las Web Applications.
+   
+    **Referencias:**
+   * HTML5: https://html.spec.whatwg.org/
+   * CSS3: https://www.w3.org/Style/CSS/
+   * JavaScript: https://developer.mozilla.org/es/docs/Web/JavaScript
+
+**Software Testing**
+
+Las pruebas de software permiten evaluar y verificar que los productos desarrollados cumplen con los requisitos especificados y funcionan correctamente.
+
+- **Lenguaje Gherkin:** Lenguaje de dominio específico (DSL) para la redacción de Acceptance Criteria de User Stories en formato estructurado Given-When-Then. Permite definir escenarios de prueba legibles por stakeholders y ejecutables por herramientas de automatización. Los keywords principales son: Feature, Scenario, Given, When, Then, And, But.
+  
+    Ruta de referencia: https://cucumber.io/docs/gherkin/
+
+**Software Documentation**
+
+La documentación de software permite explicar el funcionamiento, uso y arquitectura de los productos desarrollados, facilitando su mantenimiento y evolución.
+
+- **Markdown:** Lenguaje de marcado ligero para la elaboración del Project Report en el repositorio GitHub. Permite estructurar documentación con formato consistente y compatible con control de versiones.
+
+    Ruta de referencia: https://www.markdownguide.org/
 ### 5.1.2. Source Code Management.
+
+En esta sección se establecen los medios y esquemas de organización aplicados para el seguimiento de modificaciones del código fuente. Se utiliza GitHub como plataforma y sistema de control de versiones distribuido.
+
+**Repositorio del Proyecto**
+
+| Producto                | URL del Repositorio                                 |
+|-------------------------|-----------------------------------------------------|
+| Organizacion Open-10177 | https://github.com/Open-10177                       |
+| Landing Page            | https://open-10177.github.io/Ventix-LandingPage/    |
+| Project Report          | https://github.com/Open-10177/VentixProject-Report  |
+
+**GitFlow Workflow**
+
+Se implementa GitFlow como modelo de flujo de trabajo para el control de versiones, estableciendo una estructura de ramas que facilita el desarrollo paralelo y la gestión de releases.
+
+**Ramas Principales:**
+
+- **main:** Rama principal que contiene el historial oficial de versiones estables listas para producción. Solo recibe merges de release branches y hotfix branches.
+
+
+- **develop:** Rama de integración donde se consolidan los features completados y probados. Sirve como base para la creación de release branches.
+
+**Ramas Soporte:**
+
+- **feature/<feature-name>:** Ramas creadas a partir de develop para implementar nuevas funcionalidades. Se fusionan de vuelta a develop una vez completadas y revisadas.
+
+- -**release/<version>:** Ramas creadas a partir de develop para preparar una nueva versión de producción. Permiten correcciones menores y ajustes antes del merge a main.
+
+**Convenciones de Nomenclatura para Ramas**
+
+| Tipos de Rama | Formato                                        | Ejemplo                         |
+|---------------|------------------------------------------------|---------------------------------|
+| Feature       | feature/<bounded-context>-<feature-description>| feature/docs-add-lean-ux-canvas |
+| Release       | release/<major.minor.patch>                    | release/1.0.0                   |
+
+**Conventional Commits**
+
+Se aplica la especificación Conventional Commits para los mensajes de commit, siguiendo la estructura:
+
+    <type>[optional scope]: <description>
+
+    [optional body]
+
+    [optional footer(s)]
+
+
+**Tipos de Commit:***
+
+| Tipo     | Descripcion                                                       |
+|----------|-------------------------------------------------------------------|
+| feat     | **Nueva funcionalidad para el usuario**                           |
+| fix      | **Corrección de un bug**                                          |
+| docs     | **Cambios en documentación**                                      |
+| style    | **Cambios de formato (espacios, comas, etc.) sin afectar lógica** |
+| refactor | **Refactorización de código sin cambiar funcionalidad**           |
+| perf     | **Mejoras de rendimiento**                                        |
+| test     | **Adición o corrección de pruebas**                               |
+| build    | **Cambios en sistema de build o dependencias externas**           |
+| chore    | **Tareas de mantenimiento sin afectar código de producción**      |
+
+**Ejemplos de Commits:**
+
+    feat(chapter-1): add lean ux canvas
+    fix(auth): resolve token expiration validation issue
+    docs(readme): update deployment instructions
+    build(deps): upgrade Angular to version 17
+    chore(config): update environment variables for production
+
 ### 5.1.3. Source Code Style Guide & Conventions.
 ### 5.1.4. Software Deployment Configuration.
 ## 5.2. Landing Page, Services & Applications Implementation.
