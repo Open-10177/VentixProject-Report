@@ -17,7 +17,7 @@
 | Taipe Sangama, Jorge Francisco | U202313458       |
 | Suarez Chinga, Geraldine       | U20241C804       |
 | Sanchez Osorio, Ruth Yanira    | U20241C626       |
-|                                |                  |
+| Cáceres Pizarro Albino Florencio| U201923820      |
 
 Periodo: 2026-01
 
