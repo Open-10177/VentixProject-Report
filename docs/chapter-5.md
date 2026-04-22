@@ -20,27 +20,25 @@
 
 ## Bibliografía
 
-World Health Organization (2006). Air quality guidelines: Global update 2005. WHO/SDE/PHE/OEH/06.02. Ginebra: OMS.
+Allen, J. G., MacNaughton, P., Satish, U., Santanam, S., Vallarino, J., & Spengler, J. D. (2016). Associations of cognitive function scores with carbon dioxide, ventilation, and volatile organic compound exposures in office workers. Environmental Health Perspectives, 124(6), 805–812. https://hero.epa.gov/reference/3976444/ 
 
-Instituto Nacional de Seguridad y Salud en el Trabajo (INSST, 2003). Notas Técnicas de Prevención y guías sobre ventilación y riesgos en interiores. Madrid: INSST.
+Chen, C., Zhao, B., & Ji, W. (2021). A comparative study of ventilation-purification strategies on air quality and energy consumption. Building Simulation, 14(3), 813–825. https://www.sciopen.com/article/10.1007/s12273-020-0694-2
 
-Dave, C., Sivajohan, A., Basmaji, J., & Slessarev, M. (2022). Evidence-Based Considerations for the Design of an Open-Source Ventilator: A Systematic Review. Critical Care Explorations, 4(7): e0723.
+Dave, C., Sivajohan, A., Basmaji, J., & Slessarev, M. (2022). Evidence-based considerations for the design of an open-source ventilator: A systematic review. Critical Care Explorations, 4(7), e0723. https://pmc.ncbi.nlm.nih.gov/articles/PMC9249267/?utm_source=copilot.com 
 
-Eurofins Environment Testing Spain (2025). Calidad del Aire en Interiores – Norma UNE 171330:2024. Servicios acreditados por ENAC.
+Eurofins Environment Testing Spain. (2025). Calidad del aire en interiores – Norma UNE 171330:2024. Madrid: Eurofins. https://www.eurofins-environment.es/en/indoor-air-quality/?utm_source=copilot.com
 
-World Health Organization (2021). WHO global air quality guidelines: PM2.5, PM10, O₃, NO₂, SO₂, CO. ISBN 9789240034228.
+Instituto Nacional de Seguridad y Salud en el Trabajo (INSST). (2003). Notas técnicas de prevención: Ventilación y riesgos en interiores. Madrid: INSST. https://www.insst.es/materias/riesgos/riesgos-ergonomicos/calidad-del-ambiente-interior/documentacion 
 
-Navas-Martín, M.Á., Jiménez-Planet, V., & Cuerdo-Vilches, T. (2024). Working from Home and Indoor Environmental Quality: A Scoping Review. Applied Sciences, 16(1): 250.
+Mendell, M. J., Chen, W., Ranasinghe, D. R., Castorina, R., & Kumagai, K. (2024). Carbon dioxide guidelines for indoor air quality: A review. Journal of Exposure Science & Environmental Epidemiology, 34(4), 555–569. https://www.nature.com/articles/s41370-024-00694-7 
 
-Mendell, M.J., Chen, W., Ranasinghe, D.R., Castorina, R., & Kumagai, K. (2024). Carbon dioxide guidelines for indoor air quality: a review. Journal of Exposure Science & Environmental Epidemiology, 34: 555–569.
+Navas-Martín, M. Á., Jiménez-Planet, V., & Cuerdo-Vilches, T. (2024). Working from home and indoor environmental quality: A scoping review. Applied Sciences, 16(1), 250. https://www.mdpi.com/2076-3417/16/1/250 
 
-Chen, C., Zhao, B., & Ji, W. (2021). A comparative study of ventilation-purification strategies on air quality and energy consumption. Building Simulation, 14(3): 813–825.
+Pineda-Tobón, D. M., Espinosa-Bedoya, A., & Branch-Bedoya, J. W. (2024). Aquality32: A low-cost, open-source air quality monitoring device leveraging the ESP32. HardwareX, 20, e00607. https://doaj.org/article/a36dfe04d08940e5821139c2fee21dd2?utm_source=copilot.com
 
-Allen, J.G., MacNaughton, P., Satish, U., Santanam, S., Vallarino, J., & Spengler, J.D. (2016). Associations of cognitive function scores with CO₂, ventilation, and VOC exposures in office workers. Environmental Health Perspectives, 124(6): 805–812.
+World Health Organization. (2006). Air quality guidelines: Global update 2005. WHO/SDE/PHE/OEH/06.02. Geneva: World Health Organization. https://wkc.who.int/resources/publications/i/item/WHO-SDE-PHE-OEH-06.02?utm_source=copilot.com
 
-World Health Organization (2021). Global Air Quality Guidelines. OMS, Ginebra.
-
-Pineda-Tobón, D.M., Espinosa-Bedoya, A., & Branch-Bedoya, J.W. (2024). Aquality32: A low-cost, open-source air quality monitoring device leveraging the ESP32. HardwareX, 20: e00607.
+World Health Organization. (2021). WHO global air quality guidelines: Particulate matter (PM₂.₅ and PM₁₀), ozone, nitrogen dioxide, sulfur dioxide and carbon monoxide. Geneva: World Health Organization. https://www.who.int/publications/i/item/9789240034228/?utm_source=copilot.com 
 
 ## Anexos
 
