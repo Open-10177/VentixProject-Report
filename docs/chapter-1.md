@@ -215,16 +215,5 @@ Este segmento incluye a padres de familia, tutores o responsables del hogar que 
 
 - **Necesidad:**  
   Una plataforma web tipo dashboard que permita monitorear el hogar en tiempo real desde cualquier lugar, junto con un sistema automatizado que gestione la ventilación y condiciones ambientales sin intervención constante del usuario, brindando seguridad, tranquilidad y control remoto eficiente.
-
-
-**SEGMENTO OBJETIVO 2: Dueños de casa que desean monitorear remoto sus hogares desde el exterior** 
-
-Este perfil incluye a propietarios que buscan mantener control y tranquilidad sobre su entorno doméstico incluso cuando se encuentran fuera de casa.  
-
-- **Contexto:** Pasan tiempo fuera del hogar por trabajo u otras actividades, dejando familiares o mascotas en casa. Buscan información confiable y en tiempo real sobre las condiciones ambientales y el bienestar de quienes permanecen adentro.  
-
-- **Puntos de dolor:** Incertidumbre por no saber si el ambiente es adecuado, preocupación por emergencias no notificadas y dependencia de llamadas o mensajes que generan retrasos.  
-
-- **Necesidad:** Una plataforma web (Dashboard) que centralice la información y actúe de forma automática, brindando tranquilidad y confianza mientras están fuera.  
  
 
