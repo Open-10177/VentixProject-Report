@@ -82,6 +82,7 @@ Ruta de descarga: https://www.jetbrains.com/webstorm/
    * HTML5: https://html.spec.whatwg.org/
    * CSS3: https://www.w3.org/Style/CSS/
    * JavaScript: https://developer.mozilla.org/es/docs/Web/JavaScript
+   <img src="/assets/img/chapter-5/logo-html.png" alt="logoHTML" width="400">
 
 **Software Testing**
 
@@ -91,6 +92,8 @@ Las pruebas de software permiten evaluar y verificar que los productos desarroll
   
     Ruta de referencia: https://cucumber.io/docs/gherkin/
 
+  <img src="/assets/img/chapter-5/logo-cumcum.png" alt="logoCumcum" width="400">
+
 **Software Documentation**
 
 La documentación de software permite explicar el funcionamiento, uso y arquitectura de los productos desarrollados, facilitando su mantenimiento y evolución.
@@ -98,6 +101,9 @@ La documentación de software permite explicar el funcionamiento, uso y arquitec
 - **Markdown:** Lenguaje de marcado ligero para la elaboración del Project Report en el repositorio GitHub. Permite estructurar documentación con formato consistente y compatible con control de versiones.
 
     Ruta de referencia: https://www.markdownguide.org/
+
+  <img src="/assets/img/chapter-5/logo-markdown.png" alt="logoMarkdown" width="400">
+  
 ### 5.1.2. Source Code Management.
 
 En esta sección se establecen los medios y esquemas de organización aplicados para el seguimiento de modificaciones del código fuente. Se utiliza GitHub como plataforma y sistema de control de versiones distribuido.
