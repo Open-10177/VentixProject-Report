@@ -85,7 +85,7 @@ No existe una solución open source que unifique el monitoreo, la automatizació
 | Hosting + dominio básico | S/ 50 | Permite implementar la plataforma web para monitoreo y control remoto del sistema. |
 | Software open source | S/ 0 | Uso de nuestras habilidades como desarrolladores y herramientas gratuitas para desarrollo del sistema (programación, IoT y dashboard). |
 
-#Costo total estimado
+# Costo total estimado
 **S/ 375**
 
 ### 1.2.2. Lean UX Process
