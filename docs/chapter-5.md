@@ -459,7 +459,25 @@ Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrol
 
 
 
-## Conclusiones y recomendaciones.
+## Conclusiones y recomendaciones
+
+*Conclusiones:*
+
+El proyecto Ventix demuestra que la automatización ambiental con enfoque open source no solo es viable, sino también necesaria en contextos cotidianos como hogares y espacios de estudio. La investigación con usuarios evidencia que la calidad del aire afecta directamente la concentración, la salud y la productividad, lo que valida la pertinencia del sistema.
+
+La construcción de User Personas, Journey Maps y Empathy Maps permitió identificar necesidades reales y diferenciadas: estudiantes que buscan continuidad en el estudio sin interrupciones y responsables del hogar que requieren tranquilidad mientras están fuera. Esta segmentación fortalece la propuesta al mostrar que el sistema responde a problemas concretos y diversos.
+
+El backlog y las historias de usuario reflejan un avance sólido hacia una plataforma integral, donde la combinación de monitoreo en tiempo real, control remoto y automatización genera confianza. El proyecto se posiciona como una solución escalable que puede evolucionar hacia un framework de referencia en la comunidad open source.
+
+
+
+*Recomendaciones:*
+
+Mejorar la coordinación interna del equipo, estableciendo roles claros y reuniones periódicas de seguimiento. Esto permitirá que cada integrante aporte desde su especialidad y se mantenga una visión compartida del proyecto.
+
+Documentar de manera colaborativa cada avance, utilizando repositorios abiertos y guías comunes. De esta forma, se asegura que todos los miembros comprendan el estado del proyecto y puedan contribuir sin duplicar esfuerzos.
+
+Fomentar la validación grupal de las decisiones, probando prototipos y funcionalidades en conjunto antes de avanzar a nuevas etapas. Este enfoque fortalece la cohesión del equipo y garantiza que el producto final refleje el trabajo colectivo.
 
 ## Bibliografía
 
