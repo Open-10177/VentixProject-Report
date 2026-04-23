@@ -72,7 +72,7 @@ No existe una solución open source que unifique el monitoreo, la automatizació
 
 **How much? (¿Cuánto?)** El costo de implementación es significativamente menor que un sistema de aire acondicionado centralizado, ya que se utilizan componentes accesibles como el ESP32 y software libre. Estos dispositivos democratizan el acceso a tecnologías de bienestar inteligente, permitiendo que estudiantes y profesionales implementen soluciones de bajo costo (Pineda-Tobón et al., 2024). A continuación se presentara un cuadro de finanzas presupuestales:
 
-| Recurso | Precio (S/) | Descripción / Función en el proyecto |
+| Recurso | Precio (S/) | Descripción |
 |--------|-------------|--------------------------------------|
 | Microcontrolador ESP32 | S/ 40 | Actúa como el cerebro del sistema. Procesa los datos de los sensores y controla la automatización de la ventilación con conexión WiFi. |
 | Sensor de CO₂ (MH-Z19B o similar) | S/ 120 | Mide los niveles de dióxido de carbono en tiempo real para determinar cuándo activar el sistema de ventilación. |
