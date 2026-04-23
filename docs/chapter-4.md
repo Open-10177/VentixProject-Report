@@ -241,7 +241,7 @@ Este diseño de Ventix es básicamente la puerta de entrada a una página web, o
 Esta sección, titulada "Funcionalidades", utiliza un formato de carrusel interactivo para mostrar detalladamente cada función del proyecto. En el centro, un panel principal combina una imagen representativa en el cuadro gris oscuro con una explicación clara en el cuadro gris claro, permitiendo que el usuario entienda cada funcionalidad de forma visual y textual al mismo tiempo. Gracias a la flecha lateral, el visitante puede explorar las diferentes herramientas de manera dinámica, mientras que el botón inferior ofrece una vía rápida para obtener más información o comenzar a usarlas.
 
 
-![demo.png](../assets/img/Chapter-4/demo.png)
+![funcionalidad.png](../assets/img/Chapter-4/funcionalidad.png)
 
 **Beneficios**
 
