@@ -245,9 +245,9 @@ Esta sección, titulada "Funcionalidades", utiliza un formato de carrusel intera
 
 **Beneficios**
 
-Esta sección está diseñada para resaltar lo mejor de la marca de forma clara y directa. A la izquierda se encuentra el título "Beneficios" para ubicar al usuario, mientras que el resto del espacio lo ocupan tres tarjetas verticales con bordes redondeados, ideales para explicar los puntos clave o ventajas del servicio.
+Esta sección está estructurada para resaltar lo mejor de la marca de forma jerárquica y limpia. En la parte superior central se ubica el título "Beneficios" para guiar la mirada del usuario, mientras que el espacio principal se divide en tres tarjetas verticales con bordes redondeados. Este diseño modular es ideal para sintetizar las ventajas del servicio en bloques visualmente independientes, logrando un equilibrio perfecto entre estética minimalista y funcionalidad informativa.
 
-![beneficios.png](../assets/img/Chapter-4/beneficios.png)
+![Beneficios2.png](../assets/img/Chapter-4/Beneficios2.png)
 
 **Sobre nosotros**
 
