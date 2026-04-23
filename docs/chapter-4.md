@@ -825,19 +825,35 @@ A nivel de backend, los diagramas de clases reflejan la implementación detallad
 
 #### Monitoring frontend:
 
-
+![MonitoringFrint.png](../assets/img/chapter-5/MonitoringFrint.png)
 #### IAM frontend:
-
+![IAMfront.png](../assets/img/chapter-5/IAMfront.png)
 #### Device&Mng frontend:
 
-
+![DeviceFront.png](../assets/img/chapter-5/DeviceFront.png)
 #### Analytics frontend:
-
+![AnalyticsFront.png](../assets/img/chapter-5/AnalyticsFront.png)
 
 #### Payment frontend:
-
+![PaymentFront.png](../assets/img/chapter-5/PaymentFront.png)
 
 #### Shared frontend:
+![sharedfront.png](../assets/img/chapter-5/sharedfront.png)
+
+#### Diagrama del Backend completo:
+![backend-complete-class-diagram.svg](../assets/img/Chapter-4/Diagrams/backend-complete-class-diagram.svg)
+#### Monitoring frontend:
+![MonitoringBackend.png](../assets/img/Chapter-4/Diagrams/MonitoringBackend.png)
+#### IAM frontend:
+![IAMBackend.png](../assets/img/Chapter-4/Diagrams/IAMBackend.png)
+#### Device&Mng frontend:
+![DeviceBackend.png](../assets/img/Chapter-4/Diagrams/DeviceBackend.png)
+#### Analytics frontend:
+![AnalyticsBackend.png](../assets/img/Chapter-4/Diagrams/AnalyticsBackend.png)
+#### Payment frontend:
+![PaymentBackend.png](../assets/img/Chapter-4/Diagrams/PaymentBackend.png)
+#### Shared frontend:
+![backendshared.png](../assets/img/Chapter-4/Diagrams/backendshared.png)
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams
