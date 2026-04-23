@@ -606,6 +606,96 @@ Este wireflow integral traza el recorrido completo del usuario, desde la autenti
 
   
 ## 4.5. Web Applications Prototyping.
+La sección de web Application Prototyping presenta los prototipos interactivos de la versión Desktop y mobile web de Ventix. Este prototipo esta simulando la interacción entre el usuario y la aplicación, es decir, la navegación real dentro de la plataforma recorriendo los principales pathas definidos en los user Flow Diagrams.
+
+Las decisiones de interacción tomadas en esta estapa responden a tres criterios fundamentales:
+  * **Priorización de datos criticos:** Garantizar que los niveles de CO2, humedad y temperatura sean visibles de inmediato para prevenir riesgos.
+  * **Control intuitivo:** Facilitar la configuración de umbrales y modos de ventilación sin necesidad de conocimientos técnicos avanzados.
+  * **Seguridad y respuesta rápida:** Inclusión de accesos directos a alertas y un botón de pánico funcional para situaciónes de emergencia.
+
+**Criterios que guiaron las decisiones de interacción**
+  1. Arquitectura de información basada en prioridades del usuario
+    
+    La estructura del contenido se organizó priorizando los datos de los sensores y el estado del los dispositivos en cada ambiente del hogar.
+       * Indicadores de temperatura, CO2 y humedad a tiempo real.
+       * Estado de funcionamiento de ventiladores
+       * Mapa interactivo en donde se ubica cada ventilador y su bateria de cada uno.
+       * Historial detallado de datos.
+       * Configuración de umbrales de activación
+  2. Navegación clara y consistente
+    
+    Se implementó un sistema de navegación que maximiza el espacio de visualización de datos
+       * **En desktop:** Un menú lateral izquierdo persistente que permite el acceso rápido a Home
+         Mapa, Notificaciones y configuración
+       * **En mobile:** Una navegación optimizada para pulgar mediante accesos directos y menús
+         simplificados que no obstruyen la lectura de los indicadores.
+  3. Interacciónes basadas en patrones familiares
+
+    Para reducior la curva de aprendizaje, utilizaron patrones familiares en aplicaciones de
+    domótica:
+       * **Tarjeta de estado:** Cuadros que muestran la información de cada variable. Usan colores
+        indicar si todo está bien o si hay algún riesgo.
+       * **Interruptores y deslizadores:** Permiten cambiar entre modos, como a ahorro y 
+       optimizado, y ajustar valores de forma simple.
+       
+       * **Vista del espacio:** Es como un plano del lugar donde puedes ver dónde está cada 
+       dispositivo.
+  4. Principios de diseño inclusivo
+    Tanto el prototipo desktop como el mobil consideran lo siguiente:
+       * Tipografías legibles y constrastes adecuados para adultos y jovenes.
+       * Botones amplios para facilitar el toque.
+       * Lenguaje visual claro y sencillo para que todo tipo de usuario pueda entender la información y el proceso.
+    *  **Prototipo version desktop**
+         Los prototipos desktop muestran una interfaz amplia, optimizada para un monitore profundo y gestión administrativa de los dispositivos.
+         * Dashboar principal
+            * Presenta un saludo personalizado
+            * las tres caracteristicas principales son visibles de inmediato (La temperatura, El nivel de CO2 y el porcentaje de la humedad)
+            * Visualización modular de las zonas de la casa y el estado de bateria de cada una.
+         * Navegación lateral
+            * Un menú persistente con iconos claros para home, mapas, notificaciones, configuraciones y registro.
+            * Orientación al usuairo en su navegación
+         * Secciones modulares
+            * El contenido de divide en los siguientes bloques visuales que permiten una lectura mas rápida:
+               -  Tarjeta para cada cuarto y estado de ventilación
+                  -  Historial de datos detallados
+                  -  Plano del hogar interactivo
+                  -  Configuración de umbrales
+                  -  Paneles laterales de alertas para notificaciones.
+   <br>
+    *  **Prototipo versión Mobile**
+        La versión móvil la inmediatez y la usabilidad táctil, manteniendo la escencia visual del desktop pero adaptada a pantallas reducidas.
+
+           * **Home**
+              * Un resumen instantáneo de los niveles clave de calidad del aire, ocupando el espacio central.
+           * **Tab-Bar inferior**
+              * Esto reduce la carga cognitiva y facilita el uso con una sola mano.
+           * **Menú hamburger**
+              * Incluye secciones secundarias como Ayuda, Acerca de, permisos extendidos, o historial extendido. Se evita sobrecargar la pantalla principal.
+           * **Interacción táctil optimizada**
+              * Botones grandes y espaciados.
+              * Facilidad para ajustar los umbrales de manera táctil.
+
+
+  5. Relación con los User FLow Diagrams
+     Cada pantalla del prototipo de Ventix fue diseñada respetando los flujos de usuarios previamente establecidos:
+
+     * Las pantallas aparezcan en el orden lógico previsto.
+     * No existen pasos innecesarios.
+     * Las tareas principales se completan con la menor cantidad de clics posibles.
+     * La navegación es intuitiva para los usuarios.
+   Por ejemplo, se diseñaron flows claros para:
+     * Ingresar a la plataforma: Desde la conexión inicial hasta la selección de cuenta.
+     * Regstrarse a la plataforma: Guía paso a paso desde el inicio hasta el tipo de usuario.
+     * Observar el historial de datos: Acceso directo desde el dashboard a la lista histórica detallada.
+     * Ingreso a notificaciónes y planos: Flujo directo para ver alertas o el plano interactivo de la casa.
+     * Configuración de umbrales de manera manual: El camino para camniar de automatico a manual y ajustar parámetros.
+     * Subir un dispositivo nuevo: Flujos específicos para QR y código manual con confirmación de éxito.
+    
+El link del video de los prototipos:
+[Desktop](https://youtu.be/sGtuup0EXG0) 
+
+
+
 ## 4.6. Domain-Driven Software Architecture.
 
 La arquitectura de software de VENTIX se basa en los principios de Domain-Driven Design (DDD), priorizando la lógica del negocio y la consistencia del lenguaje ubicuo sobre las implementaciones técnicas.
