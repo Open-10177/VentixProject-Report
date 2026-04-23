@@ -72,24 +72,21 @@ No existe una solución open source que unifique el monitoreo, la automatizació
 
 **How much? (¿Cuánto?)** El costo de implementación es significativamente menor que un sistema de aire acondicionado centralizado, ya que se utilizan componentes accesibles como el ESP32 y software libre. Estos dispositivos democratizan el acceso a tecnologías de bienestar inteligente, permitiendo que estudiantes y profesionales implementen soluciones de bajo costo (Pineda-Tobón et al., 2024). A continuación se presentara un cuadro de finanzas presupuestales:
 
-## Tabla de Finanzas Presupuestales – Ventix (Prototipo Inicial)
+| Recurso | Precio (S/) | Descripción / Función en el proyecto |
+|--------|-------------|--------------------------------------|
+| Microcontrolador ESP32 | S/ 40 | Actúa como el cerebro del sistema. Procesa los datos de los sensores y controla la automatización de la ventilación con conexión WiFi. |
+| Sensor de CO₂ (MH-Z19B o similar) | S/ 120 | Mide los niveles de dióxido de carbono en tiempo real para determinar cuándo activar el sistema de ventilación. |
+| Sensor de temperatura y humedad (DHT22) | S/ 25 | Permite medir temperatura y humedad del ambiente para mantener condiciones confortables. |
+| Módulo relay | S/ 15 | Funciona como interruptor electrónico para encender o apagar automáticamente el ventilador. |
+| Ventilador o extractor de aire | S/ 60 | Ejecuta la ventilación del ambiente renovando el aire cuando el sistema lo indica. |
+| Fuente de alimentación | S/ 25 | Proporciona energía estable a todos los componentes electrónicos. |
+| Protoboard y cables | S/ 20 | Permiten realizar conexiones y pruebas del circuito de forma sencilla. |
+| Caja o carcasa protectora | S/ 20 | Protege los componentes y mejora la presentación del dispositivo. |
+| Hosting + dominio básico | S/ 50 | Permite implementar la plataforma web para monitoreo y control remoto del sistema. |
+| Software open source | S/ 0 | Uso de nuestras habilidades como desarrolladores y herramientas gratuitas para desarrollo del sistema (programación, IoT y dashboard). |
 
-| Recurso | Precio estimado (USD) | Descripción / Función en el proyecto |
-|--------|----------------------|--------------------------------------|
-| Microcontrolador ESP32 | $8 – $12 | Actúa como el cerebro del sistema. Procesa datos de sensores y ejecuta la automatización. Permite conexión WiFi para enviar información a la plataforma web. |
-| Sensor de CO₂ (MH-Z19B o similar) | $20 – $35 | Mide niveles de dióxido de carbono en tiempo real. Permite decidir cuándo activar la ventilación para mejorar la calidad del aire. |
-| Sensor de temperatura y humedad (DHT22) | $5 – $10 | Mide temperatura y humedad del ambiente. Ayuda a mantener condiciones térmicas confortables. |
-| Módulo relay | $3 – $6 | Interruptor electrónico que permite encender o apagar automáticamente dispositivos como ventiladores. |
-| Ventilador o extractor de aire | $15 – $40 | Ejecuta la ventilación física del ambiente renovando el aire cuando es necesario. |
-| Fuente de alimentación | $5 – $10 | Proporciona energía estable a todos los componentes electrónicos. |
-| Protoboard y cables | $5 – $10 | Permiten la conexión y pruebas del circuito sin soldadura. |
-| Caja o carcasa protectora | $5 – $15 | Protege los componentes y mejora la presentación del dispositivo. |
-| Hosting + dominio (web app) | $20 – $50 anual | Permite alojar la plataforma para monitoreo y control remoto del sistema. |
-| Software open source | $0 | Uso de herramientas gratuitas para desarrollo (frameworks, librerías IoT, backend, frontend). |
-| Mano de obra (desarrollo inicial) | $100 – $300 | Tiempo invertido en programación, integración de hardware y diseño del sistema. |
-
-### Costo total estimado
-**$186 – $488 USD**
+#Costo total estimado
+**S/ 375**
 
 ### 1.2.2. Lean UX Process
 
