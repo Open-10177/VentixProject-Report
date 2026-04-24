@@ -24,7 +24,8 @@ Periodo: 2026-01
 # Registro de versiones del informe
 | Versión | Fecha      | Autor                          | Descripción de la modificación                                             |
 |---------|------------|--------------------------------|----------------------------------------------------------------------------|
-| 0.1     | 2025-04-12 | Taipe Sangama, Jorge Francisco | Creación del documento y estructura inicial                                |
+| 0.1     | 2026-23-04 | Taipe Sangama, Jorge Francisco | Creación del documento y estructura inicial                                |
+| 0.1     | 2026-23-04 | Suarez Chinga, Geraldine | Rellenado del documento y avance progresivo                                |
 
 # Project Report Collaboration Insights
 
