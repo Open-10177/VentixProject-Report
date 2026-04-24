@@ -392,9 +392,9 @@ Durante el Sprint 1, se completó exitosamente la implementación de todas las s
 
 **Video de demostracion del Landing Page**
 
-**URL DE YOUTUBE** : 
+**URL DE YOUTUBE** : https://youtu.be/WLVaXTZLLKU
 
-**Duracion**
+**Duracion**: **03:41**
 
 Capturas de las principales secciones:
 
