@@ -1,6 +1,22 @@
 
 # Capítulo III: Requirements Specification
+# AS-IS Scenario Mapping
+# Segmento Objetivo 1: Estudiantes universitarios en espacios cerrados
+| Phase | Doing (Qué hace el usuario) | Thinking (Qué piensa) | Feeling (Qué siente) |
+|------|-----------------------------|------------------------|----------------------|
+| **Inicio de sesión de estudio** | Abre Ventix y activa el modo estudio para monitorear el ambiente. | “¿El aire está bien para concentrarme?” | Curioso.<br>Esperanzado. |
+| **Durante el estudio** | Estudia mientras el sistema monitorea automáticamente CO₂, temperatura y humedad. | “Me estoy cansando, ¿será el aire?” | Ligera fatiga.<br>Distracción. |
+| **Alerta o ajuste automático** | El sistema activa ventilación automáticamente o muestra alerta de calidad del aire. | “Bien, el sistema lo está controlando.” | Alivio.<br>Confianza. |
+| **Cierre de sesión** | Revisa el estado del ambiente y finaliza el modo estudio. | “Hoy me concentré mejor.” | Satisfacción.<br>Tranquilidad. |
 
+#  Segmento Objetivo 2: Responsables del hogar (monitoreo remoto)
+
+| Phase | Doing (Qué hace el usuario) | Thinking (Qué piensa) | Feeling (Qué siente) |
+|------|-----------------------------|------------------------|----------------------|
+| **Revisión inicial del hogar** | Abre la app o dashboard para ver el estado del hogar. | “¿Cómo estará el ambiente en casa?” | Curiosidad.<br>Preocupación leve. |
+| **Monitoreo en tiempo real** | Observa CO₂, temperatura y humedad en el dashboard. | “Todo parece estar bien por ahora.” | Tranquilidad. |
+| **Detección de alerta** | Recibe notificación de condiciones anormales. | “¿Es algo grave?” | Alerta.<br>Ansiedad leve. |
+| **Resolución y cierre** | El sistema ajusta automáticamente o el usuario controla remotamente el ventilador. | “Ya está solucionado, todo está bajo control.” | Alivio.<br>Seguridad. |
 # EPICS
 
 | EPIC ID | Título | Descripción |
