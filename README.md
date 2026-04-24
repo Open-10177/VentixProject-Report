@@ -4,7 +4,7 @@
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
 ## Carrera: Ingeniería de Software
-## Desarrolo de Aplicaciones Open Source
+## Desarrollo de Aplicaciones Open Source
 ## PROFESOR: Hugo Allan Mori Paiva
 ## NRC: 10177
 ## INFORME TB1
