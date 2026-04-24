@@ -330,7 +330,7 @@ Describe las ventajas clave de utilizar el sistema para mejorar la calidad de vi
 **Equipo**
 Bajo el encabezado "Conoce a nuestro equipo", se presenta a los desarrolladores de la aplicación. Esta sección está diseñada para humanizar la marca y mostrar el talento detrás del software.
 
-![Integrantes2.png](assets/img/Chapter-4/Integrantes2.png)
+![Integrantes2.png](..assets/img/Chapter-4/Integrantes2.png)
 
 **Plan**
 Presenta "Un plan a tu medida" con dos opciones principales para desbloquear el potencial total de la herramienta.
@@ -359,7 +359,7 @@ Se observa la pantalla de bienvenida a la aplicación de Ventix, la cual constit
 Esta es la pantalla de inicio de Ventix. Presenta un diseño limpio con el logo central y un botón de 'Conectar' que permite al usuario ingresar a la aplicación de forma rápida.
 
 
-![footer-mo.png](../assets/img/Chapter-4/footer-mo.png)
+![Principal.png](../assets/img/Chapter-4/Principal.png)
 
 **Inicio de sesión**
 
