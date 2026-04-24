@@ -31,15 +31,15 @@ Para Ventix, hemos identificado tres tipos de competidores que actualmente domin
     <th colspan="2">Competidores</th>
     <th>
       Ventix<br>
-      <img src="/assets/img/chapter-2/ventixlogo.png" alt="Ventix" width="100">
+      <img src="../assets/img/chapter-2/ventixlogo.png" alt="Ventix" width="100">
     </th>
     <th>
       Xiami<br>
-      <img src="/assets/img/chapter-2/xiami.png/" alt="Homify" width="100">
+      <img src="../assets/img/chapter-2/xiami.png" alt="Homify" width="100">
     </th>
     <th>
       Dyson<br>
-      <img src="/assets/img/chapter-2/631_dyson_logo.jpg" alt="Home Solution" width="100">
+      <img src="../assets/img/chapter-2/631_dyson_logo.jpg" alt="Home Solution" width="100">
     </th>
 
   </tr>
@@ -378,14 +378,14 @@ La construcción de los User Persona permite al equipo de desarrollo comprender 
 
 Para los estudiantes se elaboró el User Persona Maria Elena Lopez. Se consideraron factores como su edad, rutina académica, tiempo prolongado en habitaciones cerradas y la necesidad de mantener concentración durante largas jornadas de estudio. Sus principales frustraciones giran en torno a la somnolencia y la fatiga ambiental, además de la molestia de tener que interrumpir sus actividades para ajustar manualmente la ventilación. Asimismo, se tomó en cuenta su disposición hacia soluciones simples, económicas y open source, que les permitan confiar en la tecnología sin barreras de complejidad.
 
-<img src="/assets/img/chapter-2/User Persona Estudiante_Ventix.png" alt="user persona primer segmento-estudiante" width="700">
+<img src="../assets/img/chapter-2/User Persona Estudiante_Ventix.png" alt="user persona primer segmento-estudiante" width="700">
 
 
 **Segmento 2: Dueños de Casa que Monitorean su Hogar**
 
 Para este segmento se elaboró el User Persona Luis Estefano Ruiz. Se consideraron aspectos como su edad, estilo de vida y su responsabilidad en el cuidado del hogar. Sus principales motivaciones están orientadas a garantizar el bienestar de las personas y mascotas dentro de su vivienda, así como a mantener condiciones ambientales adecuadas incluso en su ausencia. Sus frustraciones se relacionan con la imposibilidad de supervisar el entorno en tiempo real, la necesidad de realizar ajustes manuales al regresar a casa y la desconfianza hacia dispositivos inteligentes que comprometen la privacidad. Su perfil refleja una predisposición positiva hacia soluciones tecnológicas open source, siempre que estas sean seguras, confiables y le permitan tener control remoto del hogar de manera sencilla.
 
-<img src="/assets/img/chapter-2/User Persona Dueño de casa_Ventix.png" alt="user persona segundo segmento-dueño de casa" width="700">
+<img src="../assets/img/chapter-2/User Persona Dueño de casa_Ventix.png" alt="user persona segundo segmento-dueño de casa" width="700">
 
 ### 2.3.2. User Task Matrix
 
