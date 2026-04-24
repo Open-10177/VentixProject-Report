@@ -123,28 +123,15 @@ Durante la primera fase de elaboración del informe, el equipo Ventix centró su
     - **Sprint 1**
         - [5.2.1.1. Sprint Planning 1](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#5211-sprint-planning-1)
         - [5.2.1.3. Sprint Backlog 1](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#5213-sprint-backlog-1)
-
-    - **Sprint 2**
-        - [5.2.2.1. Sprint Planning 2](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#5221-sprint-planning-2)
-        - [5.2.2.3. Sprint Backlog 2](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#5223-sprint-backlog-2)
-
-    - **Sprint 3**
-        - [5.2.3.1. Sprint Planning 3](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#5231-sprint-planning-3)
-        - [5.2.3.3. Sprint Backlog 3](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#5233-sprint-backlog-3)
-
-    - **Sprint 4**
-        - [5.2.4.1. Sprint Planning 4](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#5241-sprint-planning-4)
-        - [5.2.4.3. Sprint Backlog 4](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#5243-sprint-backlog-4)
-
-- [5.3. Validation Interviews](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#531-dise%C3%B1o-de-entrevistas)
-- [5.4. Video About-the-Product](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#54-video-about-the-product)
-
----
+        - [5.2.1.4. Development Evidence for Sprint Review](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#5214-development-evidence-for-sprint-review)
+        - [5.2.1.5. Execution Evidence for Sprint Review](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#5214-development-evidence-for-sprint-review)
+        - [5.2.1.6. Services Documentation Evidence for Sprint Review](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#5214-development-evidence-for-sprint-review)
+        - [5.2.1.7. Software Deployment Evidence for Sprint Review](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#5214-development-evidence-for-sprint-review)
+        - [5.2.1.8. Team Collaboration Insights during Sprint](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#5214-development-evidence-for-sprint-review)
+  
 
 ### [Conclusiones](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#conclusiones)
 - [Conclusiones y recomendaciones](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#conclusiones-y-recomendaciones)
-- [Video About-the-Team](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#video-about-the-team)
 
 ### [Bibliografía](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#bibliograf%C3%ADa)
 ### [Anexos](https://github.com/Open-10177/VentixProject-Report/blob/main/docs/chapter-5.md#anexos)
