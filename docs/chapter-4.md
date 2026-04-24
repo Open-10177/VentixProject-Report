@@ -330,7 +330,7 @@ Describe las ventajas clave de utilizar el sistema para mejorar la calidad de vi
 **Equipo**
 Bajo el encabezado "Conoce a nuestro equipo", se presenta a los desarrolladores de la aplicación. Esta sección está diseñada para humanizar la marca y mostrar el talento detrás del software.
 
-![Integrante2-m.png](../assets/img/Chapter-4/Integrante2-m.png)
+![Integrantes2-m.png](../assets/img/Chapter-4/Integrantes2-m.png)
 
 **Plan**
 Presenta "Un plan a tu medida" con dos opciones principales para desbloquear el potencial total de la herramienta.
