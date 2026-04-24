@@ -417,13 +417,13 @@ El User Task Matrix presenta las tareas que realizan los User Persona para cumpl
 
 El User Journey Mapping de María Elena describe su experiencia como estudiante en espacios cerrados a lo largo de sus sesiones de estudio. En el estado actual, identifica que la ventilación limitada y los ajustes manuales del entorno afectan su concentración, generando interrupciones y fatiga. A lo largo del proceso, pasa por etapas de reconocimiento del problema, exploración y evaluación de alternativas, hasta la prueba y adopción de una solución. Este recorrido evidencia la necesidad de un sistema que mantenga condiciones adecuadas de forma automática, incorporando a su vez la posibilidad de intervención manual para mejorar la continuidad y eficiencia en su experiencia de estudio.
 
-<img src="/assets/img/chapter-2/Journey mapping estudiante_Ventix.jpg" alt="journey mapping estudiante" width="700">
+<img src="../assets/img/chapter-2/Journey mapping estudiante_Ventix.jpg" alt="journey mapping estudiante" width="700">
 
 ### Segmento 2 – Dueño o tutor de casa hogar (Luis Estéfano Ruiz)  
 
 El User Journey Mapping de Luis Estéfano Ruiz describe su experiencia como responsable del hogar que permanece fuera durante gran parte del día. En el estado actual, enfrenta incertidumbre al no tener visibilidad sobre las condiciones ambientales, lo que afecta su tranquilidad. A lo largo del recorrido, identifica el problema, busca alternativas y evalúa opciones hasta probar una solución que le permita monitorear su vivienda. Este proceso evidencia la necesidad de un sistema que mantenga el ambiente de forma automática durante su ausencia y que, al mismo tiempo, le brinde acceso a la información para revisar lo ocurrido y ajustar el entorno según sus preferencias.
 
-<img src="/assets/img/chapter-2/Journey mapping dueño de casa_Ventix.jpg" alt="journey mapping dueño de casa " width="700">
+<img src="../assets/img/chapter-2/Journey mapping dueño de casa_Ventix.jpg" alt="journey mapping dueño de casa " width="700">
 
 ## 2.3.4. Empathy Mapping  
 
@@ -433,13 +433,13 @@ Para la elaboración de los Empathy Maps, el equipo partió del conocimiento y o
 
 En este mapa se analizó a María Elena López, una estudiante universitaria que busca mantener la concentración en espacios cerrados. Se identificó que percibe que la falta de ventilación afecta su rendimiento y genera fatiga durante el estudio. Además, observa y experimenta interrupciones constantes al tener que ajustar manualmente el ambiente, como abrir ventanas o usar ventiladores. Su principal dolor es la pérdida de enfoque, mientras que su ganancia esperada es contar con un sistema que mantenga el ambiente adecuado automáticamente, pero que también le permita realizar ajustes de forma sencilla cuando lo necesite.
 
-<img src="/assets/img/chapter-2/Emphaty Map Estudiante_Ventix.png" alt="emphaty map-estudiante" width="700">
+<img src="../assets/img/chapter-2/Emphaty Map Estudiante_Ventix.png" alt="emphaty map-estudiante" width="700">
 
 ### Segmento 2: Dueños de casa
 
 En este mapa se analizó a Luis Estéfano Ruiz, un usuario que busca mantener la tranquilidad y el control de su hogar mientras se encuentra fuera. Se identificó que percibe incertidumbre al no poder supervisar el ambiente en tiempo real, especialmente por el bienestar de quienes permanecen en casa. Al regresar, revisa el estado del hogar y analiza la información del día para realizar ajustes según sus necesidades. Su principal dolor es la falta de visibilidad durante su ausencia, mientras que su ganancia esperada es contar con un sistema que funcione de manera independiente, pero que también le permita revisar y personalizar el entorno de forma sencilla.
 
-<img src="/assets/img/chapter-2/Emphaty Map dueño de casa_Ventix.png" alt="emphaty map-dueño de casa" width="700">
+<img src="../assets/img/chapter-2/Emphaty Map dueño de casa_Ventix.png" alt="emphaty map-dueño de casa" width="700">
 
 ## 2.4. Big Picture Event Storming
 
