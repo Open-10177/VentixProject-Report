@@ -932,17 +932,17 @@ A nivel de backend, los diagramas de clases reflejan la implementación detallad
 
 #### Diagrama del Backend completo:
 ![backend-complete-class-diagram.svg](../assets/img/Chapter-4/Diagrams/backend-complete-class-diagram.svg)
-#### Monitoring frontend:
+#### Monitoring backend:
 ![MonitoringBackend.png](../assets/img/Chapter-4/Diagrams/MonitoringBackend.png)
-#### IAM frontend:
+#### IAM backend:
 ![IAMBackend.png](../assets/img/Chapter-4/Diagrams/IAMBackend.png)
-#### Device&Mng frontend:
+#### Device&Mng backend:
 ![DeviceBackend.png](../assets/img/Chapter-4/Diagrams/DeviceBackend.png)
-#### Analytics frontend:
+#### Analytics backend:
 ![AnalyticsBackend.png](../assets/img/Chapter-4/Diagrams/AnalyticsBackend.png)
-#### Payment frontend:
+#### Payment backend:
 ![PaymentBackend.png](../assets/img/Chapter-4/Diagrams/PaymentBackend.png)
-#### Shared frontend:
+#### Shared backend:
 ![backendshared.png](../assets/img/Chapter-4/Diagrams/backendshared.png)
 
 ## 4.8. Database Design.
