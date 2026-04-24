@@ -84,8 +84,8 @@ Para Ventix, hemos identificado tres tipos de competidores que actualmente domin
   </tr>
   <tr>
     <th>Precios & Costos</th>
-    <td>Económico. Costo de materiales (BOM) estimado en < $50 USD.</td>
-    <td>Moderado. Precios entre $60 y $150 USD dependiendo del modelo.</td>
+    <td>Económico. Costo de materiales (BOM) estimado en < $73 USD.</td>
+    <td>Moderado. Precios entre $100 y $150 USD dependiendo del modelo.</td>
     <td>Alto. Precios que oscilan entre $400 y $800+ USD.</td>
   </tr>
   <tr>
