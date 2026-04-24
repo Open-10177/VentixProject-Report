@@ -22,7 +22,7 @@ Esta disciplina se centra en la planificación, seguimiento y control de las act
 * Trello: Plataforma de gestión visual basada en tableros, listas y tarjetas, utilizada para la organización del Sprint Backlog, gestión de User Stories por estado (To-Do, In-Progress, Done) y colaboración del equipo en la priorización de requisitos del proyecto Ventix.
   Ruta de referencia : https://trello.com
 
-  <img src="/assets/img/chapter-5/logo-trello.png" alt="logoTrello" width="400">
+  <img src="../assets/img/chapter-5/logo-trello.png" alt="logoTrello" width="400">
 
 **Requirements Management**
 
@@ -39,24 +39,24 @@ El diseño de la experiencia de usuario y la interfaz de usuario para Ventix con
 1. **UXPressia:** Plataforma para la elaboración de User Personas, Empathy Maps, Customer Journey Maps e Impact Maps de los segmentos objetivo del proyecto Ventix .
 Ruta de referencia: https://uxpressia.com/
 
-  <img src="/assets/img/chapter-5/logo-uxpressia.png" alt="logoUxpressia" width="400">
+  <img src="../assets/img/chapter-5/logo-uxpressia.png" alt="logoUxpressia" width="400">
 
 
 3. **Miro:** Pizarra digital colaborativa utilizada para sesiones de Big Picture EventStorming y Design-Level EventStorming, facilitando la identificación de Bounded Contexts, Events, Commands y Aggregates del dominio Ventix.
 Ruta de referencia: https://miro.com/es/
 
-  <img src="/assets/img/chapter-5/logo-miro.png" alt="logoMiro" width="400">
+  <img src="../assets/img/chapter-5/logo-miro.png" alt="logoMiro" width="400">
   
 4. **Figma:** Herramienta de diseño colaborativo para la creación de Wireframes, Mock-ups y Prototipos interactivos del Landing Page y Web Applications de Ventix, aplicando el Design System basado en Material Design.
 Ruta de referencia: https://www.figma.com/es-es/
 
-  <img src="/assets/img/chapter-5/logo-figma.png" alt="logoFignma" width="400">
+  <img src="../assets/img/chapter-5/logo-figma.png" alt="logoFignma" width="400">
 
 
 6. **LucidChart:** Aplicación de diagramación colaborativa para la creación de Wireflows, User Flows, diagramas UML (Class Diagrams) y Database Diagrams de la arquitectura de Ventix.
 Ruta de referencia: https://www.lucidchart.com/pages/es
 
-  <img src="/assets/img/chapter-5/logo-lucid.png" alt="logoLucid" width="400">
+  <img src="../assets/img/chapter-5/logo-lucid.png" alt="logoLucid" width="400">
 
 **Software Development:**
 
@@ -67,7 +67,7 @@ Ruta de referencia: https://github.com
     
     Organización del proyecto: https://github.com/Open-10177
    
-   <img src="/assets/img/chapter-5/logo-github.png" alt="logoGithub" width="400">
+   <img src="../assets/img/chapter-5/logo-github.png" alt="logoGithub" width="400">
 
 
 3. **WebStorm:** Entorno de desarrollo integrado (IDE) de JetBrains para la implementación del Frontend utilizando Angular Framework, HTML5, CSS3, JavaScript y TypeScript. Incluye integración con GitHub para control de versiones.
@@ -75,7 +75,7 @@ Ruta de descarga: https://www.jetbrains.com/webstorm/
 
     Licencia de estudiante: https://www.jetbrains.com/community/education/
    
-    <img src="/assets/img/chapter-5/logo-webstorm.png" alt="logoWebstorm" width="400">
+    <img src="../assets/img/chapter-5/logo-webstorm.png" alt="logoWebstorm" width="400">
 
 5. **HTML5, CSS3, JavaScript:** Tecnologías fundamentales para la implementación del Landing Page y estructura base de las Web Applications.
    
@@ -84,7 +84,7 @@ Ruta de descarga: https://www.jetbrains.com/webstorm/
    * CSS3: https://www.w3.org/Style/CSS/
    * JavaScript: https://developer.mozilla.org/es/docs/Web/JavaScript
    
-   <img src="/assets/img/chapter-5/logo-html.png" alt="logoHTML" width="400">
+   <img src="../assets/img/chapter-5/logo-html.png" alt="logoHTML" width="400">
 
 **Software Testing**
 
@@ -94,7 +94,7 @@ Las pruebas de software permiten evaluar y verificar que los productos desarroll
   
     Ruta de referencia: https://cucumber.io/docs/gherkin/
 
-  <img src="/assets/img/chapter-5/logo-cumcum.png" alt="logoCumcum" width="400">
+  <img src="../assets/img/chapter-5/logo-cumcum.png" alt="logoCumcum" width="400">
 
 **Software Documentation**
 
@@ -104,7 +104,7 @@ La documentación de software permite explicar el funcionamiento, uso y arquitec
 
     Ruta de referencia: https://www.markdownguide.org/
 
-  <img src="/assets/img/chapter-5/logo-markdown.png" alt="logoMarkdown" width="400">
+  <img src="../assets/img/chapter-5/logo-markdown.png" alt="logoMarkdown" width="400">
   
 ### 5.1.2. Source Code Management.
 

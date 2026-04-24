@@ -60,7 +60,7 @@
 
 ## 3.2. Impact Mapping.
 
-<img src="/assets/img/chapter-3/impact-map.png" alt="Impact Map" width="700">
+<img src="../assets/img/chapter-3/impact-map.png" alt="Impact Map" width="700">
 
 ## 3.3. Product Backlog.
 
