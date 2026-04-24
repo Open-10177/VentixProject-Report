@@ -947,3 +947,15 @@ A nivel de backend, los diagramas de clases reflejan la implementación detallad
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams
+![database-complete-diagram.svg](../assets/img/Chapter-4/Diagrams/database-complete-diagram.svg)
+
+#### IAM base de datos
+![iam dataabase.png](../assets/img/Chapter-4/Diagrams/iam%20dataabase.png)
+#### Payment Base de datos
+![payment database.png](../assets/img/Chapter-4/Diagrams/payment%20database.png)
+#### Device base de datos
+![device database.png](../assets/img/Chapter-4/Diagrams/device%20database.png)
+#### Monitoring base de datos
+![monitoring database.png](../assets/img/Chapter-4/Diagrams/monitoring%20database.png)
+#### Analytics base de datos
+![analytics database.png](../assets/img/Chapter-4/Diagrams/analytics%20database.png)
