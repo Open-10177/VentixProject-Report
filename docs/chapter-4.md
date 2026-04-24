@@ -265,9 +265,9 @@ Esta sección está dedicada a explicar el propósito del proyecto a través de 
 
 **Planes**
 
-Esta sección de "Planes" organiza las diferentes opciones de suscripción o servicios de la aplicación de una manera muy visual y comparativa. Se utilizan tres columnas principales donde cada una detalla lo que incluye el plan: un título para el nombre del nivel, un icono o precio destacado, y una lista de características para que el usuario sepa exactamente qué beneficios recibe en cada opción.
+Esta sección de "Planes" organiza las diferentes opciones de suscripción o servicios de la aplicación de una manera muy visual y comparativa. Se utilizan 2 columnas principales donde cada una detalla lo que incluye el plan: un título para el nombre del nivel, un icono o precio destacado, y una lista de características para que el usuario sepa exactamente qué beneficios recibe en cada opción.
 
-![planes.png](../assets/img/Chapter-4/planes.png)
+![planes2.png](../assets/img/Chapter-4/planes2.png)
 
 **Testimonios**
 
@@ -286,10 +286,10 @@ Esta sección esta diseñada para que le usuario pueda contactarse con un especi
 
 **Footer**
 
-Este es el pie de página o footer, diseñado para cerrar el sitio con toda la información complementaria organizada de forma clara. A la izquierda destaca nuevamente el nombre de Ventix, mientras que en el centro se distribuyen dos columnas de enlaces que permiten navegar rápidamente hacia secciones secundarias o legales. En la hilera inferior, el diseño reserva espacios específicos para iconos de redes sociales a la izquierda, una barra para derechos de autor o avisos legales en el medio, y una imagen del logo a la derecha, logrando que el usuario tenga todo lo necesario a mano antes de terminar su visita.
+Este es el pie de página o footer, diseñado para cerrar el sitio con toda la información complementaria organizada de forma clara. A la izquierda destaca nuevamente el nombre de Ventix. En la hilera inferior, el diseño reserva espacios específicos para iconos de redes sociales a la izquierda, una barra para derechos de autor o avisos legales en el medio, y una imagen del logo a la derecha, logrando que el usuario tenga todo lo necesario a mano antes de terminar su visita.
 
 
-![footer.png](../assets/img/Chapter-4/footer.png)
+![footerpag.png](../assets/img/Chapter-4/footerpag.png)
 
 ### 4.3.2. Landing Page Mock-up.
 **Hero de la aplicación**
