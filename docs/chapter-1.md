@@ -74,19 +74,19 @@ No existe una solución open source que unifique el monitoreo, la automatizació
 
 | Recurso | Precio (S/) | Descripción |
 |--------|-------------|--------------------------------------|
-| Microcontrolador ESP32 | S/ 40 | Actúa como el cerebro del sistema. Procesa los datos de los sensores y controla la automatización de la ventilación con conexión WiFi. |
-| Sensor de CO₂ (MH-Z19B o similar) | S/ 120 | Mide los niveles de dióxido de carbono en tiempo real para determinar cuándo activar el sistema de ventilación. |
+| Microcontrolador ESP32 | S/ 30 | Actúa como el cerebro del sistema. Procesa los datos de los sensores y controla la automatización de la ventilación con conexión WiFi. |
+| Sensor de CO₂ (MH-Z19B o similar) | S/ 80 | Mide los niveles de dióxido de carbono en tiempo real para determinar cuándo activar el sistema de ventilación. |
 | Sensor de temperatura y humedad (DHT22) | S/ 25 | Permite medir temperatura y humedad del ambiente para mantener condiciones confortables. |
 | Módulo relay | S/ 15 | Funciona como interruptor electrónico para encender o apagar automáticamente el ventilador. |
-| Ventilador o extractor de aire | S/ 60 | Ejecuta la ventilación del ambiente renovando el aire cuando el sistema lo indica. |
+| Ventilador o extractor de aire | S/ 30 | Ejecuta la ventilación del ambiente renovando el aire cuando el sistema lo indica. |
 | Fuente de alimentación | S/ 25 | Proporciona energía estable a todos los componentes electrónicos. |
 | Protoboard y cables | S/ 20 | Permiten realizar conexiones y pruebas del circuito de forma sencilla. |
 | Caja o carcasa protectora | S/ 20 | Protege los componentes y mejora la presentación del dispositivo. |
-| Hosting + dominio básico | S/ 50 | Permite implementar la plataforma web para monitoreo y control remoto del sistema. |
+| Hosting + dominio básico | S/ 20 | Con contactos nos podremos permitir implementar la plataforma web para monitoreo y control remoto del sistema. |
 | Software open source | S/ 0 | Uso de nuestras habilidades como desarrolladores y herramientas gratuitas para desarrollo del sistema (programación, IoT y dashboard). |
 
 #### Costo total estimado
-**S/ 375**
+**S/ 250**
 
 ### 1.2.2. Lean UX Process
 
