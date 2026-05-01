@@ -507,8 +507,9 @@ World Health Organization. (2021). WHO global air quality guidelines: Particulat
 
 A continuación se listan los enlaces a los entornos de producción y los repositorios de código fuente utilizados durante todo el ciclo de vida del proyecto.
 
-| Recurso                     | URL                                                 |
-|-----------------------------|-----------------------------------------------------|
-| Landing Page (GitHub Pages) | https://open-10177.github.io/Ventix-LandingPage/    |
-| Repositorio Landing Page    | https://github.com/Open-10177/Ventix-LandingPage    |
-| Repositorio Project Report  | https://github.com/Open-10177/VentixProject-Report  |
+| Recurso                     | URL                                                                                                                                                                                                                                                                                                                      |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Landing Page (GitHub Pages) | https://open-10177.github.io/Ventix-LandingPage/                                                                                                                                                                                                                                                                         |
+| Repositorio Landing Page    | https://github.com/Open-10177/Ventix-LandingPage                                                                                                                                                                                                                                                                         |
+| Repositorio Project Report  | https://github.com/Open-10177/VentixProject-Report                                                                                                                                                                                                                                                                       |
+| Video de Avance AV1         | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313458_upc_edu_pe/IQDUgc7QP5bxSIdiehwzzR_VAfT3FUT3O3DnpMhlbe-6TvA?e=XfHzYl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D  |
