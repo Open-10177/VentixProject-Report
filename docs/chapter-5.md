@@ -114,8 +114,9 @@ En esta sección se establecen los medios y esquemas de organización aplicados 
 
 | Producto                | URL del Repositorio                                 |
 |-------------------------|-----------------------------------------------------|
-| Organizacion Open-10177 | https://github.com/Open-10177                       |
-| Landing Page            | https://open-10177.github.io/Ventix-LandingPage/    |
+| Organización Open-10177 | https://github.com/Open-10177                       |
+| Landing Page            | https://github.com/Open-10177/Ventix-LandingPage    |
+| Landing Page (Despliegue) | https://open-10177.github.io/Ventix-LandingPage/  |
 | Project Report          | https://github.com/Open-10177/VentixProject-Report  |
 
 **GitFlow Workflow**
@@ -229,29 +230,31 @@ Este enfoque permite que el sistema sea extensible, mantenible y alineado con es
 
 ### 5.1.4. Software Deployment Configuration.
 
-En esta sección se especifica la configuración de despliegue para cada uno de los producto digitales de la solución Ventix: Landing Page.
+En esta sección se especifica la configuración de despliegue para el Landing Page de la solución Ventix.
 
-Pasos de configuración:
+**Pasos de configuración:**
 
-1. Acceder al repositorio NovaPeru-Tech-LandingPage en GitHub.
+1. Acceder al repositorio Ventix-LandingPage en GitHub: https://github.com/Open-10177/Ventix-LandingPage
 
-2. Navegar a Settings > Pages en el menú lateral.
+2. Navegar a **Settings > Pages** en el menú lateral.
 
-3. En la sección "Source", seleccionar la rama main y carpeta / (root).
+3. En la sección "Source", seleccionar la rama `main` y carpeta `/ (root)`.
 
-4. Hacer clic en Save y esperar la generación del sitio (1-2 minutos).
+4. Hacer clic en **Save** y esperar la generación del sitio (1–2 minutos).
 
 5. Verificar el despliegue accediendo a la URL generada.
 
-URL de despliegue: https://open-10177.github.io/Ventix-LandingPage/
+URL de despliegue del Landing Page: https://open-10177.github.io/Ventix-LandingPage/
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
+
 Durante el Sprint 1, el equipo se enfocó en el desarrollo e implementación del Landing Page de Ventix, incluyendo todas las secciones de presentación del negocio con soporte bilingüe (español/inglés) y despliegue mediante GitHub Pages.
 
-Repositorio: https://github.com/Open-10177/VentixProject-Report
+- URL del Repositorio del Reporte: https://github.com/Open-10177/VentixProject-Report
+- URL del Repositorio Landing Page: https://github.com/Open-10177/Ventix-LandingPage
+- URL del Landing Page Desplegado: https://open-10177.github.io/Ventix-LandingPage/
 
-Landing Page Desplegada: https://open-10177.github.io/Ventix-LandingPage/
 
 
 #### 5.2.1.1. Sprint Planning
@@ -348,11 +351,9 @@ Estos aspectos se derivan directamente de los objetivos definidos en el Sprint 1
 
 #### 5.2.1.3. Sprint Backlog 1.
 
-El Sprint Backlog 1 reúne las historias de usuario y tareas necesarias para implementar la primera versión de la landing page, incluyendo el menú de navegación, la visualización de planes, la sección de creadores, redes sociales, el formulario de contacto y el cambio de idioma.
+El Sprint Backlog 1 reúne las User Stories (USS) y tareas necesarias para implementar la primera versión de la landing page, incluyendo el menú de navegación, la visualización de planes, la sección de creadores, redes sociales, el formulario de contacto y el cambio de idioma.
 
-Todas las tareas son monitoreadas y actualizadas mediante Jira Software.
-
-Todas las tareas son monitoreadas y actualizadas mediante Jira Software.
+Todas las tareas son monitoreadas y actualizadas mediante Jira Software (https://www.atlassian.com/software/jira).
 
 ![Jiraevidence.png](../assets/img/chapter-5/Jiraevidence.png)
 
@@ -360,19 +361,19 @@ A continuación, la estructura de la tabla de control de estado para el Sprint:
 
 
 
-| Sprint#    | Sprint 1                             |                 |                                          |                                                                                                                         |                      |                  |                                                    | 
-|------------|--------------------------------------|-----------------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|----------------------|------------------|----------------------------------------------------|
-| User Story |                                      | Work-Item /Task |                                          |                                                                                                                         |                      |                  |                                                    | 
-| **Id**     | **Title**                            | **Id**          | **Title**                                | **Description**                                                                                                         | **Estimation Hours** | **Assigned To**  | **Status (To-do / In-Process / To-Review / Done)** | 
-| US-001     | Menú de navegación                   | T001            | Desarrollar barra de navegación (Navbar) | Maquetar el menú superior con enlaces ancla a las secciones y botón de menú responsivo (hamburguesa) para móviles.      | 3                    | Geraldine Suarez | 	To-do                                             | 
-| US-002     | Visualización de Beneficios y planes | T002            | Implementar secciones Hero y Features    | Estructurar la cabecera principal y la sección de características (beneficios de automatización y hardware IoT).        | 5                    | Ruth Ozorio      | 	To-do                                             | 
-| US-002     | Selección de Plan en Landing Page    | T003            | Maquetar tabla comparativa Pricing       | Crear la sección de planes (Normal vs Plus) detallando características, precios y botones de llamado a la acción (CTA). | 4                    | Jorge Taipe      | 	To-do                                             | 
-| US-002     | Visualización de creadores           | T004            | Crear sección "About the Team"           | Diseñar tarjetas visuales que incluyan las fotografías, nombres y roles de los miembros del equipo de Ventix.           | 3                    | Ruth Ozorio      | 	To-do                                             | 
-| US-003     | Cambio de idioma                     | T005            | Configurar soporte bilingüe (i18n)       | Implementar el selector de idioma y los archivos de traducción (ES/EN) para todos los textos estáticos de la página.    | 6                    | Jorge Taipe      | 	To-do                                             | 
-| US-003     | Soporte y contacto                   | T006            | Maquetar contenedor de Contacto          | Estructurar la sección informativa con correos, teléfonos y horarios de atención de la empresa.                         | 2                    | Geraldine Suarez | 	To-do                                             | 
-| US-003     | Redes sociales                       | T007            | Implementar Footer y enlaces sociales    | Desarrollar el pie de página con el logo, enlaces legales y los iconos enlazados a las redes sociales del proyecto.     | 2                    | Jorge Taipe      | 	To-do                                             | 
-| US-004     | Formulario de contacto               | T008            | Desarrollar formulario de contacto       | Implementar los campos de entrada de datos (nombre, correo, mensaje) con validaciones visuales básicas de HTML5/CSS.    | 3                    | Albino Caceres   | 	To-do                                             | 
+A continuación, la tabla de control de estado para el Sprint 1:
 
+| Sprint# | Sprint 1 | | | | | | |
+|---|---|---|---|---|---|---|---|
+| **USS ID** | **USS Title** | **Task ID** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| USS-001 | Menú de navegación | T001 | Desarrollar barra de navegación (Navbar) | Maquetar el menú superior con enlaces ancla a las secciones y botón de menú responsivo (hamburguesa) para móviles. | 3 | Geraldine Suarez | Done |
+| USS-002 | Visualización de Beneficios y planes | T002 | Implementar secciones Hero y Features | Estructurar la cabecera principal y la sección de características (beneficios de automatización y hardware IoT). | 5 | Ruth Sanchez | Done |
+| USS-002 | Selección de Plan en Landing Page | T003 | Maquetar tabla comparativa Pricing | Crear la sección de planes (Normal vs Plus) detallando características, precios y botones de llamado a la acción (CTA). | 4 | Jorge Taipe | Done |
+| USS-002 | Visualización de creadores | T004 | Crear sección "About the Team" | Diseñar tarjetas visuales que incluyan las fotografías, nombres y roles de los miembros del equipo de Ventix. | 3 | Ruth Sanchez | Done |
+| USS-003 | Cambio de idioma | T005 | Configurar soporte bilingüe (i18n) | Implementar el selector de idioma y los archivos de traducción (ES/EN) para todos los textos estáticos de la página. | 6 | Jorge Taipe | Done |
+| USS-003 | Soporte y contacto | T006 | Maquetar contenedor de Contacto | Estructurar la sección informativa con correos, teléfonos y horarios de atención de la empresa. | 2 | Geraldine Suarez | Done |
+| USS-003 | Redes sociales | T007 | Implementar Footer y enlaces sociales | Desarrollar el pie de página con el logo, enlaces legales y los iconos enlazados a las redes sociales del proyecto. | 2 | Jorge Taipe | Done |
+| USS-004 | Formulario de contacto | T008 | Desarrollar formulario de contacto | Implementar los campos de entrada de datos (nombre, correo, mensaje) con validaciones visuales básicas de HTML5/CSS. | 3 | Albino Caceres | Done |
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
@@ -380,12 +381,12 @@ En esta sección se explican y presentan los avances en la implementación logra
 
 La tabla siguiente resume los commits más relevantes realizados en el repositorio de la Landing Page, indicando la rama, el identificador del commit, el mensaje asociado y una breve explicación del cambio introducido en la implementación.
 
-| Repository                                        | Branch | Commit Id                                 | Commit Message                     | Commit Message Body                                                                                                         | Commit on (Date) |
-|---------------------------------------------------|--------|-------------------------------------------|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|------------------|
-| https://github.com/Open-10177/Ventix-LandingPage  | main   | 8c26bff889ba9ee34d3a9c941047a4f68cb9a2cf  | First commit landing page finished | Commit inicial del repositorio, creando la estructura base del proyecto de Landing Page y la configuración de dependencias. | 15-04-2025       |
-| https://github.com/Open-10177/Ventix-LandingPage  | main   | 94f26223e32498740b2e5b225f49aae9d588dcd8  | Create CNAME                       | Create CNAME                                                                                                                | 15-04-2025       |
-| https://github.com/Open-10177/Ventix-LandingPage  | main   | a03ff07c4a04b405ebe4f53ab91e06fe84fb0dad  | Delete CNAME                       | Delte CNAME                                                                                                                 | 15-04-2025       |
-| https://github.com/Open-10177/Ventix-LandingPage  | main   | 087126147bfbe6414f86448511dbb5d4c47aafe4  | feat: fix structure                | feat: fix structure                                                                                                         | 15-04-2025       |
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commit on (Date) |
+|---|---|---|---|---|---|
+| https://github.com/Open-10177/Ventix-LandingPage | main | 8c26bff889ba9ee34d3a9c941047a4f68cb9a2cf | First commit landing page finished | Commit inicial del repositorio, creando la estructura base del proyecto de Landing Page y la configuración de dependencias. | 15-04-2025 |
+| https://github.com/Open-10177/Ventix-LandingPage | main | 94f26223e32498740b2e5b225f49aae9d588dcd8 | Create CNAME | Creación del archivo CNAME para configuración de dominio personalizado. | 15-04-2025 |
+| https://github.com/Open-10177/Ventix-LandingPage | main | a03ff07c4a04b405ebe4f53ab91e06fe84fb0dad | Delete CNAME | Eliminación del archivo CNAME tras revisión de configuración. | 15-04-2025 |
+| https://github.com/Open-10177/Ventix-LandingPage | main | 087126147bfbe6414f86448511dbb5d4c47aafe4 | feat: fix structure | Corrección de la estructura base del proyecto para alinear carpetas y archivos con las convenciones definidas. | 15-04-2025 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 Durante el Sprint 1, se completó exitosamente la implementación de todas las secciones del Landing Page de VENTIX, incluyendo navegación responsiva, soporte bilingüe y despliegue en GitHub Pages. A continuación se presentan evidencias de ejecución mediante capturas de pantalla de las principales vistas.
@@ -396,68 +397,116 @@ Durante el Sprint 1, se completó exitosamente la implementación de todas las s
 
 **Duracion**: **03:41**
 
-Capturas de las principales secciones:
+---
 
-Encabezado y menu de navegacion:
+**Figura 13. Encabezado y menú de navegación del Landing Page**
 
 ![navbar.png](../assets/img/chapter-5/navbar.png)
 
-Seccion hero:
+*Figura 13. Vista del encabezado y barra de navegación responsiva del Landing Page de Ventix. Se aprecian los enlaces de ancla a las secciones principales y el selector de idioma. Fuente: Elaboración propia.*
+
+---
+
+**Figura 14. Sección Hero del Landing Page**
 
 ![Hero.png](../assets/img/chapter-5/Hero.png)
 
-Seccion Services:
+*Figura 14. Sección Hero del Landing Page de Ventix, mostrando el mensaje principal del producto, la propuesta de valor y el llamado a la acción (CTA) para el registro de usuarios. Fuente: Elaboración propia.*
+
+---
+
+**Figura 15. Sección Services del Landing Page**
 
 ![Services.png](../assets/img/chapter-5/Services.png)
 
-Seccion Testimonials:
+*Figura 15. Sección Services del Landing Page de Ventix, presentando los servicios clave del sistema de automatización ambiental. Fuente: Elaboración propia.*
+
+---
+
+**Figura 16. Sección Testimonials del Landing Page**
 
 ![testimonial.png](../assets/img/chapter-5/testimonial.png)
 
-Seccion Benefits:
+*Figura 16. Sección Testimonials del Landing Page de Ventix, con reseñas de usuarios de ambos segmentos objetivo (estudiantes y responsables del hogar). Fuente: Elaboración propia.*
+
+---
+
+**Figura 17. Sección Benefits del Landing Page**
 
 ![benefits.png](../assets/img/chapter-5/benefits.png)
 
-Seccion Pricing:
+*Figura 17. Sección Benefits del Landing Page de Ventix, destacando las ventajas del sistema de monitoreo y control de calidad del aire. Fuente: Elaboración propia.*
+
+---
+
+**Figura 18. Sección Pricing del Landing Page**
 
 ![pricing.png](../assets/img/chapter-5/pricing.png)
 
-Seccion Contact:
+*Figura 18. Sección Pricing del Landing Page de Ventix, con la tabla comparativa de planes Normal y Plus, incluyendo características y precios. Fuente: Elaboración propia.*
+
+---
+
+**Figura 19. Sección Contact del Landing Page**
 
 ![contact.png](../assets/img/chapter-5/contact.png)
 
-Footer: 
+*Figura 19. Sección Contact del Landing Page de Ventix, con el formulario de contacto y los datos de comunicación del equipo. Fuente: Elaboración propia.*
+
+---
+
+**Figura 20. Footer del Landing Page**
 
 ![footer-mo.png](../assets/img/Chapter-4/footer-mo.png)
+
+*Figura 20. Footer del Landing Page de Ventix, con enlaces a redes sociales, información legal y logo del proyecto. Fuente: Elaboración propia.*
+
+---
+
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 En el Sprint 1, el equipo diseñó, programó y desplegó el Landing Page de Ventix. Esta es una página web estática, por lo que no hay Web Services disponibles en este sprint.
 
-| End Point | Funciones                                                                 |
-|-----------|---------------------------------------------------------------------------|
-| N/A       | No hay Web Services implementados en el Sprint 1 (Landing Page estático)  |
+| End Point | Funciones |
+|-----------|-----------|
+| N/A | No hay Web Services implementados en el Sprint 1 (Landing Page estático) |
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
-[Landing Page Ventix](https://open-10177.github.io/Ventix-LandingPage/) - https://open-10177.github.io/Ventix-LandingPage/
+El Landing Page de Ventix fue desplegado exitosamente mediante GitHub Pages al finalizar el Sprint 1. A continuación se indica la URL de acceso público:
+
+URL del Landing Page desplegado: https://open-10177.github.io/Ventix-LandingPage/
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+
 Durante el Sprint 1, los analíticos de colaboración de GitHub muestran una participación activa y continua de todos los miembros del equipo sobre el repositorio de la Landing Page de Ventix. En el panel de Overview se observa un flujo constante de commits distribuidos a lo largo de los días del sprint, lo que evidencia que las tareas de implementación de las distintas secciones (Home/Hero, Features, Hardware IoT, Plan Comparison, About the Team, Contact y Footer) se desarrollaron de manera incremental y coordinada. Cada integrante realizó aportes directos al código, ya sea mediante la creación de nuevas secciones, ajustes de estilos responsivos, configuración del soporte bilingüe o correcciones derivadas de las revisiones entre pares, asegurando así que el entregable del sprint se construyera de forma colaborativa y no centralizada en una sola persona.
+
+**Figura 21. Overview de contribuciones del equipo en GitHub**
 
 ![Evidence.png](../assets/img/chapter-5/Evidence.png)
 
-El Network Graph refleja esta dinámica mediante la presencia de ramas que nacen desde main y regresan a ella una vez integradas, siguiendo el flujo definido por GitFlow. Esta visualización confirma que las contribuciones individuales se alinearon con el marco de trabajo acordado: se desarrollaron cambios en ramas aisladas, se realizaron pruebas locales y posteriormente se integraron al tronco principal, lo que redujo conflictos y facilitó el seguimiento de la trazabilidad de cada cambio. De este modo, la colaboración no solo se dio a nivel de cantidad de commits, sino también en la forma de trabajo estructurada y compatible con las prácticas ágiles del equipo.
+*Figura 21. Panel Overview de GitHub mostrando el flujo de commits de los integrantes del equipo durante el Sprint 1. Fuente: GitHub Analytics - Repositorio Open-10177/Ventix-LandingPage.*
+
+El Network Graph refleja esta dinámica mediante la presencia de ramas que nacen desde main y regresan a ella una vez integradas, siguiendo el flujo definido por GitFlow. Esta visualización confirma que las contribuciones individuales se alinearon con el marco de trabajo acordado: se desarrollaron cambios en ramas aisladas, se realizaron pruebas locales y posteriormente se integraron al tronco principal, lo que redujo conflictos y facilitó el seguimiento de la trazabilidad de cada cambio.
+
+**Figura 22. Network Graph del repositorio en GitHub**
 
 ![Evidence22.png](../assets/img/chapter-5/Evidence22.png)
 
-Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrollo y se consolidaban las funcionalidades del Landing Page, el repositorio comenzó a recibir visitas y visualizaciones, lo que sugiere interés progresivo en el producto por parte de stakeholders y del propio equipo durante las actividades de revisión y validación. En conjunto, estos analíticos de colaboración y actividad en GitHub demuestran que todos los integrantes tuvieron participación efectiva en la implementación del producto del Sprint (Landing Page) y sientan la base para replicar este mismo patrón de trabajo en los siguientes sprints, donde se abordarán la Web Application y los Web Services.
+*Figura 22. Network Graph del repositorio Ventix-LandingPage en GitHub, evidenciando el flujo de ramas feature y su integración a main siguiendo el modelo GitFlow. Fuente: GitHub - Repositorio Open-10177/Ventix-LandingPage.*
+
+Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrollo y se consolidaban las funcionalidades del Landing Page, el repositorio comenzó a recibir visitas y visualizaciones, lo que sugiere interés progresivo en el producto por parte de stakeholders y del propio equipo durante las actividades de revisión y validación.
+
+**Figura 23. Gráfico de visitantes del repositorio en GitHub**
 
 ![evidence33.png](../assets/img/chapter-5/evidence33.png)
+
+*Figura 23. Gráfico de Visitors del repositorio Ventix-LandingPage en GitHub, mostrando el incremento de visitas conforme avanzó el Sprint 1. Fuente: GitHub Insights - Repositorio Open-10177/Ventix-LandingPage.*
+
+---
+
 # Conclusiones
-
-
-
-
 
 ## Conclusiones y recomendaciones
 
@@ -469,8 +518,6 @@ La construcción de User Personas, Journey Maps y Empathy Maps permitió identif
 
 El backlog y las historias de usuario reflejan un avance sólido hacia una plataforma integral, donde la combinación de monitoreo en tiempo real, control remoto y automatización genera confianza. El proyecto se posiciona como una solución escalable que puede evolucionar hacia un framework de referencia en la comunidad open source.
 
-
-
 *Recomendaciones:*
 
 Mejorar la coordinación interna del equipo, estableciendo roles claros y reuniones periódicas de seguimiento. Esto permitirá que cada integrante aporte desde su especialidad y se mantenga una visión compartida del proyecto.
@@ -479,27 +526,31 @@ Documentar de manera colaborativa cada avance, utilizando repositorios abiertos 
 
 Fomentar la validación grupal de las decisiones, probando prototipos y funcionalidades en conjunto antes de avanzar a nuevas etapas. Este enfoque fortalece la cohesión del equipo y garantiza que el producto final refleje el trabajo colectivo.
 
+---
+
 ## Bibliografía
 
-Allen, J. G., MacNaughton, P., Satish, U., Santanam, S., Vallarino, J., & Spengler, J. D. (2016). Associations of cognitive function scores with carbon dioxide, ventilation, and volatile organic compound exposures in office workers. Environmental Health Perspectives, 124(6), 805–812. https://hero.epa.gov/reference/3976444/ 
+Allen, J. G., MacNaughton, P., Satish, U., Santanam, S., Vallarino, J., & Spengler, J. D. (2016). Associations of cognitive function scores with carbon dioxide, ventilation, and volatile organic compound exposures in office workers. *Environmental Health Perspectives, 124*(6), 805–812. https://hero.epa.gov/reference/3976444/
 
-Chen, C., Zhao, B., & Ji, W. (2021). A comparative study of ventilation-purification strategies on air quality and energy consumption. Building Simulation, 14(3), 813–825. https://www.sciopen.com/article/10.1007/s12273-020-0694-2
+Chen, C., Zhao, B., & Ji, W. (2021). A comparative study of ventilation-purification strategies on air quality and energy consumption. *Building Simulation, 14*(3), 813–825. https://www.sciopen.com/article/10.1007/s12273-020-0694-2
 
-Dave, C., Sivajohan, A., Basmaji, J., & Slessarev, M. (2022). Evidence-based considerations for the design of an open-source ventilator: A systematic review. Critical Care Explorations, 4(7), e0723. https://pmc.ncbi.nlm.nih.gov/articles/PMC9249267/?utm_source=copilot.com 
+Dave, C., Sivajohan, A., Basmaji, J., & Slessarev, M. (2022). Evidence-based considerations for the design of an open-source ventilator: A systematic review. *Critical Care Explorations, 4*(7), e0723. https://pmc.ncbi.nlm.nih.gov/articles/PMC9249267/
 
-Eurofins Environment Testing Spain. (2025). Calidad del aire en interiores – Norma UNE 171330:2024. Madrid: Eurofins. https://www.eurofins-environment.es/en/indoor-air-quality/?utm_source=copilot.com
+Eurofins Environment Testing Spain. (2025). *Calidad del aire en interiores – Norma UNE 171330:2024*. Eurofins. https://www.eurofins-environment.es/en/indoor-air-quality/
 
-Instituto Nacional de Seguridad y Salud en el Trabajo (INSST). (2003). Notas técnicas de prevención: Ventilación y riesgos en interiores. Madrid: INSST. https://www.insst.es/materias/riesgos/riesgos-ergonomicos/calidad-del-ambiente-interior/documentacion 
+Instituto Nacional de Seguridad y Salud en el Trabajo (INSST). (2003). *Notas técnicas de prevención: Ventilación y riesgos en interiores*. INSST. https://www.insst.es/materias/riesgos/riesgos-ergonomicos/calidad-del-ambiente-interior/documentacion
 
-Mendell, M. J., Chen, W., Ranasinghe, D. R., Castorina, R., & Kumagai, K. (2024). Carbon dioxide guidelines for indoor air quality: A review. Journal of Exposure Science & Environmental Epidemiology, 34(4), 555–569. https://www.nature.com/articles/s41370-024-00694-7 
+Mendell, M. J., Chen, W., Ranasinghe, D. R., Castorina, R., & Kumagai, K. (2024). Carbon dioxide guidelines for indoor air quality: A review. *Journal of Exposure Science & Environmental Epidemiology, 34*(4), 555–569. https://www.nature.com/articles/s41370-024-00694-7
 
-Navas-Martín, M. Á., Jiménez-Planet, V., & Cuerdo-Vilches, T. (2024). Working from home and indoor environmental quality: A scoping review. Applied Sciences, 16(1), 250. https://www.mdpi.com/2076-3417/16/1/250 
+Navas-Martín, M. Á., Jiménez-Planet, V., & Cuerdo-Vilches, T. (2024). Working from home and indoor environmental quality: A scoping review. *Applied Sciences, 16*(1), 250. https://www.mdpi.com/2076-3417/16/1/250
 
-Pineda-Tobón, D. M., Espinosa-Bedoya, A., & Branch-Bedoya, J. W. (2024). Aquality32: A low-cost, open-source air quality monitoring device leveraging the ESP32. HardwareX, 20, e00607. https://doaj.org/article/a36dfe04d08940e5821139c2fee21dd2?utm_source=copilot.com
+Pineda-Tobón, D. M., Espinosa-Bedoya, A., & Branch-Bedoya, J. W. (2024). Aquality32: A low-cost, open-source air quality monitoring device leveraging the ESP32. *HardwareX, 20*, e00607. https://doaj.org/article/a36dfe04d08940e5821139c2fee21dd2
 
-World Health Organization. (2006). Air quality guidelines: Global update 2005. WHO/SDE/PHE/OEH/06.02. Geneva: World Health Organization. https://wkc.who.int/resources/publications/i/item/WHO-SDE-PHE-OEH-06.02?utm_source=copilot.com
+World Health Organization. (2006). *Air quality guidelines: Global update 2005* (WHO/SDE/PHE/OEH/06.02). WHO. https://wkc.who.int/resources/publications/i/item/WHO-SDE-PHE-OEH-06.02
 
-World Health Organization. (2021). WHO global air quality guidelines: Particulate matter (PM₂.₅ and PM₁₀), ozone, nitrogen dioxide, sulfur dioxide and carbon monoxide. Geneva: World Health Organization. https://www.who.int/publications/i/item/9789240034228/?utm_source=copilot.com 
+World Health Organization. (2021). *WHO global air quality guidelines: Particulate matter (PM₂.₅ and PM₁₀), ozone, nitrogen dioxide, sulfur dioxide and carbon monoxide*. WHO. https://www.who.int/publications/i/item/9789240034228/
+
+---
 
 ## Anexos
 
@@ -507,9 +558,9 @@ World Health Organization. (2021). WHO global air quality guidelines: Particulat
 
 A continuación se listan los enlaces a los entornos de producción y los repositorios de código fuente utilizados durante todo el ciclo de vida del proyecto.
 
-| Recurso                     | URL                                                                                                                                                                                                                                                                                                                      |
-|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Landing Page (GitHub Pages) | https://open-10177.github.io/Ventix-LandingPage/                                                                                                                                                                                                                                                                         |
-| Repositorio Landing Page    | https://github.com/Open-10177/Ventix-LandingPage                                                                                                                                                                                                                                                                         |
-| Repositorio Project Report  | https://github.com/Open-10177/VentixProject-Report                                                                                                                                                                                                                                                                       |
-| Video de Avance AV1         | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313458_upc_edu_pe/IQDUgc7QP5bxSIdiehwzzR_VAfT3FUT3O3DnpMhlbe-6TvA?e=XfHzYl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D  |
+| Recurso | URL |
+|---------|-----|
+| Landing Page (GitHub Pages) | https://open-10177.github.io/Ventix-LandingPage/ |
+| Repositorio Landing Page | https://github.com/Open-10177/Ventix-LandingPage |
+| Repositorio Project Report | https://github.com/Open-10177/VentixProject-Report |
+| Video de Avance AV1 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313458_upc_edu_pe/IQDUgc7QP5bxSIdiehwzzR_VAfT3FUT3O3DnpMhlbe-6TvA?e=XfHzYl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
