@@ -61,8 +61,6 @@ El proyecto maneja las siguientes ramas:
 - `main`: Contiene el código estable listo para producción.
 - `dev`: Rama de desarrollo donde se integran las nuevas funcionalidades.
 - `feature/*`: Ramas temporales para desarrollar características específicas.
-- `hotfix/*`: Ramas para solucionar problemas críticos en producción.
-- `release/*`: Ramas para preparar nuevas versiones estables.
 
 ## Control de Versiones
 
@@ -93,8 +91,8 @@ Seguimos un formato estricto para los mensajes de commit:
 Ejemplos prácticos:
 
 ```text
-feat(login): implementar autenticación con Google [#45]
-fix(api): resolver error en endpoint /users [#78]
+feat(login): implementar autenticación con Google
+fix(api): resolver error en endpoint 
 docs: actualizar guía de instalación
 ```
 
