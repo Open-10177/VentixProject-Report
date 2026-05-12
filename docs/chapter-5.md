@@ -610,10 +610,10 @@ Estos commits provienen del repositorio del frontend de la organización de GitH
 
 | Repository                   | Branch | Commit Id | Commit Message                                                                        | Commit Message Body | Commited on (Date) |
 |------------------------------|--------|-----------|---------------------------------------------------------------------------------------|---------------------|--------------------|
-| WASwarm1/chambapro-frontend  | work   | 26d06a0   | feat(work): add Reserva Card and List, example db.json, i18n, dependencies and styles |                     | 02/10/2025         |
-| WASwarm1/chambapro-frontend  | user   | 0a793c6   | feat(work): add Tecnico Card and List, example db.json, i18n, dependencies and styles |                     | 05/10/2025         |
-| WASwarm1/chambapro-frontend  | user   | ea55a62   | feat:Add TechnicianProfilePage                                                        |                     | 06/10/2025         |
-| WASwarm1/chambapro-frontend  | user   | 0938ba9   | feat: add HistoryServicesPage entity, assembler, Card, api, list                      |                     | 06/10/2025         |
+| WASwarm1/VentixProject-frontend  | work   | 26d06a0   | feat(work): add Reserva Card and List, example db.json, i18n, dependencies and styles |                     | 02/10/2025         |
+| WASwarm1/VentixProject-frontend  | user   | 0a793c6   | feat(work): add Tecnico Card and List, example db.json, i18n, dependencies and styles |                     | 05/10/2025         |
+| WASwarm1/VentixProject-frontend  | user   | ea55a62   | feat:Add TechnicianProfilePage                                                        |                     | 06/10/2025         |
+| WASwarm1/VentixProject-frontend  | user   | 0938ba9   | feat: add HistoryServicesPage entity, assembler, Card, api, list                      |                     | 06/10/2025         |
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
@@ -622,7 +622,7 @@ En este sprint se implementaron las siguientes funcionalidades en el frontend de
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-Durante el desarrollo del frontend de ChambaPro, se utilizó un JSON Server como una API falsa con el
+Durante el desarrollo del frontend de VentixProject, se utilizó un JSON Server como una API falsa con el
 cual se simularon las interacciones con un backend real. Este enfoque permitió desarrollar y probar las funcionalidades 
 del frontend de manera eficiente sin depender de un backend completamente implementado. Después de finalizar el desarrollo del frontend, 
 se utilizó un mockup api deploy para simular las respuestas del backend y asegurar que el frontend funcionara correctamente.
@@ -631,10 +631,10 @@ se utilizó un mockup api deploy para simular las respuestas del backend y asegu
 
 **Frontend Web Application:**
 
-El frontend de ChambaPro fue desplegado utilizando **Vercel**, una plataforma de despliegue optimizada para aplicaciones frontend.
+El frontend de VentixProject fue desplegado utilizando **Vercel**, una plataforma de despliegue optimizada para aplicaciones frontend.
 
 **Pasos para el despliegue:**
-1. **Creación del repositorio**: Se creó un repositorio en la organización de GitHub llamado `chambapro-frontend`.
+1. **Creación del repositorio**: Se creó un repositorio en la organización de GitHub llamado `VentixProject-frontend`.
 2. **Desarrollo del frontend**: El código fuente del frontend se desarrolló y organizó en el repositorio.
 3. **Conexión con Vercel**: Se conectó el repositorio de GitHub con Vercel para habilitar despliegues automáticos.
 4. **Configuración de despliegue**: Se configuró Vercel para desplegar automáticamente el frontend cada vez que se realizara un push a la rama `main`.
@@ -647,13 +647,14 @@ El frontend de ChambaPro fue desplegado utilizando **Vercel**, una plataforma de
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
-En esta sección se presentan las evidencias de colaboración del equipo durante el sprint 2 para el desarrollo del frontend de ChambaPro.
-Cada miembro del equipo tuvo roles específicos, pero todos colaboraron en la planificación, desarrollo y revisión del trabajo.
+En esta sección se presentan las evidencias de colaboración del equipo durante el sprint 2 para el desarrollo del frontend de VentixProject. Cada miembro del equipo tuvo roles específicos, pero todos colaboraron en la planificación, desarrollo y revisión del trabajo.
+
 A continuación, se muestran algunos insights del repositorio de GitHub:
-* **Werner Lang:** Implementó la página de agenda y routers, deploy frontend y fake api.
-* **Saúl Ortega:** Se encargó de la página de historial de servicios.
-* **Matias Armestar:** Se encargó de la página de búsqueda de técnicos.
-* **Jorge Taipe:** Se encargó de la página de perfil de técnico.
+
+* **Suarez Chinga, Geraldine:** Implementó página de feauture de iam e informe de documentación.
+* **Sanchez Osorio, Ruth Yanira:** Se encargó de la página de analytics y feauture mismo.
+* **Taipe Sangama, Jorge Francisco:** Se encargó de la página de shared
+* **Cáceres Pizarro, Albino Florencio:** Se encargó de la página de monitoring.
 
 # Conclusiones
 
