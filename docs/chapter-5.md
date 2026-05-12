@@ -288,7 +288,8 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo e implementación del
     <tr>
       <td>Attendees (to planning meeting)</td>
       <td>
-        Jorge Taipe
+      
+Jorge Taipe
             
 Geraldine Suarez
         
@@ -340,7 +341,7 @@ Estos aspectos se derivan directamente de los objetivos definidos en el Sprint 1
 
 | Team Member                      | Aspect: Landing Page | Aspect: Report Module |
 |----------------------------------|----------------------|-----------------------|
-| Cáceres Pizarro Albino Florencio |                      | C                     |
+| Cáceres Pizarro, Albino Florencio| C                    | C                     |
 | Sanchez Osorio, Ruth Yanira      | C                    | C                     |
 | Suarez Chinga, Geraldine         | C                    | C                     |
 | Taipe Sangama, Jorge Francisco   | L                    | L                     |
@@ -531,21 +532,20 @@ Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrol
     <td colspan="8">via WhatsApp</td>
 <tr>
     <td colspan="5">Prepared By</td>
-    <td colspan="8">Werner Lang</td>
+    <td colspan="8">Jorge Francisco Taipe Sangama</td>
 </tr>
 <tr>
     <td colspan="5">Attendees (to planning meeting)</td>
-    <td colspan="8">Werner Khalil Lang Nassi, Jorge Francisco Taipe Sangama, Saúl Ortega Muñoz, Matias Gabriel Armestar Heredia, Emilia Duran Santander</td>
+    <td colspan="8">Jorge Francisco Taipe Sangama, Geraldine Suarez Chinga, Ruth Yanira Sanchez Osorio, Albino Florencio Cáceres Pizarro</td>
 </tr>
 <tr>
     <td colspan="5">Sprint  2 Review Summary</td>
-    <td colspan="8">En este segundo sprint se definieron las responsabilidades de cada integrante para el desarrollo del frontend de ChambaPro,
-además de plantear los requerimientos para el desarrollo de las funcionalidades principales de la aplicación web.</td>
+    <td colspan="8">En este segundo sprint se definieron las responsabilidades de cada integrante para el desarrollo del frontend de VentixProject, además de plantear los requerimientos para el desarrollo de las funcionalidades principales de la aplicación web.</td>
 </tr>
 <tr>
     <td colspan="5">Sprint 2 Retrospective Summary</td>
     <td colspan="8">En esta sección todos los integrantes mencionaron tener aciertos en partes del codigo y en otras 
-partes poder mejorar sus habilidades realizando el frontend de ChambaPro. 
+partes poder mejorar sus habilidades realizando el frontend de VentixProject. 
 </td>
 </tr>
 <tr>
@@ -554,8 +554,7 @@ partes poder mejorar sus habilidades realizando el frontend de ChambaPro.
 <tr>
     <td colspan="5">Sprint 2 Goal</td>
     <td colspan="8">
-Desarrollar las funcionalidades principales del frontend de ChambaPro, incluyendo búsqueda y filtrado de técnicos, visualización de perfiles,
-historial de servicios, agenda de reservas y sistema de reseñas. 
+Desarrollar las funcionalidades principales del frontend de VentixProject, incluyendo búsqueda y filtrado de técnicos, visualización de perfiles, historial de servicios, agenda de reservas y sistema de reseñas. 
 </td>
 </tr>
 </table>
@@ -564,11 +563,10 @@ historial de servicios, agenda de reservas y sistema de reseñas.
 
 | Team member (LastName, First Name) | GitHub UserName | Aspect 1: User | Aspect 2: Work | Aspect 3: Reporte |
 |------------------------------------|-----------------|----------------|----------------|-------------------|
-| Lang Nassi, Werner Khalil          | 00WernerLang    | C              | L              | L                 |
-| Jorge Franciscoz Taipe Sangama     | CamotinFurious  | L              | C              | C                 |
-| Ortega Muñoz, Saúl                 | Ss1lent10       | C              | L              | C                 |
-| Armestar Heredia, Matias Gabriel   | MatiasArmestar  | L              | C              | C                 |
-| Duran Santander, Emilia            | emiliadurans    | C              | L              | C                 |
+| Suarez Chinga, Geraldine           | geral07-UNIV    | C              | C              | L                 |
+| Sanchez Osorio, Ruth Yanira        | Yiya-ciber      | C              | C              | C                 |
+| Taipe Sangama, Jorge Francisco     | CamotinFurious  | L              | L              | L                 |
+| Cáceres Pizarro, Albino Florencio  | lil-doggy       | C              | C              | C                 |
 
 #### 5.2.2.3. Sprint Backlog 2
 
