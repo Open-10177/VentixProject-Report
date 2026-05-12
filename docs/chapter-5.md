@@ -54,7 +54,7 @@ En esta sección se detallan las herramientas utilizadas para la gestión del pr
 
 Nuestro equipo utiliza un flujo de trabajo basado en Git Flow para mantener un control organizado del código. Trabajamos con ramas principales y secundarias que nos permiten desarrollar funcionalidades, corregir errores y preparar versiones de manera sistemática.
 
-## Estructura de Ramas
+- Estructura de Ramas
 
 El proyecto maneja las siguientes ramas:
 
@@ -80,7 +80,7 @@ Las versiones preliminares usan sufijos:
 - `beta`: Para pruebas internas.
 - `rc`: Versiones candidatas a lanzamiento.
 
-## Convención de Commits
+- Convención de Commits
 
 Seguimos un formato estricto para los mensajes de commit:
 
@@ -104,7 +104,7 @@ Los tipos de commit principales son:
 - `refactor`: Mejoras de código sin cambiar funcionalidad.
 - `test`: Adición o modificación de pruebas.
 
-# Políticas Adicionales
+- Políticas Adicionales
 
 - Todo merge a `main` requiere al menos una revisión aprobada.
 - Las ramas principales están protegidas contra pushes directos.
@@ -115,7 +115,7 @@ Los tipos de commit principales son:
 
 Para el desarrollo de la Landing Page, se decidió utilizar el idioma inglés en los nombres de variables, funciones, clases y archivos. Esto permitirá mantener una estructura de código más clara, organizada y escalable a futuro.
 
-## HTML / CSS
+- HTML / CSS
 
 Se toma como referencia principalmente el Google HTML/CSS Style Guide para conservar buenas prácticas de desarrollo.
 
@@ -135,7 +135,7 @@ Las principales etiquetas consideradas en el proyecto son:
 - `<button>` para ejecutar acciones dentro de la interfaz.
 - Títulos `<h1>` hasta `<h4>` para organizar la jerarquía de la información.
 
-## JavaScript
+- JavaScript
 
 Se sigue el Google JavaScript Style Guide para mantener consistencia en el desarrollo.
 
