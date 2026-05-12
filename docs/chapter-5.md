@@ -506,6 +506,157 @@ Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrol
 
 ---
 
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2
+
+<table>
+<tr>
+    <th colspan="5">Sprint 2</th>
+    <th colspan="9">Sprint 2</th>
+  </tr>
+      <tr>
+    <td colspan="13">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">2025-10-01</td>
+</tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">14:40</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">via WhatsApp</td>
+<tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Werner Lang</td>
+</tr>
+<tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8">Werner Khalil Lang Nassi, Jorge Francisco Taipe Sangama, Saúl Ortega Muñoz, Matias Gabriel Armestar Heredia, Emilia Duran Santander</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint  2 Review Summary</td>
+    <td colspan="8">En este segundo sprint se definieron las responsabilidades de cada integrante para el desarrollo del frontend de ChambaPro,
+además de plantear los requerimientos para el desarrollo de las funcionalidades principales de la aplicación web.</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 2 Retrospective Summary</td>
+    <td colspan="8">En esta sección todos los integrantes mencionaron tener aciertos en partes del codigo y en otras 
+partes poder mejorar sus habilidades realizando el frontend de ChambaPro. 
+</td>
+</tr>
+<tr>
+    <td colspan="13">Sprint Goal & User Stories</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 2 Goal</td>
+    <td colspan="8">
+Desarrollar las funcionalidades principales del frontend de ChambaPro, incluyendo búsqueda y filtrado de técnicos, visualización de perfiles,
+historial de servicios, agenda de reservas y sistema de reseñas. 
+</td>
+</tr>
+</table>
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+| Team member (LastName, First Name) | GitHub UserName | Aspect 1: User | Aspect 2: Work | Aspect 3: Reporte |
+|------------------------------------|-----------------|----------------|----------------|-------------------|
+| Lang Nassi, Werner Khalil          | 00WernerLang    | C              | L              | L                 |
+| Jorge Franciscoz Taipe Sangama     | CamotinFurious  | L              | C              | C                 |
+| Ortega Muñoz, Saúl                 | Ss1lent10       | C              | L              | C                 |
+| Armestar Heredia, Matias Gabriel   | MatiasArmestar  | L              | C              | C                 |
+| Duran Santander, Emilia            | emiliadurans    | C              | L              | C                 |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+| User Story |           Work-Item / Task           |  Id | Title                             | Description                                                       | Estimation (Hours) |   Assigned To   | Status |
+| :--------: | :----------------------------------: | :-: | :-------------------------------- | :---------------------------------------------------------------- | :----------------: |:---------------:|:------:|
+|  **US08**  |          Registro de usuario         | T01 | Diseño del formulario de registro | Crear interfaz con campos de nombre, correo y contraseña.         |          6         |   Werner Lang   |  Done  |
+|            |                                      | T02 | Validaciones y mensajes           | Implementar validaciones de campos y mensajes de error/exito.     |          4         |   Werner Lang   |  Done  |
+|            |                                      | T03 | Pruebas de registro               | Verificar flujo de registro exitoso y fallido (correo repetido).  |          4         |   Werner Lang   |  Done  |
+|  **US09**  |           Inicio de sesión           | T04 | Diseño del formulario de login    | Crear interfaz con campos de correo y contraseña.                 |          4         |   Werner Lang   |  Done  |
+|            |                                      | T05 | Manejo de sesión                  | Guardar sesión (token) y redirigir al panel principal.            |          5         |   Werner Lang   |  Done  |
+|            |                                      | T06 | Pruebas de login                  | Validar mensajes de error y éxito.                                |          3         |   Werner Lang   |  Done  |
+|  **US10**  |        Historial de servicios        | T07 | Diseño de tabla de historial      | Mostrar lista de servicios con fecha, técnico, costo y estado.    |          6         |   Saul Ortega   |  Done  |
+|            |                                      | T09 | Pruebas del historial             | Validar visualización y actualización de datos.                   |          4         |   Saul Ortega   |  Done  |
+|  **US11**  |           Agenda / Reservas          | T10 | Diseño de calendario              | Implementar vista de calendario con reservas confirmadas.         |          6         |   Werner Lang   |  Done  |
+|            |                                      | T12 | Pruebas de agenda                 | Validar visualización correcta de citas.                          |          3         |   Werner Lang   |  Done  |
+|  **US13**  | Verificación de identidad de técnico | T16 | Formulario de verificación        | Interfaz para subir documentos (DNI, certificaciones, fotos).     |          6         |  Emilia Durans  |  Done  |
+|            |                                      | T17 | Estado de verificación            | Mostrar estado: pendiente, aprobado, rechazado.                   |          4         |  Emilia Durans  |  Done  |
+|            |                                      | T18 | Pruebas de verificación           | Validar flujo de subida y estado visual.                          |          4         |  Emilia Durans  |  Done  |
+|  **US14**  |     Filtrado por tipo de servicio    | T19 | Diseño de filtros por categoría   | Mostrar lista de categorías con checkboxes o dropdown.            |          4         | Matias Armestar |  Done  |
+|            |                                      | T20 | Actualización dinámica            | Actualizar resultados según categoría seleccionada.               |          5         | Matias Armestar |  Done  |
+|            |                                      | T21 | Pruebas de filtrado               | Verificar respuesta y visualización correcta.                     |          3         | Matias Armestar |  Done  |
+|  **US15**  |         Filtrado por técnico         | T22 | Barra de búsqueda por nombre      | Campo de texto para buscar técnicos por nombre.                   |          4         | Matias Armestar |  Done  |
+|            |                                      | T23 | Resultados de búsqueda            | Mostrar lista filtrada de técnicos coincidentes.                  |          4         | Matias Armestar |  Done  |
+|            |                                      | T24 | Pruebas de búsqueda               | Verificar coincidencias y mensajes de “no encontrado”.            |          3         | Matias Armestar |  Done  |
+|  **US16**  |          Filtros combinados          | T25 | Diseño de búsqueda avanzada       | Interfaz que combine categoría + ubicación.                       |          6         | Matias Armestar |  Done  |
+|            |                                      | T26 | Aplicación de múltiples filtros   | Mostrar solo técnicos que cumplen todos los criterios.            |          5         | Matias Armestar |  Done  |
+|            |                                      | T27 | Pruebas de búsqueda avanzada      | Validar combinaciones de filtros.                                 |          4         | Matias Armestar |  Done  |
+|  **US17**  |           Visualizar perfil          | T28 | Diseño de perfil de técnico       | Mostrar foto, experiencia, certificaciones, servicios.            |          6         |   Jorge Taipe   |  Done  |
+|            |                                      | T29 | Integración con reseñas y datos   | Mostrar reseñas y calificaciones del técnico.                     |          5         |   Jorge Taipe   |  Done  |
+|            |                                      | T30 | Pruebas del perfil                | Validar carga completa de información.                            |          3         |   Jorge Taipe   |  Done  |
+|  **US18**  |          Reseñas de clientes         | T31 | Diseño de formulario de reseña    | Interfaz con campo de texto y estrellas.                          |          4         |   Jorge Taipe   |  Done  |
+|            |                                      | T32 | Publicación de reseña             | Actualizar lista de reseñas sin recargar página.                  |          4         |   Jorge Taipe   |  Done  |
+|            |                                      | T33 | Pruebas de reseñas                | Validar flujo de envío y actualización.                           |          3         |   Jorge Taipe   |  Done  |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+En esta sección se demuestran los commits relacionados con los principales avances en la implementación.
+Estos commits provienen del repositorio del frontend de la organización de GitHub.
+
+**Enlace al repositorio del frontend:** 
+
+| Repository                   | Branch | Commit Id | Commit Message                                                                        | Commit Message Body | Commited on (Date) |
+|------------------------------|--------|-----------|---------------------------------------------------------------------------------------|---------------------|--------------------|
+| WASwarm1/chambapro-frontend  | work   | 26d06a0   | feat(work): add Reserva Card and List, example db.json, i18n, dependencies and styles |                     | 02/10/2025         |
+| WASwarm1/chambapro-frontend  | user   | 0a793c6   | feat(work): add Tecnico Card and List, example db.json, i18n, dependencies and styles |                     | 05/10/2025         |
+| WASwarm1/chambapro-frontend  | user   | ea55a62   | feat:Add TechnicianProfilePage                                                        |                     | 06/10/2025         |
+| WASwarm1/chambapro-frontend  | user   | 0938ba9   | feat: add HistoryServicesPage entity, assembler, Card, api, list                      |                     | 06/10/2025         |
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+En este sprint se implementaron las siguientes funcionalidades en el frontend de ChambaPro:
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el desarrollo del frontend de ChambaPro, se utilizó un JSON Server como una API falsa con el
+cual se simularon las interacciones con un backend real. Este enfoque permitió desarrollar y probar las funcionalidades 
+del frontend de manera eficiente sin depender de un backend completamente implementado. Después de finalizar el desarrollo del frontend, 
+se utilizó un mockup api deploy para simular las respuestas del backend y asegurar que el frontend funcionara correctamente.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+**Frontend Web Application:**
+
+El frontend de ChambaPro fue desplegado utilizando **Vercel**, una plataforma de despliegue optimizada para aplicaciones frontend.
+
+**Pasos para el despliegue:**
+1. **Creación del repositorio**: Se creó un repositorio en la organización de GitHub llamado `chambapro-frontend`.
+2. **Desarrollo del frontend**: El código fuente del frontend se desarrolló y organizó en el repositorio.
+3. **Conexión con Vercel**: Se conectó el repositorio de GitHub con Vercel para habilitar despliegues automáticos.
+4. **Configuración de despliegue**: Se configuró Vercel para desplegar automáticamente el frontend cada vez que se realizara un push a la rama `main`.
+5. **Verificación del despliegue**: Se verificó que la aplicación estuviera accesible públicamente y funcionara correctamente en diferentes dispositivos y navegadores.
+
+**Repositorio:** 
+**URL desplegada:**
+- Cliente: 
+- Técnico: 
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+En esta sección se presentan las evidencias de colaboración del equipo durante el sprint 2 para el desarrollo del frontend de ChambaPro.
+Cada miembro del equipo tuvo roles específicos, pero todos colaboraron en la planificación, desarrollo y revisión del trabajo.
+A continuación, se muestran algunos insights del repositorio de GitHub:
+* **Werner Lang:** Implementó la página de agenda y routers, deploy frontend y fake api.
+* **Saúl Ortega:** Se encargó de la página de historial de servicios.
+* **Matias Armestar:** Se encargó de la página de búsqueda de técnicos.
+* **Jorge Taipe:** Se encargó de la página de perfil de técnico.
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
