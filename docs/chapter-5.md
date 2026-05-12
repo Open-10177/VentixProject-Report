@@ -51,81 +51,67 @@ En esta sección se detallan las herramientas utilizadas para la gestión del pr
      Propósito: Formato de escritura utilizado para documentar de forma clara, sencilla y estructurada los detalles del proyecto.
 
 ### 5.1.2. Source Code Management.
-# Git Workflow Strategy
 
-## Flujo de Trabajo
-
-El equipo de desarrollo utiliza una estrategia basada en **Git Flow** para mantener una gestión ordenada del código fuente y facilitar el trabajo colaborativo. Este enfoque permite separar el desarrollo de nuevas funcionalidades, correcciones y versiones estables mediante el uso de distintas ramas especializadas.
-
----
+Nuestro equipo utiliza un flujo de trabajo basado en Git Flow para mantener un control organizado del código. Trabajamos con ramas principales y secundarias que nos permiten desarrollar funcionalidades, corregir errores y preparar versiones de manera sistemática.
 
 ## Estructura de Ramas
 
-El proyecto se organiza utilizando las siguientes ramas:
+El proyecto maneja las siguientes ramas:
 
-- **main**  
-  Contiene la versión estable del sistema lista para producción.
-
-- **dev**  
-  Rama principal de desarrollo donde se integran las funcionalidades antes de ser liberadas.
-
-- **feature/\***  
-  Ramas temporales utilizadas para implementar nuevas funcionalidades o mejoras específicas.
+- `main`: Contiene el código estable listo para producción.
+- `dev`: Rama de desarrollo donde se integran las nuevas funcionalidades.
+- `feature/*`: Ramas temporales para desarrollar características específicas.
+- `hotfix/*`: Ramas para solucionar problemas críticos en producción.
+- `release/*`: Ramas para preparar nuevas versiones estables.
 
 ## Control de Versiones
 
-El proyecto sigue el estándar de **Versionado Semántico (SemVer)** utilizando el formato:
+Aplicamos versionado semántico (SemVer) con el formato:
 
 ```text
 vX.Y.Z
 ```
 
-Donde:
+- `X (Major)`: Cambios que rompen compatibilidad.
+- `Y (Minor)`: Nuevas funcionalidades compatibles.
+- `Z (Patch)`: Correcciones de errores.
 
-- **X (Major)** → Cambios importantes que rompen compatibilidad con versiones anteriores.
-- **Y (Minor)** → Incorporación de nuevas funcionalidades compatibles.
-- **Z (Patch)** → Corrección de errores y ajustes menores.
+Las versiones preliminares usan sufijos:
 
-### Versiones preliminares
-
-Durante el desarrollo también se emplean sufijos para identificar el estado de una versión:
-
-- **alpha** → Funcionalidades en desarrollo inicial.
-- **beta** → Versiones destinadas a pruebas internas.
-- **rc (Release Candidate)** → Versión candidata previa al lanzamiento oficial.
+- `alpha`: Para funcionalidades en desarrollo.
+- `beta`: Para pruebas internas.
+- `rc`: Versiones candidatas a lanzamiento.
 
 ## Convención de Commits
 
-Para mantener un historial claro y consistente, los mensajes de commit siguen la siguiente estructura:
+Seguimos un formato estricto para los mensajes de commit:
 
 ```text
 <tipo>(ámbito): descripción breve [#issue]
 ```
 
-### Ejemplos
+Ejemplos prácticos:
 
 ```text
-feat(auth): implementar autenticación JWT [#12]
-fix(stock): corregir cálculo de inventario [#25]
-docs(readme): actualizar guía de instalación
+feat(login): implementar autenticación con Google [#45]
+fix(api): resolver error en endpoint /users [#78]
+docs: actualizar guía de instalación
 ```
 
-### Tipos de commits utilizados
+Los tipos de commit principales son:
 
-- **feat** → Implementación de nuevas funcionalidades.
-- **fix** → Corrección de errores.
-- **docs** → Cambios en documentación.
-- **refactor** → Mejoras internas de código sin alterar funcionalidad.
-- **test** → Creación o actualización de pruebas.
+- `feat`: Nueva funcionalidad.
+- `fix`: Corrección de errores.
+- `docs`: Cambios en documentación.
+- `refactor`: Mejoras de código sin cambiar funcionalidad.
+- `test`: Adición o modificación de pruebas.
 
-## Políticas de Desarrollo
+## Políticas Adicionales
 
-Para garantizar la calidad y estabilidad del proyecto, se aplican las siguientes políticas:
-
-- Todo merge hacia la rama `main` requiere al menos una revisión aprobada.
+- Todo merge a `main` requiere al menos una revisión aprobada.
 - Las ramas principales están protegidas contra pushes directos.
-- Cada commit debe estar relacionado con un issue o ticket correspondiente.
-- Las versiones oficiales se etiquetan siguiendo estrictamente el estándar SemVer.
+- Cada commit debe referenciar su issue/ticket correspondiente.
+- Las releases se etiquetan siguiendo estrictamente SemVer.
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 ### 5.1.4. Software Deployment Configuration.
