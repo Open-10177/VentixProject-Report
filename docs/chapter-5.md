@@ -104,7 +104,7 @@ Los tipos de commit principales son:
 - `refactor`: Mejoras de código sin cambiar funcionalidad.
 - `test`: Adición o modificación de pruebas.
 
-## Políticas Adicionales
+# Políticas Adicionales
 
 - Todo merge a `main` requiere al menos una revisión aprobada.
 - Las ramas principales están protegidas contra pushes directos.
@@ -112,6 +112,57 @@ Los tipos de commit principales son:
 - Las releases se etiquetan siguiendo estrictamente SemVer.
 
 ### 5.1.3. Source Code Style Guide & Conventions.
+
+Para el desarrollo de la Landing Page, se decidió utilizar el idioma inglés en los nombres de variables, funciones, clases y archivos. Esto permitirá mantener una estructura de código más clara, organizada y escalable a futuro.
+
+## HTML / CSS
+
+Se toma como referencia principalmente el Google HTML/CSS Style Guide para conservar buenas prácticas de desarrollo.
+
+Se emplearán etiquetas semánticas como `<header>`, `<section>`, `<article>`, `<nav>` y `<footer>` para mejorar la organización y estructura del contenido.
+
+Las clases en CSS seguirán la convención kebab-case (por ejemplo: `.main-banner`, `.card-section`).
+
+Los identificadores utilizados serán descriptivos y específicos para facilitar el mantenimiento y comprensión del código.
+
+Las principales etiquetas consideradas en el proyecto son:
+
+- `<div>` para dividir bloques o secciones del contenido.
+- `<img>` para mostrar imágenes dentro de la página.
+- `<ul>` y `<li>` para construir listas, especialmente en menús de navegación.
+- `<a>` para conectar secciones o páginas mediante enlaces.
+- `<p>` para mostrar textos descriptivos.
+- `<button>` para ejecutar acciones dentro de la interfaz.
+- Títulos `<h1>` hasta `<h4>` para organizar la jerarquía de la información.
+
+## JavaScript
+
+Se sigue el Google JavaScript Style Guide para mantener consistencia en el desarrollo.
+
+Respecto a la nomenclatura:
+
+- Las variables y funciones utilizarán camelCase (por ejemplo: `fetchData`, `createUserCard`).
+- Las clases se escribirán en PascalCase (por ejemplo: `FormHandler`, `UserProfile`).
+- Las constantes se definirán en UPPER_SNAKE_CASE (por ejemplo: `DEFAULT_TIMEOUT`, `MAX_ITEMS`).
+
+Siempre que sea posible, se utilizarán `const` y `let` en lugar de `var` para mejorar el manejo del alcance de las variables.
+
+Se evitará el uso innecesario de funciones anónimas para facilitar la depuración y lectura del código.
+
+El objetivo será desarrollar un código modular, reutilizable y fácil de mantener.
+
+## 5.1.4. Software Deployment Configuration
+
+Para el despliegue de la Landing Page, se utilizará GitHub Pages como plataforma de publicación. A continuación, se detallan los pasos principales realizados:
+
+- Se creó un repositorio en GitHub con todo el código fuente de la página (HTML, CSS y JavaScript).
+- En la rama principal (`main`) se cargaron todos los archivos, verificando que el archivo principal sea `index.html`.
+- Dentro de la configuración del repositorio, en la sección Pages, se seleccionó la rama `main` y la carpeta raíz (`root`) como fuente de publicación.
+- GitHub generó automáticamente una URL pública para acceder a la Landing Page.
+- Se realizaron pruebas para comprobar que estilos, scripts y recursos funcionaran correctamente en producción.
+
+Con esta configuración, cualquier cambio realizado en el repositorio principal se reflejará automáticamente en la versión publicada de la página.
+
 ### 5.1.4. Software Deployment Configuration.
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
