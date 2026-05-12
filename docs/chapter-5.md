@@ -554,7 +554,7 @@ partes poder mejorar sus habilidades realizando el frontend de VentixProject.
 <tr>
     <td colspan="5">Sprint 2 Goal</td>
     <td colspan="8">
-Desarrollar las funcionalidades principales del frontend de VentixProject, incluyendo búsqueda y filtrado de técnicos, visualización de perfiles, historial de servicios, agenda de reservas y sistema de reseñas. 
+Desarrollar las funcionalidades principales del frontend de VentixProject, incluyendo ---- 
 </td>
 </tr>
 </table>
@@ -610,10 +610,10 @@ Estos commits provienen del repositorio del frontend de la organización de GitH
 
 | Repository                   | Branch | Commit Id | Commit Message                                                                        | Commit Message Body | Commited on (Date) |
 |------------------------------|--------|-----------|---------------------------------------------------------------------------------------|---------------------|--------------------|
-| WASwarm1/VentixProject-frontend  | work   | 26d06a0   | feat(work): add Reserva Card and List, example db.json, i18n, dependencies and styles |                     | 02/10/2025         |
-| WASwarm1/VentixProject-frontend  | user   | 0a793c6   | feat(work): add Tecnico Card and List, example db.json, i18n, dependencies and styles |                     | 05/10/2025         |
-| WASwarm1/VentixProject-frontend  | user   | ea55a62   | feat:Add TechnicianProfilePage                                                        |                     | 06/10/2025         |
-| WASwarm1/VentixProject-frontend  | user   | 0938ba9   | feat: add HistoryServicesPage entity, assembler, Card, api, list                      |                     | 06/10/2025         |
+| Open-10177/Ventix-Front-End  | work   | 26d06a0   | feat(work): add Reserva Card and List, example db.json, i18n, dependencies and styles |                     | 02/10/2025         |
+| Open-10177/Ventix-Front-End  | user   | 0a793c6   | feat(work): add Tecnico Card and List, example db.json, i18n, dependencies and styles |                     | 05/10/2025         |
+| Open-10177/Ventix-Front-End  | user   | ea55a62   | feat:Add TechnicianProfilePage                                                        |                     | 06/10/2025         |
+| Open-10177/Ventix-Front-End  | user   | 0938ba9   | feat: add HistoryServicesPage entity, assembler, Card, api, list                      |                     | 06/10/2025         |
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
@@ -653,7 +653,7 @@ A continuación, se muestran algunos insights del repositorio de GitHub:
 
 * **Suarez Chinga, Geraldine:** Implementó página de feauture de iam e informe de documentación.
 * **Sanchez Osorio, Ruth Yanira:** Se encargó de la página de analytics y feauture mismo.
-* **Taipe Sangama, Jorge Francisco:** Se encargó de la página de shared
+* **Taipe Sangama, Jorge Francisco:** Se encargó de la página de shared, revision de todo y desplegar el fronted.
 * **Cáceres Pizarro, Albino Florencio:** Se encargó de la página de monitoring.
 
 # Conclusiones
