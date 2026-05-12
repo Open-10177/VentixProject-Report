@@ -141,17 +141,13 @@ Se sigue el Google JavaScript Style Guide para mantener consistencia en el desar
 
 Respecto a la nomenclatura:
 
-- Las variables y funciones utilizarán camelCase (por ejemplo: `fetchData`, `createUserCard`).
-- Las clases se escribirán en PascalCase (por ejemplo: `FormHandler`, `UserProfile`).
-- Las constantes se definirán en UPPER_SNAKE_CASE (por ejemplo: `DEFAULT_TIMEOUT`, `MAX_ITEMS`).
-
 Siempre que sea posible, se utilizarán `const` y `let` en lugar de `var` para mejorar el manejo del alcance de las variables.
 
 Se evitará el uso innecesario de funciones anónimas para facilitar la depuración y lectura del código.
 
 El objetivo será desarrollar un código modular, reutilizable y fácil de mantener.
 
-## 5.1.4. Software Deployment Configuration
+### 5.1.4. Software Deployment Configuration
 
 Para el despliegue de la Landing Page, se utilizará GitHub Pages como plataforma de publicación. A continuación, se detallan los pasos principales realizados:
 
@@ -163,8 +159,8 @@ Para el despliegue de la Landing Page, se utilizará GitHub Pages como plataform
 
 Con esta configuración, cualquier cambio realizado en el repositorio principal se reflejará automáticamente en la versión publicada de la página.
 
-### 5.1.4. Software Deployment Configuration.
 ## 5.2. Landing Page, Services & Applications Implementation.
+
 ### 5.2.1. Sprint 1
 ##### 5.2.1.1. Sprint Planning 1.
 #### 5.2.1.2. Aspect Leaders and Collaborators.
