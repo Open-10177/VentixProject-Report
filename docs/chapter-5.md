@@ -622,7 +622,9 @@ Estos commits provienen del repositorio del frontend de la organización de GitH
 
 En este sprint se implementaron las siguientes funcionalidades en el frontend de VentixProject:
 
-<img src="../assets/img/chapter-5/pantallainicio.jpeg" alt="PantallaInicio" width="400">
+<img src="../assets/img/chapter-5/pantallainicio.jpeg" alt="Pantalla inicio" width="800">
+<img src="../assets/img/chapter-5/notificaciones.jpeg" alt="Notificaciones" width="800">
+<img src="../assets/img/chapter-5/mapa_hogar.jpeg" alt="Mapa del hogar" width="800">
     
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
