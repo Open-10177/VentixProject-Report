@@ -625,6 +625,8 @@ En este sprint se implementaron las siguientes funcionalidades en el frontend de
 <img src="../assets/img/chapter-5/pantallainicio.jpeg" alt="Pantalla inicio" width="800">
 <img src="../assets/img/chapter-5/notificaciones.jpeg" alt="Notificaciones" width="800">
 <img src="../assets/img/chapter-5/mapa_hogar.jpeg" alt="Mapa del hogar" width="800">
+<img src="../assets/img/chapter-5/configuracion_umbrales.jpeg" alt="Configuracion de umbrales" width="800">
+<img src="../assets/img/chapter-5/historial_datos.jpeg" alt="Historial de datos" width="800">
     
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
