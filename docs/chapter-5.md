@@ -384,10 +384,10 @@ La tabla siguiente resume los commits más relevantes realizados en el repositor
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commit on (Date) |
 |---|---|---|---|---|---|
-| https://github.com/Open-10177/Ventix-LandingPage | main | 8c26bff889ba9ee34d3a9c941047a4f68cb9a2cf | First commit landing page finished | Commit inicial del repositorio, creando la estructura base del proyecto de Landing Page y la configuración de dependencias. | 12-05-2026 |
-| https://github.com/Open-10177/Ventix-LandingPage | main | 94f26223e32498740b2e5b225f49aae9d588dcd8 | Create CNAME | Creación del archivo CNAME para configuración de dominio personalizado. | 12-05-2026 |
-| https://github.com/Open-10177/Ventix-LandingPage | main | a03ff07c4a04b405ebe4f53ab91e06fe84fb0dad | Delete CNAME | Eliminación del archivo CNAME tras revisión de configuración. | 12-05-2026 |
-| https://github.com/Open-10177/Ventix-LandingPage | main | 087126147bfbe6414f86448511dbb5d4c47aafe4 | feat: fix structure | Corrección de la estructura base del proyecto para alinear carpetas y archivos con las convenciones definidas. | 12-05-2026 |
+| https://github.com/Open-10177/Ventix-LandingPage | main | 8c26bff889ba9ee34d3a9c941047a4f68cb9a2cf | First commit landing page finished | Commit inicial del repositorio, creando la estructura base del proyecto de Landing Page y la configuración de dependencias. | 12-04-2026 |
+| https://github.com/Open-10177/Ventix-LandingPage | main | 94f26223e32498740b2e5b225f49aae9d588dcd8 | Create CNAME | Creación del archivo CNAME para configuración de dominio personalizado. | 12-04-2026 |
+| https://github.com/Open-10177/Ventix-LandingPage | main | a03ff07c4a04b405ebe4f53ab91e06fe84fb0dad | Delete CNAME | Eliminación del archivo CNAME tras revisión de configuración. | 12-04-2026 |
+| https://github.com/Open-10177/Ventix-LandingPage | main | 087126147bfbe6414f86448511dbb5d4c47aafe4 | feat: fix structure | Corrección de la estructura base del proyecto para alinear carpetas y archivos con las convenciones definidas. | 12-04-2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 Durante el Sprint 1, se completó exitosamente la implementación de todas las secciones del Landing Page de VENTIX, incluyendo navegación responsiva, soporte bilingüe y despliegue en GitHub Pages. A continuación se presentan evidencias de ejecución mediante capturas de pantalla de las principales vistas.
@@ -610,15 +610,15 @@ Estos commits provienen del repositorio del frontend de la organización de GitH
 
 | Repository                   | Branch | Commit Id | Commit Message                                                                        | Commit Message Body | Commited on (Date) |
 |------------------------------|--------|-----------|---------------------------------------------------------------------------------------|---------------------|--------------------|
-| https://github.com/Open-10177/Ventix-Front-End | work   | 26d06a0   | feat(work): add Reserva Card and List, example db.json, i18n, dependencies and styles |                     | 02/10/2025         |
-| https://github.com/Open-10177/Ventix-Front-End | user   | 0a793c6   | feat(work): add Tecnico Card and List, example db.json, i18n, dependencies and styles |                     | 05/10/2025         |
-| https://github.com/Open-10177/Ventix-Front-End | user   | ea55a62   | feat:Add TechnicianProfilePage                                                        |                     | 06/10/2025         |
-| https://github.com/Open-10177/Ventix-Front-End | user   | 0938ba9   | feat: add HistoryServicesPage entity, assembler, Card, api, list                      |                     | 06/10/2025         |
+| https://github.com/Open-10177/Ventix-Front-End | work   | 26d06a0   | feat(work): add Reserva Card and List, example db.json, i18n, dependencies and styles |                     | 11-05-2026         |
+| https://github.com/Open-10177/Ventix-Front-End | user   | 0a793c6   | feat(work): add Tecnico Card and List, example db.json, i18n, dependencies and styles |                     | 11-05-26         |
+| https://github.com/Open-10177/Ventix-Front-End | user   | ea55a62   | feat:Add TechnicianProfilePage                                                        |                     | 11-05-26         |
+| https://github.com/Open-10177/Ventix-Front-End | user   | 0938ba9   | feat: add HistoryServicesPage entity, assembler, Card, api, list                      |                     | 11-05-26         |
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
-En este sprint se implementaron las siguientes funcionalidades en el frontend de ChambaPro:
+En este sprint se implementaron las siguientes funcionalidades en el frontend de VentixProject:
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -640,7 +640,7 @@ El frontend de VentixProject fue desplegado utilizando **Vercel**, una plataform
 4. **Configuración de despliegue**: Se configuró Vercel para desplegar automáticamente el frontend cada vez que se realizara un push a la rama `main`.
 5. **Verificación del despliegue**: Se verificó que la aplicación estuviera accesible públicamente y funcionara correctamente en diferentes dispositivos y navegadores.
 
-**Repositorio:** 
+**Repositorio:** https://github.com/Open-10177/Ventix-Front-End
 **URL desplegada:**
 - Cliente: 
 - Técnico: 
