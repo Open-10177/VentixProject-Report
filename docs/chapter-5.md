@@ -641,6 +641,7 @@ El frontend de VentixProject fue desplegado utilizando **Vercel**, una plataform
 5. **Verificación del despliegue**: Se verificó que la aplicación estuviera accesible públicamente y funcionara correctamente en diferentes dispositivos y navegadores.
 
 **Repositorio:** https://github.com/Open-10177/Ventix-Front-End
+
 **URL desplegada:**
 - Cliente: 
 - Técnico: 
