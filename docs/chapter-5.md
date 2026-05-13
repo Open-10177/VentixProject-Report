@@ -288,14 +288,16 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo e implementación del
     <tr>
       <td>Attendees (to planning meeting)</td>
       <td>
+
       
 Jorge Taipe
-            
+
 Geraldine Suarez
         
 Ruth Sanchez
         
 Albino Caceres
+
       </td>
     </tr>
     <tr>
@@ -611,17 +613,17 @@ Estos commits provienen del repositorio del frontend de la organización de GitH
 | Repository                   | Branch | Commit Id | Commit Message                                                                        | Commit Message Body | Commited on (Date) |
 |------------------------------|--------|-----------|---------------------------------------------------------------------------------------|---------------------|--------------------|
 | https://github.com/Open-10177/Ventix-Front-End | work   | 26d06a0   | feat(work): add Reserva Card and List, example db.json, i18n, dependencies and styles |                     | 11-05-2026         |
-| https://github.com/Open-10177/Ventix-Front-End | user   | 0a793c6   | feat(work): add Tecnico Card and List, example db.json, i18n, dependencies and styles |                     | 11-05-26         |
-| https://github.com/Open-10177/Ventix-Front-End | user   | ea55a62   | feat:Add TechnicianProfilePage                                                        |                     | 11-05-26         |
-| https://github.com/Open-10177/Ventix-Front-End | user   | 0938ba9   | feat: add HistoryServicesPage entity, assembler, Card, api, list                      |                     | 11-05-26         |
+| https://github.com/Open-10177/Ventix-Front-End | user   | 0a793c6   | feat(work): add Tecnico Card and List, example db.json, i18n, dependencies and styles |                     | 11-05-2026         |
+| https://github.com/Open-10177/Ventix-Front-End | user   | ea55a62   | feat:Add TechnicianProfilePage                                                        |                     | 11-05-2026         |
+| https://github.com/Open-10177/Ventix-Front-End | user   | 0938ba9   | feat: add HistoryServicesPage entity, assembler, Card, api, list                      |                     | 11-05-2026         |
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
 En este sprint se implementaron las siguientes funcionalidades en el frontend de VentixProject:
 
-![pantalla 01.jpeg](../assets/img/chapter-5/pantalla 01.jpeg)
-
+<img src="../assets/img/chapter-5/pantallainicio.jpeg" alt="PantallaInicio" width="400">
+    
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 Durante el desarrollo del frontend de VentixProject, se utilizó un JSON Server como una API falsa con el
