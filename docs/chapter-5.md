@@ -280,7 +280,7 @@ El despliegue permitió comprobar el funcionamiento de la navegación, las vista
 
 **Explicación de los pasos realizados**
 
-#### 1. Configuración del repositorio**
+**1. Configuración del repositorio**
 
 Se trabajó sobre el repositorio principal del Front-End de Ventix, organizando la aplicación mediante bounded contexts. La estructura modular permite separar responsabilidades entre las capas de dominio, infraestructura, aplicación y presentación.
 
@@ -292,7 +292,7 @@ Los principales bounded contexts considerados fueron:
 - `payment`
 - `iam`
 
-#### 2. Preparación para la ejecución**
+**2. Preparación para la ejecución**
 
 Se instalaron las dependencias del proyecto usando:
 
@@ -312,7 +312,7 @@ o, en caso de no tener Angular CLI instalado globalmente:
 npx ng serve
 ```
 
-#### 3. Integración de módulos principales
+**3. Integración de módulos principales**
 
 Se configuraron las rutas principales de la aplicación para permitir la navegación entre las diferentes secciones del sistema. Entre las rutas integradas se encuentran:
 
@@ -324,7 +324,7 @@ Se configuraron las rutas principales de la aplicación para permitir la navegac
 
 Además, se añadió acceso visual al módulo de pagos desde la interfaz principal, permitiendo ingresar al flujo de planes y checkout.
 
-#### 4. Validación post-despliegue
+**4. Validación post-despliegue**
 
 Se realizaron pruebas manuales en el navegador para verificar que las pantallas principales cargaran correctamente. Se validaron especialmente:
 
@@ -339,6 +339,17 @@ Estas pruebas permitieron confirmar que la aplicación se ejecuta correctamente 
 
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+## Colaboración y trabajo en equipo
+
+Durante este Sprint, el equipo mantuvo una colaboración organizada y constante para desarrollar las funcionalidades de la aplicación web principal y la landing page. La coordinación se reflejó en la actividad registrada en los repositorios de GitHub vinculados al proyecto.
+
+Se utilizaron métricas clave de GitHub para medir la colaboración del equipo:
+
+- Número total de commits
+- Contribuciones individuales
+- Frecuencia de actividad
+
+##### Capturas de Analíticos de Colaboración en GitHub
 
 # Conclusiones
 ## Conclusiones y recomendaciones.
