@@ -608,7 +608,7 @@ se utilizó un mockup api deploy para simular las respuestas del backend y asegu
 El frontend de VentixProject fue desplegado utilizando **Vercel**, una plataforma de despliegue optimizada para aplicaciones frontend.
 
 **Pasos para el despliegue:**
-1. **Creación del repositorio**: Se creó un repositorio en la organización de GitHub llamado `VentixProject-frontend`.
+1. **Creación del repositorio**: Se creó un repositorio en la organización de GitHub llamado `Ventix-Front-End`.
 2. **Desarrollo del frontend**: El código fuente del frontend se desarrolló y organizó en el repositorio.
 3. **Conexión con Vercel**: Se conectó el repositorio de GitHub con Vercel para habilitar despliegues automáticos.
 4. **Configuración de despliegue**: Se configuró Vercel para desplegar automáticamente el frontend cada vez que se realizara un push a la rama `main`.
