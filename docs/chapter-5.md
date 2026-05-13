@@ -620,7 +620,7 @@ Estos commits provienen del repositorio del frontend de la organización de GitH
 
 En este sprint se implementaron las siguientes funcionalidades en el frontend de VentixProject:
 
-![pantalla 01.png](../assets/img/chapter-5/pantalla 01.png)
+![pantalla 01.jpeg](../assets/img/chapter-5/pantalla 01.jpeg)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
