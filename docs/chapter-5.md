@@ -221,13 +221,15 @@ Durante este sprint, se realizaron avances significativos en el desarrollo de la
 
 A continuación, se presenta una tabla con los commits principales correspondientes al repositorio, considerando un commit representativo por cada bounded context desarrollado.
 
+Durante este sprint, se realizaron avances significativos en el desarrollo de la aplicación web principal de **Ventix**. Se implementaron bounded contexts clave para organizar el sistema por responsabilidades, incluyendo monitoreo ambiental, gestión de dispositivos, funcionalidades compartidas y pagos. Además, se integraron vistas principales como Home, notificaciones, configuración de umbrales y el flujo inicial de selección de planes.
+
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |---|---|---|---|---|---|
-| Ventix-Front-End | main | `commit-id` | `feat: create shared bounded context` | Se creó la estructura compartida del proyecto, incluyendo layout, footer, language switcher, vistas Home, About y Page Not Found. | `YYYY-MM-DD` |
-| Ventix-Front-End | main | `commit-id` | `feat: create monitoring bounded context` | Se implementó la estructura del bounded context Monitoring, incluyendo entidades, endpoints, store y vista de notificaciones para el monitoreo ambiental. | `YYYY-MM-DD` |
-| Ventix-Front-End | main | `commit-id` | `feat: create device bounded context` | Se desarrolló la estructura del bounded context Device, incluyendo gestión de sensores, configuración de umbrales y vistas relacionadas a dispositivos. | `YYYY-MM-DD` |
-| Ventix-Front-End | main | `commit-id` | `feat: create payment bounded context` | Se implementó el bounded context Payment, incluyendo dominio, infraestructura, store, selección de planes, checkout, detalle de suscripción y listado de facturas. | `YYYY-MM-DD` |
-| Ventix-Front-End | main | `commit-id` | `feat: integrate payment navigation` | Se integró el acceso al módulo de pagos desde la navegación principal de la aplicación y se agregó la ruta correspondiente. | `YYYY-MM-DD` |
+| Ventix-Front-End | main | `commit-id` | `feat: create shared bounded context` | Se creó la estructura compartida del proyecto, incluyendo layout, footer, language switcher, vistas Home, About y Page Not Found. | 2026-05-08 |
+| Ventix-Front-End | main | `commit-id` | `feat: create monitoring bounded context` | Se implementó la estructura del bounded context Monitoring, incluyendo entidades, endpoints, store y vista de notificaciones para el monitoreo ambiental. | 2026-05-09 |
+| Ventix-Front-End | main | `commit-id` | `feat: create device bounded context` | Se desarrolló la estructura del bounded context Device, incluyendo gestión de sensores, configuración de umbrales y vistas relacionadas a dispositivos. | 2026-05-10 |
+| Ventix-Front-End | main | `commit-id` | `feat: create payment bounded context` | Se implementó el bounded context Payment, incluyendo dominio, infraestructura, store, selección de planes, checkout, detalle de suscripción y listado de facturas. | 2026-05-12 |
+| Ventix-Front-End | main | `commit-id` | `feat: integrate payment navigation` | Se integró el acceso al módulo de pagos desde la navegación principal de la aplicación y se agregó la ruta correspondiente. | 2026-05-12 |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
