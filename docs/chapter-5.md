@@ -339,7 +339,7 @@ Estas pruebas permitieron confirmar que la aplicación se ejecuta correctamente 
 
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
-## Colaboración y trabajo en equipo
+**Colaboración y trabajo en equipo**
 
 Durante este Sprint, el equipo mantuvo una colaboración organizada y constante para desarrollar las funcionalidades de la aplicación web principal y la landing page. La coordinación se reflejó en la actividad registrada en los repositorios de GitHub vinculados al proyecto.
 
@@ -349,7 +349,7 @@ Se utilizaron métricas clave de GitHub para medir la colaboración del equipo:
 - Contribuciones individuales
 - Frecuencia de actividad
 
-##### Capturas de Analíticos de Colaboración en GitHub
+**Capturas de Analíticos de Colaboración en GitHub**
 
 # Conclusiones
 ## Conclusiones y recomendaciones.
