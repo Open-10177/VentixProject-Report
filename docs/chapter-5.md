@@ -631,6 +631,9 @@ A continuación, se muestran algunos insights del repositorio de GitHub:
 * **Taipe Sangama, Jorge Francisco:** Se encargó de la página de shared, revision de todo y desplegar el fronted.
 * **Cáceres Pizarro, Albino Florencio:** Se encargó de la página de monitoring.
 
+<img src="../assets/img/chapter-5/rendimiento_estudiantil.png" alt="Pantalla" width="1000">
+<img src="../assets/img/chapter-5/rendimiento_estudiantil02.png" alt="Pantalla" width="1000">
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
