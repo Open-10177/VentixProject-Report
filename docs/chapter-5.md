@@ -384,10 +384,10 @@ La tabla siguiente resume los commits más relevantes realizados en el repositor
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commit on (Date) |
 |---|---|---|---|---|---|
-| https://github.com/Open-10177/Ventix-LandingPage | main | 8c26bff889ba9ee34d3a9c941047a4f68cb9a2cf | First commit landing page finished | Commit inicial del repositorio, creando la estructura base del proyecto de Landing Page y la configuración de dependencias. | 15-04-2025 |
-| https://github.com/Open-10177/Ventix-LandingPage | main | 94f26223e32498740b2e5b225f49aae9d588dcd8 | Create CNAME | Creación del archivo CNAME para configuración de dominio personalizado. | 15-04-2025 |
-| https://github.com/Open-10177/Ventix-LandingPage | main | a03ff07c4a04b405ebe4f53ab91e06fe84fb0dad | Delete CNAME | Eliminación del archivo CNAME tras revisión de configuración. | 15-04-2025 |
-| https://github.com/Open-10177/Ventix-LandingPage | main | 087126147bfbe6414f86448511dbb5d4c47aafe4 | feat: fix structure | Corrección de la estructura base del proyecto para alinear carpetas y archivos con las convenciones definidas. | 15-04-2025 |
+| https://github.com/Open-10177/Ventix-LandingPage | main | 8c26bff889ba9ee34d3a9c941047a4f68cb9a2cf | First commit landing page finished | Commit inicial del repositorio, creando la estructura base del proyecto de Landing Page y la configuración de dependencias. | 12-05-2026 |
+| https://github.com/Open-10177/Ventix-LandingPage | main | 94f26223e32498740b2e5b225f49aae9d588dcd8 | Create CNAME | Creación del archivo CNAME para configuración de dominio personalizado. | 12-05-2026 |
+| https://github.com/Open-10177/Ventix-LandingPage | main | a03ff07c4a04b405ebe4f53ab91e06fe84fb0dad | Delete CNAME | Eliminación del archivo CNAME tras revisión de configuración. | 12-05-2026 |
+| https://github.com/Open-10177/Ventix-LandingPage | main | 087126147bfbe6414f86448511dbb5d4c47aafe4 | feat: fix structure | Corrección de la estructura base del proyecto para alinear carpetas y archivos con las convenciones definidas. | 12-05-2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 Durante el Sprint 1, se completó exitosamente la implementación de todas las secciones del Landing Page de VENTIX, incluyendo navegación responsiva, soporte bilingüe y despliegue en GitHub Pages. A continuación se presentan evidencias de ejecución mediante capturas de pantalla de las principales vistas.
