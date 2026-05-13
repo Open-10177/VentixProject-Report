@@ -182,10 +182,60 @@ Las historias de usuario permitieron definir las funcionalidades clave relaciona
 | Objetivo y User Stories del Sprint 1 | Objetivo del Sprint: Construir y validar los artefactos fundamentales del proyecto Ventix, definiendo requisitos funcionales y técnicos para guiar el desarrollo de la plataforma de monitoreo ambiental inteligente. |
 | Velocidad del Sprint 1 | 10 User Stories |
 | Suma de Story Points | 30 Story Points atendidos |
+
 #### 5.2.1.2. Aspect Leaders and Collaborators.
+
+| Integrante del equipo | Código | GitHub | Landing Page | Diseño UI/UX | Angular/HTML/CSS | TypeScript | Documentación |
+|---|---|---|---|---|---|---|---|
+| Taipe Sangama, Jorge Francisco | U202313458 | jorge | C | L | C | C | L |
+| Cáceres Pizarro, Albino Florencio | U201923820 | albino | L | C | L | L | C |
+| Sanchez Osorio, Ruth Yanira | U20241C626 | ruth | C | C | C | C | C |
+| Suarez Chinga, Geraldine | U20241C804 | geraldine | C | C | C | C | C |
+
+**Leyenda:**  
+L = Leader  
+C = Collaborator
+
 #### 5.2.1.3. Sprint Backlog 1.
-#### 5.2.1.4. Development Evidence for Sprint Review.
-#### 5.2.1.5. Execution Evidence for Sprint Review.
+
+git log --pretty=format:"%h | %ad | %s" --date=short
+Mientras tanto, te dejo una versión mejorada y adaptada a Ventix, tomando como referencia “un commit principal por cada bounded context”.
+
+### Sprint 2
+
+| Work-Item / Task | User Story ID | Task ID | Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---:|---|---|
+| Work-Item | US08 | T01 | Implementar visualización de datos ambientales en Home: temperatura, CO₂ y humedad | 5 | Cáceres Pizarro, Albino Florencio | Done |
+| Work-Item | US19 | T02 | Implementar visualización de ambientes monitoreados | 4 | Taipe Sangama, Jorge Francisco | Done |
+| Work-Item | US22 | T03 | Implementar acceso a notificaciones del sistema | 3 | Sanchez Osorio, Ruth Yanira | Done |
+| Work-Item | US13-US15 | T04 | Implementar pantalla de configuración de umbrales ambientales | 5 | Suarez Chinga, Geraldine | In-process |
+| Work-Item | US02 | T05 | Implementar visualización de planes NORMAL y PLUS en Payment | 4 | Cáceres Pizarro, Albino Florencio | Done |
+| Work-Item | US03 | T06 | Implementar selección de plan y navegación al checkout | 4 | Cáceres Pizarro, Albino Florencio | Done |
+| Work-Item | US05 | T07 | Integrar cambio de idioma español/inglés | 3 | Taipe Sangama, Jorge Francisco | Done |
+| Work-Item | TS-09 | T08 | Implementar bounded context Device para gestión de dispositivos | 5 | Suarez Chinga, Geraldine | Review |
+| Work-Item | TS-11 | T09 | Definir estructura inicial del bounded context IAM | 4 | Sanchez Osorio, Ruth Yanira | Review |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante este sprint, se realizaron avances significativos en el desarrollo de la aplicación web principal de **Ventix**. Se implementaron bounded contexts clave para organizar el sistema por responsabilidades, incluyendo monitoreo ambiental, gestión de dispositivos, funcionalidades compartidas y pagos. Además, se integraron vistas principales como Home, notificaciones, configuración de umbrales y el flujo inicial de selección de planes.
+
+A continuación, se presenta una tabla con los commits principales correspondientes al repositorio, considerando un commit representativo por cada bounded context desarrollado.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+| Ventix-Front-End | main | `commit-id` | `feat: create shared bounded context` | Se creó la estructura compartida del proyecto, incluyendo layout, footer, language switcher, vistas Home, About y Page Not Found. | `YYYY-MM-DD` |
+| Ventix-Front-End | main | `commit-id` | `feat: create monitoring bounded context` | Se implementó la estructura del bounded context Monitoring, incluyendo entidades, endpoints, store y vista de notificaciones para el monitoreo ambiental. | `YYYY-MM-DD` |
+| Ventix-Front-End | main | `commit-id` | `feat: create device bounded context` | Se desarrolló la estructura del bounded context Device, incluyendo gestión de sensores, configuración de umbrales y vistas relacionadas a dispositivos. | `YYYY-MM-DD` |
+| Ventix-Front-End | main | `commit-id` | `feat: create payment bounded context` | Se implementó el bounded context Payment, incluyendo dominio, infraestructura, store, selección de planes, checkout, detalle de suscripción y listado de facturas. | `YYYY-MM-DD` |
+| Ventix-Front-End | main | `commit-id` | `feat: integrate payment navigation` | Se integró el acceso al módulo de pagos desde la navegación principal de la aplicación y se agregó la ruta correspondiente. | `YYYY-MM-DD` |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante este sprint se lograron avances importantes en la aplicación web principal de **Ventix**. La plataforma cuenta con una estructura modular basada en bounded contexts, lo que permite separar responsabilidades y facilitar el mantenimiento del sistema.
+
+Se completaron funcionalidades visuales y de navegación relacionadas con el monitoreo ambiental, la gestión de ambientes, las notificaciones y la configuración de umbrales. Asimismo, se incorporó el módulo de pagos, permitiendo al usuario visualizar planes, seleccionar una opción y acceder al flujo inicial de checkout.
+
+Las evidencias de ejecución recomendadas para el Sprint Review son:
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
