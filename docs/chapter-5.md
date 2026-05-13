@@ -553,36 +553,21 @@ Desarrollar las funcionalidades principales del frontend de VentixProject, inclu
 
 #### 5.2.2.3. Sprint Backlog 2
 
-| User Story |           Work-Item / Task           |  Id | Title                             | Description                                                       | Estimation (Hours) |   Assigned To   | Status |
-| :--------: | :----------------------------------: | :-: | :-------------------------------- | :---------------------------------------------------------------- | :----------------: |:---------------:|:------:|
-|  **US08**  |          Registro de usuario         | T01 | Diseño del formulario de registro | Crear interfaz con campos de nombre, correo y contraseña.         |          6         |   Werner Lang   |  Done  |
-|            |                                      | T02 | Validaciones y mensajes           | Implementar validaciones de campos y mensajes de error/exito.     |          4         |   Werner Lang   |  Done  |
-|            |                                      | T03 | Pruebas de registro               | Verificar flujo de registro exitoso y fallido (correo repetido).  |          4         |   Werner Lang   |  Done  |
-|  **US09**  |           Inicio de sesión           | T04 | Diseño del formulario de login    | Crear interfaz con campos de correo y contraseña.                 |          4         |   Werner Lang   |  Done  |
-|            |                                      | T05 | Manejo de sesión                  | Guardar sesión (token) y redirigir al panel principal.            |          5         |   Werner Lang   |  Done  |
-|            |                                      | T06 | Pruebas de login                  | Validar mensajes de error y éxito.                                |          3         |   Werner Lang   |  Done  |
-|  **US10**  |        Historial de servicios        | T07 | Diseño de tabla de historial      | Mostrar lista de servicios con fecha, técnico, costo y estado.    |          6         |   Saul Ortega   |  Done  |
-|            |                                      | T09 | Pruebas del historial             | Validar visualización y actualización de datos.                   |          4         |   Saul Ortega   |  Done  |
-|  **US11**  |           Agenda / Reservas          | T10 | Diseño de calendario              | Implementar vista de calendario con reservas confirmadas.         |          6         |   Werner Lang   |  Done  |
-|            |                                      | T12 | Pruebas de agenda                 | Validar visualización correcta de citas.                          |          3         |   Werner Lang   |  Done  |
-|  **US13**  | Verificación de identidad de técnico | T16 | Formulario de verificación        | Interfaz para subir documentos (DNI, certificaciones, fotos).     |          6         |  Emilia Durans  |  Done  |
-|            |                                      | T17 | Estado de verificación            | Mostrar estado: pendiente, aprobado, rechazado.                   |          4         |  Emilia Durans  |  Done  |
-|            |                                      | T18 | Pruebas de verificación           | Validar flujo de subida y estado visual.                          |          4         |  Emilia Durans  |  Done  |
-|  **US14**  |     Filtrado por tipo de servicio    | T19 | Diseño de filtros por categoría   | Mostrar lista de categorías con checkboxes o dropdown.            |          4         | Matias Armestar |  Done  |
-|            |                                      | T20 | Actualización dinámica            | Actualizar resultados según categoría seleccionada.               |          5         | Matias Armestar |  Done  |
-|            |                                      | T21 | Pruebas de filtrado               | Verificar respuesta y visualización correcta.                     |          3         | Matias Armestar |  Done  |
-|  **US15**  |         Filtrado por técnico         | T22 | Barra de búsqueda por nombre      | Campo de texto para buscar técnicos por nombre.                   |          4         | Matias Armestar |  Done  |
-|            |                                      | T23 | Resultados de búsqueda            | Mostrar lista filtrada de técnicos coincidentes.                  |          4         | Matias Armestar |  Done  |
-|            |                                      | T24 | Pruebas de búsqueda               | Verificar coincidencias y mensajes de “no encontrado”.            |          3         | Matias Armestar |  Done  |
-|  **US16**  |          Filtros combinados          | T25 | Diseño de búsqueda avanzada       | Interfaz que combine categoría + ubicación.                       |          6         | Matias Armestar |  Done  |
-|            |                                      | T26 | Aplicación de múltiples filtros   | Mostrar solo técnicos que cumplen todos los criterios.            |          5         | Matias Armestar |  Done  |
-|            |                                      | T27 | Pruebas de búsqueda avanzada      | Validar combinaciones de filtros.                                 |          4         | Matias Armestar |  Done  |
-|  **US17**  |           Visualizar perfil          | T28 | Diseño de perfil de técnico       | Mostrar foto, experiencia, certificaciones, servicios.            |          6         |   Jorge Taipe   |  Done  |
-|            |                                      | T29 | Integración con reseñas y datos   | Mostrar reseñas y calificaciones del técnico.                     |          5         |   Jorge Taipe   |  Done  |
-|            |                                      | T30 | Pruebas del perfil                | Validar carga completa de información.                            |          3         |   Jorge Taipe   |  Done  |
-|  **US18**  |          Reseñas de clientes         | T31 | Diseño de formulario de reseña    | Interfaz con campo de texto y estrellas.                          |          4         |   Jorge Taipe   |  Done  |
-|            |                                      | T32 | Publicación de reseña             | Actualizar lista de reseñas sin recargar página.                  |          4         |   Jorge Taipe   |  Done  |
-|            |                                      | T33 | Pruebas de reseñas                | Validar flujo de envío y actualización.                           |          3         |   Jorge Taipe   |  Done  |
+| Sprint# | Sprint 2 | | | | | | |
+|---|---|---|---|---|---|---|---|
+| **USS ID** | **USS Title** | **Task ID** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| USS-002 |  Visualización de planes y beneficios | T001 | Como visitante quiero ver los planes disponibles con precios y características para compararlos. | 5 | Geraldine Suarez | Done |
+| USS-003 | Selección de plan | T002 | Como visitante quiero seleccionar un plan antes de registrarme para agilizar el proceso. | 3 | Ruth Sanchez | Done |
+| USS-004 | Visualización del equipo | T003 | Como visitante quiero ver información del equipo de desarrollo para generar confianza. | 2 | Jorge Taipe | Done |
+| USS-005 | Cambio de idioma | T004 |Como usuario quiero cambiar el idioma entre español e inglés para mejorar la experiencia. | 3 | Ruth Sanchez | Done |
+| USS-008 | Visualización de datos en tiempo real | T005 | Como usuario quiero ver CO₂, temperatura y humedad en tiempo real para monitorear el ambiente. | 8 | Jorge Taipe | Done |
+| USS-009 | Historial ambiental | T006 | Como usuario quiero ver el historial de datos ambientales para analizar tendencias. | 5 | Geraldine Suarez | Done |
+| USS-013 | Configuración de umbral CO₂ | T007 | Como usuario quiero configurar el nivel de CO₂ permitido. | 3 | Jorge Taipe | Done |
+| USS-014 | Configuración de temperatura | T008 | Como usuario quiero configurar el umbral de temperatura del sistema. | 3 | Albino Caceres | Done |
+| USS-015 | Configuración de humedad | T008 | Como usuario quiero definir el umbral de humedad del sistema. | 3 | Geraldine Suarez | Done |
+| USS-019 | Monitoreo de múltiples espacios | T008 | Como usuario quiero monitorear varios ambientes desde una sola plataforma. | 5 | Ruth Sanchez | Done |
+| USS-022 | Notificaciones de CO₂ alto | T008 | Como usuario quiero recibir alertas cuando el aire esté contaminado. | 3 | Albino Caceres | Done |
+| USS-024 | Botón de pánico ambiental | T008 | Como usuario quiero acceso rápido a contactos de emergencia. | 3 | Albino Caceres | Done |
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
