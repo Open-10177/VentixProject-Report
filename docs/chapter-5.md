@@ -162,7 +162,26 @@ Con esta configuración, cualquier cambio realizado en el repositorio principal 
 ## 5.2. Landing Page, Services & Applications Implementation.
 
 ### 5.2.1. Sprint 1
-##### 5.2.1.1. Sprint Planning 1.
+
+Este informe documenta el progreso inicial del proyecto **Ventix**, una plataforma web orientada al monitoreo ambiental inteligente mediante dispositivos IoT. Durante este sprint, se trabajó en la definición de requisitos mediante historias de usuario funcionales y técnicas, la identificación de epics principales, la organización de los bounded contexts del sistema y la creación de artefactos esenciales para guiar el desarrollo del producto.
+
+Las historias de usuario permitieron definir las funcionalidades clave relacionadas con la landing page, cambio de idioma, visualización de planes, monitoreo ambiental, alertas, gestión de dispositivos y seguridad de usuarios. El objetivo principal fue establecer una base sólida de análisis, diseño y arquitectura para asegurar una comunicación clara entre el equipo de desarrollo y una correcta visualización de los requerimientos iniciales del proyecto.
+
+#### 5.2.1.1. Sprint Planning 1
+
+| Campo | Detalle |
+|---|---|
+| Sprint | Sprint 1 |
+| Fecha | 2026-05-12 |
+| Hora | 11:00 AM |
+| Ubicación | Virtual |
+| Preparado por | Ruth Sanchez |
+| Asistentes (a la reunión de planificación) | Equipo de desarrollo Ventix |
+| Sprint 1 – Resumen de revisión | Se elaboraron los artefactos esenciales del producto Ventix, incluyendo epics, user stories, estructura de bounded contexts y diagramas iniciales. Además, se avanzó con la implementación de funcionalidades base como la pantalla principal, navegación, monitoreo ambiental, notificaciones, configuración de umbrales y módulo de pagos. |
+| Sprint 1 – Resumen de retrospectiva | Refinar las historias de usuario, validar la integración entre módulos y mejorar la experiencia visual de las pantallas principales del sistema. |
+| Objetivo y User Stories del Sprint 1 | Objetivo del Sprint: Construir y validar los artefactos fundamentales del proyecto Ventix, definiendo requisitos funcionales y técnicos para guiar el desarrollo de la plataforma de monitoreo ambiental inteligente. |
+| Velocidad del Sprint 1 | 10 User Stories |
+| Suma de Story Points | 30 Story Points atendidos |
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 #### 5.2.1.3. Sprint Backlog 1.
 #### 5.2.1.4. Development Evidence for Sprint Review.
