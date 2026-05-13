@@ -298,25 +298,6 @@ Ruth Sanchez
         
 Albino Caceres
 
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" style="text-align: center;"><strong>Sprint 0 Review Summary</strong></td>
-    </tr>
-    <tr>
-      <td colspan="2">N/A (Este es el primer sprint del proyecto)</td>
-    </tr>
-    <tr>
-      <td colspan="2" style="text-align: center;"><strong>Sprint 0 Retrospective Summary</strong></td>
-    </tr>
-    <tr>
-      <td colspan="2">N/A (Este es el primer sprint del proyecto)</td>
-    </tr>
-    <tr>
-      <td colspan="2" style="text-align: center;"><strong>Sprint Goal & User Stories</strong></td>
-    </tr>
-    <tr>
-      <td colspan="2"><strong>Sprint 1 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
 <em>We believe it delivers a clear and trustworthy first impression for University Students and Home Owners, helping them quickly understand how VENTIX monitors CO2 levels, automates ventilation, and how to select a plan.</em>
 <em>This will be confirmed when users from both segments can navigate through all core sections (Hero, Features, Plan Comparison, Hardware, Team, Contact) in Spanish and English and can initiate the registration or checkout process in no more than three clicks from the home view.</em></td>
     </tr>
