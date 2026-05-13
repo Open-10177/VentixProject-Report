@@ -238,8 +238,106 @@ Durante este sprint se lograron avances importantes en la aplicación web princi
 Se completaron funcionalidades visuales y de navegación relacionadas con el monitoreo ambiental, la gestión de ambientes, las notificaciones y la configuración de umbrales. Asimismo, se incorporó el módulo de pagos, permitiendo al usuario visualizar planes, seleccionar una opción y acceder al flujo inicial de checkout.
 
 Las evidencias de ejecución recomendadas para el Sprint Review son:
+
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Se ha desplegado la aplicación web **Ventix**, la cual consume servicios REST configurados para simular y preparar la capa de datos de la plataforma. Para esta etapa del sprint, la aplicación trabaja con endpoints orientados al monitoreo ambiental, gestión de dispositivos, notificaciones, autenticación y pagos. Estos servicios permiten validar el flujo de navegación, la visualización de datos y la integración inicial de los bounded contexts definidos para el sistema.
+
+A continuación, se presenta la documentación de la API definida en el proyecto:
+
+| Endpoint Name | Implemented Actions | Call Syntax | Parameters Specification | Call Example | Response Explanation |
+|---|---|---|---|---|---|
+| `/api/v1/auth/login` | POST | `http.post('/api/v1/auth/login')` | `email`, `password` | `login(credentials) { return http.post('http://localhost:3000/api/v1/auth/login', credentials); }` | Retorna un token JWT, rol del usuario y datos de sesión si las credenciales son válidas. |
+| `/api/v1/auth/register` | POST | `http.post('/api/v1/auth/register')` | `name`, `email`, `password`, `userType` | `register(data) { return http.post('http://localhost:3000/api/v1/auth/register', data); }` | Registra un nuevo usuario dentro del sistema Ventix. |
+| `/api/v1/users` | GET | `http.get('/api/v1/users')` | Ninguno | `getAll() { return http.get('http://localhost:3000/api/v1/users'); }` | Devuelve una lista de usuarios registrados en la plataforma. |
+| `/api/v1/users/{id}` | GET, PUT | `http.get('/api/v1/users/{id}')` | `id`, `userResource` | `getById(id) { return http.get(\`http://localhost:3000/api/v1/users/${id}\`); }` | Permite obtener o actualizar la información de un usuario específico. |
+| `/api/v1/sensors` | GET | `http.get('/api/v1/sensors')` | Ninguno | `getSensors() { return http.get('http://localhost:3000/api/v1/sensors'); }` | Devuelve los sensores registrados con estado, ubicación y última lectura. |
+| `/api/v1/sensors/data` | POST | `http.post('/api/v1/sensors/data')` | `co2`, `temperature`, `humidity`, `deviceId` | `saveReading(data) { return http.post('http://localhost:3000/api/v1/sensors/data', data); }` | Registra una nueva lectura ambiental para alimentar el monitoreo en tiempo real. |
+| `/api/v1/devices` | GET, POST | `http.get('/api/v1/devices')` | `id`, `deviceResource`, `userId` | `getDevices() { return http.get('http://localhost:3000/api/v1/devices'); }` | Devuelve los dispositivos IoT vinculados al usuario. |
+| `/api/v1/monitoring/notifications` | GET | `http.get('/api/v1/monitoring/notifications')` | `userId` | `getNotifications() { return http.get('http://localhost:3000/api/v1/monitoring/notifications'); }` | Devuelve alertas relacionadas con CO₂, temperatura, humedad o inactividad del sistema. |
+| `/api/v1/device/threshold-config` | GET, PUT | `http.get('/api/v1/device/threshold-config')` | `co2Threshold`, `temperatureThreshold`, `humidityThreshold` | `updateThreshold(data) { return http.put('http://localhost:3000/api/v1/device/threshold-config', data); }` | Permite consultar y actualizar los umbrales ambientales del sistema. |
+| `/api/v1/payment/subscriptions` | GET, POST, DELETE | `http.post('/api/v1/payment/subscriptions')` | `userId`, `planType`, `subscriptionId` | `createSubscription(data) { return http.post('http://localhost:3000/api/v1/payment/subscriptions', data); }` | Permite crear, consultar o cancelar una suscripción asociada a un plan de Ventix. |
+| `/api/v1/payment/orders` | GET, POST | `http.post('/api/v1/payment/orders')` | `userId`, `nodeUuid`, `planType` | `placeOrder(data) { return http.post('http://localhost:3000/api/v1/payment/orders', data); }` | Registra una orden de compra para un plan o servicio de Ventix. |
+| `/api/v1/payment/invoices` | GET | `http.get('/api/v1/payment/invoices')` | `customerId` | `getInvoices(customerId) { return http.get(\`http://localhost:3000/api/v1/payment/invoices?customerId=${customerId}\`); }` | Devuelve el historial de facturas asociadas al cliente. |
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint, se llevaron a cabo actividades relacionadas con el despliegue y preparación de la aplicación web principal de **Ventix**. Estas actividades permitieron validar la ejecución de la plataforma, la integración de sus módulos principales y la disponibilidad de la aplicación para pruebas funcionales.
+
+El despliegue permitió comprobar el funcionamiento de la navegación, las vistas principales, el dashboard ambiental, la configuración de umbrales, el módulo de notificaciones y el flujo inicial del bounded context de pagos.
+
+**Actividades realizadas**
+
+- Configuración del repositorio del proyecto Ventix Front-End.
+- Configuración del entorno local de ejecución de Angular.
+- Instalación de dependencias necesarias mediante `npm install`.
+- Ejecución de la aplicación web con `ng serve` o `npx ng serve`.
+- Integración de rutas principales para Home, Monitoring, Device y Payment.
+- Validación del acceso visual a las pantallas principales.
+- Preparación de endpoints REST simulados para pruebas con servicios locales.
+- Verificación del flujo de selección de plan y checkout inicial.
+
+**Explicación de los pasos realizados**
+
+**1. Configuración del repositorio**
+
+Se trabajó sobre el repositorio principal del Front-End de Ventix, organizando la aplicación mediante bounded contexts. La estructura modular permite separar responsabilidades entre las capas de dominio, infraestructura, aplicación y presentación.
+
+Los principales bounded contexts considerados fueron:
+
+- `shared`
+- `monitoring`
+- `device`
+- `payment`
+- `iam`
+
+**2. Preparación para la ejecución**
+
+Se instalaron las dependencias del proyecto usando:
+
+```bash
+npm install
+```
+
+Luego, se verificó que la aplicación Angular pudiera ejecutarse correctamente en entorno local mediante:
+
+```bash
+ng serve
+```
+
+o, en caso de no tener Angular CLI instalado globalmente:
+
+```bash
+npx ng serve
+```
+
+## 3. Integración de módulos principales
+
+Se configuraron las rutas principales de la aplicación para permitir la navegación entre las diferentes secciones del sistema. Entre las rutas integradas se encuentran:
+
+- `/home`
+- `/monitoring`
+- `/device`
+- `/payment`
+- `/about`
+
+Además, se añadió acceso visual al módulo de pagos desde la interfaz principal, permitiendo ingresar al flujo de planes y checkout.
+
+## 4. Validación post-despliegue
+
+Se realizaron pruebas manuales en el navegador para verificar que las pantallas principales cargaran correctamente. Se validaron especialmente:
+
+- Visualización del dashboard Home.
+- Acceso a notificaciones.
+- Acceso a configuración de umbrales.
+- Visualización de planes de pago.
+- Navegación hacia checkout.
+- Retorno hacia Home desde pantallas de Payment.
+
+Estas pruebas permitieron confirmar que la aplicación se ejecuta correctamente en entorno local y que los módulos principales están integrados para la revisión del Sprint.
+
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 # Conclusiones
