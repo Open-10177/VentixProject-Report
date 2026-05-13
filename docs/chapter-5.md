@@ -1,360 +1,684 @@
 # Capítulo V: Product Implementation, Validation & Deployment
+
 ## 5.1. Software Configuration Management.
+
+En esta sección se describen las decisiones, convenciones y principios adoptados por el equipo para garantizar la coherencia, trazabilidad y control de versiones durante el ciclo de vida del desarrollo de la solución Ventix. Se establecen los lineamientos para la configuración del entorno de desarrollo, gestión del código fuente, convenciones de estilo y configuración de despliegue.
+
 ### 5.1.1. Software Development Environment Configuration.
 
-En esta sección se detallan las herramientas utilizadas para la gestión del proyecto, el diseño, el desarrollo, el despliegue y la documentación de la solución.
+En esta sección se especifican los productos de software utilizados durante el ciclo de vida del proyecto, incluyendo el nombre de cada herramienta, su propósito técnico específico dentro del proyecto Ventix, y la ruta de referencia (para software SaaS) o ruta de descarga (para productos de instalación local). Las herramientas se organizan según las siguientes disciplinas:
 
-* Project Management:
+1. Project Management
+2. Requirements Management
+3. Product UX/UI Design
+4. Software Development
+5. Software Testing
+6. Software Documentation
+
+**Project Management**
+
+Esta disciplina se centra en la planificación, seguimiento y control de las actividades del proyecto, asegurando el cumplimiento de los objetivos dentro del tiempo y recurso establecidos
+
+* Trello: Plataforma de gestión visual basada en tableros, listas y tarjetas, utilizada para la organización del Sprint Backlog, gestión de User Stories por estado (To-Do, In-Progress, Done) y colaboración del equipo en la priorización de requisitos del proyecto Ventix.
+  Ruta de referencia : https://trello.com
+
+  <img src="../assets/img/chapter-5/logo-trello.png" alt="logoTrello" width="400">
+
+**Requirements Management**
+
+Este proceso se enfoca en la documentación, verificación y seguimiento de los requisitos del proyecto, asegurando que las necesidades de los stakeholders sean satisfechas.
+
+
+* Trello: Plataforma de gestión visual basada en tableros, listas y tarjetas, utilizada para la organización del Sprint Backlog, gestión de User Stories por estado (To-Do, In-Progress, Done) y colaboración del equipo en la priorización de requisitos del proyecto Ventix.
+  Ruta de referencia : https://trello.com
+
+**Product UX/UI Design**
+
+El diseño de la experiencia de usuario y la interfaz de usuario para Ventix contempla un modelo de sitio web responsivo, compatible con navegadores de escritorio y dispositivos móviles. Se utilizan las siguientes herramientas.
+
+1. **UXPressia:** Plataforma para la elaboración de User Personas, Empathy Maps, Customer Journey Maps e Impact Maps de los segmentos objetivo del proyecto Ventix .
+Ruta de referencia: https://uxpressia.com/
+
+  <img src="../assets/img/chapter-5/logo-uxpressia.png" alt="logoUxpressia" width="400">
+
+
+3. **Miro:** Pizarra digital colaborativa utilizada para sesiones de Big Picture EventStorming y Design-Level EventStorming, facilitando la identificación de Bounded Contexts, Events, Commands y Aggregates del dominio Ventix.
+Ruta de referencia: https://miro.com/es/
+
+  <img src="../assets/img/chapter-5/logo-miro.png" alt="logoMiro" width="400">
   
-  * Trello
-    Propósito: Gestión de tareas mediante tableros Kanban organizados en columnas (To Do, In Progress, Done).
-    
-    URL: https://trello.com
-    
-  * Uxpressia
-    Propósito: Creación de mapas de experiencia de usuario para analizar y entender a nuestros usuarios.
-    
-    URL: https://uxpressia.com
-    
-  * Lucidchart
-    Propósito: Elaboración de diagramas de flujo, wireframes y esquemas de arquitectura de sistemas.
- 
-    URL: https://lucidchart.com
-    
- 
- 
-* Product UX/UI Design:
-  
-  * Figma
-    Propósito: Diseño de interfaces de usuario (UI), prototipado rápido y colaboración en tiempo real entre los miembros del equipo.
+4. **Figma:** Herramienta de diseño colaborativo para la creación de Wireframes, Mock-ups y Prototipos interactivos del Landing Page y Web Applications de Ventix, aplicando el Design System basado en Material Design.
+Ruta de referencia: https://www.figma.com/es-es/
 
-    URL: https://figma.com
+  <img src="../assets/img/chapter-5/logo-figma.png" alt="logoFignma" width="400">
+
+
+6. **LucidChart:** Aplicación de diagramación colaborativa para la creación de Wireflows, User Flows, diagramas UML (Class Diagrams) y Database Diagrams de la arquitectura de Ventix.
+Ruta de referencia: https://www.lucidchart.com/pages/es
+
+  <img src="../assets/img/chapter-5/logo-lucid.png" alt="logoLucid" width="400">
+
+**Software Development:**
+
+El desarrollo de software del proyecto Ventix abarca la implementación del Langin Page, Frontend Web Application y Backend Web Services. Se utilizan las siguientes herramientas y tecnologías.
+
+1. **GitHub:** Sistema de control de versiones distribuido y plataforma de hosting para repositorios de código fuente. Gestión de la organización Open-10177, implementación de GitFlow Workflow, Conventional Commits y Semantic Versioning.
+Ruta de referencia: https://github.com
     
- * Software Development:
-   * WebStorm
-     Propósito: Editor de código fuente principal utilizado para el desarrollo de la Landing Page (HTML, CSS, JavaScript).
-
-     URL: https://www.jetbrains.com/es-es/webstorm/download/?section=windows
-     
- * Deployment Configuration:
-   * GitHub Pages Propósito: Publicación y despliegue automático de la Landing Page como sitio web estático directamente desde el repositorio.
-
-     URL: https://pages.github.com
+    Organización del proyecto: https://github.com/Open-10177
    
- * Software Documentation:
-   * GitHub
-     Propósito: Almacenamiento de la documentación técnica dentro del repositorio del proyecto, utilizando archivos Markdown (.md).
+   <img src="../assets/img/chapter-5/logo-github.png" alt="logoGithub" width="400">
 
-     URL: https://github.com/
 
-   * Markdown
-     Propósito: Formato de escritura utilizado para documentar de forma clara, sencilla y estructurada los detalles del proyecto.
+3. **WebStorm:** Entorno de desarrollo integrado (IDE) de JetBrains para la implementación del Frontend utilizando Angular Framework, HTML5, CSS3, JavaScript y TypeScript. Incluye integración con GitHub para control de versiones.
+Ruta de descarga: https://www.jetbrains.com/webstorm/
 
+    Licencia de estudiante: https://www.jetbrains.com/community/education/
+   
+    <img src="../assets/img/chapter-5/logo-webstorm.png" alt="logoWebstorm" width="400">
+
+5. **HTML5, CSS3, JavaScript:** Tecnologías fundamentales para la implementación del Landing Page y estructura base de las Web Applications.
+   
+    **Referencias:**
+   * HTML5: https://html.spec.whatwg.org/
+   * CSS3: https://www.w3.org/Style/CSS/
+   * JavaScript: https://developer.mozilla.org/es/docs/Web/JavaScript
+   
+   <img src="../assets/img/chapter-5/logo-html.png" alt="logoHTML" width="400">
+
+**Software Testing**
+
+Las pruebas de software permiten evaluar y verificar que los productos desarrollados cumplen con los requisitos especificados y funcionan correctamente.
+
+- **Lenguaje Gherkin:** Lenguaje de dominio específico (DSL) para la redacción de Acceptance Criteria de User Stories en formato estructurado Given-When-Then. Permite definir escenarios de prueba legibles por stakeholders y ejecutables por herramientas de automatización. Los keywords principales son: Feature, Scenario, Given, When, Then, And, But.
+  
+    Ruta de referencia: https://cucumber.io/docs/gherkin/
+
+  <img src="../assets/img/chapter-5/logo-cumcum.png" alt="logoCumcum" width="400">
+
+**Software Documentation**
+
+La documentación de software permite explicar el funcionamiento, uso y arquitectura de los productos desarrollados, facilitando su mantenimiento y evolución.
+
+- **Markdown:** Lenguaje de marcado ligero para la elaboración del Project Report en el repositorio GitHub. Permite estructurar documentación con formato consistente y compatible con control de versiones.
+
+    Ruta de referencia: https://www.markdownguide.org/
+
+  <img src="../assets/img/chapter-5/logo-markdown.png" alt="logoMarkdown" width="400">
+  
 ### 5.1.2. Source Code Management.
 
-Nuestro equipo utiliza un flujo de trabajo basado en Git Flow para mantener un control organizado del código. Trabajamos con ramas principales y secundarias que nos permiten desarrollar funcionalidades, corregir errores y preparar versiones de manera sistemática.
+En esta sección se establecen los medios y esquemas de organización aplicados para el seguimiento de modificaciones del código fuente. Se utiliza GitHub como plataforma y sistema de control de versiones distribuido.
 
-- Estructura de Ramas
+**Repositorio del Proyecto**
 
-El proyecto maneja las siguientes ramas:
+| Producto                | URL del Repositorio                                 |
+|-------------------------|-----------------------------------------------------|
+| Organización Open-10177 | https://github.com/Open-10177                       |
+| Landing Page            | https://github.com/Open-10177/Ventix-LandingPage    |
+| Landing Page (Despliegue) | https://open-10177.github.io/Ventix-LandingPage/  |
+| Project Report          | https://github.com/Open-10177/VentixProject-Report  |
 
-- `main`: Contiene el código estable listo para producción.
-- `dev`: Rama de desarrollo donde se integran las nuevas funcionalidades.
-- `feature/*`: Ramas temporales para desarrollar características específicas.
+**GitFlow Workflow**
 
-## Control de Versiones
+Se implementa GitFlow como modelo de flujo de trabajo para el control de versiones, estableciendo una estructura de ramas que facilita el desarrollo paralelo y la gestión de releases.
 
-Aplicamos versionado semántico (SemVer) con el formato:
+**Ramas Principales:**
 
-```text
-vX.Y.Z
-```
+- **main:** Rama principal que contiene el historial oficial de versiones estables listas para producción. Solo recibe merges de release branches y hotfix branches.
 
-- `X (Major)`: Cambios que rompen compatibilidad.
-- `Y (Minor)`: Nuevas funcionalidades compatibles.
-- `Z (Patch)`: Correcciones de errores.
 
-Las versiones preliminares usan sufijos:
+- **develop:** Rama de integración donde se consolidan los features completados y probados. Sirve como base para la creación de release branches.
 
-- `alpha`: Para funcionalidades en desarrollo.
-- `beta`: Para pruebas internas.
-- `rc`: Versiones candidatas a lanzamiento.
+**Ramas Soporte:**
 
-- Convención de Commits
+- **feature/<feature-name>:** Ramas creadas a partir de develop para implementar nuevas funcionalidades. Se fusionan de vuelta a develop una vez completadas y revisadas.
 
-Seguimos un formato estricto para los mensajes de commit:
+- -**release/<version>:** Ramas creadas a partir de develop para preparar una nueva versión de producción. Permiten correcciones menores y ajustes antes del merge a main.
 
-```text
-<tipo>(ámbito): descripción breve [#issue]
-```
+**Convenciones de Nomenclatura para Ramas**
 
-Ejemplos prácticos:
+| Tipos de Rama | Formato                                        | Ejemplo                         |
+|---------------|------------------------------------------------|---------------------------------|
+| Feature       | feature/<bounded-context>-<feature-description>| feature/docs-add-lean-ux-canvas |
+| Release       | release/<major.minor.patch>                    | release/1.0.0                   |
 
-```text
-feat(login): implementar autenticación con Google
-fix(api): resolver error en endpoint 
-docs: actualizar guía de instalación
-```
+**Conventional Commits**
 
-Los tipos de commit principales son:
+Se aplica la especificación Conventional Commits para los mensajes de commit, siguiendo la estructura:
 
-- `feat`: Nueva funcionalidad.
-- `fix`: Corrección de errores.
-- `docs`: Cambios en documentación.
-- `refactor`: Mejoras de código sin cambiar funcionalidad.
-- `test`: Adición o modificación de pruebas.
+    <type>[optional scope]: <description>
 
-- Políticas Adicionales
+    [optional body]
 
-- Todo merge a `main` requiere al menos una revisión aprobada.
-- Las ramas principales están protegidas contra pushes directos.
-- Cada commit debe referenciar su issue/ticket correspondiente.
-- Las releases se etiquetan siguiendo estrictamente SemVer.
+    [optional footer(s)]
+
+
+**Tipos de Commit:***
+
+| Tipo     | Descripcion                                                       |
+|----------|-------------------------------------------------------------------|
+| feat     | **Nueva funcionalidad para el usuario**                           |
+| fix      | **Corrección de un bug**                                          |
+| docs     | **Cambios en documentación**                                      |
+| style    | **Cambios de formato (espacios, comas, etc.) sin afectar lógica** |
+| refactor | **Refactorización de código sin cambiar funcionalidad**           |
+| perf     | **Mejoras de rendimiento**                                        |
+| test     | **Adición o corrección de pruebas**                               |
+| build    | **Cambios en sistema de build o dependencias externas**           |
+| chore    | **Tareas de mantenimiento sin afectar código de producción**      |
+
+**Ejemplos de Commits:**
+
+    feat(chapter-1): add lean ux canvas
+    fix(auth): resolve token expiration validation issue
+    docs(readme): update deployment instructions
+    build(deps): upgrade Angular to version 17
+    chore(config): update environment variables for production
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
-Para el desarrollo de la Landing Page, se decidió utilizar el idioma inglés en los nombres de variables, funciones, clases y archivos. Esto permitirá mantener una estructura de código más clara, organizada y escalable a futuro.
+Para el desarrollo del sistema Ventix (Landing Page y Dashboard Web), hemos decidido utilizar el idioma inglés en todos los nombres de variables, funciones, clases y archivos. Esto nos permitirá mantener el código más ordenado, comprensible y facilitar su crecimiento en el futuro.
 
-- HTML / CSS
+### HTML / CSS
 
-Se toma como referencia principalmente el Google HTML/CSS Style Guide para conservar buenas prácticas de desarrollo.
+Se sigue principalmente el Google HTML/CSS Style Guide para mantener buenas prácticas de codificación.
 
-Se emplearán etiquetas semánticas como `<header>`, `<section>`, `<article>`, `<nav>` y `<footer>` para mejorar la organización y estructura del contenido.
+Se utilizarán etiquetas semánticas como: 
+    
+    <header>, <section>, <article>, <nav> y <footer> 
 
-Las clases en CSS seguirán la convención kebab-case (por ejemplo: `.main-banner`, `.card-section`).
+para estructurar mejor el contenido de la página y del dashboard.
 
-Los identificadores utilizados serán descriptivos y específicos para facilitar el mantenimiento y comprensión del código.
 
-Las principales etiquetas consideradas en el proyecto son:
+Los nombres de las clases en CSS se escribirán utilizando kebab-case (por ejemplo: .main-banner, .sensor-card).
 
-- `<div>` para dividir bloques o secciones del contenido.
-- `<img>` para mostrar imágenes dentro de la página.
-- `<ul>` y `<li>` para construir listas, especialmente en menús de navegación.
-- `<a>` para conectar secciones o páginas mediante enlaces.
-- `<p>` para mostrar textos descriptivos.
-- `<button>` para ejecutar acciones dentro de la interfaz.
-- Títulos `<h1>` hasta `<h4>` para organizar la jerarquía de la información.
+Los identificadores serán claros y específicos para que tanto el acceso como el mantenimiento del código sean más sencillos.
 
-- JavaScript
+Las etiquetas principales que se usarán en el proyecto son:
 
-Se sigue el Google JavaScript Style Guide para mantener consistencia en el desarrollo.
+    <div> para separar diferentes bloques o secciones del contenido.
+    <img> para mostrar imágenes o elementos visuales del sistema.
+    <ul> y <li> para crear listas, principalmente en los menús de navegación.
+    <a> para establecer enlaces entre secciones o páginas.
+    <p> para párrafos de texto descriptivo.
+    <button> para botones que permitan al usuario realizar acciones específicas como activar o desactivar el sistema.
+    Títulos <h1> hasta <h4> para jerarquizar la información de manera lógica.
 
-Respecto a la nomenclatura:
+### JavaScript
 
-Siempre que sea posible, se utilizarán `const` y `let` en lugar de `var` para mejorar el manejo del alcance de las variables.
+Se adopta el Google JavaScript Style Guide para seguir un estilo uniforme en el código.
 
-Se evitará el uso innecesario de funciones anónimas para facilitar la depuración y lectura del código.
+En cuanto a la nomenclatura:
+Las variables y funciones se nombrarán en camelCase (por ejemplo: fetchSensorData, activateFan).
+Las clases se nombrarán utilizando PascalCase (por ejemplo: SensorManager, VentilationController).
+Las constantes serán escritas en UPPER_SNAKE_CASE (por ejemplo: MAX_CO2_LEVEL, MAX_TEMPERATURE).
 
-El objetivo será desarrollar un código modular, reutilizable y fácil de mantener.
+Siempre que sea posible, se usará const y let en lugar de var para mejorar el control del ámbito de las variables.
 
-### 5.1.4. Software Deployment Configuration
+Se evitarán funciones anónimas cuando no sean necesarias, para que el código sea más fácil de depurar y entender.
 
-Para el despliegue de la Landing Page, se utilizará GitHub Pages como plataforma de publicación. A continuación, se detallan los pasos principales realizados:
+### Enfoque General
 
-- Se creó un repositorio en GitHub con todo el código fuente de la página (HTML, CSS y JavaScript).
-- En la rama principal (`main`) se cargaron todos los archivos, verificando que el archivo principal sea `index.html`.
-- Dentro de la configuración del repositorio, en la sección Pages, se seleccionó la rama `main` y la carpeta raíz (`root`) como fuente de publicación.
-- GitHub generó automáticamente una URL pública para acceder a la Landing Page.
-- Se realizaron pruebas para comprobar que estilos, scripts y recursos funcionaran correctamente en producción.
+El desarrollo del sistema Ventix se basa en los siguientes principios:
 
-Con esta configuración, cualquier cambio realizado en el repositorio principal se reflejará automáticamente en la versión publicada de la página.
+- **Modularidad:** separación de responsabilidades entre frontend, backend e IoT.  
+- **Escalabilidad:** arquitectura preparada para múltiples dispositivos y usuarios.  
+- **Legibilidad:** código claro y consistente para facilitar mantenimiento.
+
+Este enfoque permite que el sistema sea extensible, mantenible y alineado con estándares modernos de desarrollo de software.
+
+### 5.1.4. Software Deployment Configuration.
+
+En esta sección se especifica la configuración de despliegue para el Landing Page de la solución Ventix.
+
+**Pasos de configuración:**
+
+1. Acceder al repositorio Ventix-LandingPage en GitHub: https://github.com/Open-10177/Ventix-LandingPage
+
+2. Navegar a **Settings > Pages** en el menú lateral.
+
+3. En la sección "Source", seleccionar la rama `main` y carpeta `/ (root)`.
+
+4. Hacer clic en **Save** y esperar la generación del sitio (1–2 minutos).
+
+5. Verificar el despliegue accediendo a la URL generada.
+
+URL de despliegue del Landing Page: https://open-10177.github.io/Ventix-LandingPage/
 
 ## 5.2. Landing Page, Services & Applications Implementation.
-
 ### 5.2.1. Sprint 1
 
-Este informe documenta el progreso inicial del proyecto **Ventix**, una plataforma web orientada al monitoreo ambiental inteligente mediante dispositivos IoT. Durante este sprint, se trabajó en la definición de requisitos mediante historias de usuario funcionales y técnicas, la identificación de epics principales, la organización de los bounded contexts del sistema y la creación de artefactos esenciales para guiar el desarrollo del producto.
+Durante el Sprint 1, el equipo se enfocó en el desarrollo e implementación del Landing Page de Ventix, incluyendo todas las secciones de presentación del negocio con soporte bilingüe (español/inglés) y despliegue mediante GitHub Pages.
 
-Las historias de usuario permitieron definir las funcionalidades clave relacionadas con la landing page, cambio de idioma, visualización de planes, monitoreo ambiental, alertas, gestión de dispositivos y seguridad de usuarios. El objetivo principal fue establecer una base sólida de análisis, diseño y arquitectura para asegurar una comunicación clara entre el equipo de desarrollo y una correcta visualización de los requerimientos iniciales del proyecto.
+- URL del Repositorio del Reporte: https://github.com/Open-10177/VentixProject-Report
+- URL del Repositorio Landing Page: https://github.com/Open-10177/Ventix-LandingPage
+- URL del Landing Page Desplegado: https://open-10177.github.io/Ventix-LandingPage/
 
-#### 5.2.1.1. Sprint Planning 1
 
-| Campo | Detalle |
-|---|---|
-| Sprint | Sprint 1 |
-| Fecha | 2026-05-12 |
-| Hora | 11:00 AM |
-| Ubicación | Virtual |
-| Preparado por | Ruth Sanchez |
-| Asistentes (a la reunión de planificación) | Equipo de desarrollo Ventix |
-| Sprint 1 – Resumen de revisión | Se elaboraron los artefactos esenciales del producto Ventix, incluyendo epics, user stories, estructura de bounded contexts y diagramas iniciales. Además, se avanzó con la implementación de funcionalidades base como la pantalla principal, navegación, monitoreo ambiental, notificaciones, configuración de umbrales y módulo de pagos. |
-| Sprint 1 – Resumen de retrospectiva | Refinar las historias de usuario, validar la integración entre módulos y mejorar la experiencia visual de las pantallas principales del sistema. |
-| Objetivo y User Stories del Sprint 1 | Objetivo del Sprint: Construir y validar los artefactos fundamentales del proyecto Ventix, definiendo requisitos funcionales y técnicos para guiar el desarrollo de la plataforma de monitoreo ambiental inteligente. |
-| Velocidad del Sprint 1 | 10 User Stories |
-| Suma de Story Points | 30 Story Points atendidos |
+
+#### 5.2.1.1. Sprint Planning
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th colspan="2" style="text-align: center;">Sprint Planning Sprint 1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td>Date</td>
+      <td>22/04/2026</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>05:00 p.m.</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Discord</td>
+    </tr>
+    <tr>
+      <td>Prepared By</td>
+      <td>Jorge Taipe Sangama</td>
+    </tr>
+    <tr>
+      <td>Attendees (to planning meeting)</td>
+      <td>
+
+      
+Jorge Taipe
+
+Geraldine Suarez
+        
+Ruth Sanchez
+        
+Albino Caceres
+
+<em>We believe it delivers a clear and trustworthy first impression for University Students and Home Owners, helping them quickly understand how VENTIX monitors CO2 levels, automates ventilation, and how to select a plan.</em>
+<em>This will be confirmed when users from both segments can navigate through all core sections (Hero, Features, Plan Comparison, Hardware, Team, Contact) in Spanish and English and can initiate the registration or checkout process in no more than three clicks from the home view.</em></td>
+    </tr>
+    <tr>
+      <td>Sprint 1 Velocity</td>
+      <td>13 Story Points</td>
+    </tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>13 SP (≈ 53 horas estimadas)</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 
-| Integrante del equipo | Código | GitHub | Landing Page | Diseño UI/UX | Angular/HTML/CSS | TypeScript | Documentación |
-|---|---|---|---|---|---|---|---|
-| Taipe Sangama, Jorge Francisco | U202313458 | jorge | C | L | C | C | L |
-| Cáceres Pizarro, Albino Florencio | U201923820 | albino | L | C | L | L | C |
-| Sanchez Osorio, Ruth Yanira | U20241C626 | ruth | C | C | C | C | C |
-| Suarez Chinga, Geraldine | U20241C804 | geraldine | C | C | C | C | C |
+En esta sección se presenta la matriz **Leadership-and-Collaboration Matrix (LACX)** correspondiente al Sprint 1. Su propósito es identificar claramente los aspectos principales del sprint y asignar responsabilidades de liderazgo (L) y colaboración (C) para fortalecer la comunicación, coordinación y trazabilidad del trabajo dentro del equipo.
 
-**Leyenda:**  
-L = Leader  
-C = Collaborator
+Estos aspectos se derivan directamente de los objetivos definidos en el Sprint 1 Goal, asegurando cobertura total de los entregables planificados.
+
+- Landing Page Development & Deployment: Diseño, estructura, contenido y funcionalidad de la página principal del proyecto, incluyendo su despliegue.
+
+- Report Module Implementation: Desarrollo y presentación del módulo que permitirá crear, visualizar y exportar el reporte requerido.
+
+| Team Member                      | Aspect: Landing Page | Aspect: Report Module |
+|----------------------------------|----------------------|-----------------------|
+| Cáceres Pizarro, Albino Florencio| C                    | C                     |
+| Sanchez Osorio, Ruth Yanira      | C                    | C                     |
+| Suarez Chinga, Geraldine         | C                    | C                     |
+| Taipe Sangama, Jorge Francisco   | L                    | L                     |
+
+- *L* = Líder del aspecto
+
+- *C* = Colaborador en el aspecto
 
 #### 5.2.1.3. Sprint Backlog 1.
 
-git log --pretty=format:"%h | %ad | %s" --date=short
-Mientras tanto, te dejo una versión mejorada y adaptada a Ventix, tomando como referencia “un commit principal por cada bounded context”.
+El Sprint Backlog 1 reúne las User Stories (USS) y tareas necesarias para implementar la primera versión de la landing page, incluyendo el menú de navegación, la visualización de planes, la sección de creadores, redes sociales, el formulario de contacto y el cambio de idioma.
 
-### Sprint 2
+Todas las tareas son monitoreadas y actualizadas mediante Jira Software (https://www.atlassian.com/software/jira).
 
-| Work-Item / Task | User Story ID | Task ID | Description | Estimation (Hours) | Assigned To | Status |
-|---|---|---|---|---:|---|---|
-| Work-Item | US08 | T01 | Implementar visualización de datos ambientales en Home: temperatura, CO₂ y humedad | 5 | Cáceres Pizarro, Albino Florencio | Done |
-| Work-Item | US19 | T02 | Implementar visualización de ambientes monitoreados | 4 | Taipe Sangama, Jorge Francisco | Done |
-| Work-Item | US22 | T03 | Implementar acceso a notificaciones del sistema | 3 | Sanchez Osorio, Ruth Yanira | Done |
-| Work-Item | US13-US15 | T04 | Implementar pantalla de configuración de umbrales ambientales | 5 | Suarez Chinga, Geraldine | In-process |
-| Work-Item | US02 | T05 | Implementar visualización de planes NORMAL y PLUS en Payment | 4 | Cáceres Pizarro, Albino Florencio | Done |
-| Work-Item | US03 | T06 | Implementar selección de plan y navegación al checkout | 4 | Cáceres Pizarro, Albino Florencio | Done |
-| Work-Item | US05 | T07 | Integrar cambio de idioma español/inglés | 3 | Taipe Sangama, Jorge Francisco | Done |
-| Work-Item | TS-09 | T08 | Implementar bounded context Device para gestión de dispositivos | 5 | Suarez Chinga, Geraldine | Review |
-| Work-Item | TS-11 | T09 | Definir estructura inicial del bounded context IAM | 4 | Sanchez Osorio, Ruth Yanira | Review |
+![Jiraevidence.png](../assets/img/chapter-5/Jiraevidence.png)
 
-#### 5.2.2.4. Development Evidence for Sprint Review
+A continuación, la estructura de la tabla de control de estado para el Sprint:
 
-Durante este sprint, se realizaron avances significativos en el desarrollo de la aplicación web principal de **Ventix**. Se implementaron bounded contexts clave para organizar el sistema por responsabilidades, incluyendo monitoreo ambiental, gestión de dispositivos, funcionalidades compartidas y pagos. Además, se integraron vistas principales como Home, notificaciones, configuración de umbrales y el flujo inicial de selección de planes.
 
-A continuación, se presenta una tabla con los commits principales correspondientes al repositorio, considerando un commit representativo por cada bounded context desarrollado.
 
-Durante este sprint, se realizaron avances significativos en el desarrollo de la aplicación web principal de **Ventix**. Se implementaron bounded contexts clave para organizar el sistema por responsabilidades, incluyendo monitoreo ambiental, gestión de dispositivos, funcionalidades compartidas y pagos. Además, se integraron vistas principales como Home, notificaciones, configuración de umbrales y el flujo inicial de selección de planes.
+A continuación, la tabla de control de estado para el Sprint 1:
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| Sprint# | Sprint 1 | | | | | | |
+|---|---|---|---|---|---|---|---|
+| **USS ID** | **USS Title** | **Task ID** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| USS-001 | Menú de navegación | T001 | Desarrollar barra de navegación (Navbar) | Maquetar el menú superior con enlaces ancla a las secciones y botón de menú responsivo (hamburguesa) para móviles. | 3 | Geraldine Suarez | Done |
+| USS-002 | Visualización de Beneficios y planes | T002 | Implementar secciones Hero y Features | Estructurar la cabecera principal y la sección de características (beneficios de automatización y hardware IoT). | 5 | Ruth Sanchez | Done |
+| USS-002 | Selección de Plan en Landing Page | T003 | Maquetar tabla comparativa Pricing | Crear la sección de planes (Normal vs Plus) detallando características, precios y botones de llamado a la acción (CTA). | 4 | Jorge Taipe | Done |
+| USS-002 | Visualización de creadores | T004 | Crear sección "About the Team" | Diseñar tarjetas visuales que incluyan las fotografías, nombres y roles de los miembros del equipo de Ventix. | 3 | Ruth Sanchez | Done |
+| USS-003 | Cambio de idioma | T005 | Configurar soporte bilingüe (i18n) | Implementar el selector de idioma y los archivos de traducción (ES/EN) para todos los textos estáticos de la página. | 6 | Jorge Taipe | Done |
+| USS-003 | Soporte y contacto | T006 | Maquetar contenedor de Contacto | Estructurar la sección informativa con correos, teléfonos y horarios de atención de la empresa. | 2 | Geraldine Suarez | Done |
+| USS-003 | Redes sociales | T007 | Implementar Footer y enlaces sociales | Desarrollar el pie de página con el logo, enlaces legales y los iconos enlazados a las redes sociales del proyecto. | 2 | Jorge Taipe | Done |
+| USS-004 | Formulario de contacto | T008 | Desarrollar formulario de contacto | Implementar los campos de entrada de datos (nombre, correo, mensaje) con validaciones visuales básicas de HTML5/CSS. | 3 | Albino Caceres | Done |
+
+#### 5.2.1.4. Development Evidence for Sprint Review.
+
+En esta sección se explican y presentan los avances en la implementación logrados durante el Sprint 1 en relación con el producto de la solución incluido en su alcance: la Landing Page pública de VENTIX. A lo largo de este sprint se construyó la primera versión navegable del sitio, incluyendo las secciones Home/Hero, Features, Hardware (Sensores IoT), Plan Comparison (Pricing), About the Team y Contact, con sus estilos CSS y ajustes de responsividad.
+
+La tabla siguiente resume los commits más relevantes realizados en el repositorio de la Landing Page, indicando la rama, el identificador del commit, el mensaje asociado y una breve explicación del cambio introducido en la implementación.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commit on (Date) |
 |---|---|---|---|---|---|
-| Ventix-Front-End | main | `commit-id` | `feat: create shared bounded context` | Se creó la estructura compartida del proyecto, incluyendo layout, footer, language switcher, vistas Home, About y Page Not Found. | 2026-05-08 |
-| Ventix-Front-End | main | `commit-id` | `feat: create monitoring bounded context` | Se implementó la estructura del bounded context Monitoring, incluyendo entidades, endpoints, store y vista de notificaciones para el monitoreo ambiental. | 2026-05-09 |
-| Ventix-Front-End | main | `commit-id` | `feat: create device bounded context` | Se desarrolló la estructura del bounded context Device, incluyendo gestión de sensores, configuración de umbrales y vistas relacionadas a dispositivos. | 2026-05-10 |
-| Ventix-Front-End | main | `commit-id` | `feat: create payment bounded context` | Se implementó el bounded context Payment, incluyendo dominio, infraestructura, store, selección de planes, checkout, detalle de suscripción y listado de facturas. | 2026-05-12 |
-| Ventix-Front-End | main | `commit-id` | `feat: integrate payment navigation` | Se integró el acceso al módulo de pagos desde la navegación principal de la aplicación y se agregó la ruta correspondiente. | 2026-05-12 |
+| https://github.com/Open-10177/Ventix-LandingPage | main | 8c26bff889ba9ee34d3a9c941047a4f68cb9a2cf | First commit landing page finished | Commit inicial del repositorio, creando la estructura base del proyecto de Landing Page y la configuración de dependencias. | 12-04-2026 |
+| https://github.com/Open-10177/Ventix-LandingPage | main | 94f26223e32498740b2e5b225f49aae9d588dcd8 | Create CNAME | Creación del archivo CNAME para configuración de dominio personalizado. | 12-04-2026 |
+| https://github.com/Open-10177/Ventix-LandingPage | main | a03ff07c4a04b405ebe4f53ab91e06fe84fb0dad | Delete CNAME | Eliminación del archivo CNAME tras revisión de configuración. | 12-04-2026 |
+| https://github.com/Open-10177/Ventix-LandingPage | main | 087126147bfbe6414f86448511dbb5d4c47aafe4 | feat: fix structure | Corrección de la estructura base del proyecto para alinear carpetas y archivos con las convenciones definidas. | 12-04-2026 |
 
-#### 5.2.2.5. Execution Evidence for Sprint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review.
+Durante el Sprint 1, se completó exitosamente la implementación de todas las secciones del Landing Page de VENTIX, incluyendo navegación responsiva, soporte bilingüe y despliegue en GitHub Pages. A continuación se presentan evidencias de ejecución mediante capturas de pantalla de las principales vistas.
 
-Durante este sprint se lograron avances importantes en la aplicación web principal de **Ventix**. La plataforma cuenta con una estructura modular basada en bounded contexts, lo que permite separar responsabilidades y facilitar el mantenimiento del sistema.
+**Video de demostracion del Landing Page**
 
-Se completaron funcionalidades visuales y de navegación relacionadas con el monitoreo ambiental, la gestión de ambientes, las notificaciones y la configuración de umbrales. Asimismo, se incorporó el módulo de pagos, permitiendo al usuario visualizar planes, seleccionar una opción y acceder al flujo inicial de checkout.
+**URL DE YOUTUBE** : https://youtu.be/WLVaXTZLLKU
 
-Las evidencias de ejecución recomendadas para el Sprint Review son:
+**Duracion**: **03:41**
+
+---
+
+**Figura 13. Encabezado y menú de navegación del Landing Page**
+
+![navbar.png](../assets/img/chapter-5/navbar.png)
+
+*Figura 13. Vista del encabezado y barra de navegación responsiva del Landing Page de Ventix. Se aprecian los enlaces de ancla a las secciones principales y el selector de idioma. Fuente: Elaboración propia.*
+
+---
+
+**Figura 14. Sección Hero del Landing Page**
+
+![Hero.png](../assets/img/chapter-5/Hero.png)
+
+*Figura 14. Sección Hero del Landing Page de Ventix, mostrando el mensaje principal del producto, la propuesta de valor y el llamado a la acción (CTA) para el registro de usuarios. Fuente: Elaboración propia.*
+
+---
+
+**Figura 15. Sección Services del Landing Page**
+
+![Services.png](../assets/img/chapter-5/Services.png)
+
+*Figura 15. Sección Services del Landing Page de Ventix, presentando los servicios clave del sistema de automatización ambiental. Fuente: Elaboración propia.*
+
+---
+
+**Figura 16. Sección Testimonials del Landing Page**
+
+![testimonial.png](../assets/img/chapter-5/testimonial.png)
+
+*Figura 16. Sección Testimonials del Landing Page de Ventix, con reseñas de usuarios de ambos segmentos objetivo (estudiantes y responsables del hogar). Fuente: Elaboración propia.*
+
+---
+
+**Figura 17. Sección Benefits del Landing Page**
+
+![benefits.png](../assets/img/chapter-5/benefits.png)
+
+*Figura 17. Sección Benefits del Landing Page de Ventix, destacando las ventajas del sistema de monitoreo y control de calidad del aire. Fuente: Elaboración propia.*
+
+---
+
+**Figura 18. Sección Pricing del Landing Page**
+
+![pricing.png](../assets/img/chapter-5/pricing.png)
+
+*Figura 18. Sección Pricing del Landing Page de Ventix, con la tabla comparativa de planes Normal y Plus, incluyendo características y precios. Fuente: Elaboración propia.*
+
+---
+
+**Figura 19. Sección Contact del Landing Page**
+
+![contact.png](../assets/img/chapter-5/contact.png)
+
+*Figura 19. Sección Contact del Landing Page de Ventix, con el formulario de contacto y los datos de comunicación del equipo. Fuente: Elaboración propia.*
+
+---
+
+**Figura 20. Footer del Landing Page**
+
+![footer-mo.png](../assets/img/Chapter-4/footer-mo.png)
+
+*Figura 20. Footer del Landing Page de Ventix, con enlaces a redes sociales, información legal y logo del proyecto. Fuente: Elaboración propia.*
+
+---
 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
-Se ha desplegado la aplicación web **Ventix**, la cual consume servicios REST configurados para simular y preparar la capa de datos de la plataforma. Para esta etapa del sprint, la aplicación trabaja con endpoints orientados al monitoreo ambiental, gestión de dispositivos, notificaciones, autenticación y pagos. Estos servicios permiten validar el flujo de navegación, la visualización de datos y la integración inicial de los bounded contexts definidos para el sistema.
+En el Sprint 1, el equipo diseñó, programó y desplegó el Landing Page de Ventix. Esta es una página web estática, por lo que no hay Web Services disponibles en este sprint.
 
-A continuación, se presenta la documentación de la API definida en el proyecto:
+| End Point | Funciones |
+|-----------|-----------|
+| N/A | No hay Web Services implementados en el Sprint 1 (Landing Page estático) |
 
-| Endpoint Name | Implemented Actions | Call Syntax | Parameters Specification | Call Example | Response Explanation |
-|---|---|---|---|---|---|
-| `/api/v1/auth/login` | POST | `http.post('/api/v1/auth/login')` | `email`, `password` | `login(credentials) { return http.post('http://localhost:3000/api/v1/auth/login', credentials); }` | Retorna un token JWT, rol del usuario y datos de sesión si las credenciales son válidas. |
-| `/api/v1/auth/register` | POST | `http.post('/api/v1/auth/register')` | `name`, `email`, `password`, `userType` | `register(data) { return http.post('http://localhost:3000/api/v1/auth/register', data); }` | Registra un nuevo usuario dentro del sistema Ventix. |
-| `/api/v1/users` | GET | `http.get('/api/v1/users')` | Ninguno | `getAll() { return http.get('http://localhost:3000/api/v1/users'); }` | Devuelve una lista de usuarios registrados en la plataforma. |
-| `/api/v1/users/{id}` | GET, PUT | `http.get('/api/v1/users/{id}')` | `id`, `userResource` | `getById(id) { return http.get(\`http://localhost:3000/api/v1/users/${id}\`); }` | Permite obtener o actualizar la información de un usuario específico. |
-| `/api/v1/sensors` | GET | `http.get('/api/v1/sensors')` | Ninguno | `getSensors() { return http.get('http://localhost:3000/api/v1/sensors'); }` | Devuelve los sensores registrados con estado, ubicación y última lectura. |
-| `/api/v1/sensors/data` | POST | `http.post('/api/v1/sensors/data')` | `co2`, `temperature`, `humidity`, `deviceId` | `saveReading(data) { return http.post('http://localhost:3000/api/v1/sensors/data', data); }` | Registra una nueva lectura ambiental para alimentar el monitoreo en tiempo real. |
-| `/api/v1/devices` | GET, POST | `http.get('/api/v1/devices')` | `id`, `deviceResource`, `userId` | `getDevices() { return http.get('http://localhost:3000/api/v1/devices'); }` | Devuelve los dispositivos IoT vinculados al usuario. |
-| `/api/v1/monitoring/notifications` | GET | `http.get('/api/v1/monitoring/notifications')` | `userId` | `getNotifications() { return http.get('http://localhost:3000/api/v1/monitoring/notifications'); }` | Devuelve alertas relacionadas con CO₂, temperatura, humedad o inactividad del sistema. |
-| `/api/v1/device/threshold-config` | GET, PUT | `http.get('/api/v1/device/threshold-config')` | `co2Threshold`, `temperatureThreshold`, `humidityThreshold` | `updateThreshold(data) { return http.put('http://localhost:3000/api/v1/device/threshold-config', data); }` | Permite consultar y actualizar los umbrales ambientales del sistema. |
-| `/api/v1/payment/subscriptions` | GET, POST, DELETE | `http.post('/api/v1/payment/subscriptions')` | `userId`, `planType`, `subscriptionId` | `createSubscription(data) { return http.post('http://localhost:3000/api/v1/payment/subscriptions', data); }` | Permite crear, consultar o cancelar una suscripción asociada a un plan de Ventix. |
-| `/api/v1/payment/orders` | GET, POST | `http.post('/api/v1/payment/orders')` | `userId`, `nodeUuid`, `planType` | `placeOrder(data) { return http.post('http://localhost:3000/api/v1/payment/orders', data); }` | Registra una orden de compra para un plan o servicio de Ventix. |
-| `/api/v1/payment/invoices` | GET | `http.get('/api/v1/payment/invoices')` | `customerId` | `getInvoices(customerId) { return http.get(\`http://localhost:3000/api/v1/payment/invoices?customerId=${customerId}\`); }` | Devuelve el historial de facturas asociadas al cliente. |
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+El Landing Page de Ventix fue desplegado exitosamente mediante GitHub Pages al finalizar el Sprint 1. A continuación se indica la URL de acceso público:
+
+URL del Landing Page desplegado: https://open-10177.github.io/Ventix-LandingPage/
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 1, los analíticos de colaboración de GitHub muestran una participación activa y continua de todos los miembros del equipo sobre el repositorio de la Landing Page de Ventix. En el panel de Overview se observa un flujo constante de commits distribuidos a lo largo de los días del sprint, lo que evidencia que las tareas de implementación de las distintas secciones (Home/Hero, Features, Hardware IoT, Plan Comparison, About the Team, Contact y Footer) se desarrollaron de manera incremental y coordinada. Cada integrante realizó aportes directos al código, ya sea mediante la creación de nuevas secciones, ajustes de estilos responsivos, configuración del soporte bilingüe o correcciones derivadas de las revisiones entre pares, asegurando así que el entregable del sprint se construyera de forma colaborativa y no centralizada en una sola persona.
+
+**Figura 21. Overview de contribuciones del equipo en GitHub**
+
+![Evidence.png](../assets/img/chapter-5/Evidence.png)
+
+*Figura 21. Panel Overview de GitHub mostrando el flujo de commits de los integrantes del equipo durante el Sprint 1. Fuente: GitHub Analytics - Repositorio Open-10177/Ventix-LandingPage.*
+
+El Network Graph refleja esta dinámica mediante la presencia de ramas que nacen desde main y regresan a ella una vez integradas, siguiendo el flujo definido por GitFlow. Esta visualización confirma que las contribuciones individuales se alinearon con el marco de trabajo acordado: se desarrollaron cambios en ramas aisladas, se realizaron pruebas locales y posteriormente se integraron al tronco principal, lo que redujo conflictos y facilitó el seguimiento de la trazabilidad de cada cambio.
+
+**Figura 22. Network Graph del repositorio en GitHub**
+
+![Evidence22.png](../assets/img/chapter-5/Evidence22.png)
+
+*Figura 22. Network Graph del repositorio Ventix-LandingPage en GitHub, evidenciando el flujo de ramas feature y su integración a main siguiendo el modelo GitFlow. Fuente: GitHub - Repositorio Open-10177/Ventix-LandingPage.*
+
+Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrollo y se consolidaban las funcionalidades del Landing Page, el repositorio comenzó a recibir visitas y visualizaciones, lo que sugiere interés progresivo en el producto por parte de stakeholders y del propio equipo durante las actividades de revisión y validación.
+
+**Figura 23. Gráfico de visitantes del repositorio en GitHub**
+
+![evidence33.png](../assets/img/chapter-5/evidence33.png)
+
+*Figura 23. Gráfico de Visitors del repositorio Ventix-LandingPage en GitHub, mostrando el incremento de visitas conforme avanzó el Sprint 1. Fuente: GitHub Insights - Repositorio Open-10177/Ventix-LandingPage.*
+
+---
+
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2
+
+<table>
+<tr>
+    <th colspan="5">Sprint 2</th>
+    <th colspan="9">Sprint 2</th>
+  </tr>
+      <tr>
+    <td colspan="13">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">2025-10-01</td>
+</tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">14:40</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">via WhatsApp</td>
+<tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Jorge Francisco Taipe Sangama</td>
+</tr>
+<tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8">Jorge Francisco Taipe Sangama, Geraldine Suarez Chinga, Ruth Yanira Sanchez Osorio, Albino Florencio Cáceres Pizarro</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint  2 Review Summary</td>
+    <td colspan="8">En este segundo sprint se definieron las responsabilidades de cada integrante para el desarrollo del frontend de VentixProject, además de plantear los requerimientos para el desarrollo de las funcionalidades principales de la aplicación web.</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 2 Retrospective Summary</td>
+    <td colspan="8">En esta sección todos los integrantes mencionaron tener aciertos en partes del codigo y en otras 
+partes poder mejorar sus habilidades realizando el frontend de VentixProject. 
+</td>
+</tr>
+<tr>
+    <td colspan="13">Sprint Goal & User Stories</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 2 Goal</td>
+    <td colspan="8">
+Desarrollar las funcionalidades principales del frontend de VentixProject, incluyendo ---- 
+</td>
+</tr>
+</table>
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+| Team member (LastName, First Name) | GitHub UserName | Aspect 1: User | Aspect 2: Work | Aspect 3: Reporte |
+|------------------------------------|-----------------|----------------|----------------|-------------------|
+| Suarez Chinga, Geraldine           | geral07-UNIV    | C              | C              | L                 |
+| Sanchez Osorio, Ruth Yanira        | Yiya-ciber      | C              | C              | C                 |
+| Taipe Sangama, Jorge Francisco     | CamotinFurious  | L              | L              | L                 |
+| Cáceres Pizarro, Albino Florencio  | lil-doggy       | C              | C              | C                 |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+| Sprint# | Sprint 2 | | | | | | |
+|---|---|---|---|---|---|---|---|
+| **USS ID** | **USS Title** | **Task ID** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| USS-002 |  Visualización de planes y beneficios | T001 | Como visitante quiero ver los planes disponibles con precios y características para compararlos. | 5 | Geraldine Suarez | Done |
+| USS-003 | Selección de plan | T002 | Como visitante quiero seleccionar un plan antes de registrarme para agilizar el proceso. | 3 | Ruth Sanchez | Done |
+| USS-004 | Visualización del equipo | T003 | Como visitante quiero ver información del equipo de desarrollo para generar confianza. | 2 | Jorge Taipe | Done |
+| USS-005 | Cambio de idioma | T004 |Como usuario quiero cambiar el idioma entre español e inglés para mejorar la experiencia. | 3 | Ruth Sanchez | Done |
+| USS-008 | Visualización de datos en tiempo real | T005 | Como usuario quiero ver CO₂, temperatura y humedad en tiempo real para monitorear el ambiente. | 8 | Jorge Taipe | Done |
+| USS-009 | Historial ambiental | T006 | Como usuario quiero ver el historial de datos ambientales para analizar tendencias. | 5 | Geraldine Suarez | Done |
+| USS-013 | Configuración de umbral CO₂ | T007 | Como usuario quiero configurar el nivel de CO₂ permitido. | 3 | Jorge Taipe | Done |
+| USS-014 | Configuración de temperatura | T008 | Como usuario quiero configurar el umbral de temperatura del sistema. | 3 | Albino Caceres | Done |
+| USS-015 | Configuración de humedad | T008 | Como usuario quiero definir el umbral de humedad del sistema. | 3 | Geraldine Suarez | Done |
+| USS-019 | Monitoreo de múltiples espacios | T008 | Como usuario quiero monitorear varios ambientes desde una sola plataforma. | 5 | Ruth Sanchez | Done |
+| USS-022 | Notificaciones de CO₂ alto | T008 | Como usuario quiero recibir alertas cuando el aire esté contaminado. | 3 | Albino Caceres | Done |
+| USS-024 | Botón de pánico ambiental | T008 | Como usuario quiero acceso rápido a contactos de emergencia. | 3 | Albino Caceres | Done |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+En esta sección se demuestran los commits relacionados con los principales avances en la implementación.
+Estos commits provienen del repositorio del frontend de la organización de GitHub.
+
+**Enlace al repositorio del frontend:** https://github.com/Open-10177/Ventix-Front-End
+
+| Repository                   | Branch | Commit Id | Commit Message                                                                        | Commit Message Body | Commited on (Date) |
+|------------------------------|--------|-----------|---------------------------------------------------------------------------------------|---------------------|--------------------|
+| https://github.com/Open-10177/Ventix-Front-End | work   | 26d06a0   | feat(work): add Reserva Card and List, example db.json, i18n, dependencies and styles |                     | 11-05-2026         |
+| https://github.com/Open-10177/Ventix-Front-End | user   | 0a793c6   | feat(work): add Tecnico Card and List, example db.json, i18n, dependencies and styles |                     | 11-05-2026         |
+| https://github.com/Open-10177/Ventix-Front-End | user   | ea55a62   | feat:Add TechnicianProfilePage                                                        |                     | 11-05-2026         |
+| https://github.com/Open-10177/Ventix-Front-End | user   | 0938ba9   | feat: add HistoryServicesPage entity, assembler, Card, api, list                      |                     | 11-05-2026         |
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+En este sprint se implementaron las siguientes funcionalidades en el frontend de VentixProject:
+
+<img src="../assets/img/chapter-5/pantallainicio.jpeg" alt="Pantalla inicio" width="1000">
+<img src="../assets/img/chapter-5/notificaciones.jpeg" alt="Notificaciones" width="1000">
+<img src="../assets/img/chapter-5/mapa_hogar.jpeg" alt="Mapa del hogar" width="1000">
+<img src="../assets/img/chapter-5/configuracion_umbrales.jpeg" alt="Configuracion de umbrales" width="1000">
+<img src="../assets/img/chapter-5/historial_datos.jpeg" alt="Historial de datos" width="1000">
+    
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el desarrollo del frontend de VentixProject, se utilizó un JSON Server como una API falsa con el
+cual se simularon las interacciones con un backend real. Este enfoque permitió desarrollar y probar las funcionalidades 
+del frontend de manera eficiente sin depender de un backend completamente implementado. Después de finalizar el desarrollo del frontend, 
+se utilizó un mockup api deploy para simular las respuestas del backend y asegurar que el frontend funcionara correctamente.
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-Durante este Sprint, se llevaron a cabo actividades relacionadas con el despliegue y preparación de la aplicación web principal de **Ventix**. Estas actividades permitieron validar la ejecución de la plataforma, la integración de sus módulos principales y la disponibilidad de la aplicación para pruebas funcionales.
+**Frontend Web Application:**
 
-El despliegue permitió comprobar el funcionamiento de la navegación, las vistas principales, el dashboard ambiental, la configuración de umbrales, el módulo de notificaciones y el flujo inicial del bounded context de pagos.
+El frontend de VentixProject fue desplegado utilizando **Vercel**, una plataforma de despliegue optimizada para aplicaciones frontend.
 
-**Actividades realizadas**
+**Pasos para el despliegue:**
+1. **Creación del repositorio**: Se creó un repositorio en la organización de GitHub llamado `Ventix-Front-End`.
+2. **Desarrollo del frontend**: El código fuente del frontend se desarrolló y organizó en el repositorio.
+3. **Conexión con Vercel**: Se conectó el repositorio de GitHub con Vercel para habilitar despliegues automáticos.
+4. **Configuración de despliegue**: Se configuró Vercel para desplegar automáticamente el frontend cada vez que se realizara un push a la rama `main`.
+5. **Verificación del despliegue**: Se verificó que la aplicación estuviera accesible públicamente y funcionara correctamente en diferentes dispositivos y navegadores.
 
-- Configuración del repositorio del proyecto Ventix Front-End.
-- Configuración del entorno local de ejecución de Angular.
-- Instalación de dependencias necesarias mediante `npm install`.
-- Ejecución de la aplicación web con `ng serve` o `npx ng serve`.
-- Integración de rutas principales para Home, Monitoring, Device y Payment.
-- Validación del acceso visual a las pantallas principales.
-- Preparación de endpoints REST simulados para pruebas con servicios locales.
-- Verificación del flujo de selección de plan y checkout inicial.
+**Repositorio:** https://github.com/Open-10177/Ventix-Front-End
 
-**Explicación de los pasos realizados**
+**URL desplegada:**
+- Cliente: 
+- Técnico: 
 
-**1. Configuración del repositorio**
+#### 5.2.2.8. Team Collaboration Insights during Sprint
 
-Se trabajó sobre el repositorio principal del Front-End de Ventix, organizando la aplicación mediante bounded contexts. La estructura modular permite separar responsabilidades entre las capas de dominio, infraestructura, aplicación y presentación.
+En esta sección se presentan las evidencias de colaboración del equipo durante el sprint 2 para el desarrollo del frontend de VentixProject. Cada miembro del equipo tuvo roles específicos, pero todos colaboraron en la planificación, desarrollo y revisión del trabajo.
 
-Los principales bounded contexts considerados fueron:
+A continuación, se muestran algunos insights del repositorio de GitHub:
 
-- `shared`
-- `monitoring`
-- `device`
-- `payment`
-- `iam`
+* **Suarez Chinga, Geraldine:** Implementó página de feauture de iam e informe de documentación.
+* **Sanchez Osorio, Ruth Yanira:** Se encargó de la página de analytics y feauture mismo.
+* **Taipe Sangama, Jorge Francisco:** Se encargó de la página de shared, revision de todo y desplegar el fronted.
+* **Cáceres Pizarro, Albino Florencio:** Se encargó de la página de monitoring.
 
-**2. Preparación para la ejecución**
-
-Se instalaron las dependencias del proyecto usando:
-
-```bash
-npm install
-```
-
-Luego, se verificó que la aplicación Angular pudiera ejecutarse correctamente en entorno local mediante:
-
-```bash
-ng serve
-```
-
-o, en caso de no tener Angular CLI instalado globalmente:
-
-```bash
-npx ng serve
-```
-
-**3. Integración de módulos principales**
-
-Se configuraron las rutas principales de la aplicación para permitir la navegación entre las diferentes secciones del sistema. Entre las rutas integradas se encuentran:
-
-- `/home`
-- `/monitoring`
-- `/device`
-- `/payment`
-- `/about`
-
-Además, se añadió acceso visual al módulo de pagos desde la interfaz principal, permitiendo ingresar al flujo de planes y checkout.
-
-**4. Validación post-despliegue**
-
-Se realizaron pruebas manuales en el navegador para verificar que las pantallas principales cargaran correctamente. Se validaron especialmente:
-
-- Visualización del dashboard Home.
-- Acceso a notificaciones.
-- Acceso a configuración de umbrales.
-- Visualización de planes de pago.
-- Navegación hacia checkout.
-- Retorno hacia Home desde pantallas de Payment.
-
-Estas pruebas permitieron confirmar que la aplicación se ejecuta correctamente en entorno local y que los módulos principales están integrados para la revisión del Sprint.
-
-
-#### 5.2.1.8. Team Collaboration Insights during Sprint.
-**Colaboración y trabajo en equipo**
-
-Durante este Sprint, el equipo mantuvo una colaboración organizada y constante para desarrollar las funcionalidades de la aplicación web principal y la landing page. La coordinación se reflejó en la actividad registrada en los repositorios de GitHub vinculados al proyecto.
-
-Se utilizaron métricas clave de GitHub para medir la colaboración del equipo:
-
-- Número total de commits
-- Contribuciones individuales
-- Frecuencia de actividad
-
-**Capturas de Analíticos de Colaboración en GitHub**
+<img src="../assets/img/chapter-5/rendimiento_estudiantil.png" alt="Pantalla" width="1000">
+<img src="../assets/img/chapter-5/rendimiento_estudiantil02.png" alt="Pantalla" width="1000">
 
 # Conclusiones
-## Conclusiones y recomendaciones.
+
+## Conclusiones y recomendaciones
+
+*Conclusiones:*
+
+El proyecto Ventix demuestra que la automatización ambiental con enfoque open source no solo es viable, sino también necesaria en contextos cotidianos como hogares y espacios de estudio. La investigación con usuarios evidencia que la calidad del aire afecta directamente la concentración, la salud y la productividad, lo que valida la pertinencia del sistema.
+
+La construcción de User Personas, Journey Maps y Empathy Maps permitió identificar necesidades reales y diferenciadas: estudiantes que buscan continuidad en el estudio sin interrupciones y responsables del hogar que requieren tranquilidad mientras están fuera. Esta segmentación fortalece la propuesta al mostrar que el sistema responde a problemas concretos y diversos.
+
+El backlog y las historias de usuario reflejan un avance sólido hacia una plataforma integral, donde la combinación de monitoreo en tiempo real, control remoto y automatización genera confianza. El proyecto se posiciona como una solución escalable que puede evolucionar hacia un framework de referencia en la comunidad open source.
+
+*Recomendaciones:*
+
+Mejorar la coordinación interna del equipo, estableciendo roles claros y reuniones periódicas de seguimiento. Esto permitirá que cada integrante aporte desde su especialidad y se mantenga una visión compartida del proyecto.
+
+Documentar de manera colaborativa cada avance, utilizando repositorios abiertos y guías comunes. De esta forma, se asegura que todos los miembros comprendan el estado del proyecto y puedan contribuir sin duplicar esfuerzos.
+
+Fomentar la validación grupal de las decisiones, probando prototipos y funcionalidades en conjunto antes de avanzar a nuevas etapas. Este enfoque fortalece la cohesión del equipo y garantiza que el producto final refleje el trabajo colectivo.
+
+---
 
 ## Bibliografía
+
+Allen, J. G., MacNaughton, P., Satish, U., Santanam, S., Vallarino, J., & Spengler, J. D. (2016). Associations of cognitive function scores with carbon dioxide, ventilation, and volatile organic compound exposures in office workers. *Environmental Health Perspectives, 124*(6), 805–812. https://hero.epa.gov/reference/3976444/
+
+Chen, C., Zhao, B., & Ji, W. (2021). A comparative study of ventilation-purification strategies on air quality and energy consumption. *Building Simulation, 14*(3), 813–825. https://www.sciopen.com/article/10.1007/s12273-020-0694-2
+
+Dave, C., Sivajohan, A., Basmaji, J., & Slessarev, M. (2022). Evidence-based considerations for the design of an open-source ventilator: A systematic review. *Critical Care Explorations, 4*(7), e0723. https://pmc.ncbi.nlm.nih.gov/articles/PMC9249267/
+
+Eurofins Environment Testing Spain. (2025). *Calidad del aire en interiores – Norma UNE 171330:2024*. Eurofins. https://www.eurofins-environment.es/en/indoor-air-quality/
+
+Instituto Nacional de Seguridad y Salud en el Trabajo (INSST). (2003). *Notas técnicas de prevención: Ventilación y riesgos en interiores*. INSST. https://www.insst.es/materias/riesgos/riesgos-ergonomicos/calidad-del-ambiente-interior/documentacion
+
+Mendell, M. J., Chen, W., Ranasinghe, D. R., Castorina, R., & Kumagai, K. (2024). Carbon dioxide guidelines for indoor air quality: A review. *Journal of Exposure Science & Environmental Epidemiology, 34*(4), 555–569. https://www.nature.com/articles/s41370-024-00694-7
+
+Navas-Martín, M. Á., Jiménez-Planet, V., & Cuerdo-Vilches, T. (2024). Working from home and indoor environmental quality: A scoping review. *Applied Sciences, 16*(1), 250. https://www.mdpi.com/2076-3417/16/1/250
+
+Pineda-Tobón, D. M., Espinosa-Bedoya, A., & Branch-Bedoya, J. W. (2024). Aquality32: A low-cost, open-source air quality monitoring device leveraging the ESP32. *HardwareX, 20*, e00607. https://doaj.org/article/a36dfe04d08940e5821139c2fee21dd2
+
+World Health Organization. (2006). *Air quality guidelines: Global update 2005* (WHO/SDE/PHE/OEH/06.02). WHO. https://wkc.who.int/resources/publications/i/item/WHO-SDE-PHE-OEH-06.02
+
+World Health Organization. (2021). *WHO global air quality guidelines: Particulate matter (PM₂.₅ and PM₁₀), ozone, nitrogen dioxide, sulfur dioxide and carbon monoxide*. WHO. https://www.who.int/publications/i/item/9789240034228/
+
+---
 
 ## Anexos
 
@@ -362,8 +686,9 @@ Se utilizaron métricas clave de GitHub para medir la colaboración del equipo:
 
 A continuación se listan los enlaces a los entornos de producción y los repositorios de código fuente utilizados durante todo el ciclo de vida del proyecto.
 
-| Recurso                     | URL                                                 |
-|-----------------------------|-----------------------------------------------------|
-| Landing Page (GitHub Pages) | https://open-10177.github.io/Ventix-LandingPage/    |
-| Repositorio Landing Page    | https://github.com/Open-10177/Ventix-LandingPage    |
-| Repositorio Project Report  | https://github.com/Open-10177/VentixProject-Report  |
+| Recurso | URL |
+|---------|-----|
+| Landing Page (GitHub Pages) | https://open-10177.github.io/Ventix-LandingPage/ |
+| Repositorio Landing Page | https://github.com/Open-10177/Ventix-LandingPage |
+| Repositorio Project Report | https://github.com/Open-10177/VentixProject-Report |
+| Video de Avance AV1 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313458_upc_edu_pe/IQDUgc7QP5bxSIdiehwzzR_VAfT3FUT3O3DnpMhlbe-6TvA?e=XfHzYl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
