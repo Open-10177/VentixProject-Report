@@ -606,14 +606,14 @@ Desarrollar las funcionalidades principales del frontend de VentixProject, inclu
 En esta sección se demuestran los commits relacionados con los principales avances en la implementación.
 Estos commits provienen del repositorio del frontend de la organización de GitHub.
 
-**Enlace al repositorio del frontend:** 
+**Enlace al repositorio del frontend:** https://github.com/Open-10177/Ventix-Front-End
 
 | Repository                   | Branch | Commit Id | Commit Message                                                                        | Commit Message Body | Commited on (Date) |
 |------------------------------|--------|-----------|---------------------------------------------------------------------------------------|---------------------|--------------------|
-| Open-10177/Ventix-Front-End  | work   | 26d06a0   | feat(work): add Reserva Card and List, example db.json, i18n, dependencies and styles |                     | 02/10/2025         |
-| Open-10177/Ventix-Front-End  | user   | 0a793c6   | feat(work): add Tecnico Card and List, example db.json, i18n, dependencies and styles |                     | 05/10/2025         |
-| Open-10177/Ventix-Front-End  | user   | ea55a62   | feat:Add TechnicianProfilePage                                                        |                     | 06/10/2025         |
-| Open-10177/Ventix-Front-End  | user   | 0938ba9   | feat: add HistoryServicesPage entity, assembler, Card, api, list                      |                     | 06/10/2025         |
+| https://github.com/Open-10177/Ventix-Front-End | work   | 26d06a0   | feat(work): add Reserva Card and List, example db.json, i18n, dependencies and styles |                     | 02/10/2025         |
+| https://github.com/Open-10177/Ventix-Front-End | user   | 0a793c6   | feat(work): add Tecnico Card and List, example db.json, i18n, dependencies and styles |                     | 05/10/2025         |
+| https://github.com/Open-10177/Ventix-Front-End | user   | ea55a62   | feat:Add TechnicianProfilePage                                                        |                     | 06/10/2025         |
+| https://github.com/Open-10177/Ventix-Front-End | user   | 0938ba9   | feat: add HistoryServicesPage entity, assembler, Card, api, list                      |                     | 06/10/2025         |
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
