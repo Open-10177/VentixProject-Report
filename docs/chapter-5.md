@@ -1513,6 +1513,189 @@ A continuación, se muestran algunos insights del repositorio de GitHub:
 <img src="../assets/img/chapter-5/rendimiento_estudiantil.png" alt="Pantalla" width="1000">
 <img src="../assets/img/chapter-5/rendimiento_estudiantil02.png" alt="Pantalla" width="1000">
 
+## 5.2.3. Sprint 3
+En esta sección se detalla el avance desarrollado durante el Sprint 3 del proyecto Ventix, considerando tanto la evolución del producto como la participación del equipo en el actual trabajo. Durante este sprint se fortaleció la integración de los principales componentes de la solución, conectando las funcionalidades del Fronted con los servicios definidos para el Backend, con el proposito de completar la elaboración de una version funcional de nuestra aplicación.
+
+Asimismo, se organizaron y documentaron las evidencias necesarias para sustentar el trabajo realizado, incluyendo la planificación del sprint, la distribución del trabajo, el backlog, los avances implementados, las pruebas de ejecución, la documentación de servicios y la colaboración del eqipo. De esta manera, las siguientes subsecciones permiten mostrar cómo cada integrante aportó al desarrollo de la web Application y los Web Services, contribuyendo al cumplimiento de los objetivos establecidos para el Sprint 3.
+
+ - **Repositorio Frontend:** https://github.com/Open-10177/Ventix-Front-End
+ - **Repositorio Backend:** https://github.com/Open-10177/Ventix-Backend
+ - **Backend API (Producción):**
+
+### 5.2.3.1 Sprint Planning 3
+|                                            Sprint Planning Sprint 3                                                             |
+|---------------------------------------------------------------|-----------------------------------------------------------------|
+| **Sprint Planning Background**                                |                                                                 |
+|---------------------------------------------------------------|-----------------------------------------------------------------|
+| **Date**                                                      | 26/05/2026                                            |
+| **Time**                                                      | 6:00 p.m.                                             |
+| **Location**                                                  | Whatsapp                                            |
+| **Prepared By**                                               | COLOCA AQUÍ TU NOMBRE                                           |
+| **Attendees (to planning meeting)**                           | Suarez Chinga, Geraldine<br>Sanchez Osorio, Ruth Yanira<br>Cáceres Pizarro, Albino Florencio     |
+|---------------------------------------------------------------|-----------------------------------------------------------------|
+| **Sprint 2 Review Summary**                                   |                                                                 |
+|---------------------------------------------------------------|-----------------------------------------------------------------|
+| Durante el Sprint 2, el equipo logró avanzar en algunas partes iniciales del Frontend de Ventix, principalmente en la pantalla principal y en el módulo de Analytics. Sin embargo, quedaron pendientes varios aspectos importantes del desarrollo, ya que la mayoría de las interfaces aún no estaban completas y algunas funcionalidades no se encontraban totalmente implementadas. Además, el despliegue no estaba finalizado y todavía no se contaba con una Fake API o servicios simulados que permitieran validar correctamente el comportamiento de la aplicación.                                                                          |
+|                                                                                                                                 |
+|---------------------------------------------------------------|-----------------------------------------------------------------|
+| **Sprint 2 Retrospective Summary**                            |                                                                 |
+|---------------------------------------------------------------|-----------------------------------------------------------------|
+| En el Sprint 2 se identificaron dificultades relacionadas con la comunicación, la organización del equipo y la estructura del código. A partir de ello, durante el Sprint 3 se mejoró la coordinación entre los integrantes, se organizaron mejor las tareas y se reforzó la revisión del código antes de realizar los merges correspondientes. Asimismo, se mejoró la organización de carpetas, la estructura del proyecto y la nomenclatura utilizada, lo que permitió trabajar de manera más ordenada y completar con mayor claridad el desarrollo del Frontend.                                                                                              |
+|                                                                                         |
+|                                                                      |
+|---------------------------------------------------------------|-----------------------------------------------------------------|
+| **Sprint Goal & User Stories**                                |                                                                 |
+|---------------------------------------------------------------|-----------------------------------------------------------------|
+| **Sprint 3 Goal (Outcome–Impact–Customer-Confirmation):**     |                                                                 |
+|---------------------------------------------------------------|-----------------------------------------------------------------|
+| Our focus is on...                                                                                                              |
+|                                                                                                                                 |
+| We believe it delivers...                                                                                                       |
+|                                                                                                                                 |
+|This will be confirmed when...                                                                                                   |
+|---------------------------------------------------------------|-----------------------------------------------------------------|
+| **Sprint 3 Velocity**                                         | COLOCA AQUÍ LOS STORY POINTS                                    |
+| **Sum of Story Points**                                       | COLOCA AQUÍ EL TOTAL DE SP Y HORAS ESTIMADAS                    |
+
+
+        
+### 5.2.3.2 Aspect Leaders and Collaborators
+En esta sección se presentara la matriz **Leaderdhip-and-Collaboration Matrix (LACX)**, en la cual se podrá observar que rol a desempeñado cada integrante del grupo según los aspectos principales trabajados durante el desarrollo del proyecto Ventix. 
+En este sprint, nos dedicamos a fortalecer la integracion de la parte del fronted junto a los servicios del Backend y las mejoras para el caso del fronted, así como preparar el entorno necesario para una revisión funcional del producto.
+
+| Team member (LastName, First Name) | GitHub UserName | Aspect 1: User | Aspect 2: Back-End | Aspect 3: Reporte |
+|------------------------------------|-----------------|----------------|----------------|-------------------|
+| Suarez Chinga, Geraldine           | geral07-UNIV    | C              | C              | L                 |
+| Sanchez Osorio, Ruth Yanira        | Yiya-ciber      | C              | C              | L                 |
+| Cáceres Pizarro, Albino Florencio  | lil-doggy       | C              | C              | C                 |
+
+- **L** = Líder del aspecto
+- **C** = Colaborador en el aspecto
+
+### 5.2.3.3. Sprint Backlog 3
+
+### 5.2.3.4. Development Evidence for Sprint Review
+
+### 5.2.3.5. Execution Evidence for Sprint Review
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+### 5.2.3.8. Team Collaboration Insights during Sprint
+En esta sección mostraremos el seguimiento de actividad en los repositorios Ventix-Front-End y Ventix-Back-End, lo que nos permitió observar el progreso del equipo en los dos componentes principales del proyecto. El gráfico de Overview refleja un flujo constante de commits durante el sprint, relacionado con la integración de funcionalidades, la mejora de los módulos desarrollados y la implementación progresiva de los servicios necesarios para conectar la aplicación con el Backend.
+
+Este trabajo refleja una participación activa y distribuida entre los integrantes del equipo, ya que todos colaboraron en diferentes partes del proyecto. Cada miembro aportó en aspectos como la construcción de componentes de interfaz, configuración, conexiones, organización de servicios y manejo de datos. De esta manera, los aportes realizados permitieron avanzar hacia una versión más funcional de Ventix, fortaleciendo la integración entre Frontend, Backend y el entorno de despliegue.
+
+
+
+A continuación, el gráfico de Visitors muestra actividad sobre los repositorios a medida que se acercaban las fechas de pruebas e integración con el entorno de producción. Esta actividad evidencia el avance y la participación de cada integrante.
+
+En conjunto, los analíticos de Overview y Visitors permiten demostrar que, durante el Sprint 3, los integrantes del equipo participaron de manera activa en el desarrollo del Frontend y Backend del proyecto Ventix. Estos aportes contribuyeron al avance de los productos principales del proyecto, evidenciando el compromiso de todos durante su desarrollo.
+
+## 5.3. Validation Interviews
+
+### 5.3.1. Diseño de entrevistas
+En esta sección se presenta el diseño de la entrevista orientada a testear nuestro proyecto Ventix y validar la información mostrada dentro de la plataforma. Esta actividad tiene como finalidad conocer la opinion de nuestros usuarios respecto al funcionamiento de la aplicación, la claridad de los datos presentados y la fluidez de la plataforma.
+
+A través de las preguntas planteadas, se busca evaluar si el producto esta adecuado a las necesidades identificadas en etapas anteriores, así como verificar si la información sobre consumo energético, alertas, dispositivos y reportes resulta comprensible y útil para la toma de decisiones. De esta manera nos permite observar desde la perspectiva de nuestros usuarios e identificar mejoras en nuestro proyecto.
+
+**Preguntas para el Segmento: Estudiantes universitarios en espacios cerrados**
+
+ - **1.** Al observar el panel principal, ¿entendiste rápidamente qué información mostraba tus datos?
+
+ - **2.** ¿Recomendarias el uso de Ventix para monitorear espacios cerrados dentro del hogar?
+
+ - **3.** ¿Te parece útil que Ventix muestre alertas cuando el CO₂, la temperatura o la humedad superan ciertos niveles?
+
+ - **4.** Al ver el panel principal de Ventix, ¿puedes identificar rápidamente si el ambiente donde estudias está en buenas condiciones?
+
+ - **5.** ¿Consideras útil visualizar la bateria de los ventiladores de los ambientes como sala, cuarto o cocina en una lista?
+
+ - **6.** ¿El mapa del hogar o ambiente te ayuda a ubicar mejor los dispositivos instalados?
+
+ - **7.** ¿Crees que Ventix puede ayudarte a mejorar tu comodidad y concentración en habitaciones pequeñas o compartidas?
+
+ - **8.** ¿Consideras útil que Ventix sugiera acciones como activar ventilación cuando detecta mala calidad del aire?
+
+ - **9.** ¿Te gustaría que la ventilación se active automáticamente para no interrumpir tu tiempo de estudio?
+
+ - **10.** Después de probar el producto, ¿qué función agregarías o mejorarías para que Ventix se adapte mejor a estudiantes universitarios?
+
+**Preguntas para el Segmento: Responsables del hogar (monitoreo remoto)**
+
+
+ - **1.** Al ver el panel principal de Ventix, ¿puedes entender rápidamente si el hogar se encuentra en condiciones adecuadas?
+
+ - **2.** ¿La ventana de detalle de alerta te permite comprender claramente qué ocurre y qué acción se recomienda?
+
+ - **3.** ¿Te parece útil revisar esta información sin estar físicamente en casa?
+
+ - **4.** ¿Las alertas de CO₂ elevado, temperatura alta o batería baja te parecen necesarias para el hogar?
+
+ - **5.** ¿La lista de ambientes te ayuda a identificar qué zona de la casa necesita atención?
+
+ - **6.** ¿Las notificaciones de Ventix te ayudarían a actuar más rápido ante una condición desfavorable en casa?
+
+ - **7.** ¿Te daría tranquilidad que el sistema pueda automatizar la ventilación sin que tengas que estar presente?
+
+ - **8.** ¿El historial de datos te permitiría revisar cómo se comportó el ambiente durante el día?
+
+ - **9.** ¿Te gustaría poder ajustar límites diferentes para cada ambiente, como sala, cocina o cuarto?
+
+ - **10.** Después de probar el producto, ¿qué funcionalidad consideras más importante para mejorar el monitoreo remoto del hogar?
+
+### 5.3.2. Registro de Entrevistas
+
+ **Entrevista 1 -  Estudiantes universitarios en espacios cerrados**
+
+
+**Screenshot del video**
+
+**Resumen de la entrevista**
+
+**Entrevista 2 -  Estudiantes universitarios en espacios cerrados**
+
+
+**Screenshot del video**
+
+**Resumen de la entrevista**
+
+**Entrevista 3 -  Estudiantes universitarios en espacios cerrados**
+
+
+**Screenshot del video**
+
+**Resumen de la entrevista**
+
+**Entrevista 4 -  Responsables del hogar (monitoreo remoto)**
+
+
+**Screenshot del video**
+
+**Resumen de la entrevista**
+
+
+**Entrevista 5 -  Responsables del hogar (monitoreo remoto)**
+
+
+**Screenshot del video**
+
+**Resumen de la entrevista**
+
+
+**Entrevista 6 - Responsables del hogar (monitoreo remoto)**
+
+
+**Screenshot del video**
+
+**Resumen de la entrevista**
+
+
+### 5.3.3. Evaluaciones según heurísticas
+
+## 5.4. Video About-the-Product
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
