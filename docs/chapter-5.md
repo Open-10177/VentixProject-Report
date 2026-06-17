@@ -639,9 +639,9 @@ En esta sección se detalla el avance desarrollado durante el Sprint 3 del proye
 
 Asimismo, se organizaron y documentaron las evidencias necesarias para sustentar el trabajo realizado, incluyendo la planificación del sprint, la distribución del trabajo, el backlog, los avances implementados, las pruebas de ejecución, la documentación de servicios y la colaboración del eqipo. De esta manera, las siguientes subsecciones permiten mostrar cómo cada integrante aportó al desarrollo de la web Application y los Web Services, contribuyendo al cumplimiento de los objetivos establecidos para el Sprint 3.
 
- **Repositorio Frontend:** https://github.com/Open-10177/Ventix-Front-End
- **Repositorio Backend:** https://github.com/Open-10177/Ventix-Backend
- **Backend API (Producción):**
+ - **Repositorio Frontend:** https://github.com/Open-10177/Ventix-Front-End
+ - **Repositorio Backend:** https://github.com/Open-10177/Ventix-Backend
+ - **Backend API (Producción):**
 
 ### 5.2.3.1 Sprint Planning 3
 
@@ -656,8 +656,8 @@ En este sprint, nos dedicamos a fortalecer la integracion de la parte del fronte
 | Sanchez Osorio, Ruth Yanira        | Yiya-ciber      | C              | C              | L                 |
 | Cáceres Pizarro, Albino Florencio  | lil-doggy       | C              | C              | C                 |
 
-        - **L** = Líder del aspecto
-        - **C** = Colaborador en el aspecto
+- **L** = Líder del aspecto
+- **C** = Colaborador en el aspecto
 
 ### 5.2.3.3. Sprint Backlog 3
 
