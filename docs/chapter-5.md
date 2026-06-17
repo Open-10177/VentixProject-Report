@@ -645,40 +645,98 @@ Asimismo, se organizaron y documentaron las evidencias necesarias para sustentar
  - **Backend API (Producción):**
 
 ### 5.2.3.1 Sprint Planning 3
-|                                            Sprint Planning Sprint 3                                                             |
-|---------------------------------------------------------------|-----------------------------------------------------------------|
-| **Sprint Planning Background**                                |                                                                 |
-|---------------------------------------------------------------|-----------------------------------------------------------------|
-| **Date**                                                      | 26/05/2026                                            |
-| **Time**                                                      | 6:00 p.m.                                             |
-| **Location**                                                  | Whatsapp                                            |
-| **Prepared By**                                               | COLOCA AQUÍ TU NOMBRE                                           |
-| **Attendees (to planning meeting)**                           | Suarez Chinga, Geraldine<br>Sanchez Osorio, Ruth Yanira<br>Cáceres Pizarro, Albino Florencio     |
-|---------------------------------------------------------------|-----------------------------------------------------------------|
-| **Sprint 2 Review Summary**                                   |                                                                 |
-|---------------------------------------------------------------|-----------------------------------------------------------------|
-| Durante el Sprint 2, el equipo logró avanzar en algunas partes iniciales del Frontend de Ventix, principalmente en la pantalla principal y en el módulo de Analytics. Sin embargo, quedaron pendientes varios aspectos importantes del desarrollo, ya que la mayoría de las interfaces aún no estaban completas y algunas funcionalidades no se encontraban totalmente implementadas. Además, el despliegue no estaba finalizado y todavía no se contaba con una Fake API o servicios simulados que permitieran validar correctamente el comportamiento de la aplicación.                                                                          |
-|                                                                                                                                 |
-|---------------------------------------------------------------|-----------------------------------------------------------------|
-| **Sprint 2 Retrospective Summary**                            |                                                                 |
-|---------------------------------------------------------------|-----------------------------------------------------------------|
-| En el Sprint 2 se identificaron dificultades relacionadas con la comunicación, la organización del equipo y la estructura del código. A partir de ello, durante el Sprint 3 se mejoró la coordinación entre los integrantes, se organizaron mejor las tareas y se reforzó la revisión del código antes de realizar los merges correspondientes. Asimismo, se mejoró la organización de carpetas, la estructura del proyecto y la nomenclatura utilizada, lo que permitió trabajar de manera más ordenada y completar con mayor claridad el desarrollo del Frontend.                                                                                              |
-|                                                                                         |
-|                                                                      |
-|---------------------------------------------------------------|-----------------------------------------------------------------|
-| **Sprint Goal & User Stories**                                |                                                                 |
-|---------------------------------------------------------------|-----------------------------------------------------------------|
-| **Sprint 3 Goal (Outcome–Impact–Customer-Confirmation):**     |                                                                 |
-|---------------------------------------------------------------|-----------------------------------------------------------------|
-| Our focus is on...                                                                                                              |
-|                                                                                                                                 |
-| We believe it delivers...                                                                                                       |
-|                                                                                                                                 |
-|This will be confirmed when...                                                                                                   |
-|---------------------------------------------------------------|-----------------------------------------------------------------|
-| **Sprint 3 Velocity**                                         | COLOCA AQUÍ LOS STORY POINTS                                    |
-| **Sum of Story Points**                                       | COLOCA AQUÍ EL TOTAL DE SP Y HORAS ESTIMADAS                    |
 
+<table>
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td>Sprint 3</td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><strong>Sprint Planning Background</strong></td>
+  </tr>
+
+  <tr>
+    <td>Date</td>
+    <td>26/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Time</td>
+    <td>6:00 p.m.</td>
+  </tr>
+
+  <tr>
+    <td>Location</td>
+    <td>Whatsapp</td>
+  </tr>
+
+  <tr>
+    <td>Prepared By</td>
+    <td>COLOCA AQUÍ TU NOMBRE</td>
+  </tr>
+
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>
+      Suarez Chinga, Geraldine<br>
+      Sanchez Osorio, Ruth Yanira<br>
+      Cáceres Pizarro, Albino Florencio
+    </td>
+  </tr>
+
+  <tr>
+    <td>Sprint 2 Review Summary</td>
+    <td>
+      Durante el Sprint 2, el equipo logró avanzar en algunas partes iniciales del Frontend de Ventix,
+      principalmente en la pantalla principal y en el módulo de Analytics. Sin embargo, quedaron pendientes
+      varios aspectos importantes del desarrollo, ya que la mayoría de las interfaces aún no estaban completas
+      y algunas funcionalidades no se encontraban totalmente implementadas. Además, el despliegue no estaba
+      finalizado y todavía no se contaba con una Fake API o servicios simulados que permitieran validar
+      correctamente el comportamiento de la aplicación.
+    </td>
+  </tr>
+
+  <tr>
+    <td>Sprint 2 Retrospective Summary</td>
+    <td>
+      En el Sprint 2 se identificaron dificultades relacionadas con la comunicación, la organización del equipo
+      y la estructura del código. A partir de ello, durante el Sprint 3 se mejoró la coordinación entre los
+      integrantes, se organizaron mejor las tareas y se reforzó la revisión del código antes de realizar los
+      merges correspondientes. Asimismo, se mejoró la organización de carpetas, la estructura del proyecto y
+      la nomenclatura utilizada, lo que permitió trabajar de manera más ordenada y completar con mayor claridad
+      el desarrollo del Frontend.
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><strong>Sprint Goal & User Stories</strong></td>
+  </tr>
+
+  <tr>
+    <td>Sprint 3 Goal</td>
+    <td>
+      Our focus is on integrating the frontend with the backend, improving the main functionalities,
+      completing the deployment, and connecting the application with the required services.<br><br>
+
+      We believe it delivers a more complete and reliable experience for users, allowing them to interact
+      with the platform through a functional frontend connected to backend services.<br><br>
+
+      This will be confirmed when the frontend is successfully connected to the backend, the main
+      functionalities work correctly, and the application can be reviewed through a stable deployment.
+    </td>
+  </tr>
+
+  <tr>
+    <td>Sprint 3 Velocity</td>
+    <td>COLOCA AQUÍ LOS STORY POINTS</td>
+  </tr>
+
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>COLOCA AQUÍ EL TOTAL DE SP Y HORAS ESTIMADAS</td>
+  </tr>
+</table>
 
         
 ### 5.2.3.2 Aspect Leaders and Collaborators
