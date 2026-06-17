@@ -1584,7 +1584,6 @@ Asimismo, se organizaron y documentaron las evidencias necesarias para sustentar
 
 <table>
   <tr>
-    <td><strong>Sprint #</strong></td>
     <td>Sprint 3</td>
   </tr>
 
@@ -1650,14 +1649,24 @@ Asimismo, se organizaron y documentaron las evidencias necesarias para sustentar
   </tr>
 
   <tr>
-  <td>Sprint 3 Goal (Outcome–Impact–Customer-Confirmation)</td>
-  <td>
-    Our focus is on successfully integrating the Ventix frontend with the backend, improving the existing frontend, and completing the missing functionalities of the platform. During this sprint, we aim to ensure that the Sign In and Sign Up processes work correctly, that the ventilation controls perform their intended actions, and that each user can properly view information such as temperature, CO2 levels, and other environmental data according to their own account.<br><br>
+    <td>Sprint 3 Goal <br> (Outcome–Impact–Customer-Confirmation)</td>
+    <td>
+      Our focus is on successfully integrating the Ventix frontend with the backend, improving the existing
+      frontend, and completing the missing functionalities of the platform. During this sprint, we aim to ensure
+      that the Sign In and Sign Up processes work correctly, that the ventilation controls perform their intended
+      actions, and that each user can properly view information such as temperature, CO2 levels, and other
+      environmental data according to their own account.<br><br>
 
-    We believe it delivers a more useful and reliable experience for students who study at home and people who want to monitor and control their home ventilation system either inside or outside their house. This will allow users to manage their home environment more comfortably, safely, and efficiently through the Ventix platform.<br><br>
+      We believe it delivers a more useful and reliable experience for students who study at home and people who
+      want to monitor and control their home ventilation system either inside or outside their house. This will
+      allow users to manage their home environment more comfortably, safely, and efficiently through the Ventix
+      platform.<br><br>
 
-    This will be confirmed when the frontend connects correctly with the backend, the main functionalities work without major problems, users can successfully register and log in, the ventilation controls respond correctly, and the platform displays the corresponding temperature, CO2, and related data for each user during the Sprint Review.
-  </td>
+      This will be confirmed when the frontend connects correctly with the backend, the main functionalities work
+      without major problems, users can successfully register and log in, the ventilation controls respond correctly,
+      and the platform displays the corresponding temperature, CO2, and related data for each user during the Sprint
+      Review.
+    </td>
   </tr>
 
   <tr>
@@ -1670,7 +1679,6 @@ Asimismo, se organizaron y documentaron las evidencias necesarias para sustentar
     <td>COLOCA AQUÍ EL TOTAL DE SP Y HORAS ESTIMADAS</td>
   </tr>
 </table>
-
         
 ### 5.2.3.2 Aspect Leaders and Collaborators
 En esta sección se presentara la matriz **Leaderdhip-and-Collaboration Matrix (LACX)**, en la cual se podrá observar que rol a desempeñado cada integrante del grupo según los aspectos principales trabajados durante el desarrollo del proyecto Ventix. 
