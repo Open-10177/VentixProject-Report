@@ -656,8 +656,8 @@ En este sprint, nos dedicamos a fortalecer la integracion de la parte del fronte
 | Sanchez Osorio, Ruth Yanira        | Yiya-ciber      | C              | C              | L                 |
 | Cáceres Pizarro, Albino Florencio  | lil-doggy       | C              | C              | C                 |
 
-        * **L** = Líder del aspecto
-        * **C** = Colaborador en el aspecto
+        - **L** = Líder del aspecto
+        - **C** = Colaborador en el aspecto
 
 ### 5.2.3.3. Sprint Backlog 3
 
@@ -689,50 +689,85 @@ A través de las preguntas planteadas, se busca evaluar si el producto esta adec
 
 **Preguntas para el Segmento: Estudiantes universitarios en espacios cerrados**
  
- **1.** Al observar el panel principal, ¿entendiste rápidamente qué información mostraba tus datos?
- **2.** ¿Recomendarias el uso de Ventix para monitorear espacios cerrados dentro del hogar?
- **3.** ¿Te parece útil que Ventix muestre alertas cuando el CO₂, la temperatura o la humedad superan ciertos niveles?
- **4.** Al ver el panel principal de Ventix, ¿puedes identificar rápidamente si el ambiente donde estudias está en buenas condiciones?
- **5.** ¿Consideras útil visualizar la bateria de los ventiladores de los ambientes como sala, cuarto o cocina en una lista?
- **6.** ¿El mapa del hogar o ambiente te ayuda a ubicar mejor los dispositivos instalados?
- **7.** ¿Crees que Ventix puede ayudarte a mejorar tu comodidad y concentración en habitaciones pequeñas o compartidas?
- **8.** ¿Consideras útil que Ventix sugiera acciones como activar ventilación cuando detecta mala calidad del aire?
- **9.** ¿Te gustaría que la ventilación se active automáticamente para no interrumpir tu tiempo de estudio?
- **10.** Después de probar el producto, ¿qué función agregarías o mejorarías para que Ventix se adapte mejor a estudiantes universitarios?
+ - **1.** Al observar el panel principal, ¿entendiste rápidamente qué información mostraba tus datos?
+ 
+ - **2.** ¿Recomendarias el uso de Ventix para monitorear espacios cerrados dentro del hogar?
+ 
+ - **3.** ¿Te parece útil que Ventix muestre alertas cuando el CO₂, la temperatura o la humedad superan ciertos niveles?
+ 
+ - **4.** Al ver el panel principal de Ventix, ¿puedes identificar rápidamente si el ambiente donde estudias está en buenas condiciones?
+ 
+ - **5.** ¿Consideras útil visualizar la bateria de los ventiladores de los ambientes como sala, cuarto o cocina en una lista?
+ 
+ - **6.** ¿El mapa del hogar o ambiente te ayuda a ubicar mejor los dispositivos instalados?
+ 
+ - **7.** ¿Crees que Ventix puede ayudarte a mejorar tu comodidad y concentración en habitaciones pequeñas o compartidas?
+ 
+ - **8.** ¿Consideras útil que Ventix sugiera acciones como activar ventilación cuando detecta mala calidad del aire?
+ 
+ - **9.** ¿Te gustaría que la ventilación se active automáticamente para no interrumpir tu tiempo de estudio?
+ 
+ - **10.** Después de probar el producto, ¿qué función agregarías o mejorarías para que Ventix se adapte mejor a estudiantes universitarios?
   
 **Preguntas para el Segmento: Responsables del hogar (monitoreo remoto)**
 
- **1.** Al ver el panel principal de Ventix, ¿puedes entender rápidamente si el hogar se encuentra en condiciones adecuadas?
- **2.** ¿La ventana de detalle de alerta te permite comprender claramente qué ocurre y qué acción se recomienda?
- **3.** ¿Te parece útil revisar esta información sin estar físicamente en casa?
- **4.** ¿Las alertas de CO₂ elevado, temperatura alta o batería baja te parecen necesarias para el hogar?
- **5.** ¿La lista de ambientes te ayuda a identificar qué zona de la casa necesita atención?
- **6.** ¿Las notificaciones de Ventix te ayudarían a actuar más rápido ante una condición desfavorable en casa?
- **7.** ¿Te daría tranquilidad que el sistema pueda automatizar la ventilación sin que tengas que estar presente?
- **8.** ¿El historial de datos te permitiría revisar cómo se comportó el ambiente durante el día?
- **9.** ¿Te gustaría poder ajustar límites diferentes para cada ambiente, como sala, cocina o cuarto?
- **10.** Después de probar el producto, ¿qué funcionalidad consideras más importante para mejorar el monitoreo remoto del hogar?
+ 
+ - **1.** Al ver el panel principal de Ventix, ¿puedes entender rápidamente si el hogar se encuentra en condiciones adecuadas?
+ 
+ - **2.** ¿La ventana de detalle de alerta te permite comprender claramente qué ocurre y qué acción se recomienda?
+ 
+ - **3.** ¿Te parece útil revisar esta información sin estar físicamente en casa?
+ 
+ - **4.** ¿Las alertas de CO₂ elevado, temperatura alta o batería baja te parecen necesarias para el hogar?
+ 
+ - **5.** ¿La lista de ambientes te ayuda a identificar qué zona de la casa necesita atención?
+ 
+ - **6.** ¿Las notificaciones de Ventix te ayudarían a actuar más rápido ante una condición desfavorable en casa?
+ 
+ - **7.** ¿Te daría tranquilidad que el sistema pueda automatizar la ventilación sin que tengas que estar presente?
+ 
+ - **8.** ¿El historial de datos te permitiría revisar cómo se comportó el ambiente durante el día?
+ 
+ - **9.** ¿Te gustaría poder ajustar límites diferentes para cada ambiente, como sala, cocina o cuarto?
+ 
+ - **10.** Después de probar el producto, ¿qué funcionalidad consideras más importante para mejorar el monitoreo remoto del hogar?
 
 ### 5.3.2. Registro de Entrevistas
 
  **Entrevista 1 -  Estudiantes universitarios en espacios cerrados**
-+----------------------+--------------------------------------------+
+|----------------------|--------------------------------------------|
+|                      |                                            | 
 | Nombre Completo      |                                            |
-+----------------------+--------------------------------------------+
+|                      |                                            |
+|----------------------|--------------------------------------------|
+|                      |                                            |
 | Edad                 |                                            |
-+----------------------+--------------------------------------------+
+|                      |                                            |
+|----------------------|--------------------------------------------|
+|                      |                                            | 
 | Distrito             |                                            |
-+----------------------+--------------------------------------------+
+|                      |                                            |
+|----------------------|--------------------------------------------|
+|                      |                                            |
 | Ocupación            |                                            |
-+----------------------+--------------------------------------------+
+|                      |                                            | 
+|----------------------|--------------------------------------------|
+|                      |                                            |
 | Fecha de Entrevista  |                                            |
-+----------------------+--------------------------------------------+
+|                      |                                            |
+|----------------------|--------------------------------------------|
+|                      |                                            |
 | Duración             |                                            |
-+----------------------+--------------------------------------------+
+|                      |                                            |
+|----------------------|--------------------------------------------|
+|                      |                                            |
 | URL Microsoft Stream |                                            |
-+----------------------+--------------------------------------------+
+|                      |                                            |
+|----------------------|--------------------------------------------|
+|                      |                                            |
 | Timing               |                                            |
-+----------------------+--------------------------------------------+
+|                      |                                            |
+|----------------------|--------------------------------------------|
 
 **Screenshot del video**
 
@@ -786,7 +821,9 @@ A través de las preguntas planteadas, se busca evaluar si el producto esta adec
 
 **Entrevista 4 -  Responsables del hogar (monitoreo remoto)**
 +----------------------+--------------------------------------------+
+
 | Nombre Completo      |                                            |
+
 +----------------------+--------------------------------------------+
 | Edad                 |                                            |
 +----------------------+--------------------------------------------+
