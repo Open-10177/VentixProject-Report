@@ -1582,20 +1582,94 @@ Asimismo, se organizaron y documentaron las evidencias necesarias para sustentar
 
 ### 5.2.3.1 Sprint Planning 3
 
-| Sprint Planning Sprint 3                                  |                                                                 |
-|-----------------------------------------------------------|-----------------------------------------------------------------|
-| **Sprint Planning Background**                            |                                                                 |
-| **Date**                                                  | 26/05/2026                                                      |
-| **Time**                                                  | 6:00 p.m.                                                       |
-| **Location**                                              | Whatsapp                                                        |
-| **Prepared By**                                           | COLOCA AQUÍ TU NOMBRE                                           |
-| **Attendees (to planning meeting)**                       | Suarez Chinga, Geraldine<br>Sanchez Osorio, Ruth Yanira<br>Cáceres Pizarro, Albino Florencio |
-| **Sprint 2 Review Summary**                               | Durante el Sprint 2, el equipo logró avanzar en algunas partes iniciales del Frontend de Ventix, principalmente en la pantalla principal y en el módulo de Analytics. Sin embargo, quedaron pendientes varios aspectos importantes del desarrollo, ya que la mayoría de las interfaces aún no estaban completas y algunas funcionalidades no se encontraban totalmente implementadas. Además, el despliegue no estaba finalizado y todavía no se contaba con una Fake API o servicios simulados que permitieran validar correctamente el comportamiento de la aplicación. |
-| **Sprint 2 Retrospective Summary**                        | En el Sprint 2 se identificaron dificultades relacionadas con la comunicación, la organización del equipo y la estructura del código. A partir de ello, durante el Sprint 3 se mejoró la coordinación entre los integrantes, se organizaron mejor las tareas y se reforzó la revisión del código antes de realizar los merges correspondientes. Asimismo, se mejoró la organización de carpetas, la estructura del proyecto y la nomenclatura utilizada, lo que permitió trabajar de manera más ordenada y completar con mayor claridad el desarrollo del Frontend. |
-| **Sprint Goal & User Stories**                            |                                                                 |
-| **Sprint 3 Goal (Outcome–Impact–Customer-Confirmation):** | Our focus is on...<br><br>We believe it delivers...<br><br>This will be confirmed when... |
-| **Sprint 3 Velocity**                                     | COLOCA AQUÍ LOS STORY POINTS                                    |
-| **Sum of Story Points**                                   | COLOCA AQUÍ EL TOTAL DE SP Y HORAS ESTIMADAS                    |
+<table>
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td>Sprint 3</td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><strong>Sprint Planning Background</strong></td>
+  </tr>
+
+  <tr>
+    <td>Date</td>
+    <td>26/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Time</td>
+    <td>6:00 p.m.</td>
+  </tr>
+
+  <tr>
+    <td>Location</td>
+    <td>Whatsapp</td>
+  </tr>
+
+  <tr>
+    <td>Prepared By</td>
+    <td>COLOCA AQUÍ TU NOMBRE</td>
+  </tr>
+
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>
+      Suarez Chinga, Geraldine<br>
+      Sanchez Osorio, Ruth Yanira<br>
+      Cáceres Pizarro, Albino Florencio
+    </td>
+  </tr>
+
+  <tr>
+    <td>Sprint 2 Review Summary</td>
+    <td>
+      Durante el Sprint 2, el equipo logró avanzar en algunas partes iniciales del Frontend de Ventix,
+      principalmente en la pantalla principal y en el módulo de Analytics. Sin embargo, quedaron pendientes
+      varios aspectos importantes del desarrollo, ya que la mayoría de las interfaces aún no estaban completas
+      y algunas funcionalidades no se encontraban totalmente implementadas. Además, el despliegue no estaba
+      finalizado y todavía no se contaba con una Fake API o servicios simulados que permitieran validar
+      correctamente el comportamiento de la aplicación.
+    </td>
+  </tr>
+
+  <tr>
+    <td>Sprint 2 Retrospective Summary</td>
+    <td>
+      En el Sprint 2 se identificaron dificultades relacionadas con la comunicación, la organización del equipo
+      y la estructura del código. A partir de ello, durante el Sprint 3 se mejoró la coordinación entre los
+      integrantes, se organizaron mejor las tareas y se reforzó la revisión del código antes de realizar los
+      merges correspondientes. Asimismo, se mejoró la organización de carpetas, la estructura del proyecto y
+      la nomenclatura utilizada, lo que permitió trabajar de manera más ordenada y completar con mayor claridad
+      el desarrollo del Frontend.
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><strong>Sprint Goal & User Stories</strong></td>
+  </tr>
+
+  <tr>
+  <td>Sprint 3 Goal (Outcome–Impact–Customer-Confirmation)</td>
+  <td>
+    Our focus is on successfully integrating the Ventix frontend with the backend, improving the existing frontend, and completing the missing functionalities of the platform. During this sprint, we aim to ensure that the Sign In and Sign Up processes work correctly, that the ventilation controls perform their intended actions, and that each user can properly view information such as temperature, CO2 levels, and other environmental data according to their own account.<br><br>
+
+    We believe it delivers a more useful and reliable experience for students who study at home and people who want to monitor and control their home ventilation system either inside or outside their house. This will allow users to manage their home environment more comfortably, safely, and efficiently through the Ventix platform.<br><br>
+
+    This will be confirmed when the frontend connects correctly with the backend, the main functionalities work without major problems, users can successfully register and log in, the ventilation controls respond correctly, and the platform displays the corresponding temperature, CO2, and related data for each user during the Sprint Review.
+  </td>
+  </tr>
+
+  <tr>
+    <td>Sprint 3 Velocity</td>
+    <td>COLOCA AQUÍ LOS STORY POINTS</td>
+  </tr>
+
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>COLOCA AQUÍ EL TOTAL DE SP Y HORAS ESTIMADAS</td>
+  </tr>
+</table>
 
         
 ### 5.2.3.2 Aspect Leaders and Collaborators
