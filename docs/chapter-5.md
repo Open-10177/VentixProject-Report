@@ -1624,20 +1624,24 @@ Asimismo, se organizaron y documentaron las evidencias necesarias para sustentar
   <tr>
     <td>Sprint 2 Review Summary</td>
     <td>
-      During Sprint 2, the team completed only part of the frontend development. The main screen
-      and the Analytics section were delivered, but most of the frontend was still incomplete.
-      Some functionalities were not fully finished, the deployment was not complete, and the team
-      did not have a Fake API to properly test the application behavior.
+      Durante el Sprint 2, el equipo logró avanzar en algunas partes iniciales del Frontend de Ventix,
+      principalmente en la pantalla principal y en el módulo de Analytics. Sin embargo, quedaron pendientes
+      varios aspectos importantes del desarrollo, ya que la mayoría de las interfaces aún no estaban completas
+      y algunas funcionalidades no se encontraban totalmente implementadas. Además, el despliegue no estaba
+      finalizado y todavía no se contaba con una Fake API o servicios simulados que permitieran validar
+      correctamente el comportamiento de la aplicación.
     </td>
   </tr>
 
   <tr>
     <td>Sprint 2 Retrospective Summary</td>
     <td>
-      During Sprint 2, the team had problems with communication, organization, and code structure.
-      In Sprint 3, the team improved communication and task organization. Also, the frontend was
-      completed, the code was reviewed before merging, and the folder structure and naming conventions
-      were improved to keep the project more organized.
+      En el Sprint 2 se identificaron dificultades relacionadas con la comunicación, la organización del equipo
+      y la estructura del código. A partir de ello, durante el Sprint 3 se mejoró la coordinación entre los
+      integrantes, se organizaron mejor las tareas y se reforzó la revisión del código antes de realizar los
+      merges correspondientes. Asimismo, se mejoró la organización de carpetas, la estructura del proyecto y
+      la nomenclatura utilizada, lo que permitió trabajar de manera más ordenada y completar con mayor claridad
+      el desarrollo del Frontend.
     </td>
   </tr>
 
