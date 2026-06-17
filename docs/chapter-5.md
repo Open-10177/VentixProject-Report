@@ -634,6 +634,17 @@ A continuación, se muestran algunos insights del repositorio de GitHub:
 <img src="../assets/img/chapter-5/rendimiento_estudiantil.png" alt="Pantalla" width="1000">
 <img src="../assets/img/chapter-5/rendimiento_estudiantil02.png" alt="Pantalla" width="1000">
 
+## 5.2.3. Sprint 3
+En esta sección se detalla el avance desarrollado durante el Sprint 3 del proyecto Ventix, considerando tanto la evolución del producto como la participación del equipo en el actual trabajo. Durante este sprint se fortaleció la integración de los principales componentes de la solución, conectando las funcionalidades del Fronted con los servicios definidos para el Backend, con el proposito de completar la elaboración de una version funcional de nuestra aplicación.
+
+Asimismo, se organizaron y documentaron las evidencias necesarias para sustentar el trabajo realizado, incluyendo la planificación del sprint, la distribución del trabajo, el backlog, los avances implementados, las pruebas de ejecución, la documentación de servicios y la colaboración del eqipo. De esta manera, las siguientes subsecciones permiten mostrar cómo cada integrante aportó al desarrollo de la web Application y los Web Services, contribuyendo al cumplimiento de los objetivos establecidos para el Sprint 3.
+
+     Repositorio Frontend:
+     Repositorio Backend: 
+     Backend API (Producción):
+
+### 5.2.3.1 Sprint Planning 3
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
