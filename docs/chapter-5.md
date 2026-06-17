@@ -1648,15 +1648,9 @@ Asimismo, se organizaron y documentaron las evidencias necesarias para sustentar
 <tr>
   <td>Sprint 3 Goal <br> (Outcome–Impact–Customer-Confirmation)</td>
   <td>
-    The Ventix Product Team decided to work on the backend and improve the frontend in order to correctly connect both parts of the application. The team also decided to complete the missing functionalities, especially the Sign In and Sign Up processes, the ventilation controls, and the visualization of environmental data such as temperature and CO2 for each user.
-    <br><br>
-
-    Our focus is on integrating the Ventix frontend with the backend and completing the main functionalities for monitoring and controlling home ventilation.
-    <br><br>
-
-    We believe it delivers a more reliable and useful experience to students who study at home and people who want to manage their home ventilation from inside or outside their house.
-    <br><br>
-
+    The Ventix Product Team decided to work on the backend and improve the frontend in order to correctly connect both parts of the application. The team also decided to complete the missing functionalities, especially the Sign In and Sign Up processes, the ventilation controls, and the visualization of environmental data such as temperature and CO2 for each user.<br><br>
+    Our focus is on integrating the Ventix frontend with the backend and completing the main functionalities for monitoring and controlling home ventilation.<br>
+    We believe it delivers a more reliable and useful experience to students who study at home and people who want to manage their home ventilation from inside or outside their house.<br>
     This will be confirmed when users can successfully sign up, sign in, view their own temperature and CO2 information, and use the ventilation controls correctly through the frontend connected to the backend.
   </td>
 </tr>
