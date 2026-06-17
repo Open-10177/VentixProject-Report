@@ -1584,6 +1584,7 @@ Asimismo, se organizaron y documentaron las evidencias necesarias para sustentar
 
 <table>
   <tr>
+    <td><strong>Sprint #</strong></td>
     <td>Sprint 3</td>
   </tr>
 
@@ -1608,7 +1609,7 @@ Asimismo, se organizaron y documentaron las evidencias necesarias para sustentar
 
   <tr>
     <td>Prepared By</td>
-    <td>COLOCA AQUÍ TU NOMBRE</td>
+    <td></td>
   </tr>
 
   <tr>
@@ -1623,24 +1624,20 @@ Asimismo, se organizaron y documentaron las evidencias necesarias para sustentar
   <tr>
     <td>Sprint 2 Review Summary</td>
     <td>
-      Durante el Sprint 2, el equipo logró avanzar en algunas partes iniciales del Frontend de Ventix,
-      principalmente en la pantalla principal y en el módulo de Analytics. Sin embargo, quedaron pendientes
-      varios aspectos importantes del desarrollo, ya que la mayoría de las interfaces aún no estaban completas
-      y algunas funcionalidades no se encontraban totalmente implementadas. Además, el despliegue no estaba
-      finalizado y todavía no se contaba con una Fake API o servicios simulados que permitieran validar
-      correctamente el comportamiento de la aplicación.
+      During Sprint 2, the team completed only part of the frontend development. The main screen
+      and the Analytics section were delivered, but most of the frontend was still incomplete.
+      Some functionalities were not fully finished, the deployment was not complete, and the team
+      did not have a Fake API to properly test the application behavior.
     </td>
   </tr>
 
   <tr>
     <td>Sprint 2 Retrospective Summary</td>
     <td>
-      En el Sprint 2 se identificaron dificultades relacionadas con la comunicación, la organización del equipo
-      y la estructura del código. A partir de ello, durante el Sprint 3 se mejoró la coordinación entre los
-      integrantes, se organizaron mejor las tareas y se reforzó la revisión del código antes de realizar los
-      merges correspondientes. Asimismo, se mejoró la organización de carpetas, la estructura del proyecto y
-      la nomenclatura utilizada, lo que permitió trabajar de manera más ordenada y completar con mayor claridad
-      el desarrollo del Frontend.
+      During Sprint 2, the team had problems with communication, organization, and code structure.
+      In Sprint 3, the team improved communication and task organization. Also, the frontend was
+      completed, the code was reviewed before merging, and the folder structure and naming conventions
+      were improved to keep the project more organized.
     </td>
   </tr>
 
@@ -1651,32 +1648,29 @@ Asimismo, se organizaron y documentaron las evidencias necesarias para sustentar
   <tr>
     <td>Sprint 3 Goal <br> (Outcome–Impact–Customer-Confirmation)</td>
     <td>
-      Our focus is on successfully integrating the Ventix frontend with the backend, improving the existing
-      frontend, and completing the missing functionalities of the platform. During this sprint, we aim to ensure
-      that the Sign In and Sign Up processes work correctly, that the ventilation controls perform their intended
-      actions, and that each user can properly view information such as temperature, CO2 levels, and other
-      environmental data according to their own account.<br><br>
+      <strong>Context:</strong> The Ventix Product Team decided to work on the backend and improve
+      the frontend in order to correctly connect both parts of the application. The team also decided
+      to complete the missing functionalities, especially the Sign In and Sign Up processes, the
+      ventilation controls, and the visualization of environmental data such as temperature and CO2
+      for each user.<br><br>
 
-      We believe it delivers a more useful and reliable experience for students who study at home and people who
-      want to monitor and control their home ventilation system either inside or outside their house. This will
-      allow users to manage their home environment more comfortably, safely, and efficiently through the Ventix
-      platform.<br><br>
-
-      This will be confirmed when the frontend connects correctly with the backend, the main functionalities work
-      without major problems, users can successfully register and log in, the ventilation controls respond correctly,
-      and the platform displays the corresponding temperature, CO2, and related data for each user during the Sprint
-      Review.
+      <strong>Sprint Goal:</strong> Our focus is on integrating the Ventix frontend with the backend
+      to offer users a functional platform for monitoring and controlling home ventilation. We believe
+      it delivers a more reliable and useful experience to students who study at home and people who
+      want to manage their home ventilation from inside or outside their house. This will be confirmed
+      when users can successfully sign up, sign in, view their own temperature and CO2 information,
+      and use the ventilation controls correctly through the frontend connected to the backend.
     </td>
   </tr>
 
   <tr>
     <td>Sprint 3 Velocity</td>
-    <td>COLOCA AQUÍ LOS STORY POINTS</td>
+    <td>STORY POINTS</td>
   </tr>
 
   <tr>
     <td>Sum of Story Points</td>
-    <td>COLOCA AQUÍ EL TOTAL DE SP Y HORAS ESTIMADAS</td>
+    <td>SP Y HORAS ESTIMADAS</td>
   </tr>
 </table>
         
