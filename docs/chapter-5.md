@@ -605,20 +605,20 @@ se utilizó un mockup api deploy para simular las respuestas del backend y asegu
 
 **Frontend Web Application:**
 
-El frontend de VentixProject fue desplegado utilizando **Vercel**, una plataforma de despliegue optimizada para aplicaciones frontend.
+El frontend de VentixProject fue desplegado utilizando **Azure Static Web Apps**, una plataforma de despliegue optimizada para aplicaciones frontend.
 
 **Pasos para el despliegue:**
 1. **Creación del repositorio**: Se creó un repositorio en la organización de GitHub llamado `Ventix-Front-End`.
 2. **Desarrollo del frontend**: El código fuente del frontend se desarrolló y organizó en el repositorio.
-3. **Conexión con Vercel**: Se conectó el repositorio de GitHub con Vercel para habilitar despliegues automáticos.
+3. **Conexión con Vercel**: Se conectó el repositorio de GitHub con Azure Static Web Apps para habilitar despliegues automáticos.
 4. **Configuración de despliegue**: Se configuró Vercel para desplegar automáticamente el frontend cada vez que se realizara un push a la rama `main`.
 5. **Verificación del despliegue**: Se verificó que la aplicación estuviera accesible públicamente y funcionara correctamente en diferentes dispositivos y navegadores.
 
 **Repositorio:** https://github.com/Open-10177/Ventix-Front-End
 
 **URL desplegada:**
-- Cliente: 
-- Técnico: 
+- Cliente: https://calm-sand-0bec80210.7.azurestaticapps.net
+- Técnico: https://calm-sand-0bec80210.7.azurestaticapps.net
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
@@ -631,8 +631,7 @@ A continuación, se muestran algunos insights del repositorio de GitHub:
 * **Taipe Sangama, Jorge Francisco:** Se encargó de la página de shared, revision de todo y desplegar el fronted.
 * **Cáceres Pizarro, Albino Florencio:** Se encargó de la página de monitoring.
 
-<img src="../assets/img/chapter-5/rendimiento_estudiantil.png" alt="Pantalla" width="1000">
-<img src="../assets/img/chapter-5/rendimiento_estudiantil02.png" alt="Pantalla" width="1000">
+
 
 ## 5.2.3. Sprint 3
 En esta sección se detalla el avance desarrollado durante el Sprint 3 del proyecto Ventix, considerando tanto la evolución del producto como la participación del equipo en el actual trabajo. Durante este sprint se fortaleció la integración de los principales componentes de la solución, conectando las funcionalidades del Fronted con los servicios definidos para el Backend, con el proposito de completar la elaboración de una version funcional de nuestra aplicación.
