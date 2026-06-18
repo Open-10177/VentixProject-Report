@@ -588,11 +588,22 @@ Estos commits provienen del repositorio del frontend de la organización de GitH
 
 En este sprint se implementaron las siguientes funcionalidades en el frontend de VentixProject:
 
-<img src="../assets/img/chapter-5/pantallainicio.jpeg" alt="Pantalla inicio" width="1000">
-<img src="../assets/img/chapter-5/notificaciones.jpeg" alt="Notificaciones" width="1000">
-<img src="../assets/img/chapter-5/mapa_hogar.jpeg" alt="Mapa del hogar" width="1000">
-<img src="../assets/img/chapter-5/configuracion_umbrales.jpeg" alt="Configuracion de umbrales" width="1000">
-<img src="../assets/img/chapter-5/historial_datos.jpeg" alt="Historial de datos" width="1000">
+<img src="../assets/img/chapter-5/Inicio_Sesion.png" alt="" width="1000">
+<img src="../assets/img/chapter-5/Registro.png" alt="" width="1000">
+<img src="../assets/img/chapter-5/Pantalla_Inicio.png" alt="" width="1000">
+<img src="../assets/img/chapter-5/Notificaciones.png" alt="" width="1000">
+<img src="../assets/img/chapter-5/Umbrales.png" alt="" width="1000">
+<img src="../assets/img/chapter-5/Mapa.png" alt="" width="1000">
+<img src="../assets/img/chapter-5/Registro_de_dispositivos.png" alt="" width="1000">
+<img src="../assets/img/chapter-5/Registro_QR.png" alt="" width="1000">
+<img src="../assets/img/chapter-5/Registro_Codigo.png" alt="" width="1000">
+<img src="../assets/img/chapter-5/Plan_mensual.png" alt="" width="1000">
+<img src="../assets/img/chapter-5/CobroTarjeta_Plan_Mensual.png" alt="" width="1000">
+<img src="../assets/img/chapter-5/CobroYape_Plan_Mensual.png" alt="" width="1000">
+<img src="../assets/img/chapter-5/CobroPaypal_Plan_Mensual.png" alt="" width="1000">
+<img src="../assets/img/chapter-5/Pago_Exitoso.png" alt="" width="1000">
+<img src="../assets/img/chapter-5/Configuracion.png" alt="" width="1000">
+<img src="../assets/img/chapter-5/Users.png" alt="" width="1000">
     
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
