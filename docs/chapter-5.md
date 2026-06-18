@@ -723,7 +723,26 @@ El frontend de VentixProject fue desplegado utilizando **Azure Static Web Apps**
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
+Durante el Sprint 2, las métricas de colaboración registradas en GitHub muestran una contribución activa de todos los miembros del equipo al repositorio de VENTIX. La distribución de commits a lo largo del periodo evidencia un desarrollo incremental de las funcionalidades del sistema, incluyendo la interfaz responsive, el soporte bilingüe, la visualización y gestión de datos ambientales, la configuración de parámetros de monitoreo y el despliegue continuo en Azure Static Web Apps. Los registros de actividad demuestran que las tareas fueron ejecutadas de manera colaborativa mediante la implementación de nuevas funcionalidades, mejoras de interfaz, correcciones y validaciones continuas, favoreciendo una construcción conjunta y coordinada del producto.
+
 En esta sección se presentan las evidencias de colaboración del equipo durante el sprint 2 para el desarrollo del frontend de VentixProject. Cada miembro del equipo tuvo roles específicos, pero todos colaboraron en la planificación, desarrollo y revisión del trabajo.
+
+**Figura 40. Overview de contribuciones del equipo en GitHub**
+<img src="../assets/img/chapter-5/figura 40.jpg" alt="Overview" width="1000">
+*Figura 40. Panel Overview de GitHub mostrando el flujo de commits de los integrantes del equipo durante el Sprint 2. Fuente: GitHub Analytics - Repositorio Open-10177/Ventix-Front-End.*
+
+El Network Graph refleja esta dinámica mediante la presencia de ramas que nacen desde main y regresan a ella una vez integradas, siguiendo el flujo definido por GitFlow. Esta visualización confirma que las contribuciones individuales se alinearon con el marco de trabajo acordado: se desarrollaron cambios en ramas aisladas, se realizaron pruebas locales y posteriormente se integraron al tronco principal, lo que redujo conflictos y facilitó el seguimiento de la trazabilidad de cada cambio.
+
+**Figura 41. Network Graph del repositorio en GitHub**
+<img src="../assets/img/chapter-5/networking.jpg" alt="ntwork" width="1000">
+*Figura 41. Network Graph del repositorio Ventix-Front-End en GitHub, evidenciando el flujo de ramas feature y su integración a main siguiendo el modelo GitFlow. Fuente: GitHub - Repositorio Open-10177/Ventix-Front-End.*
+
+Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrollo y se consolidaban las funcionalidades del Fronted, el repositorio comenzó a recibir algunas visitas y visualizaciones, lo que sugiere un interés pausado en el producto por parte del propio equipo durante las actividades de revisión y validación.
+
+**Figura 42. Gráfico de visitantes del repositorio en GitHub**
+<img src="../assets/img/chapter-5/traffic.jpg" alt="traffic" width="1000">
+Figura 42. Gráfico de Visitors del repositorio Ventix-Front-End en GitHub, mostrando el incremento de visitas conforme avanzó el Sprint 1. Fuente: GitHub Insights - Repositorio Open-10177/Ventix-Front-End.
+
 
 A continuación, se muestran algunos insights del repositorio de GitHub:
 
@@ -732,7 +751,7 @@ A continuación, se muestran algunos insights del repositorio de GitHub:
 * **Taipe Sangama, Jorge Francisco:** Se encargó de la página de shared, revision de todo y desplegar el fronted.
 * **Cáceres Pizarro, Albino Florencio:** Se encargó de la página de monitoring.
 
-<img src="../assets/img/chapter-5/Avance_Sprint02.png" alt="Avances" width="1000">
+<img src="../assets/img/chapter-5/avance.jpg" alt="Avances" width="1000">
 
 ## 5.2.3. Sprint 3
 En esta sección se detalla el avance desarrollado durante el Sprint 3 del proyecto Ventix, considerando tanto la evolución del producto como la participación del equipo en el actual trabajo. Durante este sprint se fortaleció la integración de los principales componentes de la solución, conectando las funcionalidades del Fronted con los servicios definidos para el Backend, con el proposito de completar la elaboración de una version funcional de nuestra aplicación.
