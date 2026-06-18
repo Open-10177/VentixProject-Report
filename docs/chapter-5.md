@@ -522,11 +522,11 @@ Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrol
     <td colspan="8">Jorge Francisco Taipe Sangama, Geraldine Suarez Chinga, Ruth Yanira Sanchez Osorio, Albino Florencio Cáceres Pizarro</td>
 </tr>
 <tr>
-    <td colspan="5">Sprint  2 Review Summary</td>
+    <td colspan="5">Sprint 1 Review Summary</td>
     <td colspan="8">En este segundo sprint se definieron las responsabilidades de cada integrante para el desarrollo del frontend de VentixProject, además de plantear los requerimientos para el desarrollo de las funcionalidades principales de la aplicación web.</td>
 </tr>
 <tr>
-    <td colspan="5">Sprint 2 Retrospective Summary</td>
+    <td colspan="5">Sprint 1 Retrospective Summary</td>
     <td colspan="8">En esta sección todos los integrantes mencionaron tener aciertos en partes del codigo y en otras 
 partes poder mejorar sus habilidades realizando el frontend de VentixProject. 
 </td>
@@ -537,7 +537,7 @@ partes poder mejorar sus habilidades realizando el frontend de VentixProject.
 <tr>
     <td colspan="5">Sprint 2 Goal</td>
     <td colspan="8">
-Desarrollar las funcionalidades principales del frontend de VentixProject, incluyendo ---- 
+Desarrollar las funcionalidades principales del frontend de VentixProject, incluyendo la visualización de planes y beneficios, la selección de planes, la presentación del equipo de desarrollo, el cambio de idioma, la visualización de datos ambientales en tiempo real, el acceso al historial de mediciones, la configuración de umbrales de CO₂, temperatura y humedad, el monitoreo de múltiples espacios, las notificaciones por niveles elevados de CO₂ y el acceso a un botón de pánico ambiental
 </td>
 </tr>
 </table>
@@ -1052,4 +1052,5 @@ A continuación se listan los enlaces a los entornos de producción y los reposi
 | Repositorio Landing Page | https://github.com/Open-10177/Ventix-LandingPage |
 | Repositorio Project Report | https://github.com/Open-10177/VentixProject-Report |
 | Video de Avance AV1 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313458_upc_edu_pe/IQDUgc7QP5bxSIdiehwzzR_VAfT3FUT3O3DnpMhlbe-6TvA?e=XfHzYl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+
 
