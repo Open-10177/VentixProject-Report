@@ -256,7 +256,6 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo e implementación del
 - URL del Landing Page Desplegado: https://open-10177.github.io/Ventix-LandingPage/
 
 
-
 #### 5.2.1.1. Sprint Planning
 
 <table border="1" cellpadding="4" cellspacing="0">
@@ -1052,5 +1051,6 @@ A continuación se listan los enlaces a los entornos de producción y los reposi
 | Repositorio Landing Page | https://github.com/Open-10177/Ventix-LandingPage |
 | Repositorio Project Report | https://github.com/Open-10177/VentixProject-Report |
 | Video de Avance AV1 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313458_upc_edu_pe/IQDUgc7QP5bxSIdiehwzzR_VAfT3FUT3O3DnpMhlbe-6TvA?e=XfHzYl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+
 
 
