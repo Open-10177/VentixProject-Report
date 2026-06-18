@@ -631,7 +631,7 @@ A continuación, se muestran algunos insights del repositorio de GitHub:
 * **Taipe Sangama, Jorge Francisco:** Se encargó de la página de shared, revision de todo y desplegar el fronted.
 * **Cáceres Pizarro, Albino Florencio:** Se encargó de la página de monitoring.
 
-
+<img src="../assets/img/chapter-5/Avance_Sprint02.png" alt="Avances" width="400">
 
 ## 5.2.3. Sprint 3
 En esta sección se detalla el avance desarrollado durante el Sprint 3 del proyecto Ventix, considerando tanto la evolución del producto como la participación del equipo en el actual trabajo. Durante este sprint se fortaleció la integración de los principales componentes de la solución, conectando las funcionalidades del Fronted con los servicios definidos para el Backend, con el proposito de completar la elaboración de una version funcional de nuestra aplicación.
