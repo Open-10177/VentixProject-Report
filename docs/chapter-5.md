@@ -618,8 +618,8 @@ El frontend de VentixProject fue desplegado utilizando **Azure Static Web Apps**
 **Repositorio:** https://github.com/Open-10177/Ventix-Front-End
 
 **URL desplegada:**
-- Cliente: https://calm-sand-0bec80210.7.azurestaticapps.net/iam/sign-in
-- Técnico: https://calm-sand-0bec80210.7.azurestaticapps.net/iam/sign-in
+- Cliente: https://calm-sand-0bec80210.7.azurestaticapps.net
+- Técnico: https://calm-sand-0bec80210.7.azurestaticapps.net
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
