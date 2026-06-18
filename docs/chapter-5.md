@@ -544,6 +544,15 @@ Desarrollar las funcionalidades principales del frontend de VentixProject, inclu
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
+En esta sección se presenta la matriz **Leadership-and-Collaboration Matrix (LACX)** correspondiente al Sprint 2. Su propósito es identificar claramente los aspectos principales del sprint y asignar responsabilidades de liderazgo (L) y colaboración (C) para fortalecer la comunicación, coordinación y trazabilidad del trabajo dentro del equipo.
+
+Estos aspectos se derivan directamente de los objetivos definidos en el Sprint 2 Goal, asegurando cobertura total de los entregables planificados.
+
+- Fronted: Diseño, estructura, contenido y funcionalidad de la página principal del proyecto, incluyendo su despliegue.
+
+- Report Module Implementation: Desarrollo y presentación del módulo que permitirá crear, visualizar y exportar el reporte requerido.
+
+  
 | Team member (LastName, First Name) | GitHub UserName | Aspect 1: User | Aspect 2: Work | Aspect 3: Reporte |
 |------------------------------------|-----------------|----------------|----------------|-------------------|
 | Suarez Chinga, Geraldine           | geral07-UNIV    | C              | C              | L                 |
@@ -551,7 +560,18 @@ Desarrollar las funcionalidades principales del frontend de VentixProject, inclu
 | Taipe Sangama, Jorge Francisco     | CamotinFurious  | L              | L              | L                 |
 | Cáceres Pizarro, Albino Florencio  | lil-doggy       | C              | C              | C                 |
 
+- *L* = Líder del aspecto
+
+- *C* = Colaborador en el aspecto
+  
+
 #### 5.2.2.3. Sprint Backlog 2
+
+El Sprint Backlog 2 reúne las User Stories (USS) y tareas necesarias para implementar las principales funcionalidades de monitoreo ambiental y configuración del sistema. Entre ellas se incluyen la visualización de planes y beneficios, la selección de planes, la presentación del equipo de desarrollo, el cambio de idioma, la visualización de datos ambientales en tiempo real, el acceso al historial de mediciones, la configuración de umbrales de CO₂, temperatura y humedad, el monitoreo de múltiples espacios, las notificaciones por niveles elevados de CO₂ y el acceso a un botón de pánico ambiental. Todas las tareas asignadas para este sprint fueron completadas satisfactoriamente.
+
+Todas las tareas son monitoreadas y actualizadas mediante Jira Software (https://www.atlassian.com/software/jira). A continuación, la estructura de la tabla de control de estado para el Sprint:
+----------------X
+A continuación, la tabla de control de estado para el Sprint 2:
 
 | Sprint# | Sprint 2 | | | | | | |
 |---|---|---|---|---|---|---|---|
@@ -571,10 +591,9 @@ Desarrollar las funcionalidades principales del frontend de VentixProject, inclu
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
-En esta sección se demuestran los commits relacionados con los principales avances en la implementación.
-Estos commits provienen del repositorio del frontend de la organización de GitHub.
+En esta sección se explican y presentan los avances en la implementación logrados durante el Sprint 2 en relación con el producto de la solución incluido en su alcance: Fronted de VENTIX. A lo largo de este sprint se construyó la primera versión navegable del producto.
 
-**Enlace al repositorio del frontend:** https://github.com/Open-10177/Ventix-Front-End
+La tabla siguiente resume los commits más relevantes realizados en el repositorio de la Landing Page, indicando la rama, el identificador del commit, el mensaje asociado y una breve explicación del cambio introducido en la implementación.
 
 | Repository                   | Branch | Commit Id | Commit Message                                                                        | Commit Message Body | Commited on (Date) |
 |------------------------------|--------|-----------|---------------------------------------------------------------------------------------|---------------------|--------------------|
@@ -586,24 +605,95 @@ Estos commits provienen del repositorio del frontend de la organización de GitH
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
+Durante el Sprint 2, se implementaron las funcionalidades del frontend de VENTIX, incluyendo una interfaz responsive para dispositivos móviles y de escritorio, soporte multilenguaje (español e inglés) y un proceso de despliegue automatizado en Azure Static Web Apps. Esta configuración permite que los cambios realizados en el repositorio se reflejen automáticamente en el entorno de producción mediante integración y despliegue continuo (CI/CD), facilitando la actualización constante de la plataforma. A continuación, se muestran las evidencias de ejecución correspondientes a las vistas y funcionalidades desarrolladas.
+
+Video de demostracion del Fronted de VENTIX:
+
+URL DE YOUTUBE:----------------X
+
+Duracion:----------------X
+
 En este sprint se implementaron las siguientes funcionalidades en el frontend de VentixProject:
 
+Figura 24. Inicio Sesion en el fronted de VENTIX
 <img src="../assets/img/chapter-5/Inicio_Sesion.png" alt="" width="1000">
+Figura 24. Vista de inicio de sesion responsiva del fronted de Ventix. Se aprecian espacios para completar datos que se conocen como correo y contraseña del fronted de Ventix. Fuente: Elaboración propia.
+
+
+Figura 25. Registro en el fronted de Ventix
 <img src="../assets/img/chapter-5/Registro.png" alt="" width="1000">
+Figura 25. Vista del registro responsiva del fronted de Ventix. Se aprecian espacios para completar datos nuevos del usuario. Fuente: Elaboración propia.
+
+
+Figura 26. Menu principal en el fronted de Ventix
 <img src="../assets/img/chapter-5/Pantalla_Inicio.png" alt="" width="1000">
+Figura 26. Vista de menu principal responsiva del fronted de Ventix. Se aprecia el menu principal en donde esta datos de nivelaciones, configuracion de umbrales, agregar dispositivos, temperatura del ambiente, historial de datos, entre otros servicios que al ingresar se observan nuevos sectores. Fuente: Elaboración propia.
+
+
+Figura 27. Notificaciones en el fronted de Ventix
 <img src="../assets/img/chapter-5/Notificaciones.png" alt="" width="1000">
+Figura 27. Vista de pantalla de notificaciones del fronted de Ventix. Se aprecian mensajes de peligro, advertencias, alertas y actualizaciones. Fuente: Elaboración propia.
+
+
+Figura 28. Umbrales en el fronted de Ventix
 <img src="../assets/img/chapter-5/Umbrales.png" alt="" width="1000">
+Figura 28. Vista de pantalla de umbrales del fronted de Ventix. Se aprecian datos de un area en especifico en donde se muestra bateria del nodo, lecturas actuales y configuraciones. Fuente: Elaboración propia.
+
+
+Figura 29. Mapa en el fronted de Ventix
 <img src="../assets/img/chapter-5/Mapa.png" alt="" width="1000">
+Figura 29. Vista del mapa del fronted de Ventix. Se aprecian espacios de todo un piso del hogar, asi como las baterias de cada punto registro del mapa de la casa. Fuente: Elaboración propia.
+
+
+Figura 30. Registro de dispositivos en el fronted de Ventix
 <img src="../assets/img/chapter-5/Registro_de_dispositivos.png" alt="" width="1000">
+Figura 30. Vista del registro de dispositivos del fronted de Ventix. Se aprecia dos tipos de registro, el primero es mediante QR y mediante Código. Fuente: Elaboración propia.
+
+
+Figura 31. Registro QR en el fronted de Ventix
 <img src="../assets/img/chapter-5/Registro_QR.png" alt="" width="1000">
+Figura 31. Vista del registro QR del fronted de Ventix. Se aprecia una guia rapida de registro y para subir la imagen que deseamos relacionar al sistema. Fuente: Elaboración propia.
+
+
+Figura 32. Registro Código en el fronted de Ventix
 <img src="../assets/img/chapter-5/Registro_Codigo.png" alt="" width="1000">
-<img src="../assets/img/chapter-5/Plan_mensual.png" alt="" width="1000">
+Figura 32. Vista del registro código del fronted de Ventix. Se aprecia una guia rapida de registro y para poner el codigo manual que se pueda relacionar al sistema. Fuente: Elaboración propia.
+
+
+Figura 33. Planes mensuales en el fronted de Ventix
+<img src="../assets/img/chapter-5/Plan_Mensual.png" alt="" width="1000">
+Figura 33. Vista de planes mensuales del fronted de Ventix. Se aprecian los dos planes mensuales disponibles de paga del producto. Fuente: Elaboración propia.
+
+
+Figura 34. Cobro mediante Tarjeta en el fronted de Ventix
 <img src="../assets/img/chapter-5/CobroTarjeta_Plan_Mensual.png" alt="" width="1000">
+Figura 34. Vista de la pantalla de cobro mediante Tarjeta del fronted de Ventix. Se aprecian espacios para completar nombre, numero, vencimiento y cvv de la tarjeta de quien va a pagar. Fuente: Elaboración propia.
+
+
+Figura 35. Cobro mediante Yape en el fronted de Ventix
 <img src="../assets/img/chapter-5/CobroYape_Plan_Mensual.png" alt="" width="1000">
+Figura 35. Vista de la pantalla de cobro mediante Yape del fronted de Ventix. Se aprecia un codigo de qr y numero del yape. Fuente: Elaboración propia.
+
+
+Figura 36. Cobro mediante Paypal en el fronted de Ventix
 <img src="../assets/img/chapter-5/CobroPaypal_Plan_Mensual.png" alt="" width="1000">
+Figura 36. Vista de la pantalla de cobro mediante Paypal del fronted de Ventix. Se aprecia un espacio que te redirige a la web app de paypal. Fuente: Elaboración propia.
+
+
+Figura 37. Pago exitoso en el fronted de Ventix
 <img src="../assets/img/chapter-5/Pago_Exitoso.png" alt="" width="1000">
+Figura 37. Vista del pago exitoso en el fronted de Ventix. Se aprecia que se realizo correctamente el pago y que el plan se activo. Fuente: Elaboración propia.
+
+
+Figura 38. Configuracion en el fronted de Ventix 
 <img src="../assets/img/chapter-5/Configuracion.png" alt="" width="1000">
+Figura 38. Vista de la configuracion del usuario en el fronted de Ventix. Se aprecian tres espacios  entre adicionales, en donde el primero muestra el correo y contraseña para poder cambiarlo si deseamos, el segundo es el plan exclusivo, el tercero es elegir el idioma (español o ingles), sesion para cambiar de cuenta y cerrar sesion. Fuente: Elaboración propia.
+
+
+Figura 39. Cambio de cuenta y vista de usuarios en el fronted de Ventix
 <img src="../assets/img/chapter-5/Users.png" alt="" width="1000">
+Figura 39. Vista la ventana de usuarios creados y por crear en el fronted de Ventix. Se aprecia perfiles, areas que corresponden el usuario y lugar de ubicacion. Fuente: Elaboración propia.
+
     
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
