@@ -615,84 +615,84 @@ Duracion:----------------X
 
 En este sprint se implementaron las siguientes funcionalidades en el frontend de VentixProject:
 
-Figura 24. Inicio Sesion en el fronted de VENTIX
+**Figura 24. Inicio Sesion en el fronted de VENTIX**
 <img src="../assets/img/chapter-5/Inicio_Sesion.png" alt="" width="1000">
-Figura 24. Vista de inicio de sesion responsiva del fronted de Ventix. Se aprecian espacios para completar datos que se conocen como correo y contraseña del fronted de Ventix. Fuente: Elaboración propia.
+*Figura 24. Vista de inicio de sesion responsiva del fronted de Ventix. Se aprecian espacios para completar datos que se conocen como correo y contraseña del fronted de Ventix. Fuente: Elaboración propia.*
 
 
-Figura 25. Registro en el fronted de Ventix
+**Figura 25. Registro en el fronted de Ventix**
 <img src="../assets/img/chapter-5/Registro.png" alt="" width="1000">
-Figura 25. Vista del registro responsiva del fronted de Ventix. Se aprecian espacios para completar datos nuevos del usuario. Fuente: Elaboración propia.
+*Figura 25. Vista del registro responsiva del fronted de Ventix. Se aprecian espacios para completar datos nuevos del usuario. Fuente: Elaboración propia.*
 
 
-Figura 26. Menu principal en el fronted de Ventix
+**Figura 26. Menu principal en el fronted de Ventix**
 <img src="../assets/img/chapter-5/Pantalla_Inicio.png" alt="" width="1000">
-Figura 26. Vista de menu principal responsiva del fronted de Ventix. Se aprecia el menu principal en donde esta datos de nivelaciones, configuracion de umbrales, agregar dispositivos, temperatura del ambiente, historial de datos, entre otros servicios que al ingresar se observan nuevos sectores. Fuente: Elaboración propia.
+*Figura 26. Vista de menu principal responsiva del fronted de Ventix. Se aprecia el menu principal en donde esta datos de nivelaciones, configuracion de umbrales, agregar dispositivos, temperatura del ambiente, historial de datos, entre otros servicios que al ingresar se observan nuevos sectores. Fuente: Elaboración propia.*
 
 
-Figura 27. Notificaciones en el fronted de Ventix
+**Figura 27. Notificaciones en el fronted de Ventix**
 <img src="../assets/img/chapter-5/Notificaciones.png" alt="" width="1000">
-Figura 27. Vista de pantalla de notificaciones del fronted de Ventix. Se aprecian mensajes de peligro, advertencias, alertas y actualizaciones. Fuente: Elaboración propia.
+*Figura 27. Vista de pantalla de notificaciones del fronted de Ventix. Se aprecian mensajes de peligro, advertencias, alertas y actualizaciones. Fuente: Elaboración propia.*
 
 
-Figura 28. Umbrales en el fronted de Ventix
+**Figura 28. Umbrales en el fronted de Ventix**
 <img src="../assets/img/chapter-5/Umbrales.png" alt="" width="1000">
-Figura 28. Vista de pantalla de umbrales del fronted de Ventix. Se aprecian datos de un area en especifico en donde se muestra bateria del nodo, lecturas actuales y configuraciones. Fuente: Elaboración propia.
+*Figura 28. Vista de pantalla de umbrales del fronted de Ventix. Se aprecian datos de un area en especifico en donde se muestra bateria del nodo, lecturas actuales y configuraciones. Fuente: Elaboración propia.*
 
 
-Figura 29. Mapa en el fronted de Ventix
+**Figura 29. Mapa en el fronted de Ventix**
 <img src="../assets/img/chapter-5/Mapa.png" alt="" width="1000">
-Figura 29. Vista del mapa del fronted de Ventix. Se aprecian espacios de todo un piso del hogar, asi como las baterias de cada punto registro del mapa de la casa. Fuente: Elaboración propia.
+*Figura 29. Vista del mapa del fronted de Ventix. Se aprecian espacios de todo un piso del hogar, asi como las baterias de cada punto registro del mapa de la casa. Fuente: Elaboración propia.*
 
 
-Figura 30. Registro de dispositivos en el fronted de Ventix
+**Figura 30. Registro de dispositivos en el fronted de Ventix**
 <img src="../assets/img/chapter-5/Registro_de_dispositivos.png" alt="" width="1000">
-Figura 30. Vista del registro de dispositivos del fronted de Ventix. Se aprecia dos tipos de registro, el primero es mediante QR y mediante Código. Fuente: Elaboración propia.
+*Figura 30. Vista del registro de dispositivos del fronted de Ventix. Se aprecia dos tipos de registro, el primero es mediante QR y mediante Código. Fuente: Elaboración propia.*
 
 
-Figura 31. Registro QR en el fronted de Ventix
+**Figura 31. Registro QR en el fronted de Ventix**
 <img src="../assets/img/chapter-5/Registro_QR.png" alt="" width="1000">
-Figura 31. Vista del registro QR del fronted de Ventix. Se aprecia una guia rapida de registro y para subir la imagen que deseamos relacionar al sistema. Fuente: Elaboración propia.
+*Figura 31. Vista del registro QR del fronted de Ventix. Se aprecia una guia rapida de registro y para subir la imagen que deseamos relacionar al sistema. Fuente: Elaboración propia.*
 
 
-Figura 32. Registro Código en el fronted de Ventix
+**Figura 32. Registro Código en el fronted de Ventix**
 <img src="../assets/img/chapter-5/Registro_Codigo.png" alt="" width="1000">
-Figura 32. Vista del registro código del fronted de Ventix. Se aprecia una guia rapida de registro y para poner el codigo manual que se pueda relacionar al sistema. Fuente: Elaboración propia.
+*Figura 32. Vista del registro código del fronted de Ventix. Se aprecia una guia rapida de registro y para poner el codigo manual que se pueda relacionar al sistema. Fuente: Elaboración propia.*
 
 
-Figura 33. Planes mensuales en el fronted de Ventix
+**Figura 33. Planes mensuales en el fronted de Ventix**
 <img src="../assets/img/chapter-5/Plan_Mensual.png" alt="" width="1000">
-Figura 33. Vista de planes mensuales del fronted de Ventix. Se aprecian los dos planes mensuales disponibles de paga del producto. Fuente: Elaboración propia.
+*Figura 33. Vista de planes mensuales del fronted de Ventix. Se aprecian los dos planes mensuales disponibles de paga del producto. Fuente: Elaboración propia.*
 
 
-Figura 34. Cobro mediante Tarjeta en el fronted de Ventix
+**Figura 34. Cobro mediante Tarjeta en el fronted de Ventix**
 <img src="../assets/img/chapter-5/CobroTarjeta_Plan_Mensual.png" alt="" width="1000">
-Figura 34. Vista de la pantalla de cobro mediante Tarjeta del fronted de Ventix. Se aprecian espacios para completar nombre, numero, vencimiento y cvv de la tarjeta de quien va a pagar. Fuente: Elaboración propia.
+*Figura 34. Vista de la pantalla de cobro mediante Tarjeta del fronted de Ventix. Se aprecian espacios para completar nombre, numero, vencimiento y cvv de la tarjeta de quien va a pagar. Fuente: Elaboración propia.*
 
 
-Figura 35. Cobro mediante Yape en el fronted de Ventix
-<img src="../assets/img/chapter-5/CobroYape_Plan_Mensual.png" alt="" width="1000">
-Figura 35. Vista de la pantalla de cobro mediante Yape del fronted de Ventix. Se aprecia un codigo de qr y numero del yape. Fuente: Elaboración propia.
+**Figura 35. Cobro mediante Yape en el fronted de Ventix**
+*<img src="../assets/img/chapter-5/CobroYape_Plan_Mensual.png" alt="" width="1000">
+Figura 35. Vista de la pantalla de cobro mediante Yape del fronted de Ventix. Se aprecia un codigo de qr y numero del yape. Fuente: Elaboración propia.*
 
 
-Figura 36. Cobro mediante Paypal en el fronted de Ventix
+**Figura 36. Cobro mediante Paypal en el fronted de Ventix**
 <img src="../assets/img/chapter-5/CobroPaypal_Plan_Mensual.png" alt="" width="1000">
-Figura 36. Vista de la pantalla de cobro mediante Paypal del fronted de Ventix. Se aprecia un espacio que te redirige a la web app de paypal. Fuente: Elaboración propia.
+*Figura 36. Vista de la pantalla de cobro mediante Paypal del fronted de Ventix. Se aprecia un espacio que te redirige a la web app de paypal. Fuente: Elaboración propia.*
 
 
-Figura 37. Pago exitoso en el fronted de Ventix
+**Figura 37. Pago exitoso en el fronted de Ventix**
 <img src="../assets/img/chapter-5/Pago_Exitoso.png" alt="" width="1000">
-Figura 37. Vista del pago exitoso en el fronted de Ventix. Se aprecia que se realizo correctamente el pago y que el plan se activo. Fuente: Elaboración propia.
+*Figura 37. Vista del pago exitoso en el fronted de Ventix. Se aprecia que se realizo correctamente el pago y que el plan se activo. Fuente: Elaboración propia.*
 
 
-Figura 38. Configuracion en el fronted de Ventix 
+**Figura 38. Configuracion en el fronted de Ventix**
 <img src="../assets/img/chapter-5/Configuracion.png" alt="" width="1000">
-Figura 38. Vista de la configuracion del usuario en el fronted de Ventix. Se aprecian tres espacios  entre adicionales, en donde el primero muestra el correo y contraseña para poder cambiarlo si deseamos, el segundo es el plan exclusivo, el tercero es elegir el idioma (español o ingles), sesion para cambiar de cuenta y cerrar sesion. Fuente: Elaboración propia.
+*Figura 38. Vista de la configuracion del usuario en el fronted de Ventix. Se aprecian tres espacios  entre adicionales, en donde el primero muestra el correo y contraseña para poder cambiarlo si deseamos, el segundo es el plan exclusivo, el tercero es elegir el idioma (español o ingles), sesion para cambiar de cuenta y cerrar sesion. Fuente: Elaboración propia.*
 
 
-Figura 39. Cambio de cuenta y vista de usuarios en el fronted de Ventix
+**Figura 39. Cambio de cuenta y vista de usuarios en el fronted de Ventix**
 <img src="../assets/img/chapter-5/Users.png" alt="" width="1000">
-Figura 39. Vista la ventana de usuarios creados y por crear en el fronted de Ventix. Se aprecia perfiles, areas que corresponden el usuario y lugar de ubicacion. Fuente: Elaboración propia.
+*Figura 39. Vista la ventana de usuarios creados y por crear en el fronted de Ventix. Se aprecia perfiles, areas que corresponden el usuario y lugar de ubicacion. Fuente: Elaboración propia.*
 
     
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
