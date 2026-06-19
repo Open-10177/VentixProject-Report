@@ -795,7 +795,7 @@ Asimismo, se organizaron y documentaron las evidencias necesarias para sustentar
 
   <tr>
     <td>Prepared By</td>
-    <td></td>
+    <td>Todos</td>
   </tr>
 
   <tr>
@@ -803,7 +803,7 @@ Asimismo, se organizaron y documentaron las evidencias necesarias para sustentar
     <td>
       Suarez Chinga, Geraldine<br>
       Sanchez Osorio, Ruth Yanira<br>
-      Cáceres Pizarro, Albino Florencio
+      Cáceres Pizarro, Albino Florencio<br>
     </td>
   </tr>
 
@@ -845,20 +845,28 @@ Asimismo, se organizaron y documentaron las evidencias necesarias para sustentar
   </td>
 </tr>
 
-  <tr>
+  <tr>          
     <td>Sprint 3 Velocity</td>
-    <td>STORY POINTS</td>
+    <td> 13 STORY POINTS</td>
   </tr>
 
   <tr>
     <td>Sum of Story Points</td>
-    <td>SP Y HORAS ESTIMADAS</td>
+    <td>13 SP Y 53 HORAS ESTIMADAS</td>
   </tr>
 </table>
         
 ### 5.2.3.2 Aspect Leaders and Collaborators
-En esta sección se presentara la matriz **Leaderdhip-and-Collaboration Matrix (LACX)**, en la cual se podrá observar que rol a desempeñado cada integrante del grupo según los aspectos principales trabajados durante el desarrollo del proyecto Ventix. 
-En este sprint, nos dedicamos a fortalecer la integracion de la parte del fronted junto a los servicios del Backend y las mejoras para el caso del fronted, así como preparar el entorno necesario para una revisión funcional del producto.
+
+En esta sección se presenta la matriz **Leadership-and-Collaboration Matrix (LACX)** correspondiente al Sprint 3. Su propósito es identificar claramente los aspectos principales del sprint y asignar responsabilidades de liderazgo (L) y colaboración (C) para fortalecer la comunicación, coordinación y trazabilidad del trabajo dentro del equipo.
+
+Estos aspectos se derivan directamente de los objetivos definidos en el Sprint 3 Goal, asegurando cobertura total de los entregables planificados.
+
+- Fronted: Diseño, estructura, contenido y funcionalidad de la página principal del proyecto, incluyendo su despliegue.
+
+- Report Module Implementation: Desarrollo y presentación del módulo que permitirá crear, visualizar y exportar el reporte requerido.
+
+- Backend: Diseño del modulo que permite visualizar y hace funciar la pagina principal integrada al fronted.
 
 | Team member (LastName, First Name) | GitHub UserName | Aspect 1: User | Aspect 2: Back-End | Aspect 3: Reporte |
 |------------------------------------|-----------------|----------------|----------------|-------------------|
@@ -871,7 +879,41 @@ En este sprint, nos dedicamos a fortalecer la integracion de la parte del fronte
 
 ### 5.2.3.3. Sprint Backlog 3
 
+El Sprint Backlog 3 reúne las User Stories (USS) correspondientes al desarrollo del backend de VENTIX, orientadas al monitoreo y gestión de datos ambientales. Estas historias de usuario abarcan el registro y consulta de mediciones en tiempo real, el almacenamiento de historial de datos ambientales, la configuración de umbrales de CO₂, temperatura y humedad, el monitoreo de múltiples espacios, la generación de notificaciones ante niveles críticos de CO₂ y la implementación de mecanismos de alerta y seguridad del sistema. Todas las User Stories planificadas para este sprint fueron completadas satisfactoriamente.
+
+Todas las tareas son monitoreadas y actualizadas mediante Jira Software (https://www.atlassian.com/software/jira). A continuación, la estructura de la tabla de control de estado para el Sprint:
+----------------X
+A continuación, la tabla de control de estado para el Sprint 3:
+
+| Sprint# | Sprint 3 | | | | | | |
+|---|---|---|---|---|---|---|---|
+| **USS ID** | **USS Title** | **Task ID** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| USS-002 |  Visualización de planes y beneficios | T001 | Como visitante quiero ver los planes disponibles con precios y características para compararlos. | 5 | Geraldine Suarez | Done |
+| USS-003 | Selección de plan | T002 | Como visitante quiero seleccionar un plan antes de registrarme para agilizar el proceso. | 3 | Ruth Sanchez | Done |
+| USS-004 | Visualización del equipo | T003 | Como visitante quiero ver información del equipo de desarrollo para generar confianza. | 2 | Jorge Taipe | Done |
+| USS-005 | Cambio de idioma | T004 |Como usuario quiero cambiar el idioma entre español e inglés para mejorar la experiencia. | 3 | Ruth Sanchez | Done |
+| USS-008 | Visualización de datos en tiempo real | T005 | Como usuario quiero ver CO₂, temperatura y humedad en tiempo real para monitorear el ambiente. | 8 | Jorge Taipe | Done |
+| USS-009 | Historial ambiental | T006 | Como usuario quiero ver el historial de datos ambientales para analizar tendencias. | 5 | Geraldine Suarez | Done |
+| USS-013 | Configuración de umbral CO₂ | T007 | Como usuario quiero configurar el nivel de CO₂ permitido. | 3 | Jorge Taipe | Done |
+| USS-014 | Configuración de temperatura | T008 | Como usuario quiero configurar el umbral de temperatura del sistema. | 3 | Albino Caceres | Done |
+| USS-015 | Configuración de humedad | T008 | Como usuario quiero definir el umbral de humedad del sistema. | 3 | Geraldine Suarez | Done |
+| USS-019 | Monitoreo de múltiples espacios | T008 | Como usuario quiero monitorear varios ambientes desde una sola plataforma. | 5 | Ruth Sanchez | Done |
+| USS-022 | Notificaciones de CO₂ alto | T008 | Como usuario quiero recibir alertas cuando el aire esté contaminado. | 3 | Albino Caceres | Done |
+| USS-024 | Botón de pánico ambiental | T008 | Como usuario quiero acceso rápido a contactos de emergencia. | 3 | Albino Caceres | Done |
+
 ### 5.2.3.4. Development Evidence for Sprint Review
+
+En esta sección se presentan los avances alcanzados durante el Sprint 3 en relación con el desarrollo de la capa backend de VENTIX. A lo largo de este sprint se diseñó la arquitectura de datos del sistema mediante la elaboración del Diagrama Entidad-Relación (ERD), el cual sirvió como base para la implementación de 20 tablas relacionales destinadas a soportar las funcionalidades de monitoreo ambiental, gestión de usuarios, configuración de parámetros, administración de espacios, almacenamiento de datos históricos y generación de alertas. Asimismo, se desarrollaron los componentes de persistencia, la lógica de negocio y los servicios necesarios para garantizar el correcto funcionamiento e integración de la plataforma.
+
+La tabla siguiente resume los commits más relevantes realizados en el repositorio del backend, indicando la rama, el identificador del commit, el mensaje asociado y una breve descripción de los cambios introducidos durante la implementación de la arquitectura de datos, los servicios de aplicación y la integración de los distintos módulos del sistema.
+
+
+| Repository                   | Branch | Commit Id | Commit Message                                                                        | Commit Message Body | Commited on (Date) |
+|------------------------------|--------|-----------|---------------------------------------------------------------------------------------|---------------------|--------------------|
+| https://github.com/Open-10177/Ventix-Front-End | work   | 26d06a0   | feat(work): add Reserva Card and List, example db.json, i18n, dependencies and styles |                     | 11-05-2026         |
+| https://github.com/Open-10177/Ventix-Front-End | user   | 0a793c6   | feat(work): add Tecnico Card and List, example db.json, i18n, dependencies and styles |                     | 11-05-2026         |
+| https://github.com/Open-10177/Ventix-Front-End | user   | ea55a62   | feat:Add TechnicianProfilePage                                                        |                     | 11-05-2026         |
+| https://github.com/Open-10177/Ventix-Front-End | user   | 0938ba9   | feat: add HistoryServicesPage entity, assembler, Card, api, list                      |                     | 11-05-2026         |
 
 ### 5.2.3.5. Execution Evidence for Sprint Review
 
