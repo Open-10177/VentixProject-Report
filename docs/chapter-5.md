@@ -965,7 +965,7 @@ Este trabajo refleja una participación activa y distribuida entre los integrant
 
 
 **Figura 40. Overview de contribuciones del equipo en GitHub**
-<img src="../assets/img/chapter-5/x" alt="Overview" width="1000">
+<img src="../assets/img/chapter-5/overview03.png" alt="Overview" width="1000">
 *Figura 40. Panel Overview de GitHub mostrando el flujo de commits de los integrantes del equipo durante el Sprint 3. Fuente: GitHub Analytics - Repositorio Open-10177/Ventix-Backend.*
 
 
@@ -973,7 +973,7 @@ Es asi que el Network Graph refleja la dinámica de trabajo del equipo mediante 
 
 
 **Figura 41. Network Graph del repositorio en GitHub**
-<img src="../assets/img/chapter-5/x" alt="ntwork" width="1000">
+<img src="../assets/img/chapter-5/network3.png" alt="ntwork" width="1000">
 
 *Figura 41. Network Graph del repositorio Ventix-Backend en GitHub, evidenciando el flujo de ramas feature y su integración a main. Fuente: GitHub - Repositorio Open-10177/Ventix-Backend.*
 
@@ -983,7 +983,7 @@ integración con el entorno de producción. Esta actividad evidencia el avance y
 
 
 **Figura 42. Gráfico de visitantes del repositorio en GitHub**
-<img src="../assets/img/chapter-5/x" alt="traffic" width="1000">
+<img src="../assets/img/chapter-5/traffic03.png" alt="traffic" width="1000">
 
 *Figura 42. Gráfico de Visitors del repositorio Ventix-Backend en GitHub, mostrando el incremento de visitas conforme avanzó el Sprint 3. Fuente: GitHub Insights - Repositorio Open-10177/Ventix-Backend.*
 
@@ -992,7 +992,7 @@ Aqui se muestran la cantidad de avance del grupo respecto del repositorio de Git
 
 
 **Figura 43. Gráfico de contribuidores del repositorio en GitHub**
-<img src="../assets/img/chapter-5/x" alt="Avance del equipo" width="1000">
+<img src="../assets/img/chapter-5/visitors3.png" alt="Avance del equipo" width="1000">
 
 *Figura 43. Gráfico de contribuidores del repositorio Ventix-Backend en GitHub, mostrando el incremento de visitas conforme avanzó el Sprint 3. Fuente: GitHub Contribuidor - Repositorio Open-10177/Ventix-Backend.*
 
@@ -1141,6 +1141,9 @@ A través de las preguntas planteadas, se busca evaluar si el producto esta adec
 </table>
 
 **Resumen de la entrevista**
+
+La entrevista con Rocío Bruno Luque, estudiante universitaria de 23 años, permitió evaluar la aplicación Ventix, enfocada en el monitoreo de ambientes cerrados dentro del hogar. La participante destacó la claridad del panel principal y la organización de los datos, lo que le permitió interpretar fácilmente la información ambiental. Consideró útiles las funciones de notificaciones en tiempo real, la visualización de la batería de los ventiladores y el mapa del hogar para ubicar dispositivos, además de valorar la configuración de umbrales de temperatura, CO₂ y humedad. Señaló que Ventix mejoró su comodidad y concentración en espacios pequeños gracias a la ventilación automática y a las sugerencias de acciones ante mala calidad del aire, lo que evitó interrupciones durante el estudio. Finalmente, recomendó incorporar un historial con estadísticas semanales y mensuales, junto con recomendaciones personalizadas para estudiantes, reforzando así la utilidad académica y práctica de la aplicación.
+
 
 **Entrevista 4 -  Responsables del hogar (monitoreo remoto)**
 
