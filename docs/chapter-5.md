@@ -1015,36 +1015,36 @@ A través de las preguntas planteadas, se busca evaluar si el producto esta adec
 
  - **5.** ¿Consideras útil visualizar la bateria de los ventiladores de los ambientes como sala, cuarto o cocina en una lista?
 
- - **6.** ¿El mapa del hogar o ambiente te ayuda a ubicar mejor los dispositivos instalados?
+ - **6.** ¿El mapa del hogar o ambiente te ayudó a ubicar mejor los dispositivos instalados?
 
- - **7.** ¿Crees que Ventix puede ayudarte a mejorar tu comodidad y concentración en habitaciones pequeñas o compartidas?
+ - **7.** ¿Ventix te ayudó a mejorar tu comodidad y concentración en habitaciones pequeñas o compartidas?
 
  - **8.** ¿Consideras útil que Ventix sugiera acciones como activar ventilación cuando detecta mala calidad del aire?
 
- - **9.** ¿Te gustaría que la ventilación se active automáticamente para no interrumpir tu tiempo de estudio?
+ - **9.** ¿Te gustó que la ventilación se active automáticamente para no interrumpir tu tiempo de estudio?
 
  - **10.** Después de probar el producto, ¿qué función agregarías o mejorarías para que Ventix se adapte mejor a estudiantes universitarios?
 
 **Preguntas para el Segmento: Responsables del hogar (monitoreo remoto)**
 
 
- - **1.** Al ver el panel principal de Ventix, ¿puedes entender rápidamente si el hogar se encuentra en condiciones adecuadas?
+ - **1.** Al ver el panel principal de Ventix, ¿pudo entender rápidamente si el hogar se encuentra en condiciones adecuadas?
 
- - **2.** ¿La ventana de detalle de alerta te permite comprender claramente qué ocurre y qué acción se recomienda?
+ - **2.** ¿La ventana de detalle de alerta te permitió comprender claramente qué ocurre y qué acción se recomienda?
 
- - **3.** ¿Te parece útil revisar esta información sin estar físicamente en casa?
+ - **3.** ¿Te pareció útil revisar esta información sin estar físicamente en casa?
 
- - **4.** ¿Las alertas de CO₂ elevado, temperatura alta o batería baja te parecen necesarias para el hogar?
+ - **4.** ¿Las alertas de CO₂ elevado, temperatura alta o batería baja te pareció importantes para el hogar?
 
- - **5.** ¿La lista de ambientes te ayuda a identificar qué zona de la casa necesita atención?
+ - **5.** ¿La lista de ambientes te ayudó a identificar qué zona de la casa necesita atención?
 
- - **6.** ¿Las notificaciones de Ventix te ayudarían a actuar más rápido ante una condición desfavorable en casa?
+ - **6.** ¿Las notificaciones de Ventix te ayudaron a actuar más rápido ante una condición desfavorable en casa?
 
- - **7.** ¿Te daría tranquilidad que el sistema pueda automatizar la ventilación sin que tengas que estar presente?
+ - **7.** ¿Te dio tranquilidad que el sistema pueda automatizar la ventilación sin que tengas que estar presente?
 
- - **8.** ¿El historial de datos te permitiría revisar cómo se comportó el ambiente durante el día?
+ - **8.** ¿El historial de datos te permitio revisar cómo se comportó el ambiente durante el día?
 
- - **9.** ¿Te gustaría poder ajustar límites diferentes para cada ambiente, como sala, cocina o cuarto?
+ - **9.** ¿Que le parecio ajustar límites diferentes para cada ambiente, como sala, cocina o cuarto?
 
  - **10.** Después de probar el producto, ¿qué funcionalidad consideras más importante para mejorar el monitoreo remoto del hogar?
 
@@ -1054,6 +1054,7 @@ A través de las preguntas planteadas, se busca evaluar si el producto esta adec
 
 
 **Screenshot del video**
+
 
 **Resumen de la entrevista**
 
@@ -1073,11 +1074,17 @@ A través de las preguntas planteadas, se busca evaluar si el producto esta adec
 
 **Entrevista 4 -  Responsables del hogar (monitoreo remoto)**
 
-
 **Screenshot del video**
 
-**Resumen de la entrevista**
 
+**Resumen de la entrevista**
+La entrevista validó que Ventix es una plataforma útil para monitorear el hogar de forma remota. La entrevistada indicó que la pantalla principal es clara y permite ver rápidamente datos como temperatura, humedad, CO₂ y ambientes del hogar.
+
+También comentó que agregar dispositivos fue sencillo, que el historial de datos ayuda a revisar el comportamiento del ambiente y que la configuración de umbrales fue rápida y fácil. Las notificaciones le parecieron claras porque explican el problema y la acción recomendada.
+
+La entrevistada considera importante recibir alertas sobre CO₂ elevado, temperatura alta y batería baja, ya que le permitirían actuar a tiempo incluso si no está en casa. Además, destacó que la automatización de la ventilación le daría tranquilidad.
+
+Como mejora principal, sugirió fortalecer las notificaciones en tiempo real, la automatización y los reportes diarios o semanales. En conclusión, Ventix fue percibida como una solución clara, práctica y necesaria para el monitoreo remoto del hogar.
 
 **Entrevista 5 -  Responsables del hogar (monitoreo remoto)**
 
