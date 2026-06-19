@@ -1075,7 +1075,7 @@ A través de las preguntas planteadas, se busca evaluar si el producto esta adec
 **Entrevista 4 -  Responsables del hogar (monitoreo remoto)**
 
 **Screenshot del video**
-
+<img src="../assets/img/chapter-5/entrevista.png" alt="logoTrello" width="400">
 
 **Resumen de la entrevista**
 La entrevista validó que Ventix es una plataforma útil para monitorear el hogar de forma remota. La entrevistada indicó que la pantalla principal es clara y permite ver rápidamente datos como temperatura, humedad, CO₂ y ambientes del hogar.
