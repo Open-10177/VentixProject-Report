@@ -1186,29 +1186,37 @@ Como mejora principal, sugirió fortalecer las notificaciones en tiempo real, la
 **Screenshot del video**
 
 
+<img src="../assets/img/chapter-5/entrevistaValidacion5.png" alt="entrevista" width="800">
+
 <table border="1" cellpadding="4" cellspacing="0">
   <tbody>
     <tr>
       <td><strong>Nombre Completo</strong></td>
-      <td></td>
+      <td>MaryCielo Monteverde</td>
     </tr>
     <tr>
       <td><strong>Fecha de Entrevista</strong></td>
-      <td></td>
+      <td>19/06/2026</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td></td>
+      <td>4:35 minutos</td>
     </tr>
     <tr>
       <td><strong>URL de la entrevista</strong></td>
-      <td></td>
+      <td>Entrevista 5</td>
     </tr>
   </tbody>
 </table>
 
+
 **Resumen de la entrevista**
 
+La entrevistada indicó que el panel principal de Ventix es claro e intuitivo, ya que permite identificar rápidamente el estado del hogar mediante indicadores como CO₂, temperatura y humedad. También destacó que las alertas brindan información comprensible junto con recomendaciones, lo que facilita la toma de decisiones.
+
+Valoró positivamente el monitoreo remoto en tiempo real, ya que le brinda tranquilidad al poder supervisar su hogar desde cualquier lugar. Asimismo, consideró importantes las notificaciones y la organización por ambientes, ya que permiten detectar y atender problemas de forma más rápida.
+
+Finalmente, resaltó que la automatización de la ventilación y el monitoreo en tiempo real son las funcionalidades más relevantes, ya que mejoran el control del hogar y permiten reaccionar oportunamente ante cualquier condición adversa.
 
 **Entrevista 6 - Responsables del hogar (monitoreo remoto)**
 
@@ -1216,29 +1224,36 @@ Como mejora principal, sugirió fortalecer las notificaciones en tiempo real, la
 **Screenshot del video**
 
 
+<img src="../assets/img/chapter-5/entrevistaValidacion6.png" alt="entrevista" width="800">
+
 <table border="1" cellpadding="4" cellspacing="0">
   <tbody>
     <tr>
       <td><strong>Nombre Completo</strong></td>
-      <td></td>
+      <td>Mafer Peña</td>
     </tr>
     <tr>
       <td><strong>Fecha de Entrevista</strong></td>
-      <td></td>
+      <td>19/06/2026</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td></td>
+      <td>3:55 minutos</td>
     </tr>
     <tr>
       <td><strong>URL de la entrevista</strong></td>
-      <td></td>
+      <td>Entrevista 6</td>
     </tr>
   </tbody>
 </table>
 
 **Resumen de la entrevista**
 
+La entrevistada señaló que el panel principal de Ventix es intuitivo y permite identificar rápidamente el estado del hogar, lo que le brinda tranquilidad. También destacó que las alertas y sus descripciones facilitan la comprensión de los problemas y la toma de decisiones.
+
+Consideró muy útil el monitoreo remoto en tiempo real, ya que le permite supervisar su hogar desde cualquier lugar. Además, valoró las notificaciones, la organización por ambientes y el historial de datos, ya que ayudan a detectar problemas y entender el comportamiento del entorno.
+
+Finalmente, resaltó que la automatización del sistema y las alertas en tiempo real son las funcionalidades más importantes, porque le ofrecen mayor control, seguridad y tranquilidad sin necesidad de supervisión constante.
 
 ### 5.3.3. Evaluaciones según heurísticas
 
