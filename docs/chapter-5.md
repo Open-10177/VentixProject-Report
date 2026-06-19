@@ -868,7 +868,7 @@ Estos aspectos se derivan directamente de los objetivos definidos en el Sprint 3
 
 - Report Module Implementation: Desarrollo y presentación del módulo que permitirá crear, visualizar y exportar el reporte requerido.
 
-- Backend: Diseño del modulo que permite visualizar y hace funciar la pagina principal integrada al fronted.
+- Backend: Diseño del modulo que permite visualizar y hace funcionar la pagina principal integrada al fronted.
 
 | Team member (LastName, First Name) | GitHub UserName | Aspect 1: User | Aspect 2: Back-End | Aspect 3: Reporte |
 |------------------------------------|-----------------|----------------|----------------|-------------------|
@@ -912,10 +912,10 @@ La tabla siguiente resume los commits más relevantes realizados en el repositor
 
 | Repository                   | Branch | Commit Id | Commit Message                                                                        | Commit Message Body | Commited on (Date) |
 |------------------------------|--------|-----------|---------------------------------------------------------------------------------------|---------------------|--------------------|
-| https://github.com/Open-10177/Ventix-Front-End | work   | 26d06a0   | feat(work): add Reserva Card and List, example db.json, i18n, dependencies and styles |                     | 11-05-2026         |
-| https://github.com/Open-10177/Ventix-Front-End | user   | 0a793c6   | feat(work): add Tecnico Card and List, example db.json, i18n, dependencies and styles |                     | 11-05-2026         |
-| https://github.com/Open-10177/Ventix-Front-End | user   | ea55a62   | feat:Add TechnicianProfilePage                                                        |                     | 11-05-2026         |
-| https://github.com/Open-10177/Ventix-Front-End | user   | 0938ba9   | feat: add HistoryServicesPage entity, assembler, Card, api, list                      |                     | 11-05-2026         |
+| https://github.com/Open-10177/Ventix-Backend | work   | 26d06a0   | feat(work): add Reserva Card and List, example db.json, i18n, dependencies and styles |                     | 17-06-2026         |
+| https://github.com/Open-10177/Ventix-Backend | user   | 0a793c6   | feat(work): add Tecnico Card and List, example db.json, i18n, dependencies and styles |                     | 17-06-2026         |
+| https://github.com/Open-10177/Ventix-Backend | user   | ea55a62   | feat:Add TechnicianProfilePage                                                        |                     | 17-06-2026         |
+| https://github.com/Open-10177/Ventix-Backend | user   | 0938ba9   | feat: add HistoryServicesPage entity, assembler, Card, api, list                      |                     | 17-06-2026         |
 
 ### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -929,9 +929,9 @@ Duracion:----------------X
 
 En este sprint se implementaron las siguientes funcionalidades en el frontend de VentixProject:
 
-**Figura 44. Inicio Sesion en el fronted de VENTIX**
+**Figura 44. User Stories respecto de backend de VENTIX**
 <img src="../assets/img/chapter-5/x" alt="" width="1000">
-*Figura 44. Vista de inicio de sesion responsiva del fronted de Ventix. Se aprecian espacios para completar datos que se conocen como correo y contraseña del fronted de Ventix. Fuente: Elaboración propia.*
+*Figura 44. User stories de Ventix. Se aprecian historias de usuarios, fechas y acciones del sistema. Fuente: Elaboracion Propia*
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -946,8 +946,8 @@ Una vez finalizado el desarrollo del frontend, se realizó la transición desde 
 El backend de VentixProject fue desplegado utilizando **Azure Static Web Apps**, una plataforma de despliegue optimizada para aplicaciones frontend y backend.
 
 **Pasos para el despliegue:**
-1. **Creación del repositorio**: Se creó un repositorio en la organización de GitHub llamado `Ventix-Front-End`.
-2. **Desarrollo del frontend**: El código fuente del backend se desarrolló y organizó en el repositorio.
+1. **Creación del repositorio**: Se creó un repositorio en la organización de GitHub llamado `Ventix-Backend`.
+2. **Desarrollo del backend**: El código fuente del backend se desarrolló y organizó en el repositorio.
 3. **Conexión con Azure Static Web Apps**: Se conectó el repositorio de GitHub con Azure Static Web Apps para habilitar despliegues automáticos.
 4. **Configuración de despliegue**: Se configuró Vercel para desplegar automáticamente el backend con el fronted cada vez que se realizara un push a la rama `main`.
 5. **Verificación del despliegue**: Se verificó que la aplicación estuviera accesible públicamente y funcionara correctamente en diferentes dispositivos y navegadores.
