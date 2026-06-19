@@ -974,6 +974,7 @@ Es asi que el Network Graph refleja la dinámica de trabajo del equipo mediante 
 
 **Figura 41. Network Graph del repositorio en GitHub**
 <img src="../assets/img/chapter-5/x" alt="ntwork" width="1000">
+
 *Figura 41. Network Graph del repositorio Ventix-Backend en GitHub, evidenciando el flujo de ramas feature y su integración a main. Fuente: GitHub - Repositorio Open-10177/Ventix-Backend.*
 
 
@@ -983,6 +984,7 @@ integración con el entorno de producción. Esta actividad evidencia el avance y
 
 **Figura 42. Gráfico de visitantes del repositorio en GitHub**
 <img src="../assets/img/chapter-5/x" alt="traffic" width="1000">
+
 *Figura 42. Gráfico de Visitors del repositorio Ventix-Backend en GitHub, mostrando el incremento de visitas conforme avanzó el Sprint 3. Fuente: GitHub Insights - Repositorio Open-10177/Ventix-Backend.*
 
 
@@ -991,6 +993,7 @@ Aqui se muestran la cantidad de avance del grupo respecto del repositorio de Git
 
 **Figura 43. Gráfico de contribuidores del repositorio en GitHub**
 <img src="../assets/img/chapter-5/x" alt="Avance del equipo" width="1000">
+
 *Figura 43. Gráfico de contribuidores del repositorio Ventix-Backend en GitHub, mostrando el incremento de visitas conforme avanzó el Sprint 3. Fuente: GitHub Contribuidor - Repositorio Open-10177/Ventix-Backend.*
 
 
@@ -1075,7 +1078,9 @@ A través de las preguntas planteadas, se busca evaluar si el producto esta adec
 **Entrevista 4 -  Responsables del hogar (monitoreo remoto)**
 
 **Screenshot del video**
-<img src="../assets/img/chapter-5/entrevista.png" alt="logoTrello" width="400">
+
+
+<img src="../assets/img/chapter-5/entrevista.png" alt="entrevista" width="800">
 
 **Resumen de la entrevista**
 La entrevista validó que Ventix es una plataforma útil para monitorear el hogar de forma remota. La entrevistada indicó que la pantalla principal es clara y permite ver rápidamente datos como temperatura, humedad, CO₂ y ambientes del hogar.
