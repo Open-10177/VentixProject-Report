@@ -710,7 +710,7 @@ El frontend de VentixProject fue desplegado utilizando **Azure Static Web Apps**
 **Pasos para el despliegue:**
 1. **Creación del repositorio**: Se creó un repositorio en la organización de GitHub llamado `Ventix-Front-End`.
 2. **Desarrollo del frontend**: El código fuente del frontend se desarrolló y organizó en el repositorio.
-3. **Conexión con Vercel**: Se conectó el repositorio de GitHub con Azure Static Web Apps para habilitar despliegues automáticos.
+3. **Conexión con Azure Static Web Apps**: Se conectó el repositorio de GitHub con Azure Static Web Apps para habilitar despliegues automáticos.
 4. **Configuración de despliegue**: Se configuró Vercel para desplegar automáticamente el frontend cada vez que se realizara un push a la rama `main`.
 5. **Verificación del despliegue**: Se verificó que la aplicación estuviera accesible públicamente y funcionara correctamente en diferentes dispositivos y navegadores.
 
@@ -745,7 +745,7 @@ Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrol
 
 **Figura 42. Gráfico de visitantes del repositorio en GitHub**
 <img src="../assets/img/chapter-5/traffic.JPG" alt="traffic" width="1000">
-Figura 42. Gráfico de Visitors del repositorio Ventix-Front-End en GitHub, mostrando el incremento de visitas conforme avanzó el Sprint 1. Fuente: GitHub Insights - Repositorio Open-10177/Ventix-Front-End.
+*Figura 42. Gráfico de Visitors del repositorio Ventix-Front-End en GitHub, mostrando el incremento de visitas conforme avanzó el Sprint 3. Fuente: GitHub Insights - Repositorio Open-10177/Ventix-Front-End.*
 
 
 A continuación, se muestran algunos insights del repositorio de GitHub:
@@ -755,7 +755,9 @@ A continuación, se muestran algunos insights del repositorio de GitHub:
 * **Taipe Sangama, Jorge Francisco:** Se encargó de la página de shared, revision de todo y desplegar el fronted.
 * **Cáceres Pizarro, Albino Florencio:** Se encargó de la página de monitoring.
 
+**Figura 43. Gráfico de contribuidores del repositorio en GitHub**
 <img src="../assets/img/chapter-5/avance.JPG" alt="Avance del equipo" width="1000">
+*Figura 43. Gráfico de contribuidores del repositorio Ventix-Front-End en GitHub, mostrando el incremento de visitas conforme avanzó el Sprint 1. Fuente: GitHub Contribuidor - Repositorio Open-10177/Ventix-Front-End.*
 
 ## 5.2.3. Sprint 3
 En esta sección se detalla el avance desarrollado durante el Sprint 3 del proyecto Ventix, considerando tanto la evolución del producto como la participación del equipo en el actual trabajo. Durante este sprint se fortaleció la integración de los principales componentes de la solución, conectando las funcionalidades del Fronted con los servicios definidos para el Backend, con el proposito de completar la elaboración de una version funcional de nuestra aplicación.
@@ -879,7 +881,7 @@ Estos aspectos se derivan directamente de los objetivos definidos en el Sprint 3
 
 ### 5.2.3.3. Sprint Backlog 3
 
-El Sprint Backlog 3 reúne las User Stories (USS) correspondientes al desarrollo del backend de VENTIX, orientadas al monitoreo y gestión de datos ambientales. Estas historias de usuario abarcan el registro y consulta de mediciones en tiempo real, el almacenamiento de historial de datos ambientales, la configuración de umbrales de CO₂, temperatura y humedad, el monitoreo de múltiples espacios, la generación de notificaciones ante niveles críticos de CO₂ y la implementación de mecanismos de alerta y seguridad del sistema. Todas las User Stories planificadas para este sprint fueron completadas satisfactoriamente.
+El Sprint Backlog 3 reúne las User Stories (USS) y tareas necesarias para la implementación de las funcionalidades del backend de VENTIX orientadas al monitoreo y gestión de datos ambientales. Entre ellas se incluyen el registro y consulta de mediciones en tiempo real, el almacenamiento de historial de datos ambientales, la configuración de umbrales de CO₂, temperatura y humedad, el monitoreo de múltiples espacios, la generación de notificaciones ante niveles elevados de CO₂ y la gestión de mecanismos de alerta y seguridad del sistema. 
 
 Todas las tareas son monitoreadas y actualizadas mediante Jira Software (https://www.atlassian.com/software/jira). A continuación, la estructura de la tabla de control de estado para el Sprint:
 ----------------X
@@ -917,9 +919,44 @@ La tabla siguiente resume los commits más relevantes realizados en el repositor
 
 ### 5.2.3.5. Execution Evidence for Sprint Review
 
+Durante el Sprint 3, se desarrolló la infraestructura backend necesaria para soportar las funcionalidades de seguimiento y monitoreo ambiental de VENTIX. Como parte de este trabajo, se diseñó e implementó la estructura de datos del sistema, así como los servicios encargados de gestionar la información de usuarios, espacios monitoreados, mediciones ambientales, entre otros. A través de estos componentes, la plataforma permite registrar y almacenar información de manera garantizando el seguimiento continuo de las condiciones ambientales. A continuación, se presentan las evidencias de ejecución de los principales componentes y funcionalidades implementados durante este sprint.
+
+Video de demostracion del Backend de VENTIX:
+
+URL DE YOUTUBE:----------------X
+
+Duracion:----------------X
+
+En este sprint se implementaron las siguientes funcionalidades en el frontend de VentixProject:
+
+**Figura 44. Inicio Sesion en el fronted de VENTIX**
+<img src="../assets/img/chapter-5/x" alt="" width="1000">
+*Figura 44. Vista de inicio de sesion responsiva del fronted de Ventix. Se aprecian espacios para completar datos que se conocen como correo y contraseña del fronted de Ventix. Fuente: Elaboración propia.*
+
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
+Durante las primeras etapas del desarrollo del frontend de VentixProject, se utilizó un JSON Server como API simulada (mock API), lo que permitió emular las interacciones con un backend real y avanzar en la implementación de las funcionalidades de la interfaz sin depender de servicios completamente desarrollados. Este enfoque facilitó la construcción y validación del frontend de manera independiente, asegurando el correcto funcionamiento de las vistas y la lógica de consumo de datos.
+
+Una vez finalizado el desarrollo del frontend, se realizó la transición desde la API simulada hacia una API real desplegada, reemplazando progresivamente los endpoints mock por servicios backend definitivos. Posteriormente, se llevó a cabo la integración completa entre el frontend y el backend, garantizando la comunicación efectiva entre ambas capas y el correcto flujo de datos en la plataforma VENTIX.
+
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+**Backend Web Application:**
+
+El backend de VentixProject fue desplegado utilizando **Azure Static Web Apps**, una plataforma de despliegue optimizada para aplicaciones frontend y backend.
+
+**Pasos para el despliegue:**
+1. **Creación del repositorio**: Se creó un repositorio en la organización de GitHub llamado `Ventix-Front-End`.
+2. **Desarrollo del frontend**: El código fuente del backend se desarrolló y organizó en el repositorio.
+3. **Conexión con Azure Static Web Apps**: Se conectó el repositorio de GitHub con Azure Static Web Apps para habilitar despliegues automáticos.
+4. **Configuración de despliegue**: Se configuró Vercel para desplegar automáticamente el backend con el fronted cada vez que se realizara un push a la rama `main`.
+5. **Verificación del despliegue**: Se verificó que la aplicación estuviera accesible públicamente y funcionara correctamente en diferentes dispositivos y navegadores.
+
+**Repositorio:** https://github.com/Open-10177/Ventix-Backend
+
+**URL desplegada:**
+- Cliente: https://calm-sand-0bec80210.7.azurestaticapps.net
+- Técnico: https://calm-sand-0bec80210.7.azurestaticapps.net
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint
 En esta sección mostraremos el seguimiento de actividad en los repositorios Ventix-Front-End y Ventix-Back-End, lo que nos permitió observar el progreso del equipo en los dos componentes principales del proyecto. El gráfico de Overview refleja un flujo constante de commits durante el sprint, relacionado con la integración de funcionalidades, la mejora de los módulos desarrollados y la implementación progresiva de los servicios necesarios para conectar la aplicación con el Backend.
@@ -927,8 +964,35 @@ En esta sección mostraremos el seguimiento de actividad en los repositorios Ven
 Este trabajo refleja una participación activa y distribuida entre los integrantes del equipo, ya que todos colaboraron en diferentes partes del proyecto. Cada miembro aportó en aspectos como la construcción de componentes de interfaz, configuración, conexiones, organización de servicios y manejo de datos. De esta manera, los aportes realizados permitieron avanzar hacia una versión más funcional de Ventix, fortaleciendo la integración entre Frontend, Backend y el entorno de despliegue.
 
 
+**Figura 40. Overview de contribuciones del equipo en GitHub**
+<img src="../assets/img/chapter-5/x" alt="Overview" width="1000">
+*Figura 40. Panel Overview de GitHub mostrando el flujo de commits de los integrantes del equipo durante el Sprint 3. Fuente: GitHub Analytics - Repositorio Open-10177/Ventix-Backend.*
 
-A continuación, el gráfico de Visitors muestra actividad sobre los repositorios a medida que se acercaban las fechas de pruebas e integración con el entorno de producción. Esta actividad evidencia el avance y la participación de cada integrante.
+
+Es asi que el Network Graph refleja la dinámica de trabajo del equipo mediante la creación de ramas derivadas de *main* y su posterior integración tras el desarrollo de cada funcionalidad. Esta visualización evidencia que las contribuciones se realizaron de forma aislada en ramas específicas, donde se llevaron a cabo las implementaciones y pruebas correspondientes antes de ser fusionadas al repositorio principal. Este enfoque permitió mantener un historial de cambios ordenado, mejorar la trazabilidad de las modificaciones y reducir conflictos durante la integración del código.
+
+
+**Figura 41. Network Graph del repositorio en GitHub**
+<img src="../assets/img/chapter-5/x" alt="ntwork" width="1000">
+*Figura 41. Network Graph del repositorio Ventix-Backend en GitHub, evidenciando el flujo de ramas feature y su integración a main. Fuente: GitHub - Repositorio Open-10177/Ventix-Backend.*
+
+
+A continuación, el gráfico de Visitors muestra actividad sobre los repositorios a medida que se acercaban las fechas de pruebas e 
+integración con el entorno de producción. Esta actividad evidencia el avance y la participación de cada integrante.
+
+
+**Figura 42. Gráfico de visitantes del repositorio en GitHub**
+<img src="../assets/img/chapter-5/x" alt="traffic" width="1000">
+*Figura 42. Gráfico de Visitors del repositorio Ventix-Backend en GitHub, mostrando el incremento de visitas conforme avanzó el Sprint 3. Fuente: GitHub Insights - Repositorio Open-10177/Ventix-Backend.*
+
+
+Aqui se muestran la cantidad de avance del grupo respecto del repositorio de GitHub:
+
+
+**Figura 43. Gráfico de contribuidores del repositorio en GitHub**
+<img src="../assets/img/chapter-5/x" alt="Avance del equipo" width="1000">
+*Figura 43. Gráfico de contribuidores del repositorio Ventix-Backend en GitHub, mostrando el incremento de visitas conforme avanzó el Sprint 3. Fuente: GitHub Contribuidor - Repositorio Open-10177/Ventix-Backend.*
+
 
 En conjunto, los analíticos de Overview y Visitors permiten demostrar que, durante el Sprint 3, los integrantes del equipo participaron de manera activa en el desarrollo del Frontend y Backend del proyecto Ventix. Estos aportes contribuyeron al avance de los productos principales del proyecto, evidenciando el compromiso de todos durante su desarrollo.
 
