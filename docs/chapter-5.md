@@ -608,9 +608,9 @@ Durante el Sprint 2, se implementaron las funcionalidades del frontend de VENTIX
 
 Video de demostracion del Fronted de VENTIX:
 
-URL DE YOUTUBE:----------------X
+URL DE Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c626_upc_edu_pe/IQCV-WcvSJMRQbLHN0CeUcziAfe1A7cUw2FxLKuYEeZ73Ck?e=6lMau0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-Duracion:----------------X
+Duracion: 2:57 minutos
 
 En este sprint se implementaron las siguientes funcionalidades en el frontend de VentixProject:
 
@@ -923,94 +923,96 @@ Durante el Sprint 3, se desarrolló la infraestructura backend necesaria para so
 
 Video de demostracion del Backend de VENTIX:
 
-URL DE YOUTUBE:----------------X
+URL DE Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c626_upc_edu_pe/IQCV-WcvSJMRQbLHN0CeUcziAfe1A7cUw2FxLKuYEeZ73Ck?e=6lMau0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-Duracion:----------------X
+Duracion: 2:57 minutos
 
 En este sprint se implementaron las siguientes funcionalidades en el backend de VentixProject:
 
-**Figura 44. Inicio Sesion en el backend de VENTIX**
-<img src="../assets/img/chapter-5/Inicio_Sesion.png" alt="" width="1000">
-*Figura 44. Vista de inicio de sesion responsiva del backend de Ventix. Se aprecian espacios para completar datos que se conocen como correo y contraseña del fronted de Ventix. Fuente: Elaboración propia.*
-
-
-**Figura 45. Registro en el backend de Ventix**
-<img src="../assets/img/chapter-5/Registro.png" alt="" width="1000">
-*Figura 45. Vista del registro responsiva del backend de Ventix. Se aprecian espacios para completar datos nuevos del usuario. Fuente: Elaboración propia.*
-
-
-**Figura 46. Menu principal en el backend de Ventix**
-<img src="../assets/img/chapter-5/Pantalla_Inicio.png" alt="" width="1000">
-*Figura 46. Vista de menu principal responsiva del backend de Ventix. Se aprecia el menu principal en donde esta datos de nivelaciones, configuracion de umbrales, agregar dispositivos, temperatura del ambiente, historial de datos, entre otros servicios que al ingresar se observan nuevos sectores. Fuente: Elaboración propia.*
-
-
-**Figura 47. Notificaciones en el backend de Ventix**
-<img src="../assets/img/chapter-5/Notificaciones.png" alt="" width="1000">
-*Figura 47. Vista de pantalla de notificaciones del fronted de Ventix. Se aprecian mensajes de peligro, advertencias, alertas y actualizaciones. Fuente: Elaboración propia.*
-
-
-**Figura 48. Umbrales en el backend de Ventix**
-<img src="../assets/img/chapter-5/Umbrales.png" alt="" width="1000">
-*Figura 48. Vista de pantalla de umbrales del backend de Ventix. Se aprecian datos de un area en especifico en donde se muestra bateria del nodo, lecturas actuales y configuraciones. Fuente: Elaboración propia.*
-
-
-**Figura 49. Mapa en el backend de Ventix**
-<img src="../assets/img/chapter-5/Mapa.png" alt="" width="1000">
-*Figura 49. Vista del mapa del backend de Ventix. Se aprecian espacios de todo un piso del hogar, asi como las baterias de cada punto registro del mapa de la casa. Fuente: Elaboración propia.*
-
-
-**Figura 50. Registro de dispositivos en el backend de Ventix**
-<img src="../assets/img/chapter-5/Registro_de_dispositivos.png" alt="" width="1000">
-*Figura 50. Vista del registro de dispositivos del backend de Ventix. Se aprecia dos tipos de registro, el primero es mediante QR y mediante Código. Fuente: Elaboración propia.*
-
-
-**Figura 51. Registro QR en el backend de Ventix**
-<img src="../assets/img/chapter-5/Registro_QR.png" alt="" width="1000">
-*Figura 51. Vista del registro QR del backend de Ventix. Se aprecia una guia rapida de registro y para subir la imagen que deseamos relacionar al sistema. Fuente: Elaboración propia.*
-
-
-**Figura 52. Registro Código en el backend de Ventix**
-<img src="../assets/img/chapter-5/Registro_Codigo.png" alt="" width="1000">
-*Figura 52. Vista del registro código del backend de Ventix. Se aprecia una guia rapida de registro y para poner el codigo manual que se pueda relacionar al sistema. Fuente: Elaboración propia.*
-
-
-**Figura 53. Planes mensuales en el backend de Ventix**
-<img src="../assets/img/chapter-5/Plan_Mensual.png" alt="" width="1000">
-*Figura 53. Vista de planes mensuales del backend de Ventix. Se aprecian los dos planes mensuales disponibles de paga del producto. Fuente: Elaboración propia.*
-
-
-**Figura 54. Cobro mediante Tarjeta en el backend de Ventix**
-<img src="../assets/img/chapter-5/CobroTarjeta_Plan_Mensual.png" alt="" width="1000">
-*Figura 54. Vista de la pantalla de cobro mediante Tarjeta del backend de Ventix. Se aprecian espacios para completar nombre, numero, vencimiento y cvv de la tarjeta de quien va a pagar. Fuente: Elaboración propia.*
-
-
-**Figura 55. Cobro mediante Yape en el backend de Ventix**
-*<img src="../assets/img/chapter-5/CobroYape_Plan_Mensual.png" alt="" width="1000">
-Figura 55. Vista de la pantalla de cobro mediante Yape del backend de Ventix. Se aprecia un codigo de qr y numero del yape. Fuente: Elaboración propia.*
-
-
-**Figura 56. Cobro mediante Paypal en el backend de Ventix**
-<img src="../assets/img/chapter-5/CobroPaypal_Plan_Mensual.png" alt="" width="1000">
-*Figura 56. Vista de la pantalla de cobro mediante Paypal del backend de Ventix. Se aprecia un espacio que te redirige a la web app de paypal. Fuente: Elaboración propia.*
-
-
-**Figura 57. Pago exitoso en el backend de Ventix**
-<img src="../assets/img/chapter-5/Pago_Exitoso.png" alt="" width="1000">
-*Figura 57. Vista del pago exitoso en el backend de Ventix. Se aprecia que se realizo correctamente el pago y que el plan se activo. Fuente: Elaboración propia.*
-
-
-**Figura 58. Configuracion en el backend de Ventix**
-<img src="../assets/img/chapter-5/Configuracion.png" alt="" width="1000">
-*Figura 58. Vista de la configuracion del usuario en el backend de Ventix. Se aprecian tres espacios  entre adicionales, en donde el primero muestra el correo y contraseña para poder cambiarlo si deseamos, el segundo es el plan exclusivo, el tercero es elegir el idioma (español o ingles), sesion para cambiar de cuenta y cerrar sesion. Fuente: Elaboración propia.*
-
-
-**Figura 59. Cambio de cuenta y vista de usuarios en el backend de Ventix**
-<img src="../assets/img/chapter-5/Users.png" alt="" width="1000">
-*Figura 59. Vista la ventana de usuarios creados y por crear en el backend de Ventix. Se aprecia perfiles, areas que corresponden el usuario y lugar de ubicacion. Fuente: Elaboración propia.*
-
-**Figura 60. Base de datos de Mysqll de backend**
+**Figura 44. Base de datos de Mysqll de backend**
 <img src="../assets/img/chapter-5/basededatos_sql.jpeg" alt="" width="1000">
-*Figura 60. Vista la ventana de base de datos mysqll del backend de Ventix. Se aprecia las tablas de informacion Fuente: Elaboración propia.*
+*Figura 44. Vista la ventana de base de datos mysqll del backend de Ventix. Se aprecia las tablas de informacion Fuente: Elaboración propia.*
+
+
+**Figura 45. Inicio Sesion en el backend de VENTIX**
+<img src="../assets/img/chapter-5/Inicio_Sesion.png" alt="" width="1000">
+*Figura 45. Vista de inicio de sesion responsiva del backend de Ventix. Se aprecian espacios para completar datos que se conocen como correo y contraseña del fronted de Ventix. Fuente: Elaboración propia.*
+
+
+**Figura 46. Registro en el backend de Ventix**
+<img src="../assets/img/chapter-5/Registro.png" alt="" width="1000">
+*Figura 46. Vista del registro responsiva del backend de Ventix. Se aprecian espacios para completar datos nuevos del usuario. Fuente: Elaboración propia.*
+
+
+**Figura 47. Menu principal en el backend de Ventix**
+<img src="../assets/img/chapter-5/Pantalla_Inicio.png" alt="" width="1000">
+*Figura 47. Vista de menu principal responsiva del backend de Ventix. Se aprecia el menu principal en donde esta datos de nivelaciones, configuracion de umbrales, agregar dispositivos, temperatura del ambiente, historial de datos, entre otros servicios que al ingresar se observan nuevos sectores. Fuente: Elaboración propia.*
+
+
+**Figura 48. Notificaciones en el backend de Ventix**
+<img src="../assets/img/chapter-5/Notificaciones.png" alt="" width="1000">
+*Figura 48. Vista de pantalla de notificaciones del fronted de Ventix. Se aprecian mensajes de peligro, advertencias, alertas y actualizaciones. Fuente: Elaboración propia.*
+
+
+**Figura 49. Umbrales en el backend de Ventix**
+<img src="../assets/img/chapter-5/Umbrales.png" alt="" width="1000">
+*Figura 49. Vista de pantalla de umbrales del backend de Ventix. Se aprecian datos de un area en especifico en donde se muestra bateria del nodo, lecturas actuales y configuraciones. Fuente: Elaboración propia.*
+
+
+**Figura 50. Mapa en el backend de Ventix**
+<img src="../assets/img/chapter-5/Mapa.png" alt="" width="1000">
+*Figura 50. Vista del mapa del backend de Ventix. Se aprecian espacios de todo un piso del hogar, asi como las baterias de cada punto registro del mapa de la casa. Fuente: Elaboración propia.*
+
+
+**Figura 51. Registro de dispositivos en el backend de Ventix**
+<img src="../assets/img/chapter-5/Registro_de_dispositivos.png" alt="" width="1000">
+*Figura 51. Vista del registro de dispositivos del backend de Ventix. Se aprecia dos tipos de registro, el primero es mediante QR y mediante Código. Fuente: Elaboración propia.*
+
+
+**Figura 52. Registro QR en el backend de Ventix**
+<img src="../assets/img/chapter-5/Registro_QR.png" alt="" width="1000">
+*Figura 52. Vista del registro QR del backend de Ventix. Se aprecia una guia rapida de registro y para subir la imagen que deseamos relacionar al sistema. Fuente: Elaboración propia.*
+
+
+**Figura 53. Registro Código en el backend de Ventix**
+<img src="../assets/img/chapter-5/Registro_Codigo.png" alt="" width="1000">
+*Figura 53. Vista del registro código del backend de Ventix. Se aprecia una guia rapida de registro y para poner el codigo manual que se pueda relacionar al sistema. Fuente: Elaboración propia.*
+
+
+**Figura 54. Planes mensuales en el backend de Ventix**
+<img src="../assets/img/chapter-5/Plan_Mensual.png" alt="" width="1000">
+*Figura 54. Vista de planes mensuales del backend de Ventix. Se aprecian los dos planes mensuales disponibles de paga del producto. Fuente: Elaboración propia.*
+
+
+**Figura 55. Cobro mediante Tarjeta en el backend de Ventix**
+<img src="../assets/img/chapter-5/CobroTarjeta_Plan_Mensual.png" alt="" width="1000">
+*Figura 55. Vista de la pantalla de cobro mediante Tarjeta del backend de Ventix. Se aprecian espacios para completar nombre, numero, vencimiento y cvv de la tarjeta de quien va a pagar. Fuente: Elaboración propia.*
+
+
+**Figura 56. Cobro mediante Yape en el backend de Ventix**
+*<img src="../assets/img/chapter-5/CobroYape_Plan_Mensual.png" alt="" width="1000">
+Figura 56. Vista de la pantalla de cobro mediante Yape del backend de Ventix. Se aprecia un codigo de qr y numero del yape. Fuente: Elaboración propia.*
+
+
+**Figura 57. Cobro mediante Paypal en el backend de Ventix**
+<img src="../assets/img/chapter-5/CobroPaypal_Plan_Mensual.png" alt="" width="1000">
+*Figura 57. Vista de la pantalla de cobro mediante Paypal del backend de Ventix. Se aprecia un espacio que te redirige a la web app de paypal. Fuente: Elaboración propia.*
+
+
+**Figura 58. Pago exitoso en el backend de Ventix**
+<img src="../assets/img/chapter-5/Pago_Exitoso.png" alt="" width="1000">
+*Figura 58. Vista del pago exitoso en el backend de Ventix. Se aprecia que se realizo correctamente el pago y que el plan se activo. Fuente: Elaboración propia.*
+
+
+**Figura 59. Configuracion en el backend de Ventix**
+<img src="../assets/img/chapter-5/Configuracion.png" alt="" width="1000">
+*Figura 59. Vista de la configuracion del usuario en el backend de Ventix. Se aprecian tres espacios  entre adicionales, en donde el primero muestra el correo y contraseña para poder cambiarlo si deseamos, el segundo es el plan exclusivo, el tercero es elegir el idioma (español o ingles), sesion para cambiar de cuenta y cerrar sesion. Fuente: Elaboración propia.*
+
+
+**Figura 60. Cambio de cuenta y vista de usuarios en el backend de Ventix**
+<img src="../assets/img/chapter-5/Users.png" alt="" width="1000">
+*Figura 60. Vista la ventana de usuarios creados y por crear en el backend de Ventix. Se aprecia perfiles, areas que corresponden el usuario y lugar de ubicacion. Fuente: Elaboración propia.*
+
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
