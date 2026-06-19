@@ -711,7 +711,7 @@ El frontend de VentixProject fue desplegado utilizando **Azure Static Web Apps**
 1. **Creación del repositorio**: Se creó un repositorio en la organización de GitHub llamado `Ventix-Front-End`.
 2. **Desarrollo del frontend**: El código fuente del frontend se desarrolló y organizó en el repositorio.
 3. **Conexión con Azure Static Web Apps**: Se conectó el repositorio de GitHub con Azure Static Web Apps para habilitar despliegues automáticos.
-4. **Configuración de despliegue**: Se configuró Vercel para desplegar automáticamente el frontend cada vez que se realizara un push a la rama `main`.
+4. **Configuración de despliegue**: Se configuró Azure Static Web Apps para desplegar automáticamente el frontend cada vez que se realizara un push a la rama `main`.
 5. **Verificación del despliegue**: Se verificó que la aplicación estuviera accesible públicamente y funcionara correctamente en diferentes dispositivos y navegadores.
 
 **Repositorio:** https://github.com/Open-10177/Ventix-Front-End
@@ -766,7 +766,7 @@ Asimismo, se organizaron y documentaron las evidencias necesarias para sustentar
 
  - **Repositorio Frontend:** https://github.com/Open-10177/Ventix-Front-End
  - **Repositorio Backend:** https://github.com/Open-10177/Ventix-Backend
- - **Backend API (Producción):**
+ - **Backend API (Producción):** ventixbackend-h0dbarh9d8dbhkeg.brazilsouth-01.azurewebsites.net
 
 ### 5.2.3.1 Sprint Planning 3
 
@@ -1042,15 +1042,15 @@ El backend de VentixProject fue desplegado utilizando **Azure Static Web Apps**,
 **Pasos para el despliegue:**
 1. **Creación del repositorio**: Se creó un repositorio en la organización de GitHub llamado `Ventix-Backend`.
 2. **Desarrollo del backend**: El código fuente del backend se desarrolló y organizó en el repositorio.
-3. **Conexión con Azure Static Web Apps**: Se conectó el repositorio de GitHub con Azure Static Web Apps para habilitar despliegues automáticos.
-4. **Configuración de despliegue**: Se configuró Vercel para desplegar automáticamente el backend con el fronted cada vez que se realizara un push a la rama `main`.
+  3. **Conexión con Azure Web Sites**: Se conectó el repositorio de GitHub con Azure Web Sites para habilitar despliegues automáticos.
+4. **Configuración de despliegue**: Se configuró Azure Web Sites para desplegar automáticamente el backend con el fronted cada vez que se realizara un push a la rama `main`.
 5. **Verificación del despliegue**: Se verificó que la aplicación estuviera accesible públicamente y funcionara correctamente en diferentes dispositivos y navegadores.
 
 **Repositorio:** https://github.com/Open-10177/Ventix-Backend
 
 **URL desplegada:**
-- Cliente: https://calm-sand-0bec80210.7.azurestaticapps.net
-- Técnico: https://calm-sand-0bec80210.7.azurestaticapps.net
+- Cliente: ventixbackend-h0dbarh9d8dbhkeg.brazilsouth-01.azurewebsites.net
+- Técnico: ventixbackend-h0dbarh9d8dbhkeg.brazilsouth-01.azurewebsites.net
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint
 
