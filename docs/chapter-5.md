@@ -1009,7 +1009,7 @@ Figura 55. Vista de la pantalla de cobro mediante Yape del backend de Ventix. Se
 *Figura 59. Vista la ventana de usuarios creados y por crear en el backend de Ventix. Se aprecia perfiles, areas que corresponden el usuario y lugar de ubicacion. Fuente: Elaboración propia.*
 
 **Figura 60. Base de datos de Mysqll de backend**
-<img src="../assets/img/chapter-5/basededatos_sql.png" alt="" width="1000">
+<img src="../assets/img/chapter-5/basededatos_sql.jpeg" alt="" width="1000">
 *Figura 60. Vista la ventana de base de datos mysqll del backend de Ventix. Se aprecia las tablas de informacion Fuente: Elaboración propia.*
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
@@ -1044,8 +1044,14 @@ En esta sección mostraremos el seguimiento de actividad en los repositorios Ven
 Este trabajo refleja una participación activa y distribuida entre los integrantes del equipo, ya que todos colaboraron en diferentes partes del proyecto. Cada miembro aportó en aspectos como la construcción de componentes de interfaz, configuración, conexiones, organización de servicios y manejo de datos. De esta manera, los aportes realizados permitieron avanzar hacia una versión más funcional de Ventix, fortaleciendo la integración entre Frontend, Backend y el entorno de despliegue.
 
 **Figura 61. Gráfico de contribuidores del repositorio en GitHub**
-<img src="../assets/img/chapter-5/contribuidores3.png" alt="Avance del equipo" width="500">
+
+
+<img src="../assets/img/chapter-5/contribuidores3.png" alt="Avance del equipo" width="100">
+
+
+
 *Figura 61. Gráfico de contribuidores del repositorio Ventix-Backend en GitHub, mostrando el incremento de visitas conforme avanzó el Sprint 3. Fuente: GitHub Contribuidor - Repositorio Open-10177/Ventix-Backend.*
+
 
 **Figura 62. Overview de contribuciones del equipo en GitHub**
 <img src="../assets/img/chapter-5/overview_sprint3.png" alt="Overview" width="1000">
