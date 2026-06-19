@@ -1449,8 +1449,7 @@ La entrevista con Rafael Jalec Peña Hernández, de 35 años, permitió evaluar 
 <p>
   <strong>Problema:</strong> En acciones como crear una cuenta, agregar un dispositivo, guardar configuración o actualizar datos, el sistema debe informar claramente si la acción se completó de manera correcta. Si no aparece un mensaje de confirmación, el usuario puede quedar con la duda de si su acción fue registrada o si ocurrió un error.
 </p>
-
-<p>
+  
   <strong>Recomendación:</strong> Agregar mensajes de confirmación visibles después de cada acción importante. Por ejemplo: “Dispositivo agregado correctamente”, “Configuración guardada” o “Cuenta creada con éxito”. En caso de error, el mensaje debe explicar el problema de forma simple y sugerir qué hacer.
 </p>
 
