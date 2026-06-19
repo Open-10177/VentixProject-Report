@@ -1333,7 +1333,188 @@ Finalmente, resaltó que la automatización de la ventilación y el monitoreo en
 
 La entrevista con Rafael Jalec Peña Hernández, de 35 años, permitió evaluar la aplicación Ventix en el contexto del curso de Desarrollo de Aplicaciones Open Source. El entrevistado señaló que el panel principal mostraba la información de manera clara y ordenada, lo que facilitó su comprensión. Recomendó Ventix para el monitoreo de espacios cerrados en hogares y empresas, destacando la utilidad de las alertas de CO₂, temperatura y batería baja. Consideró muy valioso poder revisar la información de forma remota, incluso fuera de casa, ya que esto permite actuar con rapidez ante condiciones desfavorables. Asimismo, resaltó que la lista de ambientes ayuda a identificar zonas que requieren atención y que las notificaciones en tiempo real permiten reaccionar de inmediato. El historial de datos fue otro aspecto positivo, pues le permitió analizar el comportamiento del ambiente a lo largo del día y del mes. También valoró la posibilidad de ajustar límites diferentes para cada ambiente, lo que facilita la personalización según las necesidades de cada miembro del hogar. Finalmente, subrayó que la función más importante es el monitoreo del CO₂, dado su impacto directo en la salud, y destacó la practicidad general de la aplicación para mejorar la calidad del aire y la comodidad en el hogar.
 
+
 ### 5.3.3. Evaluaciones según heurísticas
+
+<div align='center'>
+    <h2>UX Heuristics & Principles Evaluation</h2>
+    <h3>Usability – Inclusive Design – Information Architecture</h3>
+</div>
+
+<p><strong>CARRERA:</strong> Ingeniería de Software</p>
+<p><strong>CURSO:</strong> Desarrollo de Aplicaciones Open Source</p>
+<p><strong>NRC:</strong> 10177</p>
+<p><strong>PROFESOR:</strong> Hugo Allan Mori Paiva</p>
+<p><strong>AUDITOR:</strong> El equipo de Ventix</p>
+<p><strong>CLIENTE(S):</strong> Estudiantes universitarios en espacios cerrados y responsables del hogar</p>
+
+<br>
+
+<strong>TAREAS A EVALUAR:</strong>
+<p>El alcance de esta evaluación incluye la revisión de las siguientes tareas dentro de la plataforma Ventix:</p>
+<ul>
+  <li>Validación del flujo de bienvenida, registro e inicio de sesión.</li>
+  <li>Revisión del proceso de recuperación de contraseña</li>
+  <li>Evaluación de la claridad del panel principal</li>
+  <li>Validación de la visualización de datos ambientales como temperatura, humedad y CO₂.</li>
+  <li>Revisión de la lista de ambientes del hogar o espacio cerrado</li>
+  <li>Evaluación del mapa del ambiente y ubicación de dispositivos</li>
+  <li>Revisión del proceso para agregar dispositivos mediante QR o código</li>
+  <li>Evaluación de las notificaciones y alertas del sistema.</li>
+  <li>Validación de la pantalla de historial de datos</li>
+  <li>Revisión de la configuración de umbrales ambientales</li>
+  <li>Evaluación de la consistencia visual y de idioma en la plataforma</li>
+  <li>Revisión de la claridad de botones, etiquetas y acciones principales</li>
+</ul>
+
+<br>
+
+<strong>ESCALA DE SEVERIDAD:</strong>
+<p>Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:</p>
+
+<table>
+    <tr>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Nivel</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Descripción</th>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema superficial: puede ser fácilmente superado por el usuario ó ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+    </tr>
+</table>
+
+<strong>TABLA RESUMEN:</strong>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Problema</th>
+      <th>Escala de severidad</th>
+      <th>Heurística/Principio violada(o)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>En el inicio de sesión, el botón principal puede generar confusión si el texto no coincide con la acción esperada.</td>
+      <td>3</td>
+      <td>Usability: Match between system and the real world</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Algunos términos en el historial de datos, como “Auto. Hum. Alerta” o acciones del sistema, pueden resultar poco claros para usuarios no técnicos.</td>
+      <td>3</td>
+      <td>Usability: Match between system and the real world.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Los valores de CO₂ mostrados en diferentes secciones pueden parecer inconsistentes para el usuario.</td>
+      <td>3</td>
+      <td>Usability: Visibility of system status.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Algunas secciones relacionadas con planes, configuración o beneficios mezclan términos en español e inglés, lo cual puede afectar la comprensión.</td>
+      <td>2</td>
+      <td>Usability: Consistency and standards.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>En algunas acciones importantes, como registro, configuración o agregado de dispositivos, podrían faltar mensajes de confirmación que indiquen si la acción fue realizada correctamente.</td>
+      <td>3</td>
+      <td>Usability: Visibility of system status.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Descripción Detallada de Problemas Críticos</h4>
+
+<p><strong>Problema 1: Confusión en el botón principal del inicio de sesión</strong></p>
+<p>
+<p><strong>Severidad: 3</strong></p>
+<p>
+  <strong>Heurística/Principio violada(o):</strong> Usability: Match between system and the real world.
+</p>
+<p>
+  <strong>Problema:</strong> En el flujo de inicio de sesión, el texto del botón principal debe coincidir claramente con la acción que el usuario va a realizar. Si el usuario se encuentra en la pantalla de inicio de sesión, el botón debe indicar “Iniciar sesión” o “Sign In”, no una acción relacionada con crear cuenta. Cuando el texto del botón no coincide con la pantalla, el usuario puede confundirse y no saber si está ingresando o registrándose.
+</p>
+
+<img src="../assets/img/chapter-5/n.png" alt="n" width="800">
+
+<p>
+  <strong>Recomendación:</strong> Revisar los textos de los botones en las pantallas de autenticación. En la pantalla de inicio de sesión, el botón principal debe decir “Iniciar sesión”. En la pantalla de registro, debe decir “Crear cuenta” o “Registrarse”. También se recomienda mantener enlaces secundarios claros, como “¿No tienes cuenta? Regístrate”.
+</p>
+
+<hr>
+
+<p><strong>Problema 2: Términos poco claros en el historial de datos</strong></p>
+<p>
+<p><strong>Severidad: 2</strong></p>
+<p>
+  <strong>Heurística/Principio violada(o):</strong> Usability: Match between system and the real world.
+</p>
+<p>
+  <strong>Problema:</strong> En la pantalla de historial de datos, algunos términos o acciones del sistema pueden no ser fáciles de entender para usuarios comunes. Expresiones abreviadas o poco naturales como “Auto. Hum. Alerta” pueden generar dudas sobre lo que realmente ocurrió en el ambiente monitoreado. Esto afecta la interpretación de los datos, especialmente para responsables del hogar o estudiantes que no tienen conocimientos técnicos.
+</p>
+
+<img src="../assets/img/chapter-5/c.png" alt="c" width="800">
+
+<p>
+  <strong>Recomendación:</strong> Usar nombres más descriptivos y cercanos al lenguaje del usuario. Por ejemplo, reemplazar abreviaciones por frases como “Alerta automática por humedad”, “Ventilación activada” o “Nivel de CO₂ elevado”. Además, se puede agregar una breve descripción o tooltip para explicar cada acción registrada.
+</p>
+
+<hr>
+
+
+<p><strong>Problema 3: Posible inconsistencia en los valores ambientales</strong></p>
+<p>
+<p><strong>Severidad: 3</strong></p>
+<p>
+  <strong>Heurística/Principio violada(o):</strong> Usability: Visibility of system status.
+</p>
+<p>
+  <strong>Problema:</strong> Los datos ambientales, especialmente los valores de CO₂, deben mostrarse de forma coherente entre las diferentes secciones de la plataforma. Si el dashboard muestra un valor elevado, pero el historial presenta valores muy diferentes o poco realistas, el usuario puede dudar de la confiabilidad de la información. Esto es importante porque Ventix se basa en la toma de decisiones a partir de datos ambientales.
+</p>
+
+<img src="../assets/img/chapter-5/c.png" alt="c" width="800">
+
+<p>
+  <strong>Recomendación:</strong> Revisar la consistencia de los datos entre el panel principal, historial, alertas y configuración de umbrales. También se recomienda mostrar unidades claras, como ppm para CO₂, °C para temperatura y % para humedad. Si los datos son simulados, deben mantener rangos realistas y coherentes con las alertas mostradas.
+</p>
+
+<hr>
+
+<p><strong>Problema 4: Falta de mensajes de confirmación en acciones</strong></p>
+<p>
+<p><strong>Severidad: 3</strong></p>
+<p>
+  <strong>Heurística/Principio violada(o):</strong> Usability: Visibility of system status.
+</p>
+<p>
+  <strong>Problema:</strong> En acciones como crear una cuenta, agregar un dispositivo, guardar configuración o actualizar datos, el sistema debe informar claramente si la acción se completó de manera correcta. Si no aparece un mensaje de confirmación, el usuario puede quedar con la duda de si su acción fue registrada o si ocurrió un error.
+</p>
+
+<img src="../assets/img/chapter-5/x.png" alt="x" width="800">
+
+<p>
+  <strong>Recomendación:</strong> Agregar mensajes de confirmación visibles después de cada acción importante. Por ejemplo: “Dispositivo agregado correctamente”, “Configuración guardada” o “Cuenta creada con éxito”. En caso de error, el mensaje debe explicar el problema de forma simple y sugerir qué hacer.
+</p>
+
+<hr>
+
 
 ## 5.4. Video About-the-Product
 
