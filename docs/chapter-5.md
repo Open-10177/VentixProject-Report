@@ -1514,7 +1514,41 @@ La entrevista con Rafael Jalec Peña Hernández, de 35 años, permitió evaluar 
 </p>
 
 
----
+## 5.4. Video About-the-Team
+
+<p>
+  El video “About the Team” presenta de manera clara la participación de cada integrante del equipo, destacando sus responsabilidades, actividades realizadas, aprendizajes obtenidos, competencias desarrolladas y aportes principales durante el proyecto Ventix.
+</p>
+
+<h4>Información General del Video</h4>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><strong>Título del Video</strong></td>
+      <td>Ventix: About the team</td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td>4 minutos 21 segundos</td>
+    </tr>
+    <tr>
+      <td><strong>Fecha de Grabación</strong></td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td><strong>URL YouTube</strong></td>
+      <td><a href="https://youtu.be/l8xkBdgMHiw">https://youtu.be/l8xkBdgMHiw</a></td>
+    </tr>
+    <tr>
+      <td><strong>URL Microsoft Stream</strong></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c626_upc_edu_pe/IQD1ZomGUgJhQovIkiVJaamNAVVdidKTtCf1RzomxIpimjA?e=3a8r4A&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Video about the team</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Screenshot del video:</strong></p>
+<img src="../assets/img/chapter-5/about-the-product.png" alt="About the team Video" width="800">
 
 
 # Conclusiones
