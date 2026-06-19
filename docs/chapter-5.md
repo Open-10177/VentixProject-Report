@@ -1116,24 +1116,26 @@ A través de las preguntas planteadas, se busca evaluar si el producto esta adec
 
 **Screenshot del video**
 
+<img src="../assets/img/chapter-5/entrevista3.png" alt="entrevista" width="800">
+
 
 <table border="1" cellpadding="4" cellspacing="0">
   <tbody>
     <tr>
       <td><strong>Nombre Completo</strong></td>
-      <td></td>
+            <td>Rocio Bruno Luque </td>
     </tr>
     <tr>
       <td><strong>Fecha de Entrevista</strong></td>
-      <td></td>
+            <td>18/06/2026</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td></td>
+      <td>7 minutos</td>
     </tr>
     <tr>
       <td><strong>URL de la entrevista</strong></td>
-      <td></td>
+      <td>https://drive.google.com/file/d/11Kz_89_7MIG4xmg4ska4nCrn-CSXrEgx/view?usp=sharing</td>
     </tr>
   </tbody>
 </table>
