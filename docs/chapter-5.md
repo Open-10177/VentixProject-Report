@@ -1276,7 +1276,7 @@ Como mejora principal, sugirió fortalecer las notificaciones en tiempo real, la
 </table>
 
 <p><strong>Screenshot del video:</strong></p>
-<img src="../images/b.png" alt="About the Product Video">
+<img src="../images/about-the-product.png" alt="About the Product Video">
 
 <h4>Contenido del Video</h4>
 
