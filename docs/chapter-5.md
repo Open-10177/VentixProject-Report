@@ -1046,7 +1046,7 @@ Este trabajo refleja una participación activa y distribuida entre los integrant
 **Figura 61. Gráfico de contribuidores del repositorio en GitHub**
 
 
-<img src="../assets/img/chapter-5/contribuidores3.png" alt="Avance del equipo" width="100">
+<img src="../assets/img/chapter-5/contribuidores3.png" alt="Avance del equipo" width="350">
 
 
 
