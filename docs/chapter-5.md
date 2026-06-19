@@ -728,7 +728,7 @@ En esta sección se presentan las evidencias de colaboración del equipo durante
 
 
 **Figura 40. Overview de contribuciones del equipo en GitHub**
-<img src="../assets/img/chapter-5/figura 40.JPG" alt="Overview" width="1000">
+<img src="../assets/img/chapter-5/overview_sprint3.png" alt="Overview" width="1000">
 *Figura 40. Panel Overview de GitHub mostrando el flujo de commits de los integrantes del equipo durante el Sprint 2. Fuente: GitHub Analytics - Repositorio Open-10177/Ventix-Front-End.*
 
 
@@ -736,7 +736,7 @@ El Network Graph refleja esta dinámica mediante la presencia de ramas que nacen
 
 
 **Figura 41. Network Graph del repositorio en GitHub**
-<img src="../assets/img/chapter-5/networking.JPG" alt="ntwork" width="1000">
+<img src="../assets/img/chapter-5/network.png" alt="network" width="1000">
 *Figura 41. Network Graph del repositorio Ventix-Front-End en GitHub, evidenciando el flujo de ramas feature y su integración a main siguiendo el modelo GitFlow. Fuente: GitHub - Repositorio Open-10177/Ventix-Front-End.*
 
 
@@ -744,7 +744,7 @@ Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrol
 
 
 **Figura 42. Gráfico de visitantes del repositorio en GitHub**
-<img src="../assets/img/chapter-5/traffic.JPG" alt="traffic" width="1000">
+<img src="../assets/img/chapter-5/traffic.png" alt="traffic" width="1000">
 *Figura 42. Gráfico de Visitors del repositorio Ventix-Front-End en GitHub, mostrando el incremento de visitas conforme avanzó el Sprint 3. Fuente: GitHub Insights - Repositorio Open-10177/Ventix-Front-End.*
 
 
@@ -756,7 +756,7 @@ A continuación, se muestran algunos insights del repositorio de GitHub:
 * **Cáceres Pizarro, Albino Florencio:** Se encargó de la página de monitoring.
 
 **Figura 43. Gráfico de contribuidores del repositorio en GitHub**
-<img src="../assets/img/chapter-5/avance.JPG" alt="Avance del equipo" width="1000">
+<img src="../assets/img/chapter-5/contribuidores.png" alt="Avance del equipo" width="1000">
 *Figura 43. Gráfico de contribuidores del repositorio Ventix-Front-End en GitHub, mostrando el incremento de visitas conforme avanzó el Sprint 1. Fuente: GitHub Contribuidor - Repositorio Open-10177/Ventix-Front-End.*
 
 ## 5.2.3. Sprint 3
