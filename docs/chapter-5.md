@@ -1409,6 +1409,9 @@ La entrevista con Rafael Jalec Peña Hernández, de 35 años, permitió evaluar 
 <p>
   <strong>Heurística/Principio violada(o):</strong> Usability: Match between system and the real world.
 </p>
+
+<img src="../assets/img/chapter-5/basededatos_sql.jpeg" alt="" width="1000">
+
 <p>
   <strong>Problema:</strong> En la pantalla de historial de datos, algunos términos o acciones del sistema pueden no ser fáciles de entender para usuarios comunes. Expresiones abreviadas o poco naturales como “Auto. Hum. Alerta” pueden generar dudas sobre lo que realmente ocurrió en el ambiente monitoreado. Esto afecta la interpretación de los datos, especialmente para responsables del hogar o estudiantes que no tienen conocimientos técnicos.
 </p>
