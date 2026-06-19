@@ -575,8 +575,8 @@ A continuación, la tabla de control de estado para el Sprint 2:
 | Sprint# | Sprint 2 | | | | | | |
 |---|---|---|---|---|---|---|---|
 | **USS ID** | **USS Title** | **Task ID** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-| USS-002 |  Visualización de planes y beneficios | T001 | Como visitante quiero ver los planes disponibles con precios y características para compararlos. | 5 | Geraldine Suarez | Done |
-| USS-003 | Selección de plan | T002 | Como visitante quiero seleccionar un plan antes de registrarme para agilizar el proceso. | 3 | Ruth Sanchez | Done |
+| USS-009 |  Visualización de planes y beneficios | T001 | Como visitante quiero ver los planes disponibles con precios y características para compararlos. | 5 | Geraldine Suarez | Done |
+| UUSS-010 | Selección de plan | T002 | Como visitante quiero seleccionar un plan antes de registrarme para agilizar el proceso. | 3 | Ruth Sanchez | Done |
 | USS-004 | Visualización del equipo | T003 | Como visitante quiero ver información del equipo de desarrollo para generar confianza. | 2 | Jorge Taipe | Done |
 | USS-005 | Cambio de idioma | T004 |Como usuario quiero cambiar el idioma entre español e inglés para mejorar la experiencia. | 3 | Ruth Sanchez | Done |
 | USS-008 | Visualización de datos en tiempo real | T005 | Como usuario quiero ver CO₂, temperatura y humedad en tiempo real para monitorear el ambiente. | 8 | Jorge Taipe | Done |
@@ -887,21 +887,34 @@ Todas las tareas son monitoreadas y actualizadas mediante Jira Software (https:/
 ----------------X
 A continuación, la tabla de control de estado para el Sprint 3:
 
-| Sprint# | Sprint 3 | | | | | | |
-|---|---|---|---|---|---|---|---|
-| **USS ID** | **USS Title** | **Task ID** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-| USS-002 |  Visualización de planes y beneficios | T001 | Como visitante quiero ver los planes disponibles con precios y características para compararlos. | 5 | Geraldine Suarez | Done |
-| USS-003 | Selección de plan | T002 | Como visitante quiero seleccionar un plan antes de registrarme para agilizar el proceso. | 3 | Ruth Sanchez | Done |
-| USS-004 | Visualización del equipo | T003 | Como visitante quiero ver información del equipo de desarrollo para generar confianza. | 2 | Jorge Taipe | Done |
-| USS-005 | Cambio de idioma | T004 |Como usuario quiero cambiar el idioma entre español e inglés para mejorar la experiencia. | 3 | Ruth Sanchez | Done |
-| USS-008 | Visualización de datos en tiempo real | T005 | Como usuario quiero ver CO₂, temperatura y humedad en tiempo real para monitorear el ambiente. | 8 | Jorge Taipe | Done |
-| USS-009 | Historial ambiental | T006 | Como usuario quiero ver el historial de datos ambientales para analizar tendencias. | 5 | Geraldine Suarez | Done |
-| USS-013 | Configuración de umbral CO₂ | T007 | Como usuario quiero configurar el nivel de CO₂ permitido. | 3 | Jorge Taipe | Done |
-| USS-014 | Configuración de temperatura | T008 | Como usuario quiero configurar el umbral de temperatura del sistema. | 3 | Albino Caceres | Done |
-| USS-015 | Configuración de humedad | T008 | Como usuario quiero definir el umbral de humedad del sistema. | 3 | Geraldine Suarez | Done |
-| USS-019 | Monitoreo de múltiples espacios | T008 | Como usuario quiero monitorear varios ambientes desde una sola plataforma. | 5 | Ruth Sanchez | Done |
-| USS-022 | Notificaciones de CO₂ alto | T008 | Como usuario quiero recibir alertas cuando el aire esté contaminado. | 3 | Albino Caceres | Done |
-| USS-024 | Botón de pánico ambiental | T008 | Como usuario quiero acceso rápido a contactos de emergencia. | 3 | Albino Caceres | Done |
+| Sprint#    | Sprint 3                            |             |                                                                                                      |                        |                  |            |   |
+| ---------- | ----------------------------------- | ----------- | ---------------------------------------------------------------------------------------------------- | ---------------------- | ---------------- | ---------- | - |
+| **USS ID** | **USS Title**                       | **Task ID** | **Description**                                                                                      | **Estimation (Hours)** | **Assigned To**  | **Status** |   |
+| USS-009    | Historial ambiental                 | T001        | Como usuario quiero ver historial de datos ambientales para analizar el comportamiento del ambiente. | 5                      | Geraldine Suarez | Done       |   |
+| USS-010    | Activación automática por CO₂       | T002        | Como usuario quiero que el ventilador se active automáticamente si el CO₂ es alto.                   | 4                      | Ruth Sanchez     | Done       |   |
+| USS-011    | Activación por temperatura          | T003        | Como usuario quiero activación automática por temperatura alta para mantener condiciones adecuadas.  | 4                      | Geraldine Suarez | Done       |   |
+| USS-012    | Apagado automático                  | T004        | Como usuario quiero que el ventilador se apague en condiciones normales para ahorrar energía.        | 3                      | Albino Caceres   | Done       |   |
+| USS-016    | Control manual del ventilador       | T005        | Como usuario quiero encender o apagar el ventilador manualmente cuando lo considere necesario.       | 4                      | Geraldine Suarez | Done       |   |
+| USS-017    | Modo automático/manual              | T006        | Como usuario quiero alternar entre modo automático y manual según mis necesidades.                   | 3                      | Ruth Sanchez     | Done       |   |
+| USS-018    | Modo ahorro                         | T007        | Como usuario quiero reducir el consumo energético automáticamente cuando no exista actividad.        | 4                      | Geraldine Suarez | Done       |   |
+| USS-020    | Modo optimizado                     | T008        | Como estudiante quiero optimizar automáticamente las condiciones ambientales durante el estudio.     | 4                      | Geraldine Suarez | Done       |   |
+| USS-021    | Prioridad automática                | T009        | Como usuario quiero que el sistema actúe automáticamente ante condiciones críticas.                  | 3                      | Albino Caceres   | Done       |   |
+| USS-022    | Notificaciones de CO₂ alto          | T010        | Como usuario quiero recibir alertas cuando el nivel de CO₂ supere el umbral permitido.               | 3                      | Geraldine Suarez | Done       |   |
+| USS-023    | Monitoreo remoto                    | T011        | Como usuario quiero acceder a los datos de monitoreo desde cualquier ubicación.                      | 5                      | Ruth Sanchez     | Done       |   |
+| USS-024    | Botón de pánico                     | T012        | Como usuario quiero acceso rápido a opciones de emergencia cuando existan condiciones peligrosas.    | 3                      | Geraldine Suarez | Done       |   |
+| TS-01      | Obtener perfil por ID               | T013        | Como desarrollador quiero obtener el perfil de un usuario por ID para visualizar su información.     | 3                      | Geraldine Suarez | Done       |   |
+| TS-02      | Actualizar perfil por ID            | T014        | Como desarrollador quiero actualizar los datos de un usuario para mantener su información vigente.   | 3                      | Ruth Sanchez     | Done       |   |
+| TS-03      | Obtener todos los usuarios          | T015        | Como desarrollador quiero listar todos los usuarios registrados para fines de administración.        | 2                      | Albino Caceres   | Done       |   |
+| TS-04      | Obtener datos de sensores           | T016        | Como desarrollador quiero obtener los datos de sensores ambientales para su visualización.           | 4                      | Geraldine Suarez | Done       |   |
+| TS-05      | Registrar lectura de sensor         | T017        | Como desarrollador quiero registrar datos de sensores en tiempo real para alimentar el sistema.      | 4                      | Ruth Sanchez     | Done       |   |
+| TS-06      | Obtener sensor por ID               | T018        | Como desarrollador quiero obtener información detallada de un sensor específico.                     | 3                      | Geraldine Suarez | Done       |   |
+| TS-07      | Actualizar configuración del sensor | T019        | Como desarrollador quiero actualizar la configuración de un sensor para ajustar umbrales.            | 3                      | Albino Caceres   | Done       |   |
+| TS-08      | Eliminar sensor                     | T020        | Como desarrollador quiero eliminar sensores registrados para mantener el sistema organizado.         | 2                      | Ruth Sanchez     | Done       |   |
+| TS-09      | Obtener dispositivos vinculados     | T021        | Como desarrollador quiero obtener los dispositivos asociados a un usuario.                           | 3                      | Ruth Sanchez     | Done       |   |
+| TS-10      | Obtener dispositivo por ID          | T022        | Como desarrollador quiero consultar un dispositivo específico para conocer su estado.                | 3                      | Ruth Sanchez     | Done       |   |
+| TS-11      | Autenticación de usuario            | T023        | Como desarrollador quiero autenticar usuarios para garantizar acceso seguro al sistema.              | 5                      | Albino Caceres   | Done       |   |
+| TS-12      | Registro de usuario                 | T024        | Como desarrollador quiero registrar nuevos usuarios para permitir el acceso a Ventix.                | 4                      | Ruth Sanchez     | Done       |   |
+
 
 ### 5.2.3.4. Development Evidence for Sprint Review
 
