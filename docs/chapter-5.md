@@ -1276,54 +1276,11 @@ Como mejora principal, sugirió fortalecer las notificaciones en tiempo real, la
 </table>
 
 <p><strong>Screenshot del video:</strong></p>
-<img src="../images/about-the-product.png" alt="About the Product Video">
-
-<h4>Contenido del Video</h4>
-
-<p>
-  El video está estructurado en las siguientes secciones:
-</p>
-
-<ol>
-  <li>
-    <strong>Introducción (0:00 - 0:30):</strong> Presentación del problema - Complejidad en la gestión 
-    de casas de reposo y preocupaciones de familiares sobre el cuidado de sus seres queridos.
-  </li>
-  <li>
-    <strong>Propuesta de Solución (0:30 - 1:45):</strong> Presentación de VEYRA como la solución integral 
-    para la gestión de residentes, medicamentos, empleados y comunicación con familiares.
-  </li>
-  <li>
-    <strong>Funcionalidades Principales (1:45 - 3:15):</strong> Demostración de las características clave:
-    <ul>
-      <li>Gestión de residentes y datos de salud</li>
-      <li>Control de medicamentos y recordatorios</li>
-      <li>Portal para familiares</li>
-      <li>Generación de reportes</li>
-    </ul>
-  </li>
-  <li>
-    <strong>Beneficios (3:15 - 4:00):</strong> Énfasis en beneficios para ambos segmentos - Eficiencia 
-    operacional, transparencia y tranquilidad para familiares.
-  </li>
-  <li>
-    <strong>Llamada a la Acción (4:00 - 4:32):</strong> Invitación a visitar el Landing Page y conocer 
-    más sobre VEYRA.
-  </li>
-</ol>
-
-
-<h4>Inscripción en Landing Page</h4>
-
-<p>
-  El video "About the Product" está embebido en el Landing Page en la sección de "Acerca del Producto", 
-  permitiendo que visitantes del sitio vean una introducción visual de VEYRA antes de registrarse o 
-  solicitar más información.
-</p>
+<img src="../assets/img/chapter-5/about-the-product.png" alt="About the Product Video" width="800">
 
 <p>
   <strong>URL del Landing Page donde está el video:</strong> 
-  <a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage">https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage</a>
+  <a href="https://open-10177.github.io/Ventix-LandingPage/#services">https://open-10177.github.io/Ventix-LandingPage/#services</a>
 </p>
 
 
