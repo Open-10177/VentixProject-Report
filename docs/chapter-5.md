@@ -1610,7 +1610,7 @@ A continuación se listan los enlaces a los entornos de producción y los reposi
 | Repositorio Project Report | https://github.com/Open-10177/VentixProject-Report |
 | Video de Avance AV1 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313458_upc_edu_pe/IQDUgc7QP5bxSIdiehwzzR_VAfT3FUT3O3DnpMhlbe-6TvA?e=XfHzYl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
-<h4>Anexo C: Videos del Proyecto</h4>
+<h4>Anexo B: Videos del Proyecto</h4>
 
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
