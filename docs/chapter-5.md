@@ -1610,5 +1610,29 @@ A continuación se listan los enlaces a los entornos de producción y los reposi
 | Repositorio Project Report | https://github.com/Open-10177/VentixProject-Report |
 | Video de Avance AV1 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313458_upc_edu_pe/IQDUgc7QP5bxSIdiehwzzR_VAfT3FUT3O3DnpMhlbe-6TvA?e=XfHzYl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
+<h4>Anexo C: Videos del Proyecto</h4>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <td rowspan="2"><strong>Video "About the Product"</strong></td>
+      <td>YouTube</td>
+      <td><a href="href="https://youtu.be/pALWxMeDghk">href="https://youtu.be/pALWxMeDghk</a></td>
+    </tr>
+    <tr>
+      <td>Microsoft Stream</td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c626_upc_edu_pe/IQCV-WcvSJMRQbLHN0CeUcziAfe1A7cUw2FxLKuYEeZ73Ck?e=DkmkOw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">About the Product</a></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Video "About the Team"</strong></td>
+      <td>YouTube</td>
+      <td><a href="https://youtu.be/l8xkBdgMHiw">https://youtu.be/l8xkBdgMHiw</a></td>
+    </tr>
+    <tr>
+      <td>Microsoft Stream</td>
+      <td><a href="https://shorturl.at/jAp77">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c626_upc_edu_pe/IQD1ZomGUgJhQovIkiVJaamNAVVdidKTtCf1RzomxIpimjA?e=3a8r4A&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a></td>
+    </tr>
+  </tbody>
+</table>
 
 
