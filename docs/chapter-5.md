@@ -1059,6 +1059,27 @@ A través de las preguntas planteadas, se busca evaluar si el producto esta adec
 **Screenshot del video**
 
 
+<table border="1" cellpadding="4" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><strong>Nombre Completo</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Fecha de Entrevista</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>URL de la entrevista</strong></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 **Resumen de la entrevista**
 
 **Entrevista 2 -  Estudiantes universitarios en espacios cerrados**
@@ -1066,12 +1087,56 @@ A través de las preguntas planteadas, se busca evaluar si el producto esta adec
 
 **Screenshot del video**
 
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><strong>Nombre Completo</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Fecha de Entrevista</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>URL de la entrevista</strong></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 **Resumen de la entrevista**
 
 **Entrevista 3 -  Estudiantes universitarios en espacios cerrados**
 
 
 **Screenshot del video**
+
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><strong>Nombre Completo</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Fecha de Entrevista</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>URL de la entrevista</strong></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 **Resumen de la entrevista**
 
@@ -1082,7 +1147,29 @@ A través de las preguntas planteadas, se busca evaluar si el producto esta adec
 
 <img src="../assets/img/chapter-5/entrevista.png" alt="entrevista" width="800">
 
+<table border="1" cellpadding="4" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><strong>Nombre Completo</strong></td>
+      <td>Ruth Osorio Velasquez</td>
+    </tr>
+    <tr>
+      <td><strong>Fecha de Entrevista</strong></td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td>10 minutos</td>
+    </tr>
+    <tr>
+      <td><strong>URL de la entrevista</strong></td>
+      <td>https://drive.google.com/file/d/1Et3i1iZSkpinuCXEQ9DuYU1xxzFRdB0O/view?usp=sharing</td>
+    </tr>
+  </tbody>
+</table>
+
 **Resumen de la entrevista**
+
 La entrevista validó que Ventix es una plataforma útil para monitorear el hogar de forma remota. La entrevistada indicó que la pantalla principal es clara y permite ver rápidamente datos como temperatura, humedad, CO₂ y ambientes del hogar.
 
 También comentó que agregar dispositivos fue sencillo, que el historial de datos ayuda a revisar el comportamiento del ambiente y que la configuración de umbrales fue rápida y fácil. Las notificaciones le parecieron claras porque explican el problema y la acción recomendada.
@@ -1096,6 +1183,28 @@ Como mejora principal, sugirió fortalecer las notificaciones en tiempo real, la
 
 **Screenshot del video**
 
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><strong>Nombre Completo</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Fecha de Entrevista</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>URL de la entrevista</strong></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 **Resumen de la entrevista**
 
 
@@ -1103,6 +1212,28 @@ Como mejora principal, sugirió fortalecer las notificaciones en tiempo real, la
 
 
 **Screenshot del video**
+
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><strong>Nombre Completo</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Fecha de Entrevista</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>URL de la entrevista</strong></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 **Resumen de la entrevista**
 
