@@ -1445,7 +1445,7 @@ La entrevista con Rafael Jalec Peña Hernández, de 35 años, permitió evaluar 
   <strong>Problema:</strong> En el flujo de inicio de sesión, el texto del botón principal debe coincidir claramente con la acción que el usuario va a realizar. Si el usuario se encuentra en la pantalla de inicio de sesión, el botón debe indicar “Iniciar sesión” o “Sign In”, no una acción relacionada con crear cuenta. Cuando el texto del botón no coincide con la pantalla, el usuario puede confundirse y no saber si está ingresando o registrándose.
 </p>
 
-<img src="../assets/img/chapter-5/n.png" alt="n" width="800">
+<img src="../assets/img/chapter-5/Inicio_Sesion.png" alt="" width="1000">
 
 <p>
   <strong>Recomendación:</strong> Revisar los textos de los botones en las pantallas de autenticación. En la pantalla de inicio de sesión, el botón principal debe decir “Iniciar sesión”. En la pantalla de registro, debe decir “Crear cuenta” o “Registrarse”. También se recomienda mantener enlaces secundarios claros, como “¿No tienes cuenta? Regístrate”.
@@ -1482,7 +1482,7 @@ La entrevista con Rafael Jalec Peña Hernández, de 35 años, permitió evaluar 
   <strong>Problema:</strong> Los datos ambientales, especialmente los valores de CO₂, deben mostrarse de forma coherente entre las diferentes secciones de la plataforma. Si el dashboard muestra un valor elevado, pero el historial presenta valores muy diferentes o poco realistas, el usuario puede dudar de la confiabilidad de la información. Esto es importante porque Ventix se basa en la toma de decisiones a partir de datos ambientales.
 </p>
 
-<img src="../assets/img/chapter-5/c.png" alt="c" width="800">
+<img src="../assets/img/chapter-5/Pantalla_Inicio.png" alt="" width="1000">
 
 <p>
   <strong>Recomendación:</strong> Revisar la consistencia de los datos entre el panel principal, historial, alertas y configuración de umbrales. También se recomienda mostrar unidades claras, como ppm para CO₂, °C para temperatura y % para humedad. Si los datos son simulados, deben mantener rangos realistas y coherentes con las alertas mostradas.
@@ -1499,8 +1499,6 @@ La entrevista con Rafael Jalec Peña Hernández, de 35 años, permitió evaluar 
 <p>
   <strong>Problema:</strong> En acciones como crear una cuenta, agregar un dispositivo, guardar configuración o actualizar datos, el sistema debe informar claramente si la acción se completó de manera correcta. Si no aparece un mensaje de confirmación, el usuario puede quedar con la duda de si su acción fue registrada o si ocurrió un error.
 </p>
-
-<img src="../assets/img/chapter-5/x.png" alt="x" width="800">
 
 <p>
   <strong>Recomendación:</strong> Agregar mensajes de confirmación visibles después de cada acción importante. Por ejemplo: “Dispositivo agregado correctamente”, “Configuración guardada” o “Cuenta creada con éxito”. En caso de error, el mensaje debe explicar el problema de forma simple y sugerir qué hacer.
