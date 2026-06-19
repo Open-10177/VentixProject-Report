@@ -1548,7 +1548,7 @@ La entrevista con Rafael Jalec Peña Hernández, de 35 años, permitió evaluar 
 </table>
 
 <p><strong>Screenshot del video:</strong></p>
-<img src="../assets/img/chapter-5/about-the-product.png" alt="About the team Video" width="800">
+<img src="../assets/img/chapter-5/about-the-team.png" alt="About the team Video" width="800">
 
 
 # Conclusiones
