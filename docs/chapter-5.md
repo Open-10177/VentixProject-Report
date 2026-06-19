@@ -927,11 +927,90 @@ URL DE YOUTUBE:----------------X
 
 Duracion:----------------X
 
-En este sprint se implementaron las siguientes funcionalidades en el frontend de VentixProject:
+En este sprint se implementaron las siguientes funcionalidades en el backend de VentixProject:
 
-**Figura 44. User Stories respecto de backend de VENTIX**
-<img src="../assets/img/chapter-5/x" alt="" width="1000">
-*Figura 44. User stories de Ventix. Se aprecian historias de usuarios, fechas y acciones del sistema. Fuente: Elaboracion Propia*
+**Figura 24. Inicio Sesion en el backend de VENTIX**
+<img src="../assets/img/chapter-5/Inicio_Sesion.png" alt="" width="1000">
+*Figura 24. Vista de inicio de sesion responsiva del backend de Ventix. Se aprecian espacios para completar datos que se conocen como correo y contraseña del fronted de Ventix. Fuente: Elaboración propia.*
+
+
+**Figura 25. Registro en el backend de Ventix**
+<img src="../assets/img/chapter-5/Registro.png" alt="" width="1000">
+*Figura 25. Vista del registro responsiva del backend de Ventix. Se aprecian espacios para completar datos nuevos del usuario. Fuente: Elaboración propia.*
+
+
+**Figura 26. Menu principal en el backend de Ventix**
+<img src="../assets/img/chapter-5/Pantalla_Inicio.png" alt="" width="1000">
+*Figura 26. Vista de menu principal responsiva del backend de Ventix. Se aprecia el menu principal en donde esta datos de nivelaciones, configuracion de umbrales, agregar dispositivos, temperatura del ambiente, historial de datos, entre otros servicios que al ingresar se observan nuevos sectores. Fuente: Elaboración propia.*
+
+
+**Figura 27. Notificaciones en el backend de Ventix**
+<img src="../assets/img/chapter-5/Notificaciones.png" alt="" width="1000">
+*Figura 27. Vista de pantalla de notificaciones del fronted de Ventix. Se aprecian mensajes de peligro, advertencias, alertas y actualizaciones. Fuente: Elaboración propia.*
+
+
+**Figura 28. Umbrales en el backend de Ventix**
+<img src="../assets/img/chapter-5/Umbrales.png" alt="" width="1000">
+*Figura 28. Vista de pantalla de umbrales del backend de Ventix. Se aprecian datos de un area en especifico en donde se muestra bateria del nodo, lecturas actuales y configuraciones. Fuente: Elaboración propia.*
+
+
+**Figura 29. Mapa en el backend de Ventix**
+<img src="../assets/img/chapter-5/Mapa.png" alt="" width="1000">
+*Figura 29. Vista del mapa del backend de Ventix. Se aprecian espacios de todo un piso del hogar, asi como las baterias de cada punto registro del mapa de la casa. Fuente: Elaboración propia.*
+
+
+**Figura 30. Registro de dispositivos en el backend de Ventix**
+<img src="../assets/img/chapter-5/Registro_de_dispositivos.png" alt="" width="1000">
+*Figura 30. Vista del registro de dispositivos del backend de Ventix. Se aprecia dos tipos de registro, el primero es mediante QR y mediante Código. Fuente: Elaboración propia.*
+
+
+**Figura 31. Registro QR en el backend de Ventix**
+<img src="../assets/img/chapter-5/Registro_QR.png" alt="" width="1000">
+*Figura 31. Vista del registro QR del backend de Ventix. Se aprecia una guia rapida de registro y para subir la imagen que deseamos relacionar al sistema. Fuente: Elaboración propia.*
+
+
+**Figura 32. Registro Código en el backend de Ventix**
+<img src="../assets/img/chapter-5/Registro_Codigo.png" alt="" width="1000">
+*Figura 32. Vista del registro código del backend de Ventix. Se aprecia una guia rapida de registro y para poner el codigo manual que se pueda relacionar al sistema. Fuente: Elaboración propia.*
+
+
+**Figura 33. Planes mensuales en el backend de Ventix**
+<img src="../assets/img/chapter-5/Plan_Mensual.png" alt="" width="1000">
+*Figura 33. Vista de planes mensuales del backend de Ventix. Se aprecian los dos planes mensuales disponibles de paga del producto. Fuente: Elaboración propia.*
+
+
+**Figura 34. Cobro mediante Tarjeta en el backend de Ventix**
+<img src="../assets/img/chapter-5/CobroTarjeta_Plan_Mensual.png" alt="" width="1000">
+*Figura 34. Vista de la pantalla de cobro mediante Tarjeta del backend de Ventix. Se aprecian espacios para completar nombre, numero, vencimiento y cvv de la tarjeta de quien va a pagar. Fuente: Elaboración propia.*
+
+
+**Figura 35. Cobro mediante Yape en el backend de Ventix**
+*<img src="../assets/img/chapter-5/CobroYape_Plan_Mensual.png" alt="" width="1000">
+Figura 35. Vista de la pantalla de cobro mediante Yape del backend de Ventix. Se aprecia un codigo de qr y numero del yape. Fuente: Elaboración propia.*
+
+
+**Figura 36. Cobro mediante Paypal en el backend de Ventix**
+<img src="../assets/img/chapter-5/CobroPaypal_Plan_Mensual.png" alt="" width="1000">
+*Figura 36. Vista de la pantalla de cobro mediante Paypal del backend de Ventix. Se aprecia un espacio que te redirige a la web app de paypal. Fuente: Elaboración propia.*
+
+
+**Figura 37. Pago exitoso en el backend de Ventix**
+<img src="../assets/img/chapter-5/Pago_Exitoso.png" alt="" width="1000">
+*Figura 37. Vista del pago exitoso en el backend de Ventix. Se aprecia que se realizo correctamente el pago y que el plan se activo. Fuente: Elaboración propia.*
+
+
+**Figura 38. Configuracion en el backend de Ventix**
+<img src="../assets/img/chapter-5/Configuracion.png" alt="" width="1000">
+*Figura 38. Vista de la configuracion del usuario en el backend de Ventix. Se aprecian tres espacios  entre adicionales, en donde el primero muestra el correo y contraseña para poder cambiarlo si deseamos, el segundo es el plan exclusivo, el tercero es elegir el idioma (español o ingles), sesion para cambiar de cuenta y cerrar sesion. Fuente: Elaboración propia.*
+
+
+**Figura 39. Cambio de cuenta y vista de usuarios en el backend de Ventix**
+<img src="../assets/img/chapter-5/Users.png" alt="" width="1000">
+*Figura 39. Vista la ventana de usuarios creados y por crear en el backend de Ventix. Se aprecia perfiles, areas que corresponden el usuario y lugar de ubicacion. Fuente: Elaboración propia.*
+
+**Figura 39. Base de datos de Mysqll de backend**
+<img src="../assets/img/chapter-5/basededatos_sql" alt="" width="1000">
+*Figura 39. Vista la ventana de base de datos mysqll del backend de Ventix. Se aprecia las tablas de informacion Fuente: Elaboración propia.*
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -983,7 +1062,7 @@ integración con el entorno de producción. Esta actividad evidencia el avance y
 
 
 **Figura 42. Gráfico de visitantes del repositorio en GitHub**
-<img src="../assets/img/chapter-5/traffic03.png" alt="traffic" width="1000">
+<img src="../assets/img/chapter-5/visitors3.png" alt="traffic" width="1000">
 
 *Figura 42. Gráfico de Visitors del repositorio Ventix-Backend en GitHub, mostrando el incremento de visitas conforme avanzó el Sprint 3. Fuente: GitHub Insights - Repositorio Open-10177/Ventix-Backend.*
 
@@ -992,7 +1071,7 @@ Aqui se muestran la cantidad de avance del grupo respecto del repositorio de Git
 
 
 **Figura 43. Gráfico de contribuidores del repositorio en GitHub**
-<img src="../assets/img/chapter-5/visitors3.png" alt="Avance del equipo" width="1000">
+<img src="../assets/img/chapter-5/contribuidores3.png" alt="Avance del equipo" width="1000">
 
 *Figura 43. Gráfico de contribuidores del repositorio Ventix-Backend en GitHub, mostrando el incremento de visitas conforme avanzó el Sprint 3. Fuente: GitHub Contribuidor - Repositorio Open-10177/Ventix-Backend.*
 
@@ -1227,36 +1306,32 @@ Finalmente, resaltó que la automatización de la ventilación y el monitoreo en
 **Screenshot del video**
 
 
-<img src="../assets/img/chapter-5/entrevistaValidacion6.png" alt="entrevista" width="800">
+<img src="../assets/img/chapter-5/entrevista5.png" alt="entrevista" width="800">
 
 <table border="1" cellpadding="4" cellspacing="0">
   <tbody>
     <tr>
       <td><strong>Nombre Completo</strong></td>
-      <td>Mafer Peña</td>
+      <td>Rafael Peña</td>
     </tr>
     <tr>
       <td><strong>Fecha de Entrevista</strong></td>
-      <td>19/06/2026</td>
+      <td>16/06/2026</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td>3:55 minutos</td>
+      <td>5 minutos</td>
     </tr>
     <tr>
       <td><strong>URL de la entrevista</strong></td>
-      <td>Entrevista 6</td>
+      <td>https://drive.google.com/file/d/1xmSlPUsg-2kuvxeOD0aP1mTPx60OZBrh/view?usp=sharing</td>
     </tr>
   </tbody>
 </table>
 
 **Resumen de la entrevista**
 
-La entrevistada señaló que el panel principal de Ventix es intuitivo y permite identificar rápidamente el estado del hogar, lo que le brinda tranquilidad. También destacó que las alertas y sus descripciones facilitan la comprensión de los problemas y la toma de decisiones.
-
-Consideró muy útil el monitoreo remoto en tiempo real, ya que le permite supervisar su hogar desde cualquier lugar. Además, valoró las notificaciones, la organización por ambientes y el historial de datos, ya que ayudan a detectar problemas y entender el comportamiento del entorno.
-
-Finalmente, resaltó que la automatización del sistema y las alertas en tiempo real son las funcionalidades más importantes, porque le ofrecen mayor control, seguridad y tranquilidad sin necesidad de supervisión constante.
+La entrevista con Rafael Jalec Peña Hernández, de 35 años, permitió evaluar la aplicación Ventix en el contexto del curso de Desarrollo de Aplicaciones Open Source. El entrevistado señaló que el panel principal mostraba la información de manera clara y ordenada, lo que facilitó su comprensión. Recomendó Ventix para el monitoreo de espacios cerrados en hogares y empresas, destacando la utilidad de las alertas de CO₂, temperatura y batería baja. Consideró muy valioso poder revisar la información de forma remota, incluso fuera de casa, ya que esto permite actuar con rapidez ante condiciones desfavorables. Asimismo, resaltó que la lista de ambientes ayuda a identificar zonas que requieren atención y que las notificaciones en tiempo real permiten reaccionar de inmediato. El historial de datos fue otro aspecto positivo, pues le permitió analizar el comportamiento del ambiente a lo largo del día y del mes. También valoró la posibilidad de ajustar límites diferentes para cada ambiente, lo que facilita la personalización según las necesidades de cada miembro del hogar. Finalmente, subrayó que la función más importante es el monitoreo del CO₂, dado su impacto directo en la salud, y destacó la practicidad general de la aplicación para mejorar la calidad del aire y la comodidad en el hogar.
 
 ### 5.3.3. Evaluaciones según heurísticas
 
