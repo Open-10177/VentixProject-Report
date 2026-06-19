@@ -1133,65 +1133,7 @@ A través de las preguntas planteadas, se busca evaluar si el producto esta adec
 
 ### 5.3.2. Registro de Entrevistas
 
- **Entrevista 1 -  Estudiantes universitarios en espacios cerrados**
-
-
-**Screenshot del video**
-
-
-<table border="1" cellpadding="4" cellspacing="0">
-  <tbody>
-    <tr>
-      <td><strong>Nombre Completo</strong></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><strong>Fecha de Entrevista</strong></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><strong>Duración</strong></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><strong>URL de la entrevista</strong></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-
-**Resumen de la entrevista**
-
-**Entrevista 2 -  Estudiantes universitarios en espacios cerrados**
-
-
-**Screenshot del video**
-
-
-<table border="1" cellpadding="4" cellspacing="0">
-  <tbody>
-    <tr>
-      <td><strong>Nombre Completo</strong></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><strong>Fecha de Entrevista</strong></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><strong>Duración</strong></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><strong>URL de la entrevista</strong></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-
-**Resumen de la entrevista**
-
-**Entrevista 3 -  Estudiantes universitarios en espacios cerrados**
+**Entrevista 1 -  Estudiantes universitarios en espacios cerrados**
 
 
 **Screenshot del video**
@@ -1225,7 +1167,7 @@ A través de las preguntas planteadas, se busca evaluar si el producto esta adec
 La entrevista con Rocío Bruno Luque, estudiante universitaria de 23 años, permitió evaluar la aplicación Ventix, enfocada en el monitoreo de ambientes cerrados dentro del hogar. La participante destacó la claridad del panel principal y la organización de los datos, lo que le permitió interpretar fácilmente la información ambiental. Consideró útiles las funciones de notificaciones en tiempo real, la visualización de la batería de los ventiladores y el mapa del hogar para ubicar dispositivos, además de valorar la configuración de umbrales de temperatura, CO₂ y humedad. Señaló que Ventix mejoró su comodidad y concentración en espacios pequeños gracias a la ventilación automática y a las sugerencias de acciones ante mala calidad del aire, lo que evitó interrupciones durante el estudio. Finalmente, recomendó incorporar un historial con estadísticas semanales y mensuales, junto con recomendaciones personalizadas para estudiantes, reforzando así la utilidad académica y práctica de la aplicación.
 
 
-**Entrevista 4 -  Responsables del hogar (monitoreo remoto)**
+**Entrevista 2 -  Responsables del hogar (monitoreo remoto)**
 
 **Screenshot del video**
 
@@ -1263,7 +1205,7 @@ La entrevistada considera importante recibir alertas sobre CO₂ elevado, temper
 
 Como mejora principal, sugirió fortalecer las notificaciones en tiempo real, la automatización y los reportes diarios o semanales. En conclusión, Ventix fue percibida como una solución clara, práctica y necesaria para el monitoreo remoto del hogar.
 
-**Entrevista 5 -  Responsables del hogar (monitoreo remoto)**
+**Entrevista 3 -  Responsables del hogar (monitoreo remoto)**
 
 
 **Screenshot del video**
@@ -1301,7 +1243,7 @@ Valoró positivamente el monitoreo remoto en tiempo real, ya que le brinda tranq
 
 Finalmente, resaltó que la automatización de la ventilación y el monitoreo en tiempo real son las funcionalidades más relevantes, ya que mejoran el control del hogar y permiten reaccionar oportunamente ante cualquier condición adversa.
 
-**Entrevista 6 - Responsables del hogar (monitoreo remoto)**
+**Entrevista 4 - Responsables del hogar (monitoreo remoto)**
 
 
 **Screenshot del video**
