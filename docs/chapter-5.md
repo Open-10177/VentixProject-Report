@@ -1165,7 +1165,7 @@ A través de las preguntas planteadas, se busca evaluar si el producto esta adec
     </tr>
     <tr>
       <td><strong>URL de la entrevista</strong></td>
-      <td>https://drive.google.com/file/d/1Et3i1iZSkpinuCXEQ9DuYU1xxzFRdB0O/view?usp=sharing</td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c626_upc_edu_pe/IQBc_JZ778uKSIoHPmLwotfQAR5zB8KbP_joB1GmFG3kwvA?e=QW4HYf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Entrevista 4</a></td>
     </tr>
   </tbody>
 </table>
@@ -1243,6 +1243,92 @@ Como mejora principal, sugirió fortalecer las notificaciones en tiempo real, la
 ### 5.3.3. Evaluaciones según heurísticas
 
 ## 5.4. Video About-the-Product
+
+<p>
+  El video “About the Product” explica de forma clara y llamativa el valor que ofrece Ventix, los problemas que busca solucionar y el funcionamiento de la propuesta para sus dos segmentos principales.
+</p>
+
+<h4>Información General del Video</h4>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><strong>Título del Video</strong></td>
+      <td>Ventix: Smart Ventilation</td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td>2 minutos 57 segundos</td>
+    </tr>
+    <tr>
+      <td><strong>Fecha de Grabación</strong></td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td><strong>URL YouTube</strong></td>
+      <td><a href="https://youtu.be/pALWxMeDghk">https://youtu.be/pALWxMeDghk</a></td>
+    </tr>
+    <tr>
+      <td><strong>URL Microsoft Stream</strong></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c626_upc_edu_pe/IQCV-WcvSJMRQbLHN0CeUcziAfe1A7cUw2FxLKuYEeZ73Ck?e=DkmkOw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Video about the product</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Screenshot del video:</strong></p>
+<img src="../images/b.png" alt="About the Product Video">
+
+<h4>Contenido del Video</h4>
+
+<p>
+  El video está estructurado en las siguientes secciones:
+</p>
+
+<ol>
+  <li>
+    <strong>Introducción (0:00 - 0:30):</strong> Presentación del problema - Complejidad en la gestión 
+    de casas de reposo y preocupaciones de familiares sobre el cuidado de sus seres queridos.
+  </li>
+  <li>
+    <strong>Propuesta de Solución (0:30 - 1:45):</strong> Presentación de VEYRA como la solución integral 
+    para la gestión de residentes, medicamentos, empleados y comunicación con familiares.
+  </li>
+  <li>
+    <strong>Funcionalidades Principales (1:45 - 3:15):</strong> Demostración de las características clave:
+    <ul>
+      <li>Gestión de residentes y datos de salud</li>
+      <li>Control de medicamentos y recordatorios</li>
+      <li>Portal para familiares</li>
+      <li>Generación de reportes</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Beneficios (3:15 - 4:00):</strong> Énfasis en beneficios para ambos segmentos - Eficiencia 
+    operacional, transparencia y tranquilidad para familiares.
+  </li>
+  <li>
+    <strong>Llamada a la Acción (4:00 - 4:32):</strong> Invitación a visitar el Landing Page y conocer 
+    más sobre VEYRA.
+  </li>
+</ol>
+
+
+<h4>Inscripción en Landing Page</h4>
+
+<p>
+  El video "About the Product" está embebido en el Landing Page en la sección de "Acerca del Producto", 
+  permitiendo que visitantes del sitio vean una introducción visual de VEYRA antes de registrarse o 
+  solicitar más información.
+</p>
+
+<p>
+  <strong>URL del Landing Page donde está el video:</strong> 
+  <a href="https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage">https://novaperu-tech.github.io/NovaPeru-Tech-LandingPage</a>
+</p>
+
+
+---
+
 
 # Conclusiones
 
